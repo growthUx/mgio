@@ -1,54 +1,44 @@
 {
-  "name": "next-supabase-saas-kit-turbo",
-  "version": "2.6.0",
+  "name": "tailwind-plus-commit",
+  "version": "0.1.0",
   "private": true,
-  "sideEffects": false,
-  "engines": {
-    "node": ">=v18.18.0"
-  },
-  "author": {
-    "url": "https://makerkit.dev",
-    "name": "MakerKit"
-  },
   "scripts": {
-    "preinstall": "pnpm run --filter scripts requirements",
-    "postinstall": "manypkg fix",
-    "build": "turbo build --cache-dir=.turbo",
-    "clean": "git clean -xdf node_modules dist .next",
-    "clean:workspaces": "turbo clean",
-    "dev": "cross-env FORCE_COLOR=1 turbo dev --parallel",
-    "format": "turbo format --cache-dir=.turbo --continue -- --cache --cache-location=\"node_modules/.cache/.prettiercache\" --ignore-path=\"../../.gitignore\"",
-    "format:fix": "turbo format --cache-dir=.turbo --continue -- --write --cache --cache-location=\"node_modules/.cache/.prettiercache\" --ignore-path=\"../../.gitignore\"",
-    "lint": "turbo lint --cache-dir=.turbo --affected --continue -- --cache --cache-location \"node_modules/.cache/.eslintcache\" && manypkg check",
-    "lint:fix": "turbo lint --cache-dir=.turbo --affected --continue -- --fix --cache --cache-location \"node_modules/.cache/.eslintcache\" && manypkg fix",
-    "typecheck": "turbo typecheck --affected --cache-dir=.turbo",
-    "test": "turbo test --cache-dir=.turbo",
-    "update": "pnpm update -r",
-    "syncpack:list": "pnpm dlx syncpack list-mismatches",
-    "syncpack:fix": "pnpm dlx syncpack fix-mismatches",
-    "supabase:web:start": "pnpm --filter web supabase:start",
-    "supabase:web:stop": "pnpm --filter web supabase:stop",
-    "supabase:web:typegen": "pnpm --filter web supabase:typegen",
-    "supabase:web:reset": "pnpm --filter web supabase:reset",
-    "supabase:web:test": "pnpm --filter web supabase:test",
-    "stripe:listen": "pnpm --filter '@kit/stripe' start",
-    "env:generate": "turbo gen env",
-    "env:validate": "turbo gen validate-env"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "prettier": "@kit/prettier-config",
-  "packageManager": "pnpm@9.12.0",
-  "pnpm": {
-    "overrides": {
-      "react-is": "19.0.0",
-      "require-in-the-middle": "7.5.2"
-    }
+  "browserslist": "defaults, not ie <= 11",
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.0.4",
+    "@tailwindcss/postcss": "^4.1.7",
+    "cheerio": "^1.0.0-rc.12",
+    "clsx": "^2.1.0",
+    "feed": "^4.2.2",
+    "mdast-util-to-string": "^4.0.0",
+    "mdx-annotations": "^0.1.4",
+    "motion": "^10.17.0",
+    "next": "^14.0.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recma-import-images": "^0.0.3",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-rehype-wrap": "^0.0.3",
+    "remark-unwrap-images": "^4.0.0",
+    "shiki": "^0.14.7",
+    "tailwindcss": "^4.1.7",
+    "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@manypkg/cli": "^0.23.0",
-    "@turbo/gen": "^2.4.4",
-    "cross-env": "^7.0.3",
-    "prettier": "^3.5.3",
-    "turbo": "2.4.4",
-    "typescript": "^5.8.2"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sharp": "0.33.1"
   }
 }
