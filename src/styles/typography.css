@@ -52,7 +52,7 @@
   color: var(--typography-body);
   font-size: var(--text-sm);
   line-height: theme(lineHeight.6);
-
+  
   h2 {
     font-family: var(--font-display);
     color: var(--typography-headings);

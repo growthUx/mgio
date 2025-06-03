@@ -19,6 +19,12 @@ const monaSans = localFont({
   weight: '200 900',
 })
 
+const funnelDisplay = localFont({
+  src: '../fonts/Funnel-Display.var.woff2',
+  display: 'swap',
+  variable: '--font-funnel-display',
+  weight: '300 800',
+})
 export const metadata = {
   title: 'MarketGrowth - AI Automation Agency',
   description:
@@ -34,7 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
+      className={clsx('h-full antialiased', inter.variable, funnelDisplay.variable, monaSans.variable)}
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col bg-[#f7f9f3] dark:bg-neutral-950">

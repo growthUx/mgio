@@ -48,17 +48,17 @@ export function Intro() {
           <Logo className="inline-block h-8 w-auto max-w-[160px]" />
         </Link>
       </div>
-      <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
+      <h1 className="mt-14 font-funnel-display font-semibold text-4xl/tight text-white">
         AI Automation Agency{' '}
-        <span className="text-green-300">for scale and growth</span>
+        <span className="block text-green-300">for scale and growth</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-      We help growing businesses streamline workflows, boost productivity, and scale faster using AI-powered automation tools.<br /><br />Receive our latest insights, actionable tactics, and resources directly in your inbox.
+      We build and manage AI-powered automation tools that help businesses like you streamline workflows and scale faster. <strong>Think of us as your AI co-pilot buider and AI agent manager.</strong> Our solutions are designed to automate repetitive tasks and drive growth through intelligent automation.<br /><br />Curious? Receive a free consult.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
         <IconLink href="https://marketgrowth.cx/resources" target="_blank" icon={BookIcon} className="flex-none">
-          Blog Posts
+          Recent articles
         </IconLink>
         <IconLink href="https://marketgrowth.cx/join" target="_blank"  icon={GitHubIcon} className="flex-none">
           Join the Community
