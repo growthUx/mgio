@@ -45,29 +45,25 @@ export function Intro() {
     <>
       <div>
         <Link href="/">
-          <Logo className="inline-block h-8 w-auto" />
+          <Logo className="inline-block h-8 w-auto max-w-[160px]" />
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source Git client{' '}
-        <span className="text-sky-300">for macOS minimalists</span>
+        AI Automation Agency{' '}
+        <span className="text-green-300">for scale and growth</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Commit is a lightweight Git client you can open from anywhere any time
-        you’re ready to commit your work with a single keyboard shortcut. It’s
-        fast, beautiful, and completely unnecessary.
+      We help growing businesses streamline workflows, boost productivity, and scale faster using AI-powered automation tools.<br /><br />Receive our latest insights, actionable tactics, and resources directly in your inbox.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
-          Documentation
+        <IconLink href="https://marketgrowth.cx/resources" target="_blank" icon={BookIcon} className="flex-none">
+          Blog Posts
         </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
-          GitHub
+        <IconLink href="https://marketgrowth.cx/join" target="_blank"  icon={GitHubIcon} className="flex-none">
+          Join the Community
         </IconLink>
-        <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
-          RSS
-        </IconLink>
+        
       </div>
     </>
   )
@@ -76,10 +72,9 @@ export function Intro() {
 export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Brought to you by{' '}
-      <IconLink href="#" icon={XIcon} compact>
-        Joe Davola
-      </IconLink>
+        &copy; {new Date().getFullYear()}{' '}.  <Link href="https://marketgrowth.io/#about-us" className="text-white">About MarketGrowth</Link> | <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
+          RSS
+        </IconLink>
     </p>
   )
 }

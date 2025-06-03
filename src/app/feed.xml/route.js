@@ -10,13 +10,13 @@ export async function GET(req) {
   }
 
   let author = {
-    name: 'Joe Davola',
-    email: 'crazy.joe@example.com',
+    name: 'Victor Ramayrat',
+    email: 'victor@marketgrowth.io',
   }
 
   let feed = new Feed({
-    title: 'Commit',
-    description: 'Open-source Git client for macOS minimalists',
+    title: 'MarketGrowth - AI Automation Agency',
+    description: 'MarketGrowth is an AI automation agency which helps growing businesses streamline workflows, boost productivity, and scale faster using AI-powered automation tools.',
     author,
     id: siteUrl,
     link: siteUrl,

@@ -20,9 +20,9 @@ const monaSans = localFont({
 })
 
 export const metadata = {
-  title: 'Commit - Open-source Git client for macOS minimalists',
+  title: 'MarketGrowth - AI Automation Agency',
   description:
-    'Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary.',
+    'MarketGrowth is an AI automation agency which helps growing businesses streamline workflows, boost productivity, and scale faster using AI-powered automation tools.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-white dark:bg-gray-950">
+      <body className="flex min-h-full flex-col bg-[#f7f9f3] dark:bg-neutral-950">
         <Providers>{children}</Providers>
       </body>
     </html>
