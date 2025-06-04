@@ -53,7 +53,7 @@ export function Intro() {
         <span className="text-green-300">founders & GTM teams</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-      MarketGrowth is an AIA-as-a-Service, where we orchestrate AI-driven workflows that help businesses like you streamline operations and scale faster. <strong>Think of us as your AI co-pilot buider and AI agent manager.</strong> Our solutions are designed to automate repetitive tasks and drive growth through intelligent automation.<br /><br />Curious? Receive a free consult.
+      MarketGrowth is an AIA-as-a-Service, where we design and orchestrate AI-driven workflows that help businesses like you streamline operations and scale faster. Our solutions are designed to automate repetitive tasks using multiple AI agents that work for you 24/7, 365 days --- even while you sleep.<br /><br />Curious? Get started with a free consult.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
