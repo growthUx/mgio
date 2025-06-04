@@ -72,7 +72,7 @@ function FixedSidebar({ main, footer }) {
     <div className="relative flex-none overflow-hidden px-6 lg:pointer-events-none lg:fixed lg:inset-0 lg:z-40 lg:flex lg:px-0">
       <Glow />
       <div className="relative flex w-full lg:pointer-events-auto lg:mr-[calc(max(2rem,50%-38rem)+40rem)] lg:min-w-lg lg:overflow-x-hidden lg:overflow-y-auto lg:pl-[max(4rem,calc(50%-46rem))]">
-        <div className="mx-auto max-w-lg lg:mx-0 lg:flex lg:w-108 lg:max-w-none lg:flex-col lg:before:flex-1 lg:before:pt-2">
+        <div className="mx-auto max-w-lg lg:mx-0 lg:flex lg:w-114 lg:max-w-none lg:flex-col lg:before:flex-1 lg:before:pt-2">
           <div className="pt-20 pb-16 sm:pt-32 sm:pb-20 lg:py-20">
             <div className="relative">
               <StarField className="top-14 -right-44" />
