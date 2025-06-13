@@ -187,7 +187,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl sm:max-w-5xl pt-24 text-center sm:pt-40">
             <h1 className="text-5xl font-semibold tracking-tight text-[#F5F5F5] sm:text-7xl">Make your website a predictable growth channel </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">
-            We'll help you implement a membership-based platform for your brand to grow. Then, leverage AI agents to power your GTM and sales workflow automation so you can scale. 
+            We will help you implement a membership-based platform for your brand to grow. Then, leverage AI agents to power your GTM and sales workflow automation so you can scale. 
             </p>
           </div>
         </div>
@@ -205,7 +205,7 @@ export default function HomePage() {
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">A membership-based platform that drives engagement</h3>
                   <p>
-                  We help you implement paid or free membership-based platforms that align with your brand and business goals. Whether you're a service provider, creator, or coach, we’ll help you offer exclusive content, programs, and experiences that keep your audience engaged and invested. You choose the community platform, whether it's open source or from vendors like Gradual.
+                  We help you implement paid or free membership-based platforms that align with your brand and business goals. Whether you are a service provider, creator, or coach, we will help you offer exclusive content, programs, and experiences that keep your audience engaged and invested. You choose the platform &mdash; whether it is open source or use vendors like Gradual.
                   </p>
                 </div>
               </div>
@@ -213,13 +213,13 @@ export default function HomePage() {
                   <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Automate GTM and sales workflows with AI agents</h3>
                   <p>
-                    After launching your platform, we implement AI-powered agents that automate key parts of your go-to-market and sales operations. From qualifying leads to delivering personalized follow-ups, these automations free up your team’s time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
+                    After launching your platform, we implement AI-powered agents that automate key parts of your go-to-market and sales operations. From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
                   </p>
                 </div>
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Grow with a system designed for long-term success</h3>
                   <p>
-                  Our approach combines strong platform design with intelligent automation to give your business the tools it needs to grow predictably. We don’t just build websites — we build ecosystems that drive revenue and engagement. With ongoing support and optimization, you’ll have a system that grows with you, backed by data and strategy that delivers results.
+                  Our approach combines strong platform design with intelligent automation to give your business the tools it needs to grow predictably. We do not just build websites — we build ecosystems that drive revenue and engagement. With ongoing support and optimization, you will have a system that grows with you, backed by data and strategy that delivers results.
                   </p>
                 </div>
               </div>
