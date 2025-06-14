@@ -24,10 +24,10 @@ import {
 import Footer from '@/components/Footer'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  // { name: 'Product', href: '#' },
+  // { name: 'Features', href: '#' },
+  // { name: 'Marketplace', href: '#' },
+  // { name: 'Company', href: '#' },
 ]
 const stats = [
   { label: 'Business was founded', value: '2012' },
@@ -173,7 +173,7 @@ export default function HomePage() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
-              DX + GTM + AI <span aria-hidden="true">&rarr;</span>
+              Resources on GTM + AI <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -181,10 +181,10 @@ export default function HomePage() {
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#1D3c34] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">MarketGrowth</span>
                 <img
-                  alt=""
+                  alt="MarketGrowth"
                   src="/images/logo-white.svg"
                   className="h-4 w-auto"
                 />
@@ -216,7 +216,7 @@ export default function HomePage() {
                     href="https://marketgrowth.cx" target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800"
                   >
-                    Community
+                    Resources on GTM + AI <span aria-hidden="true">&rarr;</span>
                   </a>
                 </div>
               </div>
