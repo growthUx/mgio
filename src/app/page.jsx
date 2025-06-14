@@ -179,14 +179,14 @@ export default function HomePage() {
         </nav>
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#1D3c34] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">MarketGrowth</span>
                 <img
                   alt=""
                   src="/images/logo-white.svg"
-                  className="h-8 w-auto"
+                  className="h-4 w-auto"
                 />
               </a>
               <button
@@ -216,7 +216,7 @@ export default function HomePage() {
                     href="https://marketgrowth.cx" target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800"
                   >
-                    DX + GTM + AI
+                    Community
                   </a>
                 </div>
               </div>
@@ -244,7 +244,7 @@ export default function HomePage() {
         <div className="px-6 pt-14 lg:px-8">
           <div className="mx-auto max-w-3xl sm:max-w-5xl pt-24 text-center sm:pt-40">
             <h1 className="text-5xl font-semibold tracking-tight text-[#F5F5F5] sm:text-7xl">Establish trust and authority to attract more customers</h1>
-            <p className="mt-8 text-lg max-w-3xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">It all starts with a well-designed brand to tell your story, delivered on a scalable subscription-based platform featuring your business&apos; value proposition. Then scale through AI-powered workflow automation with analytics and reporting. <br /><br/><strong>We&apos;re here to help!</strong></p>
+            <p className="mt-8 text-md max-w-3xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">It all starts with a well-designed brand to tell your story, delivered on a scalable subscription-based platform featuring your business&apos; value prop. Then scale with AI-powered workflow automation backed by analytics and reporting. <br /><br/><strong>We&apos;re here to help!</strong></p>
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
@@ -257,7 +257,7 @@ export default function HomePage() {
         </div>
         
         {/* Community screenshot section */}
-        <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24 px-12">
+        <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="MarketGrowth Community"
@@ -270,8 +270,8 @@ export default function HomePage() {
         </div>
         {/* Content section */}
         <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Delightful digital experience as a revenue driver</h3>
@@ -281,17 +281,17 @@ export default function HomePage() {
               </div>
               <div>
                   <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">A membership-based platform that drives engagement</h3>
+                  <h3 className="text-xl font-semibold mb-4">A subscription-based platform that drives engagement</h3>
                   <p>
-                  We help you implement paid or free membership-based platforms that align with your brand and business goals. Whether you are a service provider, creator, or coach, we will help you offer exclusive content, programs, and experiences that keep your audience engaged and invested. You choose the platform &mdash; whether it is open source or use vendors like Gradual.
+                  We help you implement paid or free subscription-based platforms that align with your brand and business goals. Whether you are a service provider, creator, or coach, we will help you offer exclusive content, programs, and experiences that keep your audience engaged and invested. You choose the platform &mdash; whether it is open source or use vendors like Gradual.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative py-24 sm:py-32">
-        <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
+        <div className="relative py-24 sm:py-32 overflow-hidden">
+          {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl z-10">
             <div
               style={{
                 clipPath:
@@ -300,7 +300,7 @@ export default function HomePage() {
               className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             />
           </div>
-          <div className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu">
+          <div className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu z-10">
             <div
               style={{
                 clipPath:
@@ -308,7 +308,7 @@ export default function HomePage() {
               }}
               className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             />
-          </div>
+          </div> */}
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Power your business with AI agents</h2>
@@ -320,23 +320,23 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="pt-16">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="pt-16 z-100">
+            <div className="mx-auto max-w-7xl px-8 md:px-12">
               <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
                   alt="MarketGrowth N8N AI Workflow Automation"
                   src="/images/n8n-ai-workflow.png"
                   width={2432}
                   height={1442}
-                  className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
+                  className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100 z-100"
                 />
               </div>
             </div>
           </div>
           {/* Content section */}
         <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Automate GTM and sales workflows with AI agents</h3>

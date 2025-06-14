@@ -3,16 +3,15 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Automation', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: 'Digital Experience Platform', href: '#' },
+    { name: 'AI Automation', href: '#' },
+    { name: 'GTM Engineering', href: '#' },
+    { name: 'Analytics and Reporting', href: '#' },
   ],
   support: [
-    { name: 'Submit ticket', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
+    { name: 'Submit ticket', href: 'mailto:victor@marketgrowth.io' },
+    { name: 'Changelog', href: '/updates' },
+    { name: 'Brand Guidelines', href: '/brand' },
   ],
   company: [
     { name: 'About', href: '#' },
@@ -21,9 +20,9 @@ const footerNavigation = {
     { name: 'Press', href: '#' },
   ],
   legal: [
-    { name: 'Terms of service', href: '#' },
-    { name: 'Privacy policy', href: '#' },
-    { name: 'License', href: '#' },
+    { name: 'Terms of service', href: 'https://marketgrowth.cx/terms-of-service/' },
+    { name: 'Privacy policy', href: 'https://marketgrowth.cx/privacy-policy/' },
+    { name: 'License', href: 'https://marketgrowth.cx/license/' },
   ],
   social: [
     {
@@ -105,17 +104,17 @@ export default function Footer() {
             <p className="text-sm/6 text-balance text-gray-300">
               Digital experience and AI Automation agency for founders and GTM teams
             </p>
-            <div className="flex gap-x-6">
+            {/* <div className="flex gap-x-6">
               {footerNavigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-300">
                   <span className="sr-only">{item.name}</span>
                   <item.icon aria-hidden="true" className="size-6" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div className="mt-16 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
+            <div className="md:grid md:grid-cols-3 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-white">Solutions</h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -140,20 +139,6 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm/6 font-semibold text-white">Company</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {footerNavigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm/6 font-semibold text-white">Legal</h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -166,6 +151,21 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              {/* <div>
+                <h3 className="text-sm/6 font-semibold text-white">Company</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {footerNavigation.company.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div> */}
+              
             </div>
           </div>
         </div>

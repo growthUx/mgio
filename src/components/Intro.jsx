@@ -49,11 +49,11 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-funnel-display font-semibold text-4xl/tight text-white">
-        AI Automation Agency for{' '}
-        <span className="text-green-300">founders & GTM teams</span>
+        Changelog | 
+        <span className="text-green-300">Updates</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-      MarketGrowth is an AIA-as-a-Service, where we design and orchestrate AI-driven workflows that help businesses like you streamline operations and scale faster. Our solutions are designed to automate repetitive tasks using multiple AI agents that work for you 24/7, 365 days --- even while you sleep.<br /><br />Curious? Get started with a free consult.
+        Changelog/updates to MarketGrowth products and services.<br /><br />Subscribe via email.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
@@ -72,7 +72,7 @@ export function Intro() {
 export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-        &copy; {new Date().getFullYear()}{' '}.  <Link href="https://marketgrowth.io/#about-us" className="text-white">About MarketGrowth</Link> | <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
+        &copy; {new Date().getFullYear()}{' '} MarketGrowth CX LLC. All Rights Reserved. <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
           RSS
         </IconLink>
     </p>
