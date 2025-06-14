@@ -26,9 +26,16 @@ const funnelDisplay = localFont({
   weight: '300 800',
 })
 export const metadata = {
-  title: 'MarketGrowth - AI Automation Agency',
+  title: 'Digital Experience and AI Automation Agency',
   description:
-    'MarketGrowth is an AI automation agency which helps growing businesses streamline workflows, boost productivity, and scale faster using AI-powered automation tools.',
+    'MarketGrowth helps businesses establish trust and authority to attract more businesses through delightful digital experiences and AI automation.',
+  icons: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      url: '/favicon.png',
+    },
+  ],
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
@@ -43,6 +50,9 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, funnelDisplay.variable, monaSans.variable)}
       suppressHydrationWarning
     >
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body className="flex min-h-full flex-col bg-[#f7f9f3] dark:bg-neutral-950">
         <Providers>{children}</Providers>
       </body>

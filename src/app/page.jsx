@@ -93,12 +93,12 @@ const cards = [
     icon: PhoneIcon,
   },
   {
-    name: 'Segment CDP',
+    name: 'Segment -> BigQuery -> Looker',
     description: 'Collect, unify, and send customer data to all your tools—ensuring consistent insights across your marketing, analytics, and CRM stack.',
     icon: LifebuoyIcon,
   },
   {
-    name: 'Amplitude / PostHog',
+    name: 'Amplitude/PostHog',
     description: 'For deeper product insights, analyze feature usage, user flows, and retention so you can optimize for engagement and growth.',
     icon: NewspaperIcon,
   },
@@ -257,7 +257,7 @@ export default function HomePage() {
         </div>
         
         {/* Community screenshot section */}
-        <div className="mt-16 max-w-7xl mx-auto flow-root sm:mt-24 px-4">
+        <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24 px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="MarketGrowth Community"
@@ -267,7 +267,6 @@ export default function HomePage() {
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-30 hover:opacity-100"
             />
           </div>
-          
         </div>
         {/* Content section */}
         <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
@@ -313,7 +312,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Power your business with AI agents</h2>
-              <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl sm:text-balance">
+              <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl sm:text-balance">
               Accelerate your go-to-market and sales motion with automated workflows
               </p>
               <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
