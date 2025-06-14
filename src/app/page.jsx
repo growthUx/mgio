@@ -257,7 +257,7 @@ export default function HomePage() {
         </div>
         
         {/* Community screenshot section */}
-        <div className="mt-16 max-w-6xl mx-auto flow-root sm:mt-24 px-8 md:px-12">
+        <div className="mt-16 max-w-7xl mx-auto flow-root sm:mt-24 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="MarketGrowth Community"
@@ -290,7 +290,8 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="relative py-24 sm:py-32 overflow-hidden">
+        <hr  className="h-px max-w-[360px] sm:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
+        <div className="relative py-12 sm:py-32 overflow-hidden">
           {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl z-10">
             <div
               style={{
