@@ -173,7 +173,7 @@ export default function HomePage() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
-              Resources on GTM + AI <span aria-hidden="true">&rarr;</span>
+            GTM on AI Community <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -216,7 +216,7 @@ export default function HomePage() {
                     href="https://marketgrowth.cx" target="_blank"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800"
                   >
-                    Resources on GTM + AI <span aria-hidden="true">&rarr;</span>
+                    GTM on AI Community <span aria-hidden="true">&rarr;</span>
                   </a>
                 </div>
               </div>
@@ -241,23 +241,36 @@ export default function HomePage() {
         </div>
 
         {/* Header section */}
-        <div className="px-6 pt-14 lg:px-8">
+        <div className="px-6 py-14 lg:px-8">
           <div className="mx-auto max-w-3xl sm:max-w-5xl pt-24 text-center sm:pt-40">
             <h1 className="text-5xl font-semibold tracking-tight text-[#F5F5F5] sm:text-7xl">Establish trust and authority to attract more customers</h1>
-            <p className="mt-8 text-md max-w-3xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">It all starts with a well-designed brand to tell your story, delivered on a scalable subscription-based platform featuring your business&apos; value prop. Then scale with AI-powered workflow automation backed by analytics and reporting. <br /><br/><strong>We&apos;re here to help!</strong></p>
+            <p className="mt-8 text-md max-w-3xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">It all starts with a well-designed brand to tell your story, delivered on a scalable subscription-based platform featuring your business&apos; value prop. Then scaled with AI-powered workflow automation backed by analytics and reporting. <br /><br/><strong>We&apos;re here to help!</strong></p>
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="mailto:victor@marketgrowth.io"
-              className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+              target="_blank" className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
               Get a free consult
             </a>
+            <a href="#digital-experience" className="text-sm/6 font-semibold text-white">
+                Learn more <span aria-hidden="true">→</span>
+              </a>
           </div>
         </div>
-        
+        <div id="digital-experience" className="mx-auto py-12 max-w-7xl mt-20 px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl sm:text-center">
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Deliver a delightful digital experience</h2>
+            <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl sm:text-balance">
+            Convert visitors to customers with brand aesthetics and website functionality
+            </p>
+            <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
+              We can deliver a turn-key web presence that includes features like sign-ups, courses, forums, and more on a platform you own. Or if you choose to launch with a cloud-based provider, we can help stand it up.
+            </p>
+          </div>
+        </div>
         {/* Community screenshot section */}
-        <div className="mt-16 max-w-7xl mx-auto flow-root sm:mt-24 px-8 md:px-12">
+        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="MarketGrowth Community"
@@ -290,7 +303,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <hr  className="h-px max-w-[360px] sm:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
+        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         <div className="relative py-12 sm:py-32 overflow-hidden">
           {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl z-10">
             <div
@@ -310,7 +323,7 @@ export default function HomePage() {
               className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             />
           </div> */}
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Power your business with AI agents</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl sm:text-balance">
@@ -369,7 +382,7 @@ export default function HomePage() {
           </div>
         </div>
         {/* Analytics */}
-        <div className="relative isolate overflow-hidden bg-[#1D3c34] py-24 sm:py-32">
+        <div id="analytics-reporting" className="relative isolate overflow-hidden bg-[#1D3c34] py-24 sm:py-32">
           <img
             alt=""
             src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"

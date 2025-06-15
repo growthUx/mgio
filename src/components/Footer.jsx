@@ -3,10 +3,9 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Digital Experience Platform', href: '#' },
-    { name: 'AI Automation', href: '#' },
-    { name: 'GTM Engineering', href: '#' },
-    { name: 'Analytics and Reporting', href: '#' },
+    { name: 'Digital Experience Platform', href: '/#digital-experience' },
+    { name: 'AI Automation', href: '/#ai-automation' },
+    { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
   ],
   support: [
     { name: 'Submit ticket', href: 'mailto:victor@marketgrowth.io' },
@@ -102,7 +101,10 @@ export default function Footer() {
                 className="w-[160px] h-auto"
               />
             <p className="text-sm/6 text-balance text-gray-300">
-              Digital experience and AI Automation agency for founders and GTM teams
+              Digital experience and AI Automation agency for founders and GTM teams. <br /><br />
+              <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-white">
+                Contact us <span aria-hidden="true">→</span>
+              </a>
             </p>
             {/* <div className="flex gap-x-6">
               {footerNavigation.social.map((item) => (

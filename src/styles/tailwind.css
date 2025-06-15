@@ -10,3 +10,13 @@
   --font-display: var(--font-mona-sans);
   --font-funnel-display: 'Funnel Display', sans-serif;
 }
+
+/* Smooth scroll behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+Optional: Add scroll offset for fixed headers
+:target {
+  scroll-margin-top: 2rem;
+}
