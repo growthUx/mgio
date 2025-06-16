@@ -293,7 +293,7 @@ export default function HomePage() {
                 </a>
               </div> */}
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Establish trust and authority to attract more customers</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">It all starts with a well-designed brand to tell your story, delivered on your own subscription-based platform. Then scaled with AI-powered workflow automation backed by analytics and reporting. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">It all starts with a well-designed brand to tell your story, delivered on your own subscription-based platform. Then scaled with AI&#8209;powered workflow automation backed by analytics and reporting. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
@@ -341,7 +341,7 @@ export default function HomePage() {
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-30 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Example implementation of a DTC community platform on Entrepreneurship.</div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Launched DTC subscription-based platform on Entrepreneurship.</div>
           </div>
         </div>
         {/* Content section */}
