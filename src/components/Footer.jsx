@@ -3,9 +3,9 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Digital Experience Platform', href: '/#digital-experience' },
-    { name: 'AI Automation', href: '/#ai-automation' },
-    { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
+    { name: 'Digital engagement platform', href: '/#digital-engagement-platform' },
+    { name: 'AI workflow automation', href: '/#ai-automation' },
+    { name: 'Analytics and reporting', href: '/#analytics-reporting' },
     { name: 'Pricing', href: '/pricing' }
   ],
   support: [
@@ -13,9 +13,9 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
-    { name: 'GTM for Technical Founders', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing/' },
-    { name: 'Agentic GTM Community', href: 'https://marketgrowth.cx' },
-    { name: 'Brand Guidelines', href: '/brand' },
+    { name: 'GTM for technical founders', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing/', target: '_blank' },
+    { name: 'Agentic GTM community', href: 'https://marketgrowth.cx',target: '_blank' },
+    { name: 'Brand guidelines', href: '/brand',target: '_blank' },
   ],
   legal: [
     { name: 'Terms of service', href: 'https://marketgrowth.cx/terms-of-service/' },
@@ -133,7 +133,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {footerNavigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
+                      <a href={item.href} target={item.target} className="text-sm/6 text-gray-400 hover:text-white">
                         {item.name}
                       </a>
                     </li>

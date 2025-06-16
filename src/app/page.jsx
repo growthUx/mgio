@@ -293,7 +293,7 @@ export default function HomePage() {
                 </a>
               </div> */}
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">We are the technical partner for founders and GTM teams</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Augment your team with our expertise in building agent- and community-led growth platforms. From digital experience to AI workflow automation, we help you launch, grow, and scale effectively.</p>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Hire us to implement the technical aspect of your agent- and community-led growth motion. From digital experience to AI workflow automation, we will help you launch, grow, and scale effectively.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -322,9 +322,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div id="digital-experience" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
+        <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Deliver &apos;the&apos;  website experience</h2>
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Your website as an engagement platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
             Convert visitors to customers with brand aesthetics and website functionality
             </p>
