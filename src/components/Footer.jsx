@@ -6,17 +6,16 @@ const footerNavigation = {
     { name: 'Digital Experience Platform', href: '/#digital-experience' },
     { name: 'AI Automation', href: '/#ai-automation' },
     { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
+    { name: 'Pricing', href: '/pricing' }
   ],
   support: [
     { name: 'Submit ticket', href: 'mailto:victor@marketgrowth.io' },
     { name: 'Changelog', href: '/updates' },
-    { name: 'Brand Guidelines', href: '/brand' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
+    { name: 'GTM for Technical Founders', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing/' },
+    { name: 'Agentic GTM Community', href: 'https://marketgrowth.cx' },
+    { name: 'Brand Guidelines', href: '/brand' },
   ],
   legal: [
     { name: 'Terms of service', href: 'https://marketgrowth.cx/terms-of-service/' },
@@ -130,9 +129,9 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm/6 font-semibold text-white">Support</h3>
+                <h3 className="text-sm/6 font-semibold text-white">Resources</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {footerNavigation.support.map((item) => (
+                  {footerNavigation.company.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
                         {item.name}
@@ -153,6 +152,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+              
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               {/* <div>

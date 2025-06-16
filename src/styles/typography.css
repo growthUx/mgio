@@ -1,6 +1,6 @@
 .typography {
   --typography-body: var(--color-gray-600);
-  --typography-headings: var(--color-gray-900);
+  --typography-headings: #F5F5F5;
   --typography-quotes: var(--color-gray-500);
   --typography-quotes-border: var(--color-gray-200);
   --typography-links: var(--color-sky-500);
@@ -53,6 +53,14 @@
   font-size: var(--text-sm);
   line-height: theme(lineHeight.6);
   
+  h1 {
+    font-family: var(--font-funnel-display);
+    color: var(--typography-headings);
+    font-weight: 600;
+    font-size: var(--text-3xl);
+    line-height: theme(lineHeight.tight);
+  }
+
   h2 {
     font-family: var(--font-display);
     color: var(--typography-headings);

@@ -20,7 +20,6 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
   ServerIcon,
-  ChevronRightIcon
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
 
@@ -137,7 +136,7 @@ const features = [
     icon: ServerIcon,
   },
 ]
-export default function HomePage() {
+export default function HomePagev2() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -242,85 +241,24 @@ export default function HomePage() {
         </div>
 
         {/* Header section */}
-        <div className="mt-24 lg:mt-4 relative isolate overflow-hidden">
-          <svg
-            aria-hidden="true"
-            className="absolute inset-0 -z-10 size-full mask-[radial-gradient(100%_100%_at_top_right,white,transparent)] stroke-white/10"
-          >
-            <defs>
-              <pattern
-                x="50%"
-                y={-1}
-                id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
-                width={200}
-                height={200}
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M.5 200V.5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg x="50%" y={-1} className="overflow-visible fill-gray-800/20">
-              <path
-                d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-                strokeWidth={0}
-              />
-            </svg>
-            <rect fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" width="100%" height="100%" strokeWidth={0} />
-          </svg>
-          <div
-            aria-hidden="true"
-            className="absolute top-10 left-[calc(50%-4rem)] -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:top-[calc(50%-30rem)] lg:left-48 xl:left-[calc(50%-24rem)]"
-          >
-            <div
-              style={{
-                clipPath:
-                  'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
-              }}
-              className="aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
-            />
+        <div className="px-6 py-14 lg:px-8">
+          <div className="mx-auto max-w-3xl sm:max-w-5xl pt-24 text-center sm:pt-40">
+            <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Establish trust and authority to attract more customers</h1>
+            <p className="mt-8 text-md max-w-3xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-xl/8">It all starts with a well-designed brand to tell your story, delivered on your own subscription-based platform. Then scaled with AI-powered workflow automation backed by analytics and reporting. <br className="block sm:hidden" /><span className="font-semibold text-[#00a63e]">We&apos;re here to help!</span></p>
           </div>
-          <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40">
-            <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-24">
-              {/* <div className="mt-24 sm:mt-32 lg:mt-16">
-                <a href="#" className="inline-flex space-x-6">
-                  <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm/6 font-semibold text-indigo-400 ring-1 ring-indigo-500/20 ring-inset">
-                    What's new
-                  </span>
-                  <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
-                    <span>Just shipped v1.0</span>
-                    <ChevronRightIcon aria-hidden="true" className="size-5 text-gray-500" />
-                  </span>
-                </a>
-              </div> */}
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Establish trust and authority to attract more customers</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">It all starts with a well-designed brand to tell your story, delivered on your own subscription-based platform. Then scaled with AI-powered workflow automation backed by analytics and reporting. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
-              <div className="mt-10 flex items-center gap-x-6">
-                <a
-                  href="mailto:victor@marketgrowth.io"
-                  target="_blank" className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
-                >
-                  Get a free consult
-                </a>
-                <a href="#digital-experience" className="text-sm/6 font-semibold text-white">
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
-              </div>
-            </div>
-            <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 lg:max-w-none lg:flex-none xl:ml-32">
-              <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
-                <img
-                  alt="MarketGrowth Community"
-                  src="/images/marketgrowth-ss.png"
-                  width={2432}
-                  height={1442}
-                  className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
-                />
-              </div>
-            </div>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="mailto:victor@marketgrowth.io"
+              target="_blank" className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+            >
+              Get a free consult
+            </a>
+            <a href="#digital-experience" className="text-sm/6 font-semibold text-white">
+                Learn more <span aria-hidden="true">→</span>
+              </a>
           </div>
         </div>
-
-        <div id="digital-experience" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
+        <div id="digital-experience" className="mx-auto py-12 max-w-7xl mt-20 px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Deliver a delightful digital experience</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
@@ -335,13 +273,12 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
-              alt="Hustle/Side Hustle Community"
-              src="/images/hush-ss.png"
+              alt="MarketGrowth Community"
+              src="/images/marketgrowth-ss.png"
               width={2432}
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-30 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Example implementation of a DTC community platform on Entrepreneurship.</div>
           </div>
         </div>
         {/* Content section */}
@@ -407,7 +344,6 @@ export default function HomePage() {
                   height={1442}
                   className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100 z-100"
                 />
-                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Example implementation of an automated content creation engine on self-hosted n8n.</div>
               </div>
             </div>
           </div>
