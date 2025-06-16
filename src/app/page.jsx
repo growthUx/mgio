@@ -292,8 +292,8 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Establish trust and authority to attract more customers</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">It all starts with a well-designed brand to tell your story, delivered on your own subscription-based platform. Then scaled with AI&#8209;powered workflow automation backed by analytics and reporting. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">We are the technical partner for founders and GTM teams</h1>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Augment your team with our expertise in building agent- and community-led growth platforms. From digital experience to AI workflow automation, we help you launch, grow, and scale effectively. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
@@ -313,8 +313,9 @@ export default function HomePage() {
                   src="/images/marketgrowth-ss.png"
                   width={2432}
                   height={1442}
-                  className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
+                  className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-60 hover:opacity-100"
                 />
+                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Agentic GTM Community</div>
               </div>
             </div>
           </div>
@@ -322,12 +323,12 @@ export default function HomePage() {
 
         <div id="digital-experience" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Deliver a delightful digital experience</h2>
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Deliver &apos;the&apos;  website experience</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
             Convert visitors to customers with brand aesthetics and website functionality
             </p>
             <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
-              We can deliver a turn-key web presence that includes features like sign-ups, courses, forums, and more on a platform you own. Or if you choose to launch with a cloud-based provider, we can help stand it up.
+              Launch a turn-key web presence that includes features like sign-ups, courses, forums, shopping, and more on a platform you own; or you may opt for a cloud-based provider. Either way, we can help stand it up.
             </p>
           </div>
         </div>
@@ -339,7 +340,7 @@ export default function HomePage() {
               src="/images/hush-ss.png"
               width={2432}
               height={1442}
-              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-30 hover:opacity-100"
+              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
             <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Launched DTC subscription-based platform on Entrepreneurship.</div>
           </div>
@@ -350,16 +351,16 @@ export default function HomePage() {
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Delightful digital experience as a revenue driver</h3>
-                  <p>Your website should be more than a storefront. It has the potential to become your most consistent and measurable growth channel. As a digital experience agency, we help you transform your site into a performance-driven platform that attracts, engages, and converts visitors into loyal customers and community members.
+                  <h3 className="text-xl font-semibold mb-4">Establish trust and authority with delight </h3>
+                  <p>Transform your site into an engagement platform that attracts and converts visitors into loyal customers and community members.
                   </p>
                 </div>
               </div>
               <div>
                   <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">A subscription-based platform that drives engagement</h3>
+                  <h3 className="text-xl font-semibold mb-4">Start with a scalable digital experience platform</h3>
                   <p>
-                  We help you implement paid or free subscription-based platforms that align with your brand and business goals. Whether you are a service provider, creator, or coach, we will help you offer exclusive content, programs, and experiences that keep your audience engaged and invested. You choose the platform &mdash; whether it is open source or use vendors like Gradual.
+                  Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
                   </p>
                 </div>
               </div>
@@ -392,7 +393,7 @@ export default function HomePage() {
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Accelerate your go-to-market and sales motion with automated workflows
               </p>
-              <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
+              <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
                 We can set up your workflow automation tools like n8n within your own servers or use cloud services.
               </p>
             </div>
@@ -454,9 +455,9 @@ export default function HomePage() {
           />
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h3 className="text-xl font-semibold tracking-tight text-white sm:text-3xl">Measure. Improve. Market growth.</h3>
-              <p className="mt-8 text-lg font-medium text-pretty text-[#f5f5f5] sm:text-xl/8">
-              We integrate analytics that track user behavior, engagement, and conversion across your platform. These insights help you understand what&apos;s working, where users drop off, and how to optimize for better performance. With clear metrics tied to your goals, you can measure ROI, refine your strategy, and make confident, data-driven decisions.
+              <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl">Measure. Improve. Market growth.</h3>
+              <p className="mt-8 text-lg text-pretty text-[#f5f5f5] sm:text-lg/8">
+              Integrate analytics that track user behavior, engagement, and conversion across your platform. These insights help you understand what&apos;s working, where users drop off, and how to optimize for better performance.
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
