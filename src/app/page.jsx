@@ -293,7 +293,8 @@ export default function HomePage() {
                 </a>
               </div> */}
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">We are the technical partner for founders and GTM teams</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Augment your team with our expertise in building agent- and community-led growth platforms. From digital experience to AI workflow automation, we help you launch, grow, and scale effectively. <br className="block sm:hidden" /><div className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</div></p>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Augment your team with our expertise in building agent- and community-led growth platforms. From digital experience to AI workflow automation, we help you launch, grow, and scale effectively.</p>
+              {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
@@ -328,7 +329,7 @@ export default function HomePage() {
             Convert visitors to customers with brand aesthetics and website functionality
             </p>
             <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
-              Launch a turn-key web presence that includes features like sign-ups, courses, forums, shopping, and more on a platform you own; or you may opt for a cloud-based provider. Either way, we can help stand it up.
+              Start with a turn-key web presence that includes features like gated content and paid subscriptions. You can then scale it up with community features like networking, courses, forums, shopping, and more. 
             </p>
           </div>
         </div>
@@ -350,17 +351,17 @@ export default function HomePage() {
           <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
-                <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Establish trust and authority with delight </h3>
-                  <p>Transform your site into an engagement platform that attracts and converts visitors into loyal customers and community members.
-                  </p>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital experience platform</h3>
+                    <p>
+                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
+                    </p>
                 </div>
               </div>
               <div>
-                  <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Start with a scalable digital experience platform</h3>
-                  <p>
-                  Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Establish trust and authority with delight </h3>
+                  <p>Transform your site into an engagement platform that attracts and converts visitors into loyal customers and community members.
                   </p>
                 </div>
               </div>
@@ -391,7 +392,7 @@ export default function HomePage() {
             <div className="mx-auto max-w-4xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Scale your business with AI agents</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Accelerate your go-to-market and sales motion with automated workflows
+              Automate your go-to-market and sales motion with AI agents
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
                 We can set up your workflow automation tools like n8n within your own servers or use cloud services.
@@ -418,9 +419,8 @@ export default function HomePage() {
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Automate GTM and sales workflows with AI agents</h3>
-                  <p>
-                    After launching your platform, we implement AI-powered agents that automate key parts of your go-to-market and sales operations. From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
+                  <h3 className="text-xl font-semibold mb-4">Automate key parts of your GTM and sales ops</h3>
+                  <p>From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
                   </p>
                 </div>
               </div>
@@ -428,7 +428,7 @@ export default function HomePage() {
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Grow with a system designed for long-term success</h3>
                   <p>
-                  Our approach combines strong platform design with intelligent automation to give your business the tools it needs to grow predictably. We do not just build websites — we build ecosystems that drive revenue and engagement. With ongoing support and optimization, you will have a system that grows with you, backed by data and strategy that delivers results.
+                   Build a digital experience ecosystem that drive revenue and engagement. With ongoing support and optimization, you will have a system that grows with you, backed by data and strategy that delivers results.
                   </p>
                 </div>
               </div>
