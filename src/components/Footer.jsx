@@ -13,9 +13,9 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
-    { name: 'GTM for technical founders', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing/', target: '_blank' },
-    { name: 'Agentic GTM community', href: 'https://marketgrowth.cx',target: '_blank' },
-    { name: 'Brand guidelines', href: '/brand',target: '_blank' },
+    { name: 'GTM for technical founders', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf', target: '_blank' },
+    { name: 'Agentic GTM Resource Hub', href: 'https://marketgrowth.cx',target: '_blank' },
+    { name: 'Brand guidelines', href: '/brand/MarketGrowthStyleGuide.pdf',target: '_blank' },
   ],
   legal: [
     { name: 'Terms of service', href: 'https://marketgrowth.cx/terms-of-service/' },
