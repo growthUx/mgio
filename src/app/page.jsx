@@ -94,13 +94,13 @@ const cards = [
     icon: PhoneIcon,
   },
   {
-    name: 'Segment -> BigQuery -> Looker',
+    name: 'Segment -> BigQuery ',
     description: 'Collect, unify, and send customer data to all your tools; ensuring consistent insights across your marketing, analytics, and CRM.',
     icon: LifebuoyIcon,
   },
   {
-    name: 'Amplitude/PostHog',
-    description: 'For deeper product insights, analyze feature usage, user flows, and retention so you can optimize for engagement and growth.',
+    name: 'Looker/Tableau',
+    description: 'Analyze KPIs, feature usage, user flows, and retention so you can optimize for engagement and business growth.',
     icon: NewspaperIcon,
   },
 ]
@@ -302,7 +302,7 @@ export default function HomePage() {
                 >
                   Get a free consult
                 </a>
-                <a href="#digital-experience" className="text-sm/6 font-semibold text-white">
+                <a href="#digital-engagement-platform" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
