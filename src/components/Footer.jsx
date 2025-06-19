@@ -6,7 +6,7 @@ const footerNavigation = {
     { name: 'Digital engagement platform', href: '/#digital-engagement-platform' },
     { name: 'AI workflow automation', href: '/#ai-automation' },
     { name: 'Analytics and reporting', href: '/#analytics-reporting' },
-    { name: 'Pricing', href: '/pricing' }
+    // { name: 'Pricing', href: '/pricing' }
   ],
   support: [
     { name: 'Submit ticket', href: 'mailto:victor@marketgrowth.io' },
