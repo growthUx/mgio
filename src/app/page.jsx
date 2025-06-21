@@ -395,7 +395,7 @@ export default function HomePage() {
               Automate your go-to-market and sales motion with AI agents
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
-                We can set up your workflow automation tools like n8n within your own servers or use cloud services.
+              MarketGrowth is the AI automation agency purpose-built for go-to-market teams — we help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools and team.
               </p>
             </div>
           </div>
