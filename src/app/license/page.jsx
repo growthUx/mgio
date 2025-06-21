@@ -192,7 +192,7 @@ export default function LicensePage() {
                       </p>
                     </blockquote>
                     <figcaption className="mt-6 text-sm/6 text-gray-300">
-                      <strong className="font-semibold text-white">Victor Ramayrat,</strong> CEO at MarketGrowth
+                      <strong className="font-semibold text-white">Victor Ramayrat,</strong> Founder at MarketGrowth
                     </figcaption>
                   </figure>
                 </div>
@@ -201,7 +201,7 @@ export default function LicensePage() {
                 <div className="text-base/7 text-gray-700 lg:max-w-lg">
                   <p className="text-base/7 font-semibold text-[#f5f5f5]">License terms</p>
                   <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl">
-                    On a mission to empower agency owners
+                    On a mission to empower our agency owners
                   </h1>
                   <div className="max-w-xl">
                     <p className="mt-6 text-[#f5f5f5]">
