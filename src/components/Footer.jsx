@@ -20,7 +20,7 @@ const footerNavigation = {
   legal: [
     { name: 'Terms of service', href: 'https://marketgrowth.cx/terms-of-service/' },
     { name: 'Privacy policy', href: 'https://marketgrowth.cx/privacy-policy/' },
-    { name: 'License', href: 'https://marketgrowth.cx/license/' },
+    { name: 'License terms', href: 'https://marketgrowth.io/license/' },
   ],
   social: [
     {
