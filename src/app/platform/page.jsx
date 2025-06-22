@@ -33,18 +33,18 @@ const navigation = [
 ]
 const tiers = [
   {
-    name: 'Hobby',
-    id: 'tier-hobby',
-    href: '#',
-    priceMonthly: '$29',
-    description: 'Modi dolorem expedita deleniti. Corporis iste qui inventore pariatur adipisci vitae.',
-    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    name: 'Solo founders & Creators',
+    id: 'tier-solo',
+    href: 'mailto:victor@marketgrowth.io',
+    price: '$4,900',
+    description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
+    features: ['Secure Wordpress platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'Post-launch support plans available' ],
   },
   {
-    name: 'Team',
+    name: 'Startups & Growth Teams',
     id: 'tier-team',
     href: '#',
-    priceMonthly: '$99',
+    price: 'Contact us',
     description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
     features: [
       'Unlimited products',
@@ -55,7 +55,7 @@ const tiers = [
     ],
   },
 ]
-export default function PricingPage() {
+export default function PlatformPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -145,31 +145,78 @@ export default function PricingPage() {
       </header>
 
       <main className="relative isolate">
+        <div id="digital-engagement-platform" className="mx-auto mt-20 py-12 max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl sm:text-center">
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Your platform, your choice</h2>
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
+              Partner with us to launch your brand platform using community-led growth motion
+            </p>
+            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
+              Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
+              Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing.
+            </p>
+          </div>
+        </div>
+        {/* Community screenshot section */}
+        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
+          <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
+            <img
+              alt="VirtualPro"
+              src="/brand/mgio-vip-ss.png"
+              width={2432}
+              height={1442}
+              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
+            />
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro - a talent discovery platform built on social network, job board, and learning experience.</div>
+          </div>
+        </div>
+        {/* Content section */}
+        <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+              <div>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-4">Premier platform for your customers</h3>
+                    <p>
+                    Whether you&apos;re offering online courses, communities, memberships, or digital downloads, we&apos;re here to support every way you choose to share and grow your expertise.
+                    </p>
+                </div>
+              </div>
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Tailored to your brand&apos;s aesthetic and guideline</h3>
+                  <p>Use your own domain; customize the look and feel with your fonts and colors; and integrate with your existing tools and services. Create a seamless digital experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         <div className="isolate overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pt-24 pb-96 text-center sm:pt-32 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-indigo-400">Pricing</h2>
-              <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
-                Choose the right plan for you
+              <h2 className="text-base/7 font-semibold text-[#99D6EA]">Investment</h2>
+              <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+                Invest in your digital platform to grow your brand and community
               </p>
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
-                loyalty, and driving sales.
+                Choose an affordable plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
               </p>
-              {/* <svg
+              <svg
                 viewBox="0 0 1208 1024"
                 className="absolute -top-10 left-1/2 -z-10 h-256 -translate-x-1/2 mask-[radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
               >
                 <ellipse cx={604} cy={512} rx={604} ry={512} fill="url(#6d1bd035-0dd1-437e-93fa-59d316231eb0)" />
                 <defs>
                   <radialGradient id="6d1bd035-0dd1-437e-93fa-59d316231eb0">
-                    <stop stopColor="#f5f5f5" />
-                    <stop offset={1} stopColor="#f5f5f5" />
+                    <stop stopColor="#3a8e6d" />
+                    <stop offset={1} stopColor="#3a8e6d" />
                   </radialGradient>
                 </defs>
-              </svg> */}
+              </svg>
             </div>
           </div>
           <div className="flow-root pb-24 sm:pb-32">
@@ -186,8 +233,8 @@ export default function PricingPage() {
                           {tier.name}
                         </h3>
                         <div className="mt-4 flex items-baseline gap-x-2">
-                          <span className="text-5xl font-semibold tracking-tight text-gray-900">{tier.priceMonthly}</span>
-                          <span className="text-base/7 font-semibold text-gray-600">/month</span>
+                          <span className="text-5xl font-semibold tracking-tight text-gray-900">{tier.price}</span>
+                          <span className="text-base/7 font-semibold text-gray-600"></span>
                         </div>
                         <p className="mt-6 text-base/7 text-gray-600">{tier.description}</p>
                         <ul role="list" className="mt-10 space-y-4 text-sm/6 text-gray-600">
@@ -208,18 +255,18 @@ export default function PricingPage() {
                       </a>
                     </div>
                   ))}
-                  <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+                  <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                     <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-base/7 font-semibold text-indigo-600">Discounted</h3>
-                      <p className="mt-1 text-base/7 text-gray-600">
-                        Dolor dolores repudiandae doloribus. Rerum sunt aut eum. Odit omnis non voluptatem sunt eos nostrum.
+                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Discounted/Equity Payment</h3>
+                      <p className="mt-1 text-base/7 text-[#f5f5f5]">
+                        We are flexible with payment options if you are a bootstrapped startup and a social impact project. Reach out for a free discovery call.
                       </p>
                     </div>
                     <a
-                      href="#"
-                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      href="mailto:victor@marketgrowth.io"
+                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-[#f5f5f5]] ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
-                      Buy discounted license <span aria-hidden="true">&rarr;</span>
+                      Plan a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>

@@ -3,7 +3,7 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Digital engagement platform', href: '/#digital-engagement-platform' },
+    { name: 'Digital engagement platform', href: '/platform' },
     { name: 'AI workflow automation', href: '/#ai-automation' },
     { name: 'Analytics and reporting', href: '/#analytics-reporting' },
     // { name: 'Pricing', href: '/pricing' }
@@ -13,8 +13,8 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
-    { name: 'GTM for technical founders', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf', target: '_blank' },
-    { name: 'Agentic GTM resource hub', href: 'https://marketgrowth.cx',target: '_blank' },
+    { name: 'eBook: GTM foundations simplified', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf', target: '_blank' },
+    { name: 'Hub: Agentic GTM resource', href: 'https://marketgrowth.cx/resources',target: '_blank' },
     { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
   ],
   legal: [

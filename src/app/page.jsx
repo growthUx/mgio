@@ -328,8 +328,8 @@ export default function HomePage() {
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Own your distribution channel and market to your captured audience
             </p>
-            <p className="mt-6 max-w-2xl  mx-auto text-lg/8 text-gray-300">
-              Build your brand that create trust and authority at scale, where you can connect community to opportunities. Launch your web presence that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
+            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
+              Build your brand that create trust and authority at scale, where you can connect CLGTM motion to opportunities. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
             </p>
           </div>
         </div>
