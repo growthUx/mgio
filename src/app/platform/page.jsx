@@ -43,15 +43,15 @@ const tiers = [
   {
     name: 'Startups & Growth Teams',
     id: 'tier-team',
-    href: '#',
+    href: 'mailto:victor@marketgrowth.io',
     price: 'Contact us',
-    description: 'Explicabo quo fugit vel facere ullam corrupti non dolores. Expedita eius sit sequi.',
+    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Bring your own platform or build on open source.',
     features: [
-      'Unlimited products',
-      'Unlimited subscribers',
-      'Advanced analytics',
-      '1-hour, dedicated support response time',
-      'Marketing automations',
+      'Create your brand academy',
+      'Facilitate online-offline events',
+      'Publish gated and exclusive content',
+      'Build a knowledge based that AI agents can use',
+      'Know your audience with sign-ups and profiles',
     ],
   },
 ]
