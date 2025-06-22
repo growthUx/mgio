@@ -149,11 +149,11 @@ export default function PlatformPage() {
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Your platform, your choice</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Partner with us to launch your brand platform using community-led growth motion
+              Launch an online academy, membership, or community website
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
-              Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing.
+            Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
+              
             </p>
           </div>
         </div>
