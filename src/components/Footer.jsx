@@ -13,15 +13,15 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
-    { name: 'eBook: GTM foundations simplified', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf', target: '_blank' },
-    { name: 'Hub: Agentic GTM resource', href: 'https://marketgrowth.cx/resources',target: '_blank' },
+    { name: 'eBook: GTM for Founders Simplified', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf', target: '_blank' },
+    { name: 'Hub: Agentic GTM Resources', href: 'https://marketgrowth.cx/resources',target: '_blank' },
     { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
   ],
   legal: [
     { name: 'Terms of service', target: '_blank', href: 'https://marketgrowth.cx/terms-of-service/' },
     { name: 'Privacy policy', target: '_blank', href: 'https://marketgrowth.cx/privacy-policy/' },
-    { name: 'Brand Guidelines', target: '_blank', href: 'https://www.marketgrowth.io/brand/MarketGrowthStyleGuide.pdf' },
-    { name: 'License terms', target: '_blank', href: 'https://marketgrowth.io/license/' },
+    { name: 'Brand Guidelines', target: '_blank', href: '/brand/MarketGrowthStyleGuide.pdf' },
+    { name: 'License terms', target: '_blank', href: '/license/' },
   ],
   social: [
     {
