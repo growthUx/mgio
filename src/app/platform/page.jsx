@@ -257,9 +257,9 @@ export default function PlatformPage() {
                   ))}
                   <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                     <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Discounted/Equity Payment</h3>
+                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Discounted plans / Payments in equity</h3>
                       <p className="mt-1 text-base/7 text-[#f5f5f5]">
-                        We are flexible with payment options if you are a bootstrapped startup and a social impact project. Reach out for a free discovery call.
+                        We are flexible with payment options if you are a bootstrapped startup or a social impact project. Reach out for a free discovery call.
                       </p>
                     </div>
                     <a
