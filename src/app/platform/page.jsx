@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
+import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
   AcademicCapIcon,
@@ -21,7 +21,9 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
   ServerIcon,
-  ChevronRightIcon
+  ChevronRightIcon,
+  MinusSmallIcon,
+  PlusSmallIcon
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
 
@@ -54,6 +56,35 @@ const tiers = [
       'Know your audience with sign-ups and profiles',
     ],
   },
+]
+const faqs = [
+  {
+    question: "How does engagement with MarketGrowth looks like?",
+    answer:
+      "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on Wordpress using the BuddyBoss platform. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
+  },
+  {
+    question: "What does the $4,900 include and not include?",
+    answer:
+      "The first engagement fee of $4,900 includes the design and build of your digital platform, which covers the following: Brand design and development on Wordpress using the BuddyBoss platform. Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance or plug-in licenses and additional features that may be required after the initial launch.",
+  },
+  {
+    question: "You mentioned design, is brand design included?",
+    answer:
+      "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
+  },
+  {
+    question: "I don't want to commit quite yet. Can I try it out?",
+    answer:
+      "Yes. If you are planning to build your own Academy or University for your product knowledge base, we can host your first course and micro-community on the MarketGrowth CX community for $499. You can then experience the 'art of possible' for your own platform. This is a great way to test the waters and see how our platform works before making a larger commitment.",
+  },
+  // More questions...
+]
+const benefits = [
+  'Own the technology platform that powers your brand',
+  'Start building your community and customer loyalty',
+  'Publish contents that AI agents can crawl and learn from',
+  'Establish trust and authority in your industry',
 ]
 export default function PlatformPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -147,13 +178,12 @@ export default function PlatformPage() {
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-20 py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Your platform, your choice</h2>
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Digital Engagement Platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Launch an online academy, membership, or community website
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
             Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
-              
             </p>
           </div>
         </div>
@@ -249,7 +279,7 @@ export default function PlatformPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        className="mt-8 block rounded-md bg-[#40C1AC] px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-[#FFAA4D] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
                       >
                         Get started today
                       </a>
@@ -270,6 +300,82 @@ export default function PlatformPage() {
                     </a>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
+          <div className="isolate overflow-hidden">
+            <div className="mx-auto max-w-7xl px-6 py-24">
+              <div className="mx-auto max-w-4xl">
+                <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">Frequently asked questions</h2>
+                <dl className="mt-16 divide-y divide-white/10">
+                  {faqs.map((faq) => (
+                    <Disclosure key={faq.question} as="div" className="py-6 first:pt-0 last:pb-0">
+                      <dt>
+                        <DisclosureButton className="group flex w-full items-start justify-between text-left text-white">
+                          <span className="text-base/7 font-semibold">{faq.question}</span>
+                          <span className="ml-6 flex h-7 items-center">
+                            <PlusSmallIcon aria-hidden="true" className="size-6 group-data-open:hidden" />
+                            <MinusSmallIcon aria-hidden="true" className="size-6 group-not-data-open:hidden" />
+                          </span>
+                        </DisclosureButton>
+                      </dt>
+                      <DisclosurePanel as="dd" className="mt-2 pr-12">
+                        <p className="text-base/7 text-gray-300">{faq.answer}</p>
+                      </DisclosurePanel>
+                    </Disclosure>
+                  ))}
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden py-12">
+            <div className="relative isolate">
+              <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/[0.03] px-6 py-16 shadow-none ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                    className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
+                  />
+                  <div className="w-full flex-auto">
+                    <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
+                      If not today, when?
+                    </h2>
+                    <p className="mt-6 text-lg/8 text-pretty text-gray-400">
+                      Your brand is the most valuable asset you have. Building a digital platform that reflects your brand&apos;s values and vision is essential for engaging your audience and creating long-term value.
+                    </p>
+                    <ul
+                      role="list"
+                      className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-gray-200 sm:grid-cols-2"
+                    >
+                      {benefits.map((benefit) => (
+                        <li key={benefit} className="flex gap-x-3">
+                          <CheckCircleIcon aria-hidden="true" className="h-7 w-5 flex-none text-gray-200" />
+                          {benefit}
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="mt-10 flex">
+                      <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
+                        Book a free discovery call
+                        <span aria-hidden="true">&rarr;</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+              >
+                <div
+                  style={{
+                    clipPath:
+                      'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
+                  }}
+                  className="aspect-1318/752 w-329.5 flex-none bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
+                />
               </div>
             </div>
           </div>
