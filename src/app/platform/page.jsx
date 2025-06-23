@@ -99,7 +99,7 @@ export default function PlatformPage() {
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Digital Engagement Platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Digital Engagement Platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Launch an online academy, membership, or community website
             </p>
@@ -148,7 +148,7 @@ export default function PlatformPage() {
         <div className="isolate overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-[#99D6EA]">Investment</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">An accretive investment to your brand</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                 Invest in your digital platform to grow your brand and community
               </p>
@@ -181,7 +181,7 @@ export default function PlatformPage() {
                       className="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10"
                     >
                       <div>
-                        <h3 id={tier.id} className="text-base/7 font-semibold text-indigo-600">
+                        <h3 id={tier.id} className="text-base/7 font-semibold text-[#40C1AC]">
                           {tier.name}
                         </h3>
                         <div className="mt-4 flex items-baseline gap-x-2">
@@ -192,7 +192,7 @@ export default function PlatformPage() {
                         <ul role="list" className="mt-10 space-y-4 text-sm/6 text-gray-600">
                           {tier.features.map((feature) => (
                             <li key={feature} className="flex gap-x-3">
-                              <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-indigo-600" />
+                              <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-[#40C1AC]" />
                               {feature}
                             </li>
                           ))}
@@ -201,22 +201,22 @@ export default function PlatformPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md bg-[#40C1AC] px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-[#FFAA4D] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
+                        className="mt-8 block rounded-md bg-[#FFAA4D] px-3.5 py-2 text-center text-sm/6 font-semibold text-[#1d3c34] shadow-xs hover:bg-[#1D3c34] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
                       >
                         Get started today
                       </a>
                     </div>
                   ))}
                   <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
-                    <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Flexible Payments (Discounted / payments in equity / revenue share)</h3>
+                    <div className="lg:min-w-0 lg:flex-1 sm:mr-8">
+                      <h3 className="text-lg/7 font-semibold text-[#f5f5f5] mb-4">Flexible Payment Options</h3>
                       <p className="mt-1 text-base/7 text-[#f5f5f5]">
-                        We are flexible with payment options if you are a bootstrapped startup or a social impact project. An example payment can be 50% setup fee and profit sharing up to a certain price.
+                      We&apos;re flexible with payment terms if you&apos;re a bootstrapped startup or working on a social impact project. Options can include discounted rates, equity-based payments, or revenue sharing &mdash; such as a discounted 50% setup fee combined with a capped profit share.
                       </p>
                     </div>
                     <a
                       href="mailto:victor@marketgrowth.io"
-                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-[#f5f5f5]] ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
+                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
                       Book a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>

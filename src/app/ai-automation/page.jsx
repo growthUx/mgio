@@ -25,15 +25,9 @@ import {
   MinusSmallIcon,
   PlusSmallIcon
 } from '@heroicons/react/20/solid'
-import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import Nav from '@/components/Nav'
 
-const navigation = [
-  // { name: 'Product', href: '#' },
-  // { name: 'Features', href: '#' },
-  // { name: 'Marketplace', href: '#' },
-  // { name: 'Company', href: '#' },
-]
 const tiers = [
   {
     name: 'Founders & Creators',
@@ -87,12 +81,12 @@ const faqs = [
   // More questions...
 ]
 const benefits = [
-  'Own the technology platform that powers your brand',
-  'Start building your community and customer loyalty',
+  'Grow your brand equity within your own community.',
+  'Earn customer trust through personalized connections',
   'Publish contents that AI agents can crawl and learn from',
-  'Establish trust and authority in your industry',
+  'Establish your authority through knowledge sharing',
 ]
-export default function AAAPage() {
+export default function AIAPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -101,15 +95,16 @@ export default function AAAPage() {
       <header className="absolute inset-x-0 top-0 z-50">
         <Nav />
       </header>
+
       <main className="relative isolate">
-        <div id="digital-engagement-platform" className="mx-auto mt-20 py-12 max-w-7xl px-6 lg:px-8">
+        <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Digital Engagement Platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">AI Automation Agency</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Launch an online academy, membership, or community website
+            Automate your go-to-market and sales motion with AI agents
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
+              We help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools and team.
             </p>
           </div>
         </div>
@@ -117,13 +112,13 @@ export default function AAAPage() {
         <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
-              alt="VirtualPro"
-              src="/brand/mgio-vip-ss.png"
-              width={2432}
-              height={1442}
-              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
-            />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro - a talent discovery platform built on social network, job board, and learning experience.</div>
+                alt="MarketGrowth N8N AI Workflow Automation"
+                src="/images/n8n-ai-workflow.png"
+                width={2432}
+                height={1442}
+                className="rounded-xl shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100 z-100"
+              />  
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Example implementation of an automated content creation engine on self-hosted n8n.</div>
           </div>
         </div>
         {/* Content section */}
@@ -131,17 +126,17 @@ export default function AAAPage() {
           <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Premier platform for your customers</h3>
-                    <p>
-                    Whether you&apos;re offering online courses, communities, memberships, or digital downloads, we&apos;re here to support every way you choose to share and grow your expertise.
-                    </p>
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Automate key parts of your GTM and sales ops</h3>
+                  <p>From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
+                  </p>
                 </div>
               </div>
               <div>
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Tailored to your brand&apos;s aesthetic and guideline</h3>
-                  <p>Use your own domain; customize the look and feel with your fonts and colors; and integrate with your existing tools and services. Create a seamless digital experience.
+                  <h3 className="text-xl font-semibold mb-4">Grow with a system designed for long-term success</h3>
+                  <p>
+                  Build a digital experience ecosystem that drive revenue and engagement. With ongoing support and optimization, you will have a system that grows with you, backed by data and strategy that delivers results.
                   </p>
                 </div>
               </div>
@@ -149,17 +144,18 @@ export default function AAAPage() {
           </div>
         </div>
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
+        {/* Pricing section */}
         <div className="isolate overflow-hidden">
-          <div className="mx-auto max-w-7xl px-6 pt-24 pb-96 text-center sm:pt-32 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-[#99D6EA]">Investment</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">An accretive investment to your brand</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                 Invest in your digital platform to grow your brand and community
               </p>
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Choose an affordable plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
+                Flexible pricing plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
               </p>
               <svg
                 viewBox="0 0 1208 1024"
@@ -175,7 +171,7 @@ export default function AAAPage() {
               </svg>
             </div>
           </div>
-          <div className="flow-root pb-24 sm:pb-32">
+          <div className="flow-root pb-16 sm:pb-24">
             <div className="-mt-80">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -185,7 +181,7 @@ export default function AAAPage() {
                       className="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10"
                     >
                       <div>
-                        <h3 id={tier.id} className="text-base/7 font-semibold text-indigo-600">
+                        <h3 id={tier.id} className="text-base/7 font-semibold text-[#40C1AC]">
                           {tier.name}
                         </h3>
                         <div className="mt-4 flex items-baseline gap-x-2">
@@ -196,7 +192,7 @@ export default function AAAPage() {
                         <ul role="list" className="mt-10 space-y-4 text-sm/6 text-gray-600">
                           {tier.features.map((feature) => (
                             <li key={feature} className="flex gap-x-3">
-                              <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-indigo-600" />
+                              <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-[#40C1AC]" />
                               {feature}
                             </li>
                           ))}
@@ -205,24 +201,24 @@ export default function AAAPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md bg-[#40C1AC] px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-[#FFAA4D] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
+                        className="mt-8 block rounded-md bg-[#40C1AC] px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-[#1D3c34] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
                       >
                         Get started today
                       </a>
                     </div>
                   ))}
-                  <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
-                    <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Discounted plans / Payments in equity</h3>
+                                    <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+                    <div className="lg:min-w-0 lg:flex-1 sm:mr-8">
+                      <h3 className="text-lg/7 font-semibold text-[#f5f5f5] mb-4">Flexible Payment Options</h3>
                       <p className="mt-1 text-base/7 text-[#f5f5f5]">
-                        We are flexible with payment options if you are a bootstrapped startup or a social impact project. Reach out for a free discovery call.
+                      We&apos;re flexible with payment terms if you&apos;re a bootstrapped startup or working on a social impact project. Options can include discounted rates, equity-based payments, or revenue sharing &mdash; such as a discounted 50% setup fee combined with a capped profit share.
                       </p>
                     </div>
                     <a
                       href="mailto:victor@marketgrowth.io"
-                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-[#f5f5f5]] ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
+                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
-                      Plan a discovery call <span aria-hidden="true">&rarr;</span>
+                      Book a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>
@@ -269,7 +265,7 @@ export default function AAAPage() {
                       If not today, when?
                     </h2>
                     <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-                      Your brand is the most valuable asset you have. Building a digital platform that reflects your brand&apos;s values and vision is essential for engaging your audience and creating long-term value.
+                      Your brand is the most valuable asset you have. AI is taking over knowledge discovery. Leverage community-led growth and content publishing to build you business moat. Use agent-led GTM to automate and scale your business.
                     </p>
                     <ul
                       role="list"
