@@ -4,6 +4,7 @@ import clsx from 'clsx'
 
 import { Providers } from '@/app/providers'
 import GoogleTagManager from '@/components/GoogleTagManager'
+import Nav from '@/components/Nav'
 
 import '@/styles/tailwind.css'
 
@@ -104,7 +105,10 @@ export default function RootLayout({ children }) {
     >
       <body className="flex min-h-full flex-col bg-[#1D3c34]">
         <GoogleTagManager />
-        <Providers>{children}</Providers>
+        <Nav />
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )

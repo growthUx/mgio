@@ -28,11 +28,11 @@ const recentPosts = [
   {
     id: 1,
     title: 'GTM for Founders Simplified',
-    href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf',
+    href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing',
     target: '_blank',
     date: 'May 20, 2025',
     datetime: '2025-05-20',
-    category: { title: 'eBook', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf' },
+    category: { title: 'Go-to-market', href: 'https://marketgrowth.cx/category/go-to-market' },
     imageUrl:
       '/images/ebook-nav.jpg',
     description:
@@ -45,7 +45,7 @@ const recentPosts = [
     target: '_blank',
     date: 'May 30, 2025',
     datetime: '2025-05-30',
-    category: { title: 'Article', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business' },
+    category: { title: 'Go-to-market', href: 'https://marketgrowth.cx/category/go-to-market' },
     imageUrl:
       '/images/7-11-4-nav.jpg',
     description: 'Buyers purchase from brands they feel authoritative and familiar. Follow this framework to earn trust and authority.',
@@ -55,7 +55,7 @@ const recentPosts = [
 export default function Nav() {
   return (
     <Popover className="relative isolate z-50">
-      <div className="py-5">
+      <nav className="py-5">
         <div className="flex mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex mt-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -77,7 +77,7 @@ export default function Nav() {
             </a>
           </div>
         </div>
-      </div>
+      </nav>
 
       <PopoverPanel
         transition
@@ -122,7 +122,7 @@ export default function Nav() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-10 sm:gap-8 lg:grid-cols-2">
+          <div className=" hidden sm:grid grid-cols-1 gap-10 sm:gap-8 lg:grid-cols-2">
             <h3 className="sr-only">Recent posts</h3>
             {recentPosts.map((post) => (
               <article

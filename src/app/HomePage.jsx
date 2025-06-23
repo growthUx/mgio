@@ -47,12 +47,7 @@ export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#1D3c34]">
-      {/* Header */}
-      <header className="absolute inset-x-0 top-0 z-50">
-        <Nav />
-      </header>
-
+    <div className="bg-[#1D3c34] mt-[-60px]">
       <main className="relative isolate">
         {/* Background */}
         <div

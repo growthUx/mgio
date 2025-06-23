@@ -30,11 +30,6 @@ export default function LicensePage() {
 
   return (
     <div className="bg-[#1D3c34]">
-      {/* Header */}
-      <header className="absolute inset-x-0 top-0 z-50">
-        <Nav />
-      </header>
-
       <main className="relative isolate">
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
