@@ -1,6 +1,11 @@
 import { IconLink } from '@/components/IconLink'
 import { StarField } from '@/components/StarField'
 
+const metadata = {
+  title:  'Page Not Found - MarketGrowth',
+  description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI workflow automation solutions.'
+}
+
 export default function NotFound() {
   return (
     <div className="relative isolate flex flex-auto flex-col items-center justify-center overflow-hidden bg-[#032921] text-center">
