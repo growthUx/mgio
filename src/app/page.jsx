@@ -1,8 +1,8 @@
 import HomePage from './HomePage'
 
 export const metadata = {
-  title:  'Welcome to MarketGrowth.io, an AI Automation Agency',
-  description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI workflow automation solutions.'
+  title:  'Home - The technical partner for founders and GTM teams',
+  description: 'We design/build digital engagement platforms and provide AI workflow automation solutions.'
 }
 export default function Page() {
   return <HomePage />

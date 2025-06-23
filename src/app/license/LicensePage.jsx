@@ -25,10 +25,6 @@ import {
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 
-const metadata = {
-  title: 'License terms - MarketGrowth',
-}
-
 export default function LicensePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
