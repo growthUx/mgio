@@ -40,15 +40,15 @@ const recentPosts = [
   },
   {
     id: 2,
-    title: 'The 7-11-4 framework',
-    href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',
+    title: 'Importance of Personal Branding',
+    href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever',
     target: '_blank',
-    date: 'May 30, 2025',
-    datetime: '2025-05-30',
+    date: 'June 20, 2025',
+    datetime: '2025-06-20',
     category: { title: 'Go-to-market', href: 'https://marketgrowth.cx/category/go-to-market' },
     imageUrl:
-      '/images/7-11-4-nav.jpg',
-    description: 'Buyers purchase from brands they feel authoritative and familiar. Follow this framework to earn trust and authority.',
+      '/images/personal-brand.png',
+    description: 'Why building your personal brand matters now more than ever.',
   },
 ]
 
