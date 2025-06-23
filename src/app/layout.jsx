@@ -59,6 +59,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </head>
       <body className="flex min-h-full flex-col bg-[#1D3c34]">
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNR79XR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <Providers>{children}</Providers>
       </body>
     </html>
