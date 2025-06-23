@@ -35,7 +35,7 @@ const navigation = [
 ]
 const tiers = [
   {
-    name: 'Solo founders & Creators',
+    name: 'Founders & Creators',
     id: 'tier-solo',
     href: 'mailto:victor@marketgrowth.io',
     price: '$4,900',
@@ -47,7 +47,7 @@ const tiers = [
     id: 'tier-team',
     href: 'mailto:victor@marketgrowth.io',
     price: 'Contact us',
-    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Bring your own platform or build on open source.',
+    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the Gradual platform or build on open source.',
     features: [
       'Create your brand academy',
       'Facilitate online-offline events',
@@ -72,6 +72,11 @@ const faqs = [
     question: "You mentioned design, is brand design included?",
     answer:
       "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
+  },
+  {
+    question: "How should I decide whether to build on open-source or third-party solutions like Gradual?",
+    answer:
+      "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources: Open-source solutions may require more technical expertise and resources to set up and maintain, while third-party solutions may have higher upfront costs but offer more out-of-the-box features. (2) Your long-term goals: If you plan to scale your platform and add more features over time, open-source solutions may offer more flexibility and customization options. (3) Your team's expertise: If your team has experience with open-source technologies, it may be easier to build on those solutions. If not, a third-party solution may be a better fit. Regardless, we can help you decide which option is best for your needs and goals.",
   },
   {
     question: "I don't want to commit quite yet. Can I try it out?",
@@ -305,7 +310,7 @@ export default function PlatformPage() {
           </div>
           <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
           <div className="isolate overflow-hidden">
-            <div className="mx-auto max-w-7xl px-6 py-24">
+            <div className="mx-auto max-w-7xl px-6 pt-24 pb-12">
               <div className="mx-auto max-w-4xl">
                 <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">Frequently asked questions</h2>
                 <dl className="mt-16 divide-y divide-white/10">
@@ -329,15 +334,15 @@ export default function PlatformPage() {
               </div>
             </div>
           </div>
-          <div className="overflow-hidden py-12">
+          <div className="overflow-hidden py-24">
             <div className="relative isolate">
               <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/[0.03] px-6 py-16 shadow-none ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-                  <img
+                  {/* <img
                     alt=""
                     src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
                     className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-                  />
+                  /> */}
                   <div className="w-full flex-auto">
                     <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
                       If not today, when?
