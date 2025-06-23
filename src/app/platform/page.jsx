@@ -86,6 +86,10 @@ const benefits = [
   'Publish contents that AI agents can crawl and learn from',
   'Establish your authority through knowledge sharing',
 ]
+export const metadata = {
+  title:  'Solutions - Digital Engagement Platform build and design',
+  description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI automation solutions.'
+}
 export default function PlatformPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 

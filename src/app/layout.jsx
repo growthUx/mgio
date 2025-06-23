@@ -28,9 +28,55 @@ const funnelDisplay = localFont({
 })
 
 export const metadata = {
-  title: 'Digital Experience and AI Automation Agency',
-  description:
-    'MarketGrowth helps businesses establish trust and authority to attract more businesses through delightful digital experiences and AI automation.',
+  metadataBase: new URL('https://marketgrowth.io'),
+  title: {
+    default: 'Digital Experience and AI Automation Agency | MarketGrowth',
+    template: '%s | MarketGrowth'
+  },
+  description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI automation solutions.',
+  keywords: [
+    'digital experience',
+    'AI automation',
+    'GTM',
+    'technical partner',
+    'workflow automation',
+    'community platform'
+  ],
+  authors: [{ name: 'MarketGrowth' }],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://marketgrowth.io',
+    siteName: 'MarketGrowth',
+    title: 'Digital Experience and AI Automation Agency',
+    description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI automation solutions.',
+    images: [
+      {
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'MarketGrowth - Digital Experience & AI Automation Agency'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digital Experience and AI Automation Agency',
+    description: 'MarketGrowth serves as the technical partner for founders and GTM teams. We provide digital experience and AI automation solutions.',
+    images: ['/images/og-image.jpg'],
+    creator: '@marketgrowth'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: [
     {
       rel: 'icon',
@@ -42,7 +88,11 @@ export const metadata = {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
     },
+    canonical: 'https://marketgrowth.io'
   },
+  verification: {
+    google: 'PZgVbv49YJNDpO2D3BtA_7YZYT9ATgb97l9a_hGxtKE', // Add your Google Search Console verification code
+  }
 }
 
 export default function RootLayout({ children }) {
