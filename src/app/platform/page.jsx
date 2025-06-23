@@ -1,7 +1,7 @@
 import PlatformPage from './PlatformPage'
 
 export const metadata = {
-  title: 'Solutions - Done-for-you community-based platform for digital engagement'
+  title: 'Solutions - Digital engagement platform design/build'
 }
 
 export default function Page() {
