@@ -3,9 +3,9 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Digital engagement platform', href: '/platform' },
-    { name: 'AI workflow automation', href: '/#ai-automation' },
-    { name: 'Analytics and reporting', href: '/#analytics-reporting' },
+    { name: 'Digital Engagement Platform', href: '/platform' },
+    { name: 'AI Automation Agency', href: '/#ai-automation' },
+    { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
     // { name: 'Pricing', href: '/pricing' }
   ],
   support: [
