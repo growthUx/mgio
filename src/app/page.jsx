@@ -316,7 +316,7 @@ export default function HomePage() {
                   height={1442}
                   className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-60 hover:opacity-100"
                 />
-                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Agentic GTM Community</div>
+                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth CX: Agentic GTM Community</div>
               </div>
             </div>
           </div>
