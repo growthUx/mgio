@@ -23,69 +23,7 @@ import {
   ChevronRightIcon
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
-
-const navigation = [
-  // { name: 'Product', href: '#' },
-  // { name: 'Features', href: '#' },
-  // { name: 'Marketplace', href: '#' },
-  // { name: 'Company', href: '#' },
-]
-const stats = [
-  { label: 'Business was founded', value: '2012' },
-  { label: 'People on the team', value: '120+' },
-  { label: 'Users on the platform', value: '250k' },
-  { label: 'Paid out to creators', value: '$70M' },
-]
-const values = [
-  {
-    name: 'Be world-class.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: RocketLaunchIcon,
-  },
-  {
-    name: 'Take responsibility.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: HandRaisedIcon,
-  },
-  {
-    name: 'Be supportive.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
-    icon: UserGroupIcon,
-  },
-  {
-    name: 'Always learning.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
-    icon: AcademicCapIcon,
-  },
-  {
-    name: 'Share everything you know.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
-    icon: SparklesIcon,
-  },
-  {
-    name: 'Enjoy downtime.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
-    icon: SunIcon,
-  },
-]
-const team = [
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-    location: 'Toronto, Canada',
-  },
-  // More people...
-]
-const benefits = [
-  'Competitive salaries',
-  'Flexible work hours',
-  '30 days of paid vacation',
-  'Annual team retreats',
-  'Benefits for you and your family',
-  'A great work environment',
-]
+import Nav from '@/components/Nav'
 
 const cards = [
   {
@@ -105,38 +43,6 @@ const cards = [
   },
 ]
 
-const features = [
-  {
-    name: 'Push to deploy.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Simple queues.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-    icon: ArrowPathIcon,
-  },
-  {
-    name: 'Advanced security.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: FingerPrintIcon,
-  },
-  {
-    name: 'Powerful API.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: Cog6ToothIcon,
-  },
-  {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
-    icon: ServerIcon,
-  },
-]
 export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -144,86 +50,7 @@ export default function HomePage() {
     <div className="bg-[#1D3c34]">
       {/* Header */}
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-          <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">MarketGrowth</span>
-              <img
-                alt="MarketGrowth"
-                src="/images/logo-white.svg"
-                className="w-[160px] h-auto"
-              />
-            </a>
-          </div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="size-6" />
-            </button>
-          </div>
-          <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
-                {item.name}
-              </a>
-            ))}
-          </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
-            Agentic GTM Hub <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </nav>
-        <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-          <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-[#1D3c34] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
-            <div className="flex items-center justify-between">
-              <a href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">MarketGrowth</span>
-                <img
-                  alt="MarketGrowth"
-                  src="/images/logo-white.svg"
-                  className="h-4 w-auto"
-                />
-              </a>
-              <button
-                type="button"
-                onClick={() => setMobileMenuOpen(false)}
-                className="-m-2.5 rounded-md p-2.5 text-gray-400"
-              >
-                <span className="sr-only">Close menu</span>
-                <XMarkIcon aria-hidden="true" className="size-6" />
-              </button>
-            </div>
-            <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/25">
-                <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800"
-                    >
-                      {item.name}
-                    </a>
-                  ))}
-                </div>
-                <div className="py-6">
-                  <a
-                    href="https://marketgrowth.cx" target="_blank"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800"
-                  >
-                    AI-powered GTM Hub <span aria-hidden="true">&rarr;</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </DialogPanel>
-        </Dialog>
+        <Nav />
       </header>
 
       <main className="relative isolate">
@@ -242,7 +69,7 @@ export default function HomePage() {
         </div>
 
         {/* Header section */}
-        <div className="mt-24 lg:mt-4 relative isolate overflow-hidden">
+        <div className="relative isolate overflow-hidden">
           <svg
             aria-hidden="true"
             className="absolute inset-0 -z-10 size-full mask-[radial-gradient(100%_100%_at_top_right,white,transparent)] stroke-white/10"
@@ -279,7 +106,7 @@ export default function HomePage() {
               className="aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+          <div className="mx-auto max-w-7xl px-6 mt-24 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-24">
               {/* <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">

@@ -25,9 +25,15 @@ import {
   MinusSmallIcon,
   PlusSmallIcon
 } from '@heroicons/react/20/solid'
-import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
+import Footer from '@/components/Footer'
 
+const navigation = [
+  // { name: 'Product', href: '#' },
+  // { name: 'Features', href: '#' },
+  // { name: 'Marketplace', href: '#' },
+  // { name: 'Company', href: '#' },
+]
 const tiers = [
   {
     name: 'Founders & Creators',
@@ -81,12 +87,12 @@ const faqs = [
   // More questions...
 ]
 const benefits = [
-  'Grow your brand equity within your own community.',
-  'Earn customer trust through personalized connections',
+  'Own the technology platform that powers your brand',
+  'Start building your community and customer loyalty',
   'Publish contents that AI agents can crawl and learn from',
-  'Establish your authority through knowledge sharing',
+  'Establish trust and authority in your industry',
 ]
-export default function PlatformPage() {
+export default function AAAPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -95,9 +101,8 @@ export default function PlatformPage() {
       <header className="absolute inset-x-0 top-0 z-50">
         <Nav />
       </header>
-
       <main className="relative isolate">
-        <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
+        <div id="digital-engagement-platform" className="mx-auto mt-20 py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Digital Engagement Platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
@@ -144,9 +149,8 @@ export default function PlatformPage() {
           </div>
         </div>
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
-        {/* Pricing section */}
         <div className="isolate overflow-hidden">
-          <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 pt-24 pb-96 text-center sm:pt-32 lg:px-8">
             <div className="mx-auto max-w-4xl">
               <h2 className="text-base/7 font-semibold text-[#99D6EA]">Investment</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
@@ -155,7 +159,7 @@ export default function PlatformPage() {
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Flexible pricing plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
+                Choose an affordable plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
               </p>
               <svg
                 viewBox="0 0 1208 1024"
@@ -171,7 +175,7 @@ export default function PlatformPage() {
               </svg>
             </div>
           </div>
-          <div className="flow-root pb-16 sm:pb-24">
+          <div className="flow-root pb-24 sm:pb-32">
             <div className="-mt-80">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -209,16 +213,16 @@ export default function PlatformPage() {
                   ))}
                   <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                     <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Flexible Payments (Discounted / payments in equity / revenue share)</h3>
+                      <h3 className="text-base/7 font-semibold text-[#f5f5f5]]">Discounted plans / Payments in equity</h3>
                       <p className="mt-1 text-base/7 text-[#f5f5f5]">
-                        We are flexible with payment options if you are a bootstrapped startup or a social impact project. An example payment can be 50% setup fee and profit sharing up to a certain price.
+                        We are flexible with payment options if you are a bootstrapped startup or a social impact project. Reach out for a free discovery call.
                       </p>
                     </div>
                     <a
                       href="mailto:victor@marketgrowth.io"
                       className="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-[#f5f5f5]] ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
-                      Book a discovery call <span aria-hidden="true">&rarr;</span>
+                      Plan a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>
@@ -265,7 +269,7 @@ export default function PlatformPage() {
                       If not today, when?
                     </h2>
                     <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-                      Your brand is the most valuable asset you have. AI is taking over knowledge discovery. Leverage community-led growth and content publishing to build you business moat. Use agent-led GTM to automate and scale your business.
+                      Your brand is the most valuable asset you have. Building a digital platform that reflects your brand&apos;s values and vision is essential for engaging your audience and creating long-term value.
                     </p>
                     <ul
                       role="list"
