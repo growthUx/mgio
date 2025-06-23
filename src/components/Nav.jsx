@@ -34,7 +34,7 @@ const recentPosts = [
     datetime: '2025-05-20',
     category: { title: 'eBook', href: 'https://marketgrowth.cx/wp-content/uploads/2025/06/GTM-Foundations-MarketingPlanSimplified.pdf' },
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      '/images/ebook-nav.jpg',
     description:
       'Going to market is hard. We have written an eBook for you to simplify marketing.',
   },
@@ -47,7 +47,7 @@ const recentPosts = [
     datetime: '2025-05-30',
     category: { title: 'Article', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business' },
     imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80',
+      '/images/7-11-4-nav.jpg',
     description: 'Buyers purchase from brands they feel authoritative and familiar. Follow this framework to earn trust and authority.',
   },
 ]
