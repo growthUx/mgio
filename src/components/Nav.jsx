@@ -15,7 +15,7 @@ import {
 } from '@heroicons/react/24/outline'
 
 const engagement = [
-  { name: 'Digital Engagement Platform', target: "_self", href: '/platform', icon: UsersIcon },
+  { name: 'Digital Engagement', target: "_self", href: '/platform', icon: UsersIcon },
   { name: 'AI Workflow Automation', target: "_self", href: '/#ai-automation', icon: ShieldCheckIcon },
   { name: 'Analytics & Reporting', target: "_self", href: '/#analytics-reporting', icon: ChartBarSquareIcon },
 ]
@@ -48,7 +48,7 @@ const recentPosts = [
     category: { title: 'Article', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business' },
     imageUrl:
       'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80',
-    description: 'Buyers purchase from brands they feel authoritative and familiar. Follow this framework earn trust and authority.',
+    description: 'Buyers purchase from brands they feel authoritative and familiar. Follow this framework to earn trust and authority.',
   },
 ]
 
@@ -86,7 +86,7 @@ export default function Nav() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-10 px-6 py-10 lg:grid-cols-2 lg:px-8">
           <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
             <div>
-              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Engagement</h3>
+              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Done-for-you</h3>
               <div className="mt-6 flow-root">
                 <div className="-my-2">
                   {engagement.map((item) => (
