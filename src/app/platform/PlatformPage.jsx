@@ -145,12 +145,12 @@ export default function PlatformPage() {
             <div className="mx-auto max-w-4xl">
               <h2 className="text-base/7 font-semibold text-[#40C1AC]">An accretive investment to your brand</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-                Invest in your digital platform to grow your brand and community
+                Hire us so you can focus in growing your business
               </p>
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Flexible pricing plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
+                We have flexible pricing plan that&apos;s packed with the best features to engage your audience and drive sales.
               </p>
               <svg
                 viewBox="0 0 1208 1024"
