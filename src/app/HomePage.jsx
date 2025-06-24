@@ -114,8 +114,8 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">We are the technical partner for founders and GTM teams</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Hire us to implement the technical aspect of your agent- and community-led growth motion. From digital experience to AI workflow automation, we will help you launch, grow, and scale effectively.</p>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring in a technical partner so you can focus on your business</h1>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: "Do I have the time to learn and implement an agentic GTM strategy?" If the answer is no, then you&apos;re in the right place. We approach agentic GTM on two pillars.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -146,12 +146,12 @@ export default function HomePage() {
 
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Build an industry-leading brand</h2>
+            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Build on a digital engagement platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Own your distribution channel and market to your captured audience
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Build your brand that create trust and authority at scale, where you can connect CLGTM motion to opportunities. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
+              Build your brand that create trust and authority at scale. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function HomePage() {
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital experience platform</h3>
+                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
                     <p>
                     Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
                     </p>
@@ -183,7 +183,7 @@ export default function HomePage() {
               <div>
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Establish trust and authority with delight </h3>
-                  <p>Transform your site into an engagement platform that attracts and converts visitors into loyal customers and community members.
+                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
                   </p>
                 </div>
               </div>
@@ -212,12 +212,12 @@ export default function HomePage() {
           </div> */}
           <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Scale your business with AI agents</h2>
+              <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Scale your GTM motion with AI agents</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Automate your go-to-market and sales motion with AI agents
+              Automate your go-to-market and sales motion with AI automation
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
-              MarketGrowth is the AI automation agency purpose-built for go-to-market teams — we help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools and team.
+              We help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools.
               </p>
             </div>
           </div>
@@ -266,10 +266,10 @@ export default function HomePage() {
             className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center transition-opacity duration-300 ease-in-out opacity-20 mix-blend-soft-light hover:opacity-40"
           />
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:mx-0">
+            <div className="mx-auto max-w-2xl text-center">
               <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl">Measure. Improve. Market growth.</h3>
               <p className="mt-8 text-lg text-pretty text-[#f5f5f5] sm:text-lg/8">
-              Integrate analytics that track user behavior, engagement, and conversion across your platform. These insights help you understand what&apos;s working, where users drop off, and how to optimize for better performance.
+              Discover how well the two pillars perform together by using analytics to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the key solutions we recommend:
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
