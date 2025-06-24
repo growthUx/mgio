@@ -115,7 +115,7 @@ export default function HomePage() {
                 </a>
               </div> */}
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring in a technical partner so you can focus on your business</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: "Do I have the time to learn and implement an agentic GTM strategy?" If the answer is no, then you&apos;re in the right place. We approach agentic GTM on two pillars.</p>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: "Do I have the time to learn and implement an agentic GTM strategy?" If the answer is no, then you&apos;re in the right place. Our agentic GTM solution is built on two core pillars.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
