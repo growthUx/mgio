@@ -115,7 +115,7 @@ export default function HomePage() {
                 </a>
               </div> */}
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring in a technical partner so you can focus on your business</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: "Do I have the time to learn and implement an agentic GTM strategy?" If the answer is no, then you&apos;re in the right place. Our agentic GTM solution is built on two core pillars.</p>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: "Do I have the time to learn and implement an agentic GTM strategy?" If the answer is no, then you&apos;re in the right place. Our approach is driven by two key foundations: trust and authority.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -146,7 +146,7 @@ export default function HomePage() {
 
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Build on a digital engagement platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build trust through digital engagement</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Own your distribution channel and market to your captured audience
             </p>
@@ -182,7 +182,7 @@ export default function HomePage() {
               </div>
               <div>
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Establish trust and authority with delight </h3>
+                  <h3 className="text-xl font-semibold mb-4">Establish trust with delight </h3>
                   <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
                   </p>
                 </div>
@@ -212,9 +212,9 @@ export default function HomePage() {
           </div> */}
           <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#f5f5f5]">Scale your GTM motion with AI agents</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build authority at scale with the help of AI agents</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Automate your go-to-market and sales motion with AI automation
+              Power your go-to-market and sales motion using AI workflow automation
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
               We help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools.
