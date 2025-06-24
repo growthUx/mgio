@@ -101,21 +101,21 @@ export default function HomePage() {
               className="aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 mt-24 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40">
-            <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-24">
-              {/* <div className="mt-24 sm:mt-32 lg:mt-16">
-                <a href="#" className="inline-flex space-x-6">
-                  <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm/6 font-semibold text-indigo-400 ring-1 ring-indigo-500/20 ring-inset">
+          <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-32">
+            <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-16">
+              <div className="my-4">
+                <a href="https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing" className="inline-flex space-x-6" target="_blank">
+                  <span className="rounded-full bg-[#40C1AC]/10 px-3 py-1 text-sm/6 font-semibold text-[#40C1AC] ring-1 ring-[#40C1AC]/20 ring-inset">
                     What's new
                   </span>
                   <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
-                    <span>Just shipped v1.0</span>
+                    <span>eBook: GTM for Founders</span>
                     <ChevronRightIcon aria-hidden="true" className="size-5 text-gray-500" />
                   </span>
                 </a>
-              </div> */}
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring in a technical GTM partner so you can focus on your business</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: Do I have the time to learn and implement an agentic GTM strategy? If the answer is no, then you&apos;re in the right place. Hire us to implement AI automation agents and web experience to grow and scale.</p>
+              </div>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Scale cheaper and faster by automating your go-to-market motion with AI agents</h1>
+              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: Do I have the time to learn and implement an agentic GTM strategy? If the answer is no, then you&apos;re in the right place. Hire us to implement AI automation agents with web experience optimization so you can focus on revenue.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -124,7 +124,7 @@ export default function HomePage() {
                 >
                   Get a free consult
                 </a>
-                <a href="#digital-engagement-platform" className="text-sm/6 font-semibold text-white">
+                <a href="#ai-automation" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -143,55 +143,8 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build trust through digital engagement</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Own your distribution channel and market to your captured audience
-            </p>
-            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Build your brand that create trust and authority at scale. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
-            </p>
-          </div>
-        </div>
-        {/* Community screenshot section */}
-        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
-          <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
-            <img
-              alt="Hustle/Side Hustle Community"
-              src="/images/hush-ss.png"
-              width={2432}
-              height={1442}
-              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
-            />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network to promote entrepreneurship and self-reliance.</div>
-          </div>
-        </div>
-        {/* Content section */}
-        <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
-              <div>
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
-                    <p>
-                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
-                    </p>
-                </div>
-              </div>
-              <div>
-                <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Build trust with delightful web experience </h3>
-                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
-        <div className="relative py-12 sm:py-32 overflow-hidden">
+        {/* AI Automation section */}
+        <div className="relative py-12 sm:pt-24 sm:pb-12 overflow-hidden">
           {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl z-10">
             <div
               style={{
@@ -212,7 +165,7 @@ export default function HomePage() {
           </div> */}
           <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Establish authority at scale with the help of AI agents</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale your business with the help of AI agents</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Power your go-to-market and sales motion using AI workflow automation
               </p>
@@ -258,6 +211,53 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
+        <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl sm:text-center">
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build trust through digital engagement</h2>
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
+              Own your distribution channel and market to your captured audience
+            </p>
+            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
+              Build your brand that create trust and authority at scale. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
+            </p>
+          </div>
+        </div>
+        {/* Community screenshot section */}
+        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
+          <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
+            <img
+              alt="Hustle/Side Hustle Community"
+              src="/images/hush-ss.png"
+              width={2432}
+              height={1442}
+              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
+            />
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network to promote entrepreneurship and self-reliance.</div>
+          </div>
+        </div>
+        {/* Content section */}
+        <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
+          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+              <div>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
+                    <p>
+                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
+                    </p>
+                </div>
+              </div>
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Build trust with delightful web experience </h3>
+                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Analytics */}
         <div id="analytics-reporting" className="relative isolate overflow-hidden bg-[#1D3c34] py-24 sm:py-32">
           <img
@@ -267,6 +267,7 @@ export default function HomePage() {
           />
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-base/7 font-semibold text-[#40C1AC] mb-2">Be strategic with analytics and reporting</h2>
               <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl">Measure. Improve. Market growth.</h3>
               <p className="mt-8 text-lg text-pretty text-[#f5f5f5] sm:text-lg/8">
               Discover how well the two pillars perform together by using analytics to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the key solutions we recommend:

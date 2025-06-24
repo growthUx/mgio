@@ -3,8 +3,8 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Digital Engagement Platform', href: '/platform' },
     { name: 'AI Automation Agency', href: '/#ai-automation' },
+    { name: 'Digital Engagement Platform', href: '/platform' },
     { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
     // { name: 'Pricing', href: '/pricing' }
   ],
@@ -101,7 +101,7 @@ export default function Footer() {
                 className="w-[160px] h-auto"
               />
             <p className="text-sm/6 text-balance text-gray-300">
-              Digital experience and AI Automation agency for founders and GTM teams. <br /><br />
+              AI Automation and digital experience agency for founders and GTM teams. <br /><br />
               <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-white">
                 Contact us <span aria-hidden="true">→</span>
               </a>
