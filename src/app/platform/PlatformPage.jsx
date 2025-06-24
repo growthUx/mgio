@@ -42,7 +42,7 @@ const tiers = [
     id: 'tier-team',
     href: 'mailto:victor@marketgrowth.io',
     price: 'Contact us',
-    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the Gradual platform or build on open source.',
+    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the SaaS platform or on open source.',
     features: [
       'Create your brand academy',
       'Facilitate online-offline events',
@@ -69,7 +69,7 @@ const faqs = [
       "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
   },
   {
-    question: "How should I decide whether to build on open-source or third-party solutions like Gradual?",
+    question: "How should I decide whether to build on open-source or third-party solutions like Thinkific or Gradual?",
     answer:
       "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources: Open-source solutions may require more technical expertise and resources to set up and maintain, while third-party solutions may have higher upfront costs but offer more out-of-the-box features. (2) Your long-term goals: If you plan to scale your platform and add more features over time, open-source solutions may offer more flexibility and customization options. (3) Your team's expertise: If your team has experience with open-source technologies, it may be easier to build on those solutions. If not, a third-party solution may be a better fit. Regardless, we can help you decide which option is best for your needs and goals.",
   },
