@@ -106,7 +106,7 @@ export default function HomePage() {
               <div className="my-4">
                 <a href="https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing" className="inline-flex space-x-6" target="_blank">
                   <span className="rounded-full bg-[#40C1AC]/10 px-3 py-1 text-sm/6 font-semibold text-[#40C1AC] ring-1 ring-[#40C1AC]/20 ring-inset">
-                    What's new
+                    What&apos;s new
                   </span>
                   <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
                     <span>eBook: GTM for Founders</span>
