@@ -115,7 +115,7 @@ export default function HomePage() {
                 </a>
               </div>
               <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring AI-native growth marketing into your business to scale and drive revenue</h1>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-8">Ask yourself this tough question: Do I have the time to learn and implement agentic GTM strategy? If you answered no, then you&apos;re in the right place. Hire us to implement AI automation agents within a scalable digital engagement platform so you can focus on revenue.</p>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Ask yourself this tough question: Do I have the time to learn and implement agentic GTM strategy? If you answered no, then you&apos;re in the right place. Hire us to implement AI automation agents within a scalable digital engagement platform so you can focus on revenue.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -195,7 +195,7 @@ export default function HomePage() {
                 <div>
                   <div className="mb-8">
                     <h3 className="text-xl font-semibold mb-4">Automate key parts of your GTM and sales ops</h3>
-                    <p>From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock.
+                    <p>From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock. 
                     </p>
                   </div>
                 </div>
