@@ -114,8 +114,8 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Scale cheaper and faster by automating your go-to-market motion with AI agents</h1>
-              <p className="mt-8 text-md max-w-xl mx-auto font-medium text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0">Ask yourself this tough question: Do I have the time to learn and implement an agentic GTM strategy? If the answer is no, then you&apos;re in the right place. Hire us to implement AI automation agents with web experience optimization so you can focus on revenue.</p>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Bring AI-native growth marketing into your business to scale and drive revenue</h1>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-8">Ask yourself this tough question: Do I have the time to learn and implement agentic GTM strategy? If you answered no, then you&apos;re in the right place. Hire us to implement AI automation agents within a scalable digital engagement platform so you can focus on revenue.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -267,10 +267,10 @@ export default function HomePage() {
           />
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC] mb-2">Be strategic with analytics and reporting</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC] mb-2">Be strategic through business data science</h2>
               <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl">Measure. Improve. Market growth.</h3>
               <p className="mt-8 text-lg text-pretty text-[#f5f5f5] sm:text-lg/8">
-              Discover how well the two pillars perform together by using analytics to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the key solutions we recommend:
+              Discover how well the two pillars perform together by using data-driven analysis to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the key solutions we recommend:
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
