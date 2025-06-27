@@ -73,7 +73,7 @@ export default function Nav() {
           </PopoverButton>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
-            Agentic GTM Hub <span aria-hidden="true">&rarr;</span>
+            GTM Resource Hub <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>
