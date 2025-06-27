@@ -114,8 +114,8 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-5xl pr-4">We are an AI Studio focused on scaling go-to-market motion through AI agents</h1>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Lean on us to help with the orchestration or management of your GTM technology &mdash;  from digital experience and AI-powered automation to analytics and reporting. We&apos;re here to help!</p>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-5xl pr-4">We are an AI Studio focused on scaling go-to-market motions through AI agents</h1>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Lean on us to help with the orchestration or management of your GTM technology &mdash; from digital experience and AI-powered automation to analytics and reporting. We&apos;re here to help!</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
