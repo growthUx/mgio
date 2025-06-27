@@ -114,8 +114,8 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">Implement agentic- and community-led GTM to grow and scale</h1>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Ask yourself this tough question: Do I have the time to learn and implement an agentic GTM strategy? If you answered no, then you&apos;re in the right place. Hire us to implement AI-powered workflow automation within a scalable digital engagement platform so you can focus on revenue.</p>
+              <h1 className="font-funnel-display text-4xl font-semibold tracking-tight text-[#F5F5F5] sm:text-6xl">We are an on-demand technical team to help with your go-to-market</h1>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Whenever you need someone to execute the technical portion of your digital GTM strategy &mdash; whether it&apos;s inbound-, community- or agent-led motion? We are here to help.</p>
               {/* <p className="mt-8 font-semibold text-[#00a63e]">We&apos;re here to help!</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -165,9 +165,9 @@ export default function HomePage() {
           </div> */}
           <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale your business with the help of AI agents</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Agent-led GTM: Scale your business with the help of AI agents</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Power your go-to-market and sales motion using AI workflow automation
+              Power GTM, sales, and rev ops with AI workflow automation
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
               We help founders and growth leaders automate customer acquisition, sales workflows, and backend ops using agentic systems that integrate seamlessly with your existing tools.
@@ -214,12 +214,12 @@ export default function HomePage() {
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build trust through digital engagement</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Inbound- and community-led GTM: Empower and engage your audience</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Own your distribution channel and market to your captured audience
+              Enable and encourage engagement with your brand with a digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Build your brand that create trust and authority at scale. Launch a digital engagement platform that includes features like gated content and paid subscriptions. You can then scale it up with social networking, courses, forums, shopping, and more. 
+              Launch a digital engagement platform that includes features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, groups, commerce, and more. 
             </p>
           </div>
         </div>
