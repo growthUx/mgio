@@ -94,12 +94,12 @@ export default function PlatformPage() {
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Digital Engagement Platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale past the online brochure into a digital garden</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Launch an online academy, membership, or community website
+              For your inbound- or community-led GTM, engage with known audience right from the start
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
+            Launch an online academy, membership, or community website. Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, and grow your business through every phase.
             </p>
           </div>
         </div>

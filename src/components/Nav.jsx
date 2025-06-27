@@ -15,8 +15,8 @@ import {
 } from '@heroicons/react/24/outline'
 
 const engagement = [
-  { name: 'Digital Engagement', target: "_self", href: '/platform', icon: UsersIcon },
   { name: 'AI Workflow Automation', target: "_self", href: '/#ai-automation', icon: ShieldCheckIcon },
+  { name: 'Digital Engagement', target: "_self", href: '/digital-garden', icon: UsersIcon },
   { name: 'Analytics & Reporting', target: "_self", href: '/#analytics-reporting', icon: ChartBarSquareIcon },
 ]
 const resources = [
