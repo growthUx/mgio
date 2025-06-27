@@ -166,10 +166,10 @@ export default function HomePage() {
             <div className="mx-auto max-w-4xl sm:text-center">
               <h2 className="text-base/7 font-semibold text-[#40C1AC]">Agent-led GTM</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              You don&apos;t need to add headcount to scale.
+              Power your GTM- and rev-ops with 24/7 AI workflow automation to efficiently scale
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
-              <strong>Add AI agents to power GTM- and rev-ops with 24/7 workflow automation</strong>. We can you automate lead ops, sales motion, and marketing using agentic systems that integrate seamlessly with your existing tools.
+              We can help you automate lead ops, sales motion, and marketing using agentic systems that integrate seamlessly with your existing tools.
               </p>
             </div>
           </div>
@@ -215,7 +215,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-[#40C1AC]">Inbound- and community-led GTM</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Enable and encourage engagement with your brand&apos;s digital garden
+              Enable and encourage visitor engagement with your brand&apos;s digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
               Launch a digital engagement platform that includes features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, groups, commerce, and more. 
