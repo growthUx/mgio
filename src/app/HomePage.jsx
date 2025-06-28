@@ -114,9 +114,9 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display text-5xl font-semibold text-pretty text-[#F5F5F5] sm:text-6xl pr-4">We are a DX+AI Lab.</h1> 
-              <h2 className="text-xl mt-4 text-[#F5F5F5] text-pretty font-semibold sm:text-[18px] pr-4">We build AI products and digital communities. We work with fast growing teams to scale their go&#8209;to&#8209;market motions powered with AI agents.</h2>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">
+              <h1 className="font-funnel-display text-5xl font-semibold text-pretty text-[#F5F5F5] sm:text-7xl pr-4">Your DX<span className="text-[#40C1AC]">+</span>AI Lab</h1> 
+              <h2 className="text-xl mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We build AI products and digital communities. As a technical partner, we work with fast growing teams to build digital gardens and scale through agentic GTM.</h2>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-lg/8 sm:mx-0">
               Lean on us to turn your static website into a brand moat, starting with digital engagement platform and AI-driven workflow automation. </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
