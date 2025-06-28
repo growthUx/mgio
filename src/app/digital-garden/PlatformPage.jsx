@@ -105,7 +105,7 @@ export default function PlatformPage() {
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
             Brands with engaged communities grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. You don&apos;t have to build a social network.<br /><br />
-            <strong>Power brand tip:</strong> Start with an online academy to show how your products work or show members 'how-to' courses that brings value to your audience.</p>
+            <strong>Power brand tip:</strong> Launch an online academy to educate users about your product or offer practical &apos;how-to&apos; courses that deliver value to your audience.</p>
           </div>
         </div>
         {/* Community screenshot section */}
