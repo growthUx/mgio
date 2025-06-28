@@ -115,8 +115,9 @@ export default function HomePage() {
                 </a>
               </div>
               <h1 className="font-funnel-display text-5xl font-semibold text-pretty text-[#F5F5F5] sm:text-6xl pr-4">We are a DX+AI Lab.</h1> 
-              <h2 className="text-xl mt-4 text-[#F5F5F5] text-pretty font-semibold sm:text-[20px] pr-4">We build AI products and digital communities as well as provide services to fast growing teams to scale their go&#8209;to&#8209;market motions.</h2>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">Lean on us to help with the orchestration or management of your GTM technology &mdash; from digital experience and AI-powered automation to analytics and reporting. We&apos;re here to help!</p>
+              <h2 className="text-xl mt-4 text-[#F5F5F5] text-pretty font-semibold sm:text-[18px] pr-4">We build AI products and digital communities. We work with fast growing teams to scale their go&#8209;to&#8209;market motions powered with AI agents.</h2>
+              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] sm:text-lg/8 sm:mx-0 sm:pr-6">
+              Lean on us to turn your static website into a brand moat, starting with digital engagement platform and AI-driven workflow automation. </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
