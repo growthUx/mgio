@@ -30,19 +30,19 @@ import Nav from '@/components/Nav'
 
 const tiers = [
   {
-    name: 'Founders & Creators',
+    name: '0 to 1 Plan',
     id: 'tier-solo',
     href: 'mailto:victor@marketgrowth.io',
     price: '$4,900',
     description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
-    features: ['Secure Wordpress platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'Post-launch support plans available' ],
+    features: ['Secure OpenCMX Platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'MCP server for AI Agents' ],
   },
   {
-    name: 'Startups & Growth Teams',
+    name: 'Augment Plan',
     id: 'tier-team',
     href: 'mailto:victor@marketgrowth.io',
     price: 'Contact us',
-    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the SaaS platform or on open source.',
+    description: 'Hire us as a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the SaaS platform or on open source.',
     features: [
       'Create your brand academy',
       'Facilitate online-offline events',
@@ -67,6 +67,11 @@ const faqs = [
     question: "You mentioned design, is brand design included?",
     answer:
       "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
+  },
+  {
+    question: "We already have a brand design, can you work with it?",
+    answer:
+      "Yes. Your pricing drops to $3,500 for the build aspect of your digital garden. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
   },
   {
     question: "How should I decide whether to build on open-source or third-party solutions like Thinkific or Gradual?",
@@ -94,13 +99,13 @@ export default function PlatformPage() {
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale past the online brochure into a digital garden</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              For your inbound- or community-led GTM, engage with known audience right from the start
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Grow your online presence into a digital garden</h2>
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-6xl sm:text-balance">
+            Your competitors are building communities &mdash; are you?
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Launch an online academy, membership, or community website. Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, and grow your business through every phase.
-            </p>
+            Brands with engaged communities grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. You don&apos;t have to build a social network.<br /><br />
+            <strong>Power brand tip:</strong> Start with an online academy to show how your products work or show members 'how-to' courses that brings value to your audience.</p>
           </div>
         </div>
         {/* Community screenshot section */}
@@ -142,15 +147,16 @@ export default function PlatformPage() {
         {/* Pricing section */}
         <div className="isolate overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
-            <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">An accretive investment to your brand</h2>
+            <div className="mx-auto max-w-6xl">
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Invest today, build a brand moat tomorrow</h2>
               <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-                Hire us so you can focus in growing your business
+              Business-friendly pricing
               </p>
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                We have flexible pricing plan that&apos;s packed with the best features to engage your audience and drive sales.
+              We&apos;re only taking 5 new projects this month. Secure your spot before it&apos;s gone.
+                
               </p>
               <svg
                 viewBox="0 0 1208 1024"
@@ -196,9 +202,9 @@ export default function PlatformPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md bg-[#FFAA4D] px-3.5 py-2 text-center text-sm/6 font-semibold text-[#1d3c34] shadow-xs hover:bg-[#1D3c34] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
+                        className="mt-8 block rounded-md bg-[#1D3c34] px-3.5 py-2 text-center text-sm/6 font-semibold text-[#f5f5f5] shadow-xs hover:bg-[#FFAA4D] hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1d3c34]"
                       >
-                        Get started today
+                        Secure your spot today
                       </a>
                     </div>
                   ))}
