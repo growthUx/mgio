@@ -104,8 +104,8 @@ export default function PlatformPage() {
             Your competitors are building communities &mdash; are you?
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Brands with engaged communities grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. You don&apos;t have to build a social network.<br /><br />
-            <strong>Power brand tip:</strong> Launch an online academy to educate users about your product or offer practical &apos;how-to&apos; courses that deliver value to your audience.</p>
+            Brands with engaged communities grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. You don&apos;t have to build a social network from the get-go. Start with a learning portal or a content/forum-based membership.<br /><br />
+            <strong>Power brand tip:</strong> Launch an online academy to educate users about your product which also serves as your knowledgebase.</p>
           </div>
         </div>
         {/* Community screenshot section */}
