@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "How does engagement with MarketGrowth looks like?",
     answer:
-      "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on Wordpress using the BuddyBoss platform. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
+      "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on OpenCMX platfom - a collection of open source plugin ecosystem that works within Wordpress. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
   },
   {
     question: "What does the $4,900 include and not include?",
@@ -100,8 +100,8 @@ export default function PlatformPage() {
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">
             {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build a brand moat around your product or expertise</h2> */}
-            <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
-             Build a community of learners, partners, and ambassadors
+            <h1 className="font-funnel-display mt-2 text-4xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
+             Build a community of ambassadors, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-gray-300">
             Brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. <br /><br />

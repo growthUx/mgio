@@ -30,53 +30,62 @@ import Nav from '@/components/Nav'
 
 const tiers = [
   {
-    name: 'Founders & Creators',
-    id: 'tier-solo',
+    name: 'Design+Build Plan',
+    id: 'tier-growth',
     href: 'mailto:victor@marketgrowth.io',
-    price: '$4,900',
-    description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
-    features: ['Secure Wordpress platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'Post-launch support plans available' ],
+    price: '$3,000',
+    description: 'Starting at $3,000, this plan is the technical implementation of your predefined GTM and sales workflow. Subject to scope, priced at $800 per day. ',
+    features: ['AI Prompt Design', 'Tools integration', 'Automation workflow builds', 'Testing' ],
   },
   {
-    name: 'Startups & Growth Teams',
-    id: 'tier-team',
+    name: 'Manage Plan',
+    id: 'tier-manage',
     href: 'mailto:victor@marketgrowth.io',
-    price: 'Contact us',
-    description: 'Hire us a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the Gradual platform or build on open source.',
+    price: '$500/mo',
+    description: 'Manage and maintain your AI automation with our ongoing support plan. This includes regular updates, monitoring, and optimization to ensure your system runs smoothly.',
     features: [
-      'Create your brand academy',
-      'Facilitate online-offline events',
-      'Publish gated and exclusive content',
-      'Build a knowledge based that AI agents can use',
-      'Know your audience with sign-ups and profiles',
+      'Automation fault monitoring',
+      'Bug fixes and refinement',
+      'Minor adjustments to prompts and templates',
+      'Consult for new use cases',
     ],
   },
 ]
 const faqs = [
   {
-    question: "How does engagement with MarketGrowth looks like?",
+    question: "How can AI automation services help my business grow?",
     answer:
-      "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on Wordpress using the BuddyBoss platform. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
+      "MarketGrowth helps businesses save time, reduce costs, and accelerate growth by automating repetitive tasks and complex workflows using advanced AI tools. Whether you’re looking to streamline lead generation, personalize customer engagement, analyze data faster, or improve operational efficiency, our team designs tailored AI solutions that fit your unique needs. The result? More focus on high-value work and measurable impact on your bottom line.",
   },
   {
-    question: "What does the $4,900 include and not include?",
+    question: "What types of processes can be automated with your AI services?",
     answer:
-      "The first engagement fee of $4,900 includes the design and build of your digital platform, which covers the following: Brand design and development on Wordpress using the BuddyBoss platform. Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance or plug-in licenses and additional features that may be required after the initial launch.",
+      "We help automate a wide range of business functions, including sales outreach, customer support chatbots, marketing campaign workflows, data extraction and analysis, document processing, lead scoring, CRM updates, reporting, and more. If a process involves repetitive steps or large volumes of data, there’s a strong chance we can automate it.",
   },
   {
-    question: "You mentioned design, is brand design included?",
+    question: "Do I need to have AI expertise to work with MarketGrowth",
     answer:
-      "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
+      "Not at all. We handle the technical complexity for you. Our team translates your business goals into AI-powered workflows and systems, and we provide training and support so your team can easily manage the solutions we build. Management and optimization are also part of our service, so you can focus on your core business while we ensure your AI systems run smoothly.",
   },
   {
-    question: "How should I decide whether to build on open-source or third-party solutions like Gradual?",
+    question: "What technologies and tools do you use for AI automation?",
     answer:
-      "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources: Open-source solutions may require more technical expertise and resources to set up and maintain, while third-party solutions may have higher upfront costs but offer more out-of-the-box features. (2) Your long-term goals: If you plan to scale your platform and add more features over time, open-source solutions may offer more flexibility and customization options. (3) Your team's expertise: If your team has experience with open-source technologies, it may be easier to build on those solutions. If not, a third-party solution may be a better fit. Regardless, we can help you decide which option is best for your needs and goals.",
+      "We work with leading AI platforms and tools, including OpenAI’s GPT models, natural language processing (NLP) frameworks, machine learning libraries like TensorFlow and PyTorch, robotic process automation (RPA) tools, and integrations with platforms like Zapier, n8n, Make.com, and enterprise APIs. Our approach is flexible to match your tech stack and security requirements.",
   },
   {
-    question: "I don't want to commit quite yet. Can I try it out?",
+    question: "Is my data safe when using AI automation?",
     answer:
-      "Yes. If you are planning to build your own Academy or University for your product knowledge base, we can host your first course and micro-community on the MarketGrowth CX community for $499. You can then experience the 'art of possible' for your own platform. This is a great way to test the waters and see how our platform works before making a larger commitment.",
+      "Absolutely. Data privacy and security are top priorities for MarketGrowth.io. We follow strict data handling practices, comply with relevant regulations like GDPR, and can deploy solutions on-premises or in your private cloud to meet enterprise security standards.",
+  },
+  {
+    question: "How long does it take to implement an AI automation project?",
+    answer:
+      "Project timelines vary depending on complexity. Simple automations can be delivered in a few weeks, while more advanced, custom solutions may take several months. We start with a discovery phase to define scope and provide clear timelines and milestones.",
+  },
+  {
+    question: "Can you integrate AI automation with our existing systems?",
+    answer:
+      "Yes. Integration is a key part of our service. We build solutions that work seamlessly with CRMs, ERPs, marketing platforms, data warehouses, customer support tools, and other systems you already use, ensuring minimal disruption to your current workflows.",
   },
   // More questions...
 ]
@@ -92,12 +101,12 @@ export default function AIAutomationPage() {
   return (
     <div className="bg-[#1D3c34]">
       <main className="relative isolate">
-        <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
-          <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">AI Automation for GTM Teams</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
+        <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
+          <div className="mx-auto max-w-5xl sm:text-center">
+            {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">AI Automation for GTM Teams</h2> */}
+            <h1 className="font-funnel-display mt-2 text-4xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
             Run your business smarter with AI
-            </p>
+            </h1>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
             We help growing businesses automate repetitive tasks, boost efficiency, and unlock new growth. Imagine customer support handled 24/7, leads qualified automatically, or internal workflows running on autopilot. You get tailored AI automation which frees you to focus on business development.
             </p>
@@ -108,49 +117,49 @@ export default function AIAutomationPage() {
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="VirtualPro"
-              src="/brand/mgio-vip-ss.png"
+              src="/images/n8n-ai-workflow.png"
               width={2432}
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro - a talent discovery platform built on social network, job board, and learning experience.</div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Example implementation of an automated content creation engine on self-hosted n8n.</div>
           </div>
         </div>
         {/* Content section */}
         <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
-              <div>
+            <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+              <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+                <div>
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Premier platform for your customers</h3>
-                    <p>
-                    Whether you&apos;re offering online courses, communities, memberships, or digital downloads, we&apos;re here to support every way you choose to share and grow your expertise.
+                    <h3 className="text-xl font-semibold mb-4">Automate key parts of your GTM and sales ops</h3>
+                    <p>From qualifying leads to delivering personalized follow-ups, these automations free up your time and increase your ability to scale efficiently. The result is a leaner, smarter system that works for you around the clock. 
                     </p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Tailored to your brand&apos;s aesthetic and guideline</h3>
-                  <p>Use your own domain; customize the look and feel with your fonts and colors; and integrate with your existing tools and services. Create a seamless digital experience.
-                  </p>
+                <div>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-4">Grow with a system designed for long-term success</h3>
+                    <p>
+                    Build a digital experience ecosystem that drive revenue and engagement. With ongoing support and optimization, you will have a system that grows with you, backed by data and strategy that delivers results.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         {/* Pricing section */}
         <div className="isolate overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">An accretive investment to your brand</h2>
-              <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-                Invest in your digital platform to grow your brand and community
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Flexible pricing plans</h2>
+              <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+              Run your business smarter with AI
               </p>
             </div>
-            <div className="relative mt-6">
+            <div className="relative mt-2">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Flexible pricing plan that&apos;s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.
+                Flexible pricing plan that&apos;s focused on your success.
               </p>
               <svg
                 viewBox="0 0 1208 1024"
