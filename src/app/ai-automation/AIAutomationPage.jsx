@@ -94,12 +94,12 @@ export default function AIAutomationPage() {
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Digital Engagement Platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">AI Automation for GTM Teams</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Launch an online academy, membership, or community website
+            Run your business smarter with AI
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Scale your brand&apos;s reach and customer experience with courses, communities, and knowledge sharing. Build long-term value, connect with your audience, earn recurring income, and grow your business through every phase.
+            We help growing businesses automate repetitive tasks, boost efficiency, and unlock new growth. Imagine customer support handled 24/7, leads qualified automatically, or internal workflows running on autopilot. You get tailored AI automation which frees you to focus on business development.
             </p>
           </div>
         </div>
