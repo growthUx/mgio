@@ -114,10 +114,10 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display text-4xl font-semibold text-pretty text-[#F5F5F5] sm:text-7xl pr-4">Your DX<span className="text-[#40C1AC]">+</span>AI Lab</h1> 
-              <h2 className="text-xl mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We work with fast growing teams to design+build online communities and integrate AI automation into GTM workflow.</h2>
+              <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty text-[#F5F5F5] sm:text-6xl pr-4">We are a DX<span className="text-[#40C1AC]">+</span>AI Lab</h1> 
+              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We work with fast growing teams to design+build online communities and integrate AI automation into GTM workflow.</h2>
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-lg/8 sm:mx-0">
-              Lean on us to turn your static website into a brand moat, starting with digital engagement platform and AI-driven workflow automation. </p>
+              Lean on us as your technical GTM partner, to build your digital engagement platform and implement AI agents to grow your business. </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="mailto:victor@marketgrowth.io"
