@@ -97,14 +97,14 @@ export default function PlatformPage() {
   return (
     <div className="bg-[#1D3c34]">
       <main className="relative isolate">
-        <div id="digital-engagement-platform" className="mx-auto mt-20 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
-          <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Grow your online presence into a digital garden</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-6xl sm:text-balance">
-            Your competitors are building communities &mdash; are you?
-            </p>
-            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-            Brands with engaged communities grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. You don&apos;t have to build a social network from the get-go. Start with a learning portal or a content/forum-based membership.<br /><br />
+        <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
+          <div className="mx-auto max-w-5xl sm:text-center">
+            {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build a brand moat around your product or expertise</h2> */}
+            <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
+             Build a community of learners, partners, and ambassadors
+            </h1>
+            <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-gray-300">
+            Brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. <br /><br />
             <strong>Power brand tip:</strong> Launch an online academy to educate users about your product which also serves as your knowledgebase.</p>
           </div>
         </div>
@@ -148,14 +148,14 @@ export default function PlatformPage() {
         <div className="isolate overflow-hidden">
           <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
             <div className="mx-auto max-w-6xl">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Invest today, build a brand moat tomorrow</h2>
-              <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-              Business-friendly pricing
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Flexible pricing</h2>
+              <p className="mt-2 text-2xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+              Invest today, build a brand moat tomorrow
               </p>
             </div>
             <div className="relative mt-6">
               <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-              We&apos;re only taking 5 new projects this month. Secure your spot before it&apos;s gone.
+              We only take 3 new projects per month. Secure your spot today.
                 
               </p>
               <svg
