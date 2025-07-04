@@ -35,7 +35,7 @@ const tiers = [
     href: 'mailto:victor@marketgrowth.io',
     price: '$4,900',
     description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
-    features: ['Secure OpenCMX Platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'MCP server for AI Agents' ],
+    features: ['Secure OpenCMX Platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'MCP server for AI Agents (optional)' ],
   },
   {
     name: 'Augment Plan',
@@ -104,8 +104,9 @@ export default function PlatformPage() {
              Build a community of ambassadors, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-gray-300">
-            Brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. Don&apos;t risk falling behind while others turn visitors into loyal superfans. <br /><br />
-            <strong>Power brand tip:</strong> Launch an online academy to educate users about your product which also serves as your knowledgebase.</p>
+            Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your community. 
+            In addition, brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. </p>
+            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]">Power brand tip: Ask yourself, what can my audience use now that I can immediately launch. It can be a course to show your product or your expertise; or it can be a paid subscription to your exclusive content. <a href="mailto:victor@marketgrowth.io" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
         {/* Community screenshot section */}
