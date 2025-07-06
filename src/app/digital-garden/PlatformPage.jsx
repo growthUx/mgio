@@ -32,7 +32,7 @@ const tiers = [
   {
     name: '0 to 1 Plan',
     id: 'tier-solo',
-    href: 'mailto:victor@marketgrowth.io',
+    href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: '$4,900',
     description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
     features: ['Secure OpenCMX Platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'MCP server for AI Agents (optional)' ],
@@ -40,7 +40,7 @@ const tiers = [
   {
     name: 'Augment Plan',
     id: 'tier-team',
-    href: 'mailto:victor@marketgrowth.io',
+    href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: 'Contact us',
     description: 'Hire us as a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the SaaS platform or on open source.',
     features: [
@@ -106,7 +106,7 @@ export default function PlatformPage() {
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-gray-300">
             Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your community. 
             In addition, brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. </p>
-            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]">Power brand tip: Ask yourself, what can my audience use now that I can immediately launch. It can be a course to show your product or your expertise; or it can be a paid subscription to your exclusive content. <a href="mailto:victor@marketgrowth.io" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
+            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]">Power brand tip: Ask yourself, what can my audience use now that I can immediately launch. It can be a course to show your product or your expertise; or it can be a paid subscription to your exclusive content. <a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
         {/* Community screenshot section */}
@@ -217,7 +217,7 @@ export default function PlatformPage() {
                       </p>
                     </div>
                     <a
-                      href="mailto:victor@marketgrowth.io"
+                      href="https://meetings.hubspot.com/victor-ramayrat"
                       className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
                       Book a discovery call <span aria-hidden="true">&rarr;</span>
@@ -281,7 +281,7 @@ export default function PlatformPage() {
                       ))}
                     </ul>
                     <div className="mt-10 flex">
-                      <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
+                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
                         Book a free discovery call
                         <span aria-hidden="true">&rarr;</span>
                       </a>

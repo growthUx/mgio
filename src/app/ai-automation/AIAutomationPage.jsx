@@ -32,7 +32,7 @@ const tiers = [
   {
     name: 'Design+Build Plan',
     id: 'tier-growth',
-    href: 'mailto:victor@marketgrowth.io',
+    href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: '$3,000',
     description: 'Starting at $3,000, this plan is the technical implementation of your predefined GTM and sales workflow. Subject to scope, priced at $800 per day. ',
     features: ['AI Prompt Design', 'Tools integration', 'Automation workflow builds', 'Testing' ],
@@ -40,7 +40,7 @@ const tiers = [
   {
     name: 'Manage Plan',
     id: 'tier-manage',
-    href: 'mailto:victor@marketgrowth.io',
+    href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: '$500/mo',
     description: 'Manage and maintain your AI automation with our ongoing support plan. This includes regular updates, monitoring, and optimization to ensure your system runs smoothly.',
     features: [
@@ -219,7 +219,7 @@ export default function AIAutomationPage() {
                       </p>
                     </div>
                     <a
-                      href="mailto:victor@marketgrowth.io"
+                      href="https://meetings.hubspot.com/victor-ramayrat"
                       className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
                       Book a discovery call <span aria-hidden="true">&rarr;</span>
@@ -283,7 +283,7 @@ export default function AIAutomationPage() {
                       ))}
                     </ul>
                     <div className="mt-10 flex">
-                      <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
+                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
                         Book a free discovery call
                         <span aria-hidden="true">&rarr;</span>
                       </a>

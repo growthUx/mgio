@@ -158,7 +158,7 @@ export default function LicensePage() {
                   </div>
                 </div>
                 <div className="mt-10 flex">
-                  <a href="mailto:victor@marketgrowth.io" className="text-base/7 font-semibold text-[#f5f5f5]">
+                  <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-base/7 font-semibold text-[#f5f5f5]">
                     Learn more about licensing <span aria-hidden="true">&rarr;</span>
                   </a>
                 </div>

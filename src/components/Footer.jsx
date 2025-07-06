@@ -9,7 +9,7 @@ const footerNavigation = {
     // { name: 'Pricing', href: '/pricing' }
   ],
   support: [
-    { name: 'Submit ticket', href: 'mailto:victor@marketgrowth.io' },
+    { name: 'Submit ticket', href: 'https://meetings.hubspot.com/victor-ramayrat' },
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
@@ -102,7 +102,7 @@ export default function Footer() {
               />
             <p className="text-sm/6 text-balance text-gray-300">
               AI Automation and digital experience agency for founders and GTM teams. <br /><br />
-              <a href="mailto:victor@marketgrowth.io" className="text-sm/6 font-semibold text-white">
+              <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-white">
                 Contact us <span aria-hidden="true">→</span>
               </a>
             </p>
