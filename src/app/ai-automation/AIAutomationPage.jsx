@@ -205,7 +205,7 @@ export default function AIAutomationPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md bg-[#FFAA4D] px-3.5 py-2 text-center text-sm/6 font-semibold text-[#1d3c34] shadow-xs hover:bg-[#1D3c34] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
+                        className="mt-8 block rounded-md px-3.5 py-2 text-center text-sm/6 font-semibold shadow-xs bg-green-600 hover:bg-green-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
                       >
                         Get started today
                       </a>
@@ -220,7 +220,7 @@ export default function AIAutomationPage() {
                     </div>
                     <a
                       href="https://meetings.hubspot.com/victor-ramayrat"
-                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
+                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#00c951] text-[#f5f5f5] ring-1 hover:ring-[#00c951] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
                       Book a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -265,25 +265,17 @@ export default function AIAutomationPage() {
                     className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
                   /> */}
                   <div className="w-full flex-auto">
-                    <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
-                      If not today, when?
+                  <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
+                      Why choose us?
                     </h2>
-                    <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-                      Your brand is the most valuable asset you have. AI is taking over knowledge discovery. Leverage community-led growth and content publishing to build you business moat. Use agent-led GTM to automate and scale your business.
+                    <p className="mt-6 text-lg/8 text-pretty">
+                        You should choose us if you&apos;re looking for a partner, not just a provider.
+                        Most agencies do the job. We focus on outcomes, like more brand engagement, efficient AI automation, or better customer experience, whatever moves the needle for your business.
+                        <br /><br />
+                        We don&apos;t lock you into a cookie-cutter process. We come in, understand your challenges deeply, and build solutions that actually fit. And we stay accountable, from strategy to execution to results.
                     </p>
-                    <ul
-                      role="list"
-                      className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-gray-200 sm:grid-cols-2"
-                    >
-                      {benefits.map((benefit) => (
-                        <li key={benefit} className="flex gap-x-3">
-                          <CheckCircleIcon aria-hidden="true" className="h-7 w-5 flex-none text-gray-200" />
-                          {benefit}
-                        </li>
-                      ))}
-                    </ul>
                     <div className="mt-10 flex">
-                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
+                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#00c951] hover:text-[#00c951]">
                         Book a free discovery call
                         <span aria-hidden="true">&rarr;</span>
                       </a>

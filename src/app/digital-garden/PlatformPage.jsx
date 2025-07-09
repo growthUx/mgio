@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Fragment } from 'react'
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
@@ -22,27 +22,28 @@ import {
   LockClosedIcon,
   ServerIcon,
   ChevronRightIcon,
+  MinusIcon,
   MinusSmallIcon,
   PlusSmallIcon
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 
-const tiers = [
+const tiers1 = [
   {
     name: '0 to 1 Plan',
     id: 'tier-solo',
     href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: '$4,900',
     description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
-    features: ['Secure OpenCMX Platform', 'Custom brand design & build', 'Courses & Groups', 'Digital Downloads', 'Community & Memberships', 'MCP server for AI Agents (optional)' ],
+    features: ['Secure open source platform', 'Custom brand design & build', 'Courses & Groups', 'Forums and Downloads', 'Community & Memberships' ],
   },
   {
     name: 'Augment Plan',
     id: 'tier-team',
     href: 'https://meetings.hubspot.com/victor-ramayrat',
     price: 'Contact us',
-    description: 'Hire us as a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on the SaaS platform or on open source.',
+    description: 'Hire us as a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on a SaaS platform (like Gradual) or use open source.',
     features: [
       'Create your brand academy',
       'Facilitate online-offline events',
@@ -52,6 +53,45 @@ const tiers = [
     ],
   },
 ]
+const tiers = [
+  { name: 'Starter', id: 'tier-starter', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$69/mo', mostPopular: false },
+  { name: 'Growth', id: 'tier-growth', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$180/mo', mostPopular: true },
+  { name: 'Scale', id: 'tier-scale', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: 'Contact us', mostPopular: false },
+]
+const sections = [
+  {
+    name: 'Brand & Platform',
+    features: [
+      { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$2,400 *', Scale: 'Project-based' } },
+      { name: 'Branding', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'As needed' } },
+      { name: 'Customization help', tiers: { Starter: 'Self-serve', Growth: 'Template', Scale: 'Custom' } },
+      { name: 'User Authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
+      { name: 'Plugin License', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
+    ],
+  },
+  {
+    name: 'Reporting',
+    features: [
+      { name: 'Third-party Analytics', tiers: { Starter: 'Self-serve', Growth: 'GA4/GTM', Scale: 'Custom' } },
+      { name: 'Custom Dashboard', tiers: { Starter: '$50/hr', Growth: '$40/hr', Scale: 'On-demand' } },
+      { name: 'Custom Events Tracking', tiers: { Starter: '$50/hr', Growth: '$40/hr', Scale: 'As needed' } },
+    ],
+  },
+  {
+    name: 'Support',
+    features: [
+      { name: '1:1 onboarding tour', tiers: { Starter: true, Growth: true, Scale: true } },
+      { name: 'E-mail support', tiers: { Starter: true, Growth: 'Within 24 hrs', Scale: 'SLA-defined' } },
+      { name: 'Quarterly workshops', tiers: { Starter: false, Growth: true, Scale: 'As needed' } },
+      { name: 'Priority phone support', tiers: { Starter: false, Growth: false, Scale: true } },
+      { name: 'Design/Dev support', tiers: { Starter: '$40/hr', Growth: '$30/hr', Scale: 'As needed' } },
+    ],
+  },
+]
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 const faqs = [
   {
     question: "How does engagement with MarketGrowth looks like?",
@@ -59,19 +99,19 @@ const faqs = [
       "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on OpenCMX platfom - a collection of open source plugin ecosystem that works within Wordpress. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
   },
   {
-    question: "What does the $4,900 include and not include?",
+    question: "What does the Growth plan include? *",
     answer:
-      "The first engagement fee of $4,900 includes the design and build of your digital platform, which covers the following: Brand design and development on Wordpress using the BuddyBoss platform. Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance or plug-in licenses and additional features that may be required after the initial launch.",
+      "The setup fee of $2,400 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX - Wordpress . Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially when the project is launched and monthly thereafter.",
   },
   {
     question: "You mentioned design, is brand design included?",
     answer:
-      "Yes. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
+      "Yes for our Growth Plan. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
   },
   {
     question: "We already have a brand design, can you work with it?",
     answer:
-      "Yes. Your pricing drops to $3,500 for the build aspect of your digital garden. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
+      "Yes. Choose the starter plan. If you would like the Growth plan, the initial setup fee would be reduced to $1,400. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
   },
   {
     question: "How should I decide whether to build on open-source or third-party solutions like Thinkific or Gradual?",
@@ -81,7 +121,7 @@ const faqs = [
   {
     question: "I don't want to commit quite yet. Can I try it out?",
     answer:
-      "Yes. If you are planning to build your own Academy or University for your product knowledge base, we can host your first course and micro-community on the MarketGrowth CX community for $499. You can then experience the 'art of possible' for your own platform. This is a great way to test the waters and see how our platform works before making a larger commitment.",
+      "Yes. If you are seriously considering the Growth plan, we can stage a demo for you to see how it works in action or you can book a discovery call with us to discuss your requirements and goals.",
   },
   // More questions...
 ]
@@ -100,17 +140,16 @@ export default function PlatformPage() {
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">
             {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build a brand moat around your product or expertise</h2> */}
-            <h1 className="font-funnel-display mt-2 text-4xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
-             Build a community of ambassadors, learners&nbsp;and partners
+            <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
+             Serve and engage your ambassadors, learners&nbsp;and partners
             </h1>
-            <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-gray-300">
-            Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your community. 
-            In addition, brands with strong communities can reduce churn by up to 25% and increase customer lifetime value by up to 10–20%. Brands with engaged audience grow faster and stay ahead. </p>
-            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]">Power brand tip: Ask yourself, what can my audience use now that I can immediately launch. It can be a course to show your product or your expertise; or it can be a paid subscription to your exclusive content. <a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
+            <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
+            Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your engaged audience. </p>
+            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with pillar content. They can be thought leadership articles, product videos in a course format, or affinity groups of shared learning. Your portal can be paid or free, it's up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
         {/* Community screenshot section */}
-        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
+        <div className="max-w-7xl mx-auto flow-root py-12 px-8 pb-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
               alt="VirtualPro"
@@ -147,19 +186,19 @@ export default function PlatformPage() {
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         {/* Pricing section */}
         <div className="isolate overflow-hidden">
-          <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 pt-12 pb-20 text-center sm:pt-20 lg:px-8">
             <div className="mx-auto max-w-6xl">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Flexible pricing</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Done-for-you pricing</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
               Invest today, build a brand moat tomorrow
               </p>
             </div>
             <div className="relative mt-6">
-              <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-              We only take 3 new projects per month. Secure your spot today.
+              <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
+              Launch your community in an open-source platform stack you own and control. Choose an affordable plan that&apos;s packed with the best features including managed hosting, courses, group discussions, event calendar, gated downloads, blog posts, and more. All plans include all features, so you can start small and scale as you grow.
                 
               </p>
-              <svg
+              {/* <svg
                 viewBox="0 0 1208 1024"
                 className="absolute -top-10 left-1/2 -z-10 h-256 -translate-x-1/2 mask-[radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
               >
@@ -170,10 +209,170 @@ export default function PlatformPage() {
                     <stop offset={1} stopColor="#3a8e6d" />
                   </radialGradient>
                 </defs>
-              </svg>
+              </svg> */}
             </div>
+
+              {/* xs to lg */}
+              <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
+                {tiers.map((tier) => (
+                  <section
+                    key={tier.id}
+                    className={classNames(
+                      tier.mostPopular ? 'rounded-xl bg-white/5 ring-1 ring-white/10 ring-inset' : '',
+                      'p-8',
+                    )}
+                  >
+                    <h3 id={tier.id} className="text-left text-sm/6 font-semibold text-white">
+                      {tier.name}
+                    </h3>
+                    <p className="mt-2 flex items-baseline gap-x-1">
+                      <span className="text-4xl font-semibold text-white">{tier.priceMonthly}</span>
+                      {/* <span className="text-sm font-semibold text-gray-300">/month</span> */}
+                    </p>
+                    <a
+                      href={tier.href}
+                      aria-describedby={tier.id}
+                      className={classNames(
+                        tier.mostPopular
+                          ? 'bg-green-600 hover:bg-green-500 hover:text-white text-white focus-visible:outline-green-500'
+                          : 'bg-white/10 text-white hover:bg-green-600 focus-visible:outline-white',
+                        'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2',
+                      )}
+                    >
+                      Get started today
+                    </a>
+                    <ul role="list" className="mt-10 space-y-4 text-sm/6 text-white">
+                      {sections.map((section) => (
+                        <li key={section.name}>
+                          <ul role="list" className="space-y-4">
+                            {section.features.map((feature) =>
+                              feature.tiers[tier.name] ? (
+                                <li key={feature.name} className="flex gap-x-3">
+                                  <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-green-400" />
+                                  <span>
+                                    {feature.name}{' '}
+                                    {typeof feature.tiers[tier.name] === 'string' ? (
+                                      <span className="text-sm/6 text-gray-400">({feature.tiers[tier.name]})</span>
+                                    ) : null}
+                                  </span>
+                                </li>
+                              ) : null,
+                            )}
+                          </ul>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                ))}
+              </div>
+
+              {/* lg+ */}
+              <div className="isolate mt-20 hidden lg:block">
+                <div className="relative -mx-8">
+                  {tiers.some((tier) => tier.mostPopular) ? (
+                    <div className="absolute inset-x-4 inset-y-0 -z-10 flex">
+                      <div
+                        style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 25}%` }}
+                        aria-hidden="true"
+                        className="flex w-1/4 px-4"
+                      >
+                        <div className="w-full rounded-t-xl border-x border-t border-white/10 bg-white/5" />
+                      </div>
+                    </div>
+                  ) : null}
+                  <table className="w-full table-fixed border-separate border-spacing-x-8 text-left">
+                    <caption className="sr-only">Pricing plan comparison</caption>
+                    <colgroup>
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <td />
+                        {tiers.map((tier) => (
+                          <th key={tier.id} scope="col" className="px-6 pt-6 xl:px-8 xl:pt-8">
+                            <div className="text-sm/7 font-semibold text-white">{tier.name}</div>
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          <span className="sr-only">Price</span>
+                        </th>
+                        {tiers.map((tier) => (
+                          <td key={tier.id} className="px-6 pt-2 xl:px-8">
+                            <div className="flex items-baseline gap-x-1 text-white">
+                              <span className="text-4xl font-semibold">{tier.priceMonthly}</span>
+                              {/* <span className="text-sm/6 font-semibold">/month</span> */}
+                            </div>
+                            <a
+                              href={tier.href}
+                              className={classNames(
+                                tier.mostPopular
+                                  ? 'bg-green-600 hover:bg-green-500 hover:text-white focus-visible:outline-green-600'
+                                  : 'bg-white/10 hover:bg-white/20 focus-visible:outline-white',
+                                'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2',
+                              )}
+                            >
+                              Get started today
+                            </a>
+                          </td>
+                        ))}
+                      </tr>
+                      {sections.map((section, sectionIdx) => (
+                        <Fragment key={section.name}>
+                          <tr>
+                            <th
+                              scope="colgroup"
+                              colSpan={4}
+                              className={classNames(
+                                sectionIdx === 0 ? 'pt-8' : 'pt-16',
+                                'pb-4 text-sm/6 font-semibold text-white',
+                              )}
+                            >
+                              {section.name}
+                              <div className="absolute inset-x-8 mt-4 h-px bg-white/10" />
+                            </th>
+                          </tr>
+                          {section.features.map((feature) => (
+                            <tr key={feature.name}>
+                              <th scope="row" className="py-4 text-sm/6 font-normal text-white">
+                                {feature.name}
+                                <div className="absolute inset-x-8 mt-4 h-px bg-white/5" />
+                              </th>
+                              {tiers.map((tier) => (
+                                <td key={tier.id} className="px-6 py-4 xl:px-8">
+                                  {typeof feature.tiers[tier.name] === 'string' ? (
+                                    <div className="text-center text-sm/6 text-gray-300">{feature.tiers[tier.name]}</div>
+                                  ) : (
+                                    <>
+                                      {feature.tiers[tier.name] === true ? (
+                                        <CheckIcon aria-hidden="true" className="mx-auto size-5 text-green-400" />
+                                      ) : (
+                                        <MinusIcon aria-hidden="true" className="mx-auto size-5 text-gray-500" />
+                                      )}
+
+                                      <span className="sr-only">
+                                        {feature.tiers[tier.name] === true ? 'Included' : 'Not included'} in {tier.name}
+                                      </span>
+                                    </>
+                                  )}
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </Fragment>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
           </div>
-          <div className="flow-root pb-16 sm:pb-24">
+          {/* <div className="flow-root pb-16 sm:pb-24">
             <div className="-mt-80">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -226,7 +425,7 @@ export default function PlatformPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
           <div className="isolate overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pt-24 pb-12">
@@ -264,12 +463,15 @@ export default function PlatformPage() {
                   /> */}
                   <div className="w-full flex-auto">
                     <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
-                      If not today, when?
+                      Why choose us?
                     </h2>
-                    <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-                      Your brand is the most valuable asset you have. AI is taking over knowledge discovery. Leverage community-led growth and content publishing to build you business moat. Use agent-led GTM to automate and scale your business.
+                    <p className="mt-6 text-lg/8 text-pretty">
+                        You should choose us if you&apos;re looking for a partner, not just a provider.
+                        Most agencies do the job. We focus on outcomes, like more brand engagement, efficient AI automation, or better customer experience, whatever moves the needle for your business.
+                        <br /><br />
+                        We don&apos;t lock you into a cookie-cutter process. We come in, understand your challenges deeply, and build solutions that actually fit. And we stay accountable, from strategy to execution to results.
                     </p>
-                    <ul
+                    {/* <ul
                       role="list"
                       className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-gray-200 sm:grid-cols-2"
                     >
@@ -279,7 +481,7 @@ export default function PlatformPage() {
                           {benefit}
                         </li>
                       ))}
-                    </ul>
+                    </ul> */}
                     <div className="mt-10 flex">
                       <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
                         Book a free discovery call
