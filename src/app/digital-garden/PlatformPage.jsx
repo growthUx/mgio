@@ -145,7 +145,7 @@ export default function PlatformPage() {
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
             Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your engaged audience. </p>
-            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with pillar content. They can be thought leadership articles, product videos in a course format, or affinity groups of shared learning. Your portal can be paid or free, it's up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
+            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with pillar content. They can be thought leadership articles, product videos in a course format, or affinity groups of shared learning. Your portal can be paid or free, it&apos;s up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
         {/* Community screenshot section */}
