@@ -194,8 +194,8 @@ export default function PlatformPage() {
               </p>
             </div>
             <div className="relative mt-6">
-              <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
-              Launch your community in an open-source platform stack you own and control. Choose an affordable plan that&apos;s packed with the best features including managed hosting, courses, group discussions, event calendar, gated downloads, blog posts, and more. All plans include all features, so you can start small and scale as you grow.
+              <p className="mt-6 max-w-4xl mx-auto text-md sm:text-lg/8">
+              Choose how you want to build an audience, either with open-source or third-pary SaaS. For open-source solutions, choose the Starter or Growth plan below that&apos;s packed with the best features including managed hosting, courses, group discussions, event calendar, gated downloads, blog posts, and more. All plans include all features, so you can start small and scale as you grow.
                 
               </p>
               {/* <svg
@@ -231,6 +231,7 @@ export default function PlatformPage() {
                     </p>
                     <a
                       href={tier.href}
+                      target="_blank"
                       aria-describedby={tier.id}
                       className={classNames(
                         tier.mostPopular
@@ -311,6 +312,7 @@ export default function PlatformPage() {
                             </div>
                             <a
                               href={tier.href}
+                              target="_blank"
                               className={classNames(
                                 tier.mostPopular
                                   ? 'bg-green-600 hover:bg-green-500 hover:text-white focus-visible:outline-green-600'
