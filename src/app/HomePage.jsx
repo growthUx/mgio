@@ -217,7 +217,7 @@ export default function HomePage() {
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Inbound- and community-led GTM Platform</h2>
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Founder- and community-led GTM Platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Enable and encourage visitor engagement with your brand&apos;s digital garden
             </p>
