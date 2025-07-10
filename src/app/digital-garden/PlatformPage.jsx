@@ -65,17 +65,17 @@ const sections = [
       { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$2,400 *', Scale: 'Project-based' } },
       { name: 'Branding', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'As needed' } },
       { name: 'Customization help', tiers: { Starter: 'Self-serve', Growth: 'Template', Scale: 'Custom' } },
-      { name: 'User Authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
-      { name: 'Plugin License', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
-      { name: 'Pricing Locked-in', tiers: { Starter: '1 year', Growth: '2 years; paid annually *', Scale: 'Project-based' } },
+      { name: 'User authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
+      { name: 'Plugin licensing', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
+      { name: 'Contract term', tiers: { Starter: '1 year', Growth: '2 years; paid annually *', Scale: 'Project-based' } },
     ],
   },
   {
     name: 'Reporting',
     features: [
-      { name: 'Third-party Analytics', tiers: { Starter: 'Self-serve', Growth: 'GA4/GTM', Scale: 'Custom' } },
-      { name: 'Custom Dashboard', tiers: { Starter: '$50/hr', Growth: 'Up to 2 pages', Scale: 'On-demand' } },
-      { name: 'Custom Events Tracking', tiers: { Starter: '$50/hr', Growth: 'Up to 4 events', Scale: 'As needed' } },
+      { name: 'Third-party analytics', tiers: { Starter: 'Self-serve', Growth: 'GA4/GTM', Scale: 'Custom' } },
+      { name: 'Custom dashboard', tiers: { Starter: '$50/hr', Growth: 'Up to 2 pages', Scale: 'On-demand' } },
+      { name: 'Custom events tracking', tiers: { Starter: '$50/hr', Growth: 'Up to 4 events', Scale: 'As needed' } },
     ],
   },
   {
