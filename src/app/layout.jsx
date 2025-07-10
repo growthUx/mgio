@@ -7,6 +7,7 @@ import GoogleTagManager from '@/components/GoogleTagManager'
 import Nav from '@/components/Nav'
 
 import '@/styles/tailwind.css'
+import TrustPilot from '@/components/TrustPilot'
 
 const inter = Inter({
   subsets: ['latin'],

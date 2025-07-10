@@ -55,7 +55,7 @@ const recentPosts = [
 export default function Nav() {
   return (
     <Popover className="relative isolate z-50">
-      <nav className="py-5">
+      <nav className="py-6">
         <div className="flex mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex mt-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -63,11 +63,11 @@ export default function Nav() {
               <img
                 alt="MarketGrowth"
                 src="/images/logo-white.svg"
-                className="w-[160px] h-auto"
+                className="w-[180px] h-auto"
               />
             </a>
           </div>
-          <PopoverButton className="flex items-center gap-x-1 ml-10 text-sm/6 font-semibold text-[#f5f5f5] focus-visible:outline-none">
+          <PopoverButton className="flex items-center gap-x-1 mt-1 ml-10 text-sm/6 font-semibold text-[#f5f5f5] focus-visible:outline-none">
             Solutions
             <ChevronDownIcon aria-hidden="true" className="size-5" />
           </PopoverButton>

@@ -33,7 +33,7 @@ const cards = [
   },
   {
     name: 'Segment -> BigQuery ',
-    description: 'Collect, unify, and send customer data to all your tools; ensuring consistent insights across your marketing, analytics, and CRM.',
+    description: 'Collect, unify, and send customer data to all your tools; ensuring consistent insights across your campaigns.',
     icon: LifebuoyIcon,
   },
   {
@@ -116,8 +116,8 @@ export default function HomePage() {
               </div>
               <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We craft engaging digital experience and AI-powered solutions for your audience so you can win them as customers.</h2>
-              <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              As a technical partner, we work with founders and fast growing teams to design+build their digital engagement platform and implement AI agents to grow and scale. </p>
+              {/* <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
+              As a technical partner, we work with founders and fast growing teams to design+build their digital engagement platform and implement AI agents to grow and scale. </p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
@@ -219,7 +219,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-4xl sm:text-center">
             <h2 className="text-base/7 font-semibold text-[#40C1AC]">Founder- and community-led GTM Platform</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Enable and encourage visitor engagement with your brand&apos;s digital garden
+              Enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
               Launch a digital engagement platform with features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, and groups. <br />
@@ -276,7 +276,7 @@ export default function HomePage() {
               <h2 className="text-base/7 font-semibold text-[#40C1AC] mb-2">Analytics and Reporting</h2>
               <h3 className="text-2xl font-semibold tracking-tight text-white sm:text-4xl">Measure. Improve. Market growth.</h3>
               <p className="mt-8 text-lg text-pretty text-[#f5f5f5] sm:text-lg/8">
-              Discover how well campaigns work by using data-driven analysis to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the key solutions we recommend:
+              Discover how well campaigns work by using data-driven analysis to monitor user behavior, engagement, and conversions across your platform.<br /><br />Here are some of the analytics tools we can implement for you:
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
