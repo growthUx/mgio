@@ -67,14 +67,15 @@ const sections = [
       { name: 'Customization help', tiers: { Starter: 'Self-serve', Growth: 'Template', Scale: 'Custom' } },
       { name: 'User Authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
       { name: 'Plugin License', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
+      { name: 'Pricing Locked-in', tiers: { Starter: '1 year', Growth: '2 years; paid annually *', Scale: 'Project-based' } },
     ],
   },
   {
     name: 'Reporting',
     features: [
       { name: 'Third-party Analytics', tiers: { Starter: 'Self-serve', Growth: 'GA4/GTM', Scale: 'Custom' } },
-      { name: 'Custom Dashboard', tiers: { Starter: '$50/hr', Growth: '$40/hr', Scale: 'On-demand' } },
-      { name: 'Custom Events Tracking', tiers: { Starter: '$50/hr', Growth: '$40/hr', Scale: 'As needed' } },
+      { name: 'Custom Dashboard', tiers: { Starter: '$50/hr', Growth: 'Up to 2 pages', Scale: 'On-demand' } },
+      { name: 'Custom Events Tracking', tiers: { Starter: '$50/hr', Growth: 'Up to 4 events', Scale: 'As needed' } },
     ],
   },
   {
@@ -84,7 +85,7 @@ const sections = [
       { name: 'E-mail support', tiers: { Starter: true, Growth: 'Within 24 hrs', Scale: 'SLA-defined' } },
       { name: 'Quarterly workshops', tiers: { Starter: false, Growth: true, Scale: 'As needed' } },
       { name: 'Priority phone support', tiers: { Starter: false, Growth: false, Scale: true } },
-      { name: 'Design/Dev support', tiers: { Starter: '$40/hr', Growth: '$30/hr', Scale: 'As needed' } },
+      { name: 'Post-launch support', tiers: { Starter: '$40/hr', Growth: '2hrs/mo', Scale: 'As needed' } },
     ],
   },
 ]
@@ -101,7 +102,7 @@ const faqs = [
   {
     question: "What does the Growth plan include? *",
     answer:
-      "The setup fee of $2,400 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX - Wordpress . Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially when the project is launched and monthly thereafter.",
+      "The setup fee of $2,400 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX on Wordpress platform. (2) Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially right after the project is launched.",
   },
   {
     question: "You mentioned design, is brand design included?",
@@ -122,6 +123,11 @@ const faqs = [
     question: "I don't want to commit quite yet. Can I try it out?",
     answer:
       "Yes. If you are seriously considering the Growth plan, we can stage a demo for you to see how it works in action or you can book a discovery call with us to discuss your requirements and goals.",
+  },
+  {
+    question: "If I choose OpenCMX on Wordpress, will I be locked-in to MarketGrowth?",
+    answer:
+      "No. After the first year, you can choose to migrate out of our DFY service. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
   },
   // More questions...
 ]
@@ -158,7 +164,7 @@ export default function PlatformPage() {
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro - a talent discovery platform built on social network, job board, and learning experience.</div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro.ph - a talent discovery platform. Uses courses, social network, forums, groups, blog posts and events. <a href="https://virtualpro.ph" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
           </div>
         </div>
         {/* Content section */}
@@ -222,7 +228,7 @@ export default function PlatformPage() {
                       'p-8',
                     )}
                   >
-                    <h3 id={tier.id} className="text-left text-sm/6 font-semibold text-white">
+                    <h3 id={tier.id} className="text-left text-md/6 font-semibold text-white">
                       {tier.name}
                     </h3>
                     <p className="mt-2 flex items-baseline gap-x-1">
