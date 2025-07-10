@@ -114,10 +114,10 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty text-[#F5F5F5] sm:text-6xl pr-4">We are a DX<span className="text-[#40C1AC]">+</span>AI Lab</h1> 
-              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We work with founders and fast growing teams to launch customer engagement and AI automation solutions.</h2>
+              <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
+              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We work with founders and fast growing teams to launch engaging digital experiences and AI-powered GTM.</h2>
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-lg/8 sm:mx-0">
-              Lean on us as your technical GTM partner, to build your digital engagement platform and implement AI agents to grow your business. </p>
+              As a technical partner, we&apos;ll build your digital engagement platform and implement AI agents to grow your business. </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
