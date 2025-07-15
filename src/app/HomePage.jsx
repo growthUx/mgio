@@ -115,9 +115,9 @@ export default function HomePage() {
                 </a>
               </div>
               <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
-              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We craft engaging digital experience and AI-powered solutions for your audience so you can win them as customers.</h2>
+              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build an engaging brand online to captivate their audience so they can win them as customers.</h2>
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              As a technical partner, we work with founders and fast growing teams to build digital gardens and AI agents that are designed to grow with you. </p>
+              As a technical partner, we build digital gardens and AI agents that are designed to scale and grow with you. </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
@@ -125,7 +125,7 @@ export default function HomePage() {
                 >
                   Get a free consult
                 </a>
-                <a href="#ai-automation" className="text-sm/6 font-semibold text-white">
+                <a href="/digital-garden" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -139,7 +139,7 @@ export default function HomePage() {
                   height={1442}
                   className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-60 hover:opacity-100"
                 />
-                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth CX: Agentic GTM Resource Hub</div>
+                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth.cx: Founder- and Agent-led GTM community</div>
               </div>
             </div>
           </div>

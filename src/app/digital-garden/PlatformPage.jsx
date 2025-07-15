@@ -54,9 +54,9 @@ const tiers1 = [
   },
 ]
 const tiers = [
-  { name: 'Starter', id: 'tier-starter', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$69/mo', mostPopular: false },
-  { name: 'Growth', id: 'tier-growth', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$180/mo', mostPopular: true },
-  { name: 'Scale', id: 'tier-scale', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: 'Contact us', mostPopular: false },
+  { name: 'Starter', id: 'tier-starter', cta: 'Buy this plan', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$39/mo', mostPopular: false },
+  { name: 'Growth', id: 'tier-growth', cta: 'Book a demo today', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$180/mo', mostPopular: true },
+  { name: 'Scale', id: 'tier-scale', cta: 'Get a free consult', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: 'Contact us', mostPopular: false },
 ]
 const sections = [
   {
@@ -64,10 +64,10 @@ const sections = [
     features: [
       { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$2,400 *', Scale: 'Project-based' } },
       { name: 'Branding', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'As needed' } },
-      { name: 'Customization help', tiers: { Starter: 'Self-serve', Growth: 'Template', Scale: 'Custom' } },
+      { name: 'Customization help', tiers: { Starter: 'Template - Self-serve', Growth: 'Template - DFY', Scale: 'Custom' } },
       { name: 'User authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
       { name: 'Plugin licensing', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
-      { name: 'Contract term', tiers: { Starter: '1 year', Growth: '2 years; paid annually *', Scale: 'Project-based' } },
+      { name: 'Contract term', tiers: { Starter: '1 year', Growth: '1 year', Scale: 'Project-based' } },
     ],
   },
   {
@@ -127,7 +127,12 @@ const faqs = [
   {
     question: "If I choose OpenCMX on Wordpress, will I be locked-in to MarketGrowth?",
     answer:
-      "No. After the first year, you can choose to migrate out of our DFY service. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
+      "No. After the first year, you can choose to migrate out of our DFY service. If you are on the Growth plan, you can opt to downgrade to the Starter plan. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
+  },
+  {
+    question: "Do you have a work example of the template you will use for the Starter and Growth plan?",
+    answer:
+      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also subscribe to the MarketGrowth.cx community to see how we use the same template as a resource hub for Founder and Agentic GTM.",
   },
   // More questions...
 ]
@@ -150,8 +155,8 @@ export default function PlatformPage() {
              Serve and engage your ambassadors, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
-            Building a trusted audience gives you a big head start on customer acquisition. The secret is that you have to start now. The earlier you start, the more you&apos;ll benefit from the network effects of your engaged audience. </p>
-            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with pillar content. They can be thought leadership articles, product videos in a course format, or affinity groups of shared learning. Your portal can be paid or free, it&apos;s up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
+            Captivate your trusted audience to give yourself a head start on customer acquisition. Benefit from the compounding power of network effects by using your content effectively, posted to various social networks AND in your own platform. </p>
+            <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with PILLAR content. They can be in the form of thought leadership articles, product or interview videos, courses, or forums within affinity groups. Your portal can be paid or free, it&apos;s up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
         {/* Community screenshot section */}
@@ -246,7 +251,7 @@ export default function PlatformPage() {
                         'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2',
                       )}
                     >
-                      Get started today
+                      {tier.cta}
                     </a>
                     <ul role="list" className="mt-10 space-y-4 text-sm/6 text-white">
                       {sections.map((section) => (
@@ -326,7 +331,7 @@ export default function PlatformPage() {
                                 'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2',
                               )}
                             >
-                              Get started today
+                              {tier.cta}
                             </a>
                           </td>
                         ))}

@@ -11,6 +11,7 @@ import {
   ShieldCheckIcon,
   UserGroupIcon,
   UsersIcon,
+  UserIcon,
   VideoCameraIcon,
 } from '@heroicons/react/24/outline'
 
@@ -19,10 +20,12 @@ const engagement = [
   { name: 'Digital Engagement', target: "_self", href: '/digital-garden', icon: UsersIcon },
   { name: 'Analytics & Reporting', target: "_self", href: '/#analytics-reporting', icon: ChartBarSquareIcon },
 ]
+const persona = [
+  { name: 'For Founders', target: "_self", href: '/for-founders', icon: UserIcon },
+  { name: 'For GTM Teams', target: "_self", href: '/for-growing-teams', icon: UserGroupIcon },
+]
 const resources = [
-  { name: 'Agentic GTM Resources', target: "_blank", href: 'https://marketgrowth.cx/resources', icon: UserGroupIcon },
-  { name: 'Agentic GTM Academy', target: "_blank", href: 'https://marketgrowth.cx/courses', icon: AcademicCapIcon },
-  { name: 'Brand Guideline', target: "_blank", href: 'http://localhost:3000/brand/MarketGrowthStyleGuide.pdf', icon: BookOpenIcon },
+  { name: 'Resource Library', target: "_blank", href: 'https://marketgrowth.cx/resources', icon: BookOpenIcon }
 ]
 const recentPosts = [
   {
@@ -73,7 +76,7 @@ export default function Nav() {
           </PopoverButton>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
-            Agentic GTM Resource Hub <span aria-hidden="true">&rarr;</span>
+            AI GTM Community <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>
@@ -86,7 +89,7 @@ export default function Nav() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-10 px-6 py-10 lg:grid-cols-2 lg:px-8">
           <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
             <div>
-              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Done-for-you</h3>
+              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Services & Pricing</h3>
               <div className="mt-6 flow-root">
                 <div className="-my-2">
                   {engagement.map((item) => (
@@ -104,8 +107,23 @@ export default function Nav() {
               </div>
             </div>
             <div>
-              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Resources</h3>
+              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Use Case</h3>
               <div className="mt-6 flow-root">
+                <div className="-my-2">
+                  {persona.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      target={item.target}
+                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[#f5f5f5]"
+                    >
+                      <item.icon aria-hidden="true" className="size-6 flex-none text-gray-400" />
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6 flow-root border-t border-green-200 mr-2 sm:mr-12 pt-6">
                 <div className="-my-2">
                   {resources.map((item) => (
                     <a
