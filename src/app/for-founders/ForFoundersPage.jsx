@@ -117,9 +117,9 @@ const faqs = [
       "Yes. Choose the starter plan. If you would like the Growth plan, the initial setup fee would be reduced to $1,400. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
   },
   {
-    question: "How should I decide whether to build on open-source or third-party solutions like Thinkific or Gradual?",
+    question: "How should I decide whether to build on open-source or third-party solutions like Gradual?",
     answer:
-      "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources: Open-source solutions may require more technical expertise and resources to set up and maintain, while third-party solutions may have higher upfront costs but offer more out-of-the-box features. (2) Your long-term goals: If you plan to scale your platform and add more features over time, open-source solutions may offer more flexibility and customization options. (3) Your team's expertise: If your team has experience with open-source technologies, it may be easier to build on those solutions. If not, a third-party solution may be a better fit. Regardless, we can help you decide which option is best for your needs and goals.",
+      "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources, (2) Your long-term goals, (3) Your team's expertise. Regardless of these factors, we can help. If you would like to consider Gradual as your platform, choose the Scale plan on our pricing matrix.",
   },
   {
     question: "I don't want to commit quite yet. Can I try it out?",
@@ -129,7 +129,7 @@ const faqs = [
   {
     question: "If I choose OpenCMX on Wordpress, will I be locked-in to MarketGrowth?",
     answer:
-      "No. After the first year, you can choose to migrate out of our DFY service. If you are on the Growth plan, you can opt to downgrade to the Starter plan. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
+      "Not forever. After the first year, you can choose to migrate out of our DFY service. If you are on the Growth plan, you can opt to downgrade to the Starter plan. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
   },
   {
     question: "Do you have a work example of the template you will use for the Starter and Growth plan?",
