@@ -200,7 +200,7 @@ export default function ForFoundersPage() {
               </div>
               <div className="max-w-xl text-base/7 text-[#f5f5f5] lg:col-span-7">
                 <p>
-                As a founder, you are your company&apos;s earliest and strongest signal to the market. Long before your product reaches maturity, your personal brand is already shaping how customers, investors, and future employees perceive your business. Yet too many founders treat personal branding as an afterthought, waiting until "the company is bigger." <br /><br /><strong>But the reality is clear:</strong>
+                As a founder, you are your company&apos;s earliest and strongest signal to the market. Long before your product reaches maturity, your personal brand is already shaping how customers, investors, and future employees perceive your business. Yet too many founders treat personal branding as an afterthought, waiting until &quot;the company is bigger.&quot; <br /><br /><strong>But the reality is clear:</strong>
                 </p>
                 <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
                   <li className="flex gap-x-3">
@@ -307,7 +307,7 @@ export default function ForFoundersPage() {
                   </ul>
                   <h3 className="text-xl font-semibold mt-8">The Cost of Waiting</h3>
                   <p className="mt-6">
-                  The biggest mistake founders make? Waiting for the "right time" to start building their personal brand. But personal brands grow like gardens &mdash; they require time, consistent care, and space to flourish.<br /><br /> If you wait until your company is "big enough," you miss the compound effects that early investment brings:
+                  The biggest mistake founders make? Waiting for the &quot;right time&quot; to start building their personal brand. But personal brands grow like gardens &mdash; they require time, consistent care, and space to flourish.<br /><br /> If you wait until your company is "big enough," you miss the compound effects that early investment brings:
                   </p>
                   <ul role="list" className="list-disc mt-6 max-w-xl pl-4 space-y-4 text-[#f5f5f5]">
                     <li>Organic search traffic takes months to build authority.</li>
