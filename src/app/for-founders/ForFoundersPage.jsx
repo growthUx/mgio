@@ -307,7 +307,7 @@ export default function ForFoundersPage() {
                   </ul>
                   <h3 className="text-xl font-semibold mt-8">The Cost of Waiting</h3>
                   <p className="mt-6">
-                  The biggest mistake founders make? Waiting for the &quot;right time&quot; to start building their personal brand. But personal brands grow like gardens &mdash; they require time, consistent care, and space to flourish.<br /><br /> If you wait until your company is "big enough," you miss the compound effects that early investment brings:
+                  The biggest mistake founders make? Waiting for the &quot;right time&quot; to start building their personal brand. But personal brands grow like gardens &mdash; they require time, consistent care, and space to flourish.<br /><br /> If you wait until your company is &quot;big enough,&quot; you miss the compound effects that early investment brings:
                   </p>
                   <ul role="list" className="list-disc mt-6 max-w-xl pl-4 space-y-4 text-[#f5f5f5]">
                     <li>Organic search traffic takes months to build authority.</li>
