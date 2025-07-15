@@ -1,14 +1,14 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Fragment } from 'react'
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
   AcademicCapIcon,
   BookOpenIcon,
+  ChatBubbleLeftIcon,
   CheckCircleIcon,
   CheckIcon,
-  ChatBubbleLeftIcon,
   HandRaisedIcon,
   RocketLaunchIcon,
   SparklesIcon,
@@ -24,70 +24,117 @@ import {
   LockClosedIcon,
   ServerIcon,
   ChevronRightIcon,
+  MinusIcon,
   MinusSmallIcon,
   PlusSmallIcon
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 
-const tiers = [
+const tiers1 = [
   {
-    name: 'Design+Build Plan',
-    id: 'tier-growth',
+    name: '0 to 1 Plan',
+    id: 'tier-solo',
     href: 'https://meetings.hubspot.com/victor-ramayrat',
-    price: '$3,000',
-    description: 'Starting at $3,000, this plan is the technical implementation of your predefined GTM and sales workflow. Subject to scope, priced at $800 per day. ',
-    features: ['AI Prompt Design', 'Tools integration', 'Automation workflow builds', 'Testing' ],
+    price: '$4,900',
+    description: 'One-time design+build fee. Launch your own subscription-based website with community, courses, and digital downloads.',
+    features: ['Secure open source platform', 'Custom brand design & build', 'Courses & Groups', 'Forums and Downloads', 'Community & Memberships' ],
   },
   {
-    name: 'Manage Plan',
-    id: 'tier-manage',
+    name: 'Augment Plan',
+    id: 'tier-team',
     href: 'https://meetings.hubspot.com/victor-ramayrat',
-    price: '$500/mo',
-    description: 'Manage and maintain your AI automation with our ongoing support plan. This includes regular updates, monitoring, and optimization to ensure your system runs smoothly.',
+    price: 'Contact us',
+    description: 'Hire us as a technical partner for your marketing lead or growth team to implement community-led growth motion. Build on a SaaS platform (like Gradual) or use open source.',
     features: [
-      'Automation fault monitoring',
-      'Bug fixes and refinement',
-      'Minor adjustments to prompts and templates',
-      'Consult for new use cases',
+      'Create your brand academy',
+      'Facilitate online-offline events',
+      'Publish gated and exclusive content',
+      'Build a knowledge based that AI agents can use',
+      'Know your audience with sign-ups and profiles',
     ],
   },
 ]
+const tiers = [
+  { name: 'Starter', id: 'tier-starter', cta: 'Buy this plan', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$39/mo', mostPopular: false },
+  { name: 'Growth', id: 'tier-growth', cta: 'Book a demo today', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: '$180/mo', mostPopular: true },
+  { name: 'Scale', id: 'tier-scale', cta: 'Get a free consult', href: 'https://meetings.hubspot.com/victor-ramayrat', priceMonthly: 'Contact us', mostPopular: false },
+]
+const sections = [
+  {
+    name: 'Brand & Platform',
+    features: [
+      { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$2,400 *', Scale: 'Project-based' } },
+      { name: 'Branding', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'As needed' } },
+      { name: 'Customization help', tiers: { Starter: 'Template - Self-serve', Growth: 'Template - DFY', Scale: 'Custom' } },
+      { name: 'User authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
+      { name: 'Plugin licensing', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'Custom' } },
+      { name: 'Contract term', tiers: { Starter: '1 year', Growth: '1 year', Scale: 'Project-based' } },
+    ],
+  },
+  {
+    name: 'Reporting',
+    features: [
+      { name: 'Third-party analytics', tiers: { Starter: 'Self-serve', Growth: 'GA4/GTM', Scale: 'Custom' } },
+      { name: 'Custom dashboard', tiers: { Starter: '$50/hr', Growth: 'Up to 2 pages', Scale: 'On-demand' } },
+      { name: 'Custom events tracking', tiers: { Starter: '$50/hr', Growth: 'Up to 4 events', Scale: 'As needed' } },
+    ],
+  },
+  {
+    name: 'Support',
+    features: [
+      { name: '1:1 onboarding tour', tiers: { Starter: true, Growth: true, Scale: true } },
+      { name: 'E-mail support', tiers: { Starter: true, Growth: 'Within 24 hrs', Scale: 'SLA-defined' } },
+      { name: 'Quarterly workshops', tiers: { Starter: false, Growth: true, Scale: 'As needed' } },
+      { name: 'Priority phone support', tiers: { Starter: false, Growth: false, Scale: true } },
+      { name: 'Post-launch support', tiers: { Starter: '$40/hr', Growth: '2hrs/mo', Scale: 'As needed' } },
+    ],
+  },
+]
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 const faqs = [
   {
-    question: "How can AI automation services help my business grow?",
+    question: "How does engagement with MarketGrowth looks like?",
     answer:
-      "MarketGrowth helps businesses save time, reduce costs, and accelerate growth by automating repetitive tasks and complex workflows using advanced AI tools. Whether you’re looking to streamline lead generation, personalize customer engagement, analyze data faster, or improve operational efficiency, our team designs tailored AI solutions that fit your unique needs. The result? More focus on high-value work and measurable impact on your bottom line.",
+      "Once you've started engagement by paying 50% of total fee, we will schedule a discovery call to understand your requirements and goals. We will then design and build your digital platform on OpenCMX platfom - a collection of open source plugin ecosystem that works within Wordpress. This includes setting up courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. After the initial launch, we can discuss ongoing support and maintenance options.",
   },
   {
-    question: "What types of processes can be automated with your AI services?",
+    question: "What does the Growth plan include? *",
     answer:
-      "We help automate a wide range of business functions, including sales outreach, customer support chatbots, marketing campaign workflows, data extraction and analysis, document processing, lead scoring, CRM updates, reporting, and more. If a process involves repetitive steps or large volumes of data, there’s a strong chance we can automate it.",
+      "The setup fee of $2,400 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX on Wordpress platform. (2) Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially right after the project is launched.",
   },
   {
-    question: "Do I need to have AI expertise to work with MarketGrowth",
+    question: "You mentioned design, is brand design included?",
     answer:
-      "Not at all. We handle the technical complexity for you. Our team translates your business goals into AI-powered workflows and systems, and we provide training and support so your team can easily manage the solutions we build. Management and optimization are also part of our service, so you can focus on your core business while we ensure your AI systems run smoothly.",
+      "Yes for our Growth Plan. We are firm believers that design is a key part of the user experience. We will work with you to create a custom brand design that reflects your vision and values. This includes logo design, color palette, typography, and overall visual style. Our goal is to create a cohesive and engaging digital platform that resonates with your audience. A copy of MarketGrowth brand guidelines will be provided to you as a reference output (also linked at the footer).",
   },
   {
-    question: "What technologies and tools do you use for AI automation?",
+    question: "We already have a brand design, can you work with it?",
     answer:
-      "We work with leading AI platforms and tools, including OpenAI’s GPT models, natural language processing (NLP) frameworks, machine learning libraries like TensorFlow and PyTorch, robotic process automation (RPA) tools, and integrations with platforms like Zapier, n8n, Make.com, and enterprise APIs. Our approach is flexible to match your tech stack and security requirements.",
+      "Yes. Choose the starter plan. If you would like the Growth plan, the initial setup fee would be reduced to $1,400. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
   },
   {
-    question: "Is my data safe when using AI automation?",
+    question: "How should I decide whether to build on open-source or third-party solutions like Thinkific or Gradual?",
     answer:
-      "Absolutely. Data privacy and security are top priorities for MarketGrowth.io. We follow strict data handling practices, comply with relevant regulations like GDPR, and can deploy solutions on-premises or in your private cloud to meet enterprise security standards.",
+      "There are many factors to consider when deciding whether to build on open-source or third-party solutions. Some of the key factors include: (1) Your budget and resources: Open-source solutions may require more technical expertise and resources to set up and maintain, while third-party solutions may have higher upfront costs but offer more out-of-the-box features. (2) Your long-term goals: If you plan to scale your platform and add more features over time, open-source solutions may offer more flexibility and customization options. (3) Your team's expertise: If your team has experience with open-source technologies, it may be easier to build on those solutions. If not, a third-party solution may be a better fit. Regardless, we can help you decide which option is best for your needs and goals.",
   },
   {
-    question: "How long does it take to implement an AI automation project?",
+    question: "I don't want to commit quite yet. Can I try it out?",
     answer:
-      "Project timelines vary depending on complexity. Simple automations can be delivered in a few weeks, while more advanced, custom solutions may take several months. We start with a discovery phase to define scope and provide clear timelines and milestones.",
+      "Yes. If you are seriously considering the Growth plan, we can stage a demo for you to see how it works in action or you can book a discovery call with us to discuss your requirements and goals.",
   },
   {
-    question: "Can you integrate AI automation with our existing systems?",
+    question: "If I choose OpenCMX on Wordpress, will I be locked-in to MarketGrowth?",
     answer:
-      "Yes. Integration is a key part of our service. We build solutions that work seamlessly with CRMs, ERPs, marketing platforms, data warehouses, customer support tools, and other systems you already use, ensuring minimal disruption to your current workflows.",
+      "No. After the first year, you can choose to migrate out of our DFY service. If you are on the Growth plan, you can opt to downgrade to the Starter plan. Like any Wordpress website, migration out is straightforward. You can export your content, users, and data from the platform and import it into another system. We will provide you with the necessary tools and support to ensure a smooth transition.",
+  },
+  {
+    question: "Do you have a work example of the template you will use for the Starter and Growth plan?",
+    answer:
+      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also subscribe to the MarketGrowth.cx community to see how we use the same template as a resource hub for Founder and Agentic GTM.",
   },
   // More questions...
 ]
@@ -103,7 +150,7 @@ export default function ForFoundersPage() {
   return (
     <div className="bg-[#1D3c34]">
       <main className="relative isolate">
-        <div className="overflow-hidden pt-16 pb-20 sm:py-16">
+      <div className="overflow-hidden pt-16 pb-20 sm:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <p className="text-base/7 font-semibold text-[#40C1AC]">For Founders</p>
@@ -172,7 +219,7 @@ export default function ForFoundersPage() {
               </div>
             </div>
             <h3 className="mt-12 mb-6 text-2xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-3xl">The Digital Garden: The foundation for your founder brand</h3>
-            <p className="max-w-4xl">A personal brand can&apos;t thrive in rented spaces alone. Social platforms are valuable, but they&apos;re algorithms you can&apos;t control. That&apos;s why we believe in helping founders build their own <strong>Digital Garden</strong> — an online engagement platform designed to house your ideas, your expertise, and your unique story.<br /><br />Think of it as your home base for:
+            <p className="max-w-4xl text-[#f5f5f5]">A personal brand can&apos;t thrive in rented spaces alone. Social platforms are valuable, but they&apos;re algorithms you can&apos;t control. That&apos;s why we believe in helping founders build their own <strong>Digital Garden</strong> — an online engagement platform designed to house your ideas, your expertise, and your unique story.<br /><br />Think of it as your home base for:
             </p>
             <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
               <li className="flex gap-x-3">
@@ -291,26 +338,22 @@ export default function ForFoundersPage() {
             </div>
           </div>
         </div>
-
-
-
-
-        
         <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
         {/* Pricing section */}
         <div className="isolate overflow-hidden">
-          <div className="mx-auto max-w-7xl px-6 pt-12 pb-96 text-center sm:pt-20 lg:px-8">
-            <div className="mx-auto max-w-4xl">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Flexible pricing plans</h2>
-              <p className="mt-2 text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
-              Run your business smarter with AI
+          <div className="mx-auto max-w-7xl px-6 pt-12 pb-20 text-center sm:pt-20 lg:px-8">
+            <div className="mx-auto max-w-6xl">
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Done-for-you pricing</h2>
+              <p className="mt-2 text-2xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+              Invest today, build a brand moat tomorrow
               </p>
             </div>
-            <div className="relative mt-2">
-              <p className="mx-auto max-w-2xl text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Flexible pricing plan that&apos;s focused on your success.
+            <div className="relative mt-6">
+              <p className="mt-6 text-[#f5f5f5] max-w-4xl mx-auto text-md sm:text-lg/8">
+              Choose how you want to build an audience, either with open-source or third-pary SaaS. For open-source solutions, choose the Starter or Growth plan below that&apos;s packed with the best features including managed hosting, courses, group discussions, event calendar, gated downloads, blog posts, and more. All plans include all features, so you can start small and scale as you grow.
+                
               </p>
-              <svg
+              {/* <svg
                 viewBox="0 0 1208 1024"
                 className="absolute -top-10 left-1/2 -z-10 h-256 -translate-x-1/2 mask-[radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
               >
@@ -321,10 +364,172 @@ export default function ForFoundersPage() {
                     <stop offset={1} stopColor="#3a8e6d" />
                   </radialGradient>
                 </defs>
-              </svg>
+              </svg> */}
             </div>
+
+              {/* xs to lg */}
+              <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
+                {tiers.map((tier) => (
+                  <section
+                    key={tier.id}
+                    className={classNames(
+                      tier.mostPopular ? 'rounded-xl bg-white/5 ring-1 ring-white/10 ring-inset' : '',
+                      'p-8',
+                    )}
+                  >
+                    <h3 id={tier.id} className="text-left text-md/6 font-semibold text-white">
+                      {tier.name}
+                    </h3>
+                    <p className="mt-2 flex items-baseline gap-x-1">
+                      <span className="text-4xl font-semibold text-white">{tier.priceMonthly}</span>
+                      {/* <span className="text-sm font-semibold text-gray-300">/month</span> */}
+                    </p>
+                    <a
+                      href={tier.href}
+                      target="_blank"
+                      aria-describedby={tier.id}
+                      className={classNames(
+                        tier.mostPopular
+                          ? 'bg-green-600 hover:bg-green-500 hover:text-white text-white focus-visible:outline-green-500'
+                          : 'bg-white/10 text-white hover:bg-green-600 focus-visible:outline-white',
+                        'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold focus-visible:outline-2 focus-visible:outline-offset-2',
+                      )}
+                    >
+                      {tier.cta}
+                    </a>
+                    <ul role="list" className="mt-10 space-y-4 text-sm/6 text-white">
+                      {sections.map((section) => (
+                        <li key={section.name}>
+                          <ul role="list" className="space-y-4">
+                            {section.features.map((feature) =>
+                              feature.tiers[tier.name] ? (
+                                <li key={feature.name} className="flex gap-x-3">
+                                  <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-green-400" />
+                                  <span>
+                                    {feature.name}{' '}
+                                    {typeof feature.tiers[tier.name] === 'string' ? (
+                                      <span className="text-sm/6 text-gray-400">({feature.tiers[tier.name]})</span>
+                                    ) : null}
+                                  </span>
+                                </li>
+                              ) : null,
+                            )}
+                          </ul>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                ))}
+              </div>
+
+              {/* lg+ */}
+              <div className="isolate mt-20 hidden lg:block">
+                <div className="relative -mx-8">
+                  {tiers.some((tier) => tier.mostPopular) ? (
+                    <div className="absolute inset-x-4 inset-y-0 -z-10 flex">
+                      <div
+                        style={{ marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 25}%` }}
+                        aria-hidden="true"
+                        className="flex w-1/4 px-4"
+                      >
+                        <div className="w-full rounded-t-xl border-x border-t border-white/10 bg-white/5" />
+                      </div>
+                    </div>
+                  ) : null}
+                  <table className="w-full table-fixed border-separate border-spacing-x-8 text-left">
+                    <caption className="sr-only">Pricing plan comparison</caption>
+                    <colgroup>
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                      <col className="w-1/4" />
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <td />
+                        {tiers.map((tier) => (
+                          <th key={tier.id} scope="col" className="px-6 pt-6 xl:px-8 xl:pt-8">
+                            <div className="text-sm/7 font-semibold text-white">{tier.name}</div>
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          <span className="sr-only">Price</span>
+                        </th>
+                        {tiers.map((tier) => (
+                          <td key={tier.id} className="px-6 pt-2 xl:px-8">
+                            <div className="flex items-baseline gap-x-1 text-white">
+                              <span className="text-4xl font-semibold">{tier.priceMonthly}</span>
+                              {/* <span className="text-sm/6 font-semibold">/month</span> */}
+                            </div>
+                            <a
+                              href={tier.href}
+                              target="_blank"
+                              className={classNames(
+                                tier.mostPopular
+                                  ? 'bg-green-600 hover:bg-green-500 hover:text-white focus-visible:outline-green-600'
+                                  : 'bg-white/10 hover:bg-white/20 focus-visible:outline-white',
+                                'mt-8 block rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2',
+                              )}
+                            >
+                              {tier.cta}
+                            </a>
+                          </td>
+                        ))}
+                      </tr>
+                      {sections.map((section, sectionIdx) => (
+                        <Fragment key={section.name}>
+                          <tr>
+                            <th
+                              scope="colgroup"
+                              colSpan={4}
+                              className={classNames(
+                                sectionIdx === 0 ? 'pt-8' : 'pt-16',
+                                'pb-4 text-sm/6 font-semibold text-white',
+                              )}
+                            >
+                              {section.name}
+                              <div className="absolute inset-x-8 mt-4 h-px bg-white/10" />
+                            </th>
+                          </tr>
+                          {section.features.map((feature) => (
+                            <tr key={feature.name}>
+                              <th scope="row" className="py-4 text-sm/6 font-normal text-white">
+                                {feature.name}
+                                <div className="absolute inset-x-8 mt-4 h-px bg-white/5" />
+                              </th>
+                              {tiers.map((tier) => (
+                                <td key={tier.id} className="px-6 py-4 xl:px-8">
+                                  {typeof feature.tiers[tier.name] === 'string' ? (
+                                    <div className="text-center text-sm/6 text-gray-300">{feature.tiers[tier.name]}</div>
+                                  ) : (
+                                    <>
+                                      {feature.tiers[tier.name] === true ? (
+                                        <CheckIcon aria-hidden="true" className="mx-auto size-5 text-green-400" />
+                                      ) : (
+                                        <MinusIcon aria-hidden="true" className="mx-auto size-5 text-gray-500" />
+                                      )}
+
+                                      <span className="sr-only">
+                                        {feature.tiers[tier.name] === true ? 'Included' : 'Not included'} in {tier.name}
+                                      </span>
+                                    </>
+                                  )}
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </Fragment>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
           </div>
-          <div className="flow-root pb-16 sm:pb-24">
+          {/* <div className="flow-root pb-16 sm:pb-24">
             <div className="-mt-80">
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -338,11 +543,11 @@ export default function ForFoundersPage() {
                           {tier.name}
                         </h3>
                         <div className="mt-4 flex items-baseline gap-x-2">
-                          <span className="text-5xl font-semibold tracking-tight text-[#f5f5f5]">{tier.price}</span>
-                          <span className="text-base/7 font-semibold text-[#f5f5f5]"></span>
+                          <span className="text-5xl font-semibold tracking-tight text-gray-900">{tier.price}</span>
+                          <span className="text-base/7 font-semibold text-gray-600"></span>
                         </div>
-                        <p className="mt-6 text-base/7 text-[#f5f5f5]">{tier.description}</p>
-                        <ul role="list" className="mt-10 space-y-4 text-sm/6 text-[#f5f5f5]">
+                        <p className="mt-6 text-base/7 text-gray-600">{tier.description}</p>
+                        <ul role="list" className="mt-10 space-y-4 text-sm/6 text-gray-600">
                           {tier.features.map((feature) => (
                             <li key={feature} className="flex gap-x-3">
                               <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-[#40C1AC]" />
@@ -354,9 +559,9 @@ export default function ForFoundersPage() {
                       <a
                         href={tier.href}
                         aria-describedby={tier.id}
-                        className="mt-8 block rounded-md px-3.5 py-2 text-center text-sm/6 font-semibold shadow-xs bg-green-600 hover:bg-green-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#40C1AC]"
+                        className="mt-8 block rounded-md bg-[#1D3c34] px-3.5 py-2 text-center text-sm/6 font-semibold text-[#f5f5f5] shadow-xs hover:bg-[#FFAA4D] hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1d3c34]"
                       >
-                        Get started today
+                        Secure your spot today
                       </a>
                     </div>
                   ))}
@@ -369,7 +574,7 @@ export default function ForFoundersPage() {
                     </div>
                     <a
                       href="https://meetings.hubspot.com/victor-ramayrat"
-                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#00c951] text-[#f5f5f5] ring-1 hover:ring-[#00c951] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
+                      className="rounded-md px-3.5 py-2 text-sm/6 font-semibold hover:text-[#FFAA4D] text-[#f5f5f5] ring-1 hover:ring-[#FFAA4D] ring-inset ring-[#f5f5f5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5f5f5]]"
                     >
                       Book a discovery call <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -377,7 +582,7 @@ export default function ForFoundersPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
           <div className="isolate overflow-hidden">
             <div className="mx-auto max-w-7xl px-6 pt-24 pb-12">
@@ -414,17 +619,28 @@ export default function ForFoundersPage() {
                     className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
                   /> */}
                   <div className="w-full flex-auto">
-                  <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
+                    <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
                       Why choose us?
                     </h2>
-                    <p className="mt-6 text-lg/8 text-pretty">
+                    <p className="mt-6 text-lg/8 text-[#f5f5f5] text-pretty">
                         You should choose us if you&apos;re looking for a partner, not just a provider.
                         Most agencies do the job. We focus on outcomes, like more brand engagement, efficient AI automation, or better customer experience, whatever moves the needle for your business.
                         <br /><br />
                         We don&apos;t lock you into a cookie-cutter process. We come in, understand your challenges deeply, and build solutions that actually fit. And we stay accountable, from strategy to execution to results.
                     </p>
+                    {/* <ul
+                      role="list"
+                      className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-gray-200 sm:grid-cols-2"
+                    >
+                      {benefits.map((benefit) => (
+                        <li key={benefit} className="flex gap-x-3">
+                          <CheckCircleIcon aria-hidden="true" className="h-7 w-5 flex-none text-gray-200" />
+                          {benefit}
+                        </li>
+                      ))}
+                    </ul> */}
                     <div className="mt-10 flex">
-                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#00c951] hover:text-[#00c951]">
+                      <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-sm/6 font-semibold text-[#FFAA4D] hover:text-[#FFAA4D]">
                         Book a free discovery call
                         <span aria-hidden="true">&rarr;</span>
                       </a>

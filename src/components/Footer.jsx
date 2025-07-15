@@ -18,8 +18,8 @@ const footerNavigation = {
     { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
   ],
   legal: [
-    { name: 'Terms of service', target: '_blank', href: 'https://marketgrowth.cx/terms-of-service/' },
-    { name: 'Privacy policy', target: '_blank', href: 'https://marketgrowth.cx/privacy-policy/' },
+    { name: 'Terms of service', target: '_blank', href: '/terms-of-service/' },
+    { name: 'Privacy policy', target: '_blank', href: '/privacy-policy/' },
     { name: 'Brand Guidelines', target: '_blank', href: '/brand/MarketGrowthStyleGuide.pdf' },
     { name: 'License terms', target: '_blank', href: '/license/' },
   ],
