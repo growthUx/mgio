@@ -115,7 +115,7 @@ export default function HomePage() {
                 </a>
               </div>
               <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
-              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build an engaging brand online to captivate their audience so they can win them as customers.</h2>
+              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2>
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
               As a technical partner, we build digital gardens and AI agents that are designed to scale and grow with you. </p>
               <div className="mt-10 flex items-center gap-x-6">
