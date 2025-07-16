@@ -73,7 +73,7 @@ export default function PrivacyPage() {
                       className="h-8 w-auto"
                     />
                     <blockquote className="mt-6 text-lg/8 text-white">
-                      <p>
+                      <p className="text-[#f5f5f5] mt-4">
                         “MarketGrowth&apos;s commitment to the success of our agency owners and our customers is core to our mission.”
                       </p>
                     </blockquote>
@@ -85,82 +85,70 @@ export default function PrivacyPage() {
               </div>
               <div>
                 <div className="text-base/7 text-gray-700 lg:max-w-lg">
-                  <p className="text-base/7 font-semibold text-[#f5f5f5]">Privacy Policy</p>
-                  <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl">
-                    On a mission to empower our agency owners
+                  <p className="text-base/7 font-semibold text-[#f5f5f5]">Legal</p>
+                  <h1 className="mt-2 text-4xl font-semibold tracking-tight text-[#f5f5f5] text-[#f5f5f5] sm:text-5xl">
+                    Privacy Policy
                   </h1>
                   <div className="max-w-xl">
-                    <p className="mt-6 text-[#f5f5f5]">
-                        <strong>1. Grant of License</strong><br /><br />
-                        Licensor hereby grants to Licensee a non-transferable, non-sublicensable, revocable license to operate under the MarketGrowth CX brand and use the Licensor&apos;s intellectual property, including trademarks, workflows, templates, training materials, and systems, solely within the approved territory and in accordance with the terms of this Agreement.<br /><br />
+                    <p className="text-[#f5f5f5] mt-4"><strong>Effective Date:</strong> January 1, 2025<br /><strong>Last Updated:</strong> January 1, 2025</p><p className="text-[#f5f5f5] mt-4">__</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Introduction</strong></h3>
+                    <p className="text-[#f5f5f5] mt-4">Welcome to MarketGrowth.io, a digital experience and AI Studio for founders, GTM and sales professionals. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our platform. By accessing or using MarketGrowth.io, you agree to the terms of this Privacy Policy.</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Information We Collect</strong></h3>
+                    <p className="text-[#f5f5f5] mt-4">We collect information to provide a better experience for our users and to improve our community services. The types of information we may collect include:</p>
+                    <h4 className="text-[#f5f5f5] mt-6 mb-6"><strong>1. Information You Provide to Us:</strong></h4>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]"><li className="mb-2"><strong>Account Information:</strong> When you sign up, we collect personal details such as your name, email address, phone number, and professional credentials.</li>
 
-                        <strong>2. License Fee and Royalties</strong><br /><br />
+                    <li className="mb-2"><strong>Profile Information:</strong> Information you choose to add to your profile, including your bio, photo, and areas of expertise.</li>
 
-                        Licensee agrees to pay an upfront licensing fee of $10,000 upon execution of this Agreement.
+                    <li className="mb-2"><strong>Communication Data:</strong> Messages, feedback, or inquiries you send us via the platform or email.</li></ul>
+                    <h4 className="text-[#f5f5f5] mt-6 mb-6"><strong>2. Information We Collect Automatically:</strong></h4>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]">
+                      <li className="mb-2"><strong>Device Information:</strong> IP address, browser type, operating system, and device identifiers.</li>
 
-                        Licensee shall also pay monthly royalties of either 8% of gross revenue or $1,000 flat, due on the first of each month.<br /><br />
+                    <li className="mb-2"><strong>Usage Data:</strong> Pages you visit, time spent on the platform, and actions you take, such as liking or commenting on posts.</li>
 
-                        <strong>3. Term and Termination</strong><br /><br />
+                    <li className="mb-2"><strong>Cookies and Similar Technologies:</strong> Data collected through cookies to improve your user experience. </li></ul>
+                    <h4 className="text-[#f5f5f5] mt-6 mb-6"><strong>3. Information from Third Parties:</strong></h4>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]"><li className="mb-2">Information obtained from service providers or partners to enhance your experience.</li></ul>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>How We Use Your Information</strong></h3><p className="text-[#f5f5f5] mt-4">We use the information we collect for the following purposes:</p>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]"><li className="mb-2"><strong>To Provide Services:</strong> Enable you to create an account, access resources, and participate in the community.</li>
 
-                        The term of this Agreement shall be two (2) years, renewable upon mutual agreement.
+                    <li className="mb-2"><strong>To Personalize Your Experience:</strong> Tailor content, recommendations, and interactions to your preferences.</li>
 
-                        Either party may terminate this Agreement with thirty (30) days&apos; written notice for material breach, provided such breach is not cured within the notice period.
+                    <li className="mb-2"><strong>To Improve the Platform:</strong> Analyze usage patterns, troubleshoot issues, and enhance our features.</li>
 
-                        Upon termination, Licensee shall immediately cease use of all Licensor IP and return or destroy all proprietary materials.<br /><br />
+                    <li className="mb-2"><strong>To Communicate with You:</strong> Send notifications, updates, and promotional materials related to Gather.</li>
 
-                        <strong>4. Obligations of the Licensee</strong><br /><br />
+                    <li className="mb-2"><strong>To Ensure Security:</strong> Detect and prevent fraud, unauthorized access, and other potential security issues.</li>
 
-                        Licensee understands and agrees that they are only licensing the MarketGrowth CX brand and related intellectual property, and must operate their agency as an independent entity. Licensee is responsible for forming and maintaining their own legal business entity in accordance with applicable laws and regulations. Licensee shall not represent themselves as a subsidiary, employee, or partner of MarketGrowth CX LLC.<br /><br />
-                        Licensee agrees to:<br /><br />
+                    <li className="mb-2"><strong>To Comply with Legal Obligations:</strong> Fulfill regulatory requirements or respond to lawful requests.</li></ul>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>How We Share Your Information</strong></h3>
+                    <p className="text-[#f5f5f5] mt-4">We do not sell or rent your personal information. However, we may share it in the following circumstances:</p>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]"><li className="mb-2"><strong>With Other Users:</strong> Limited profile information, such as your name and bio, may be visible to other members of the community.</li>
 
-                        1. Operate within the assigned territory or niche as approved<br />
+                    <li className="mb-2"><strong>With Service Providers:</strong> Third-party vendors that assist us in providing the platform&apos;s services, such as hosting or analytics tools.</li>
 
-                        2. Maintain brand consistency and follow brand guidelines<br />
+                    <li className="mb-2"><strong>For Legal Reasons:</strong> To comply with applicable laws, regulations, or legal processes.</li>
 
-                        3. Use only approved platforms and tools unless otherwise agreed<br />
+                    <li className="mb-2"><strong>In Case of Business Transfers:</strong> If MarketGrowth.io undergoes a merger, acquisition, or sale, your information may be transferred to the new entity.</li></ul>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Your Choices and Rights</strong></h3>
+                    <p className="text-[#f5f5f5] mt-4">You have control over your personal information and can exercise the following rights:</p>
+                    <ul className="list-disc pl-4 mt-6 text-[#f5f5f5]"><li className="mb-2"><strong>Access and Update:</strong> Review and update your profile information at any time.</li>
 
-                        4. Submit monthly reports and revenue statements to Licensor<br />
+                    <li className="mb-2"><strong>Opt-Out:</strong> Unsubscribe from promotional emails or restrict certain data collection via cookie preferences.</li>
 
-                        5. Avoid actions that may damage the reputation of MarketGrowth<br /><br />
+                    <li className="mb-2"><strong>Delete Account:</strong> Request deletion of your account and associated data by contacting support@marketgrowth.io.</li>
 
-                        <strong>5. Obligations of the Licensor</strong><br /><br />
+                    <li className="mb-2"><strong>Data Portability:</strong> Request a copy of your data in a structured, electronic format.</li>
 
-                        Licensor agrees to:<br /><br />
-
-                        1. Provide onboarding and training to Licensee<br />
-
-                        2. Deliver brand assets, automation playbooks, templates, and microsite setup<br />
-
-                        3. Offer ongoing support, coaching, and inclusion in the licensee network<br /><br />
-
-                        <strong>6. Intellectual Property</strong><br /><br />
-
-                        All brand assets, trademarks, documents, workflows, and other proprietary content remain the exclusive property of the Licensor. The Licensee is granted limited usage rights during the term of this Agreement only.<br /><br />
-
-                        <strong>7. Confidentiality</strong><br /><br />
-
-                        Licensee agrees to maintain the confidentiality of all proprietary information and not disclose or reproduce such content except as required for license operations.<br /><br />
-
-                        <strong>8. Indemnification</strong><br /><br />
-
-                        Each party agrees to indemnify and hold harmless the other party from any claims, losses, or liabilities arising out of their respective performance or conduct under this Agreement.<br /><br />
-
-                        Furthermore, Licensee agrees that Licensor shall not be liable for any obligations, liabilities, or representations made by Licensee in the course of its business operations. Licensee shall be solely responsible for its own contracts, clients, taxes, employee or contractor relationships, and all other aspects of its operations. Licensor shall not be held responsible for any damages, losses, disputes, or legal actions arising out of Licensee’s activities, omissions, or failures to comply with applicable laws or third-party agreements.<br /><br />
-
-                        <strong>9. Governing Law & Dispute Resolution</strong><br /><br />
-
-                        This Agreement shall be governed by the laws of the State of California. Any disputes arising under this Agreement shall be resolved first through good faith negotiation, and if unresolved, through binding arbitration in California.<br /><br />
-
-                        <strong>10. Entire Agreement</strong><br /><br />
-
-                        This Agreement constitutes the entire understanding between the parties and supersedes all prior agreements. Any amendments must be made in writing and signed by both parties.
-                    </p>
+                    <li className="mb-2"><strong>Restrict Processing:</strong> Limit how your data is processed under certain conditions.</li></ul>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Data Security</strong></h3><p className="text-[#f5f5f5] mt-4">We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, loss, or misuse. However, no system is entirely secure, and we cannot guarantee the absolute security of your data.</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Children&apos;s Privacy</strong></h3><p className="text-[#f5f5f5] mt-4">Gather is not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware of such data collection, we will take steps to delete it.</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Third-Party Links</strong></h3><p className="text-[#f5f5f5] mt-4">Our platform may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these external sites. Please review their privacy policies before sharing any information.</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Changes to This Privacy Policy</strong></h3><p className="text-[#f5f5f5] mt-4">We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Any updates will be posted with a revised effective date. We encourage you to review this policy regularly.</p>
+                    <h3 className="text-[#f5f5f5] mt-6"><strong>Contact Us</strong></h3><p className="text-[#f5f5f5] mt-4">If you have questions or concerns about this Privacy Policy, please contact us at:</p><p className="text-[#f5f5f5] mt-4"><strong>MarketGrowth CX LLC</strong><br />1401 21st Street<br />Sacramento, CA 95811</p>
+                    <p className="text-[#f5f5f5] mt-4"><strong>Email:</strong> <a href="mailto:suppor@marketgrowth.io">support@marketgrowth.io</a></p>
                   </div>
-                </div>
-                <div className="mt-10 flex">
-                  <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-base/7 font-semibold text-[#f5f5f5]">
-                    Learn more about licensing <span aria-hidden="true">&rarr;</span>
-                  </a>
                 </div>
               </div>
             </div>
@@ -172,4 +160,3 @@ export default function PrivacyPage() {
     </div>
   )
 }
- 

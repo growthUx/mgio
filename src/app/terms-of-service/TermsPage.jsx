@@ -72,8 +72,8 @@ export default function TermsPage() {
                       src="/brand/mg-icon-white.svg"
                       className="h-8 w-auto"
                     />
-                    <blockquote className="mt-6 text-lg/8 text-white">
-                      <p>
+                    <blockquote className="mt-6 text-xl/8 text-white">
+                      <p className="text-[#F5F5F5] mt-4">
                         “MarketGrowth&apos;s commitment to the success of our agency owners and our customers is core to our mission.”
                       </p>
                     </blockquote>
@@ -83,84 +83,66 @@ export default function TermsPage() {
                   </figure>
                 </div>
               </div>
-              <div>
+              <div className="max-w-xl">
                 <div className="text-base/7 text-gray-700 lg:max-w-lg">
-                  <p className="text-base/7 font-semibold text-[#f5f5f5]">Terms of Service</p>
-                  <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-5xl">
-                    On a mission to empower our agency owners
+                  <p className="text-base/7 font-semibold text-[#f5f5f5]">Legal</p>
+                  <h1 className="mt-2 text-4xl font-semibold tracking-tight text-[#f5f5f5] text-[#f5f5f5] sm:text-5xl">
+                    Terms of Service
                   </h1>
-                  <div className="max-w-xl">
-                    <p className="mt-6 text-[#f5f5f5]">
-                        <strong>1. Grant of License</strong><br /><br />
-                        Licensor hereby grants to Licensee a non-transferable, non-sublicensable, revocable license to operate under the MarketGrowth CX brand and use the Licensor&apos;s intellectual property, including trademarks, workflows, templates, training materials, and systems, solely within the approved territory and in accordance with the terms of this Agreement.<br /><br />
+                  <p className="text-[#F5F5F5] mt-4"><strong>Effective Date:</strong> January 1, 2025<br /><strong>Last Updated:</strong> April 30, 2025<br />__</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">Overview</h3>
+                  <p className="text-[#F5F5F5] mt-4">These Terms of Service (“Terms”) outline the rules and regulations for using this platform. By accessing or using MarketGrowth.io you agree to comply with these Terms. If you do not agree, please refrain from using the platform.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">1. Acceptance of Terms</h3>
+                  <p className="text-[#F5F5F5] mt-4">By creating an account or otherwise using MarketGrowth.io, you affirm that you are at least 18 years of age and have the legal authority to agree to these Terms. If you are using the platform on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">2. Account Registration and Security</h3>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>2.1 Registration Requirements:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">To access certain features, you may need to create an account. You agree to provide accurate, complete, and up-to-date information during registration and to update such information as necessary.</p>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>2.2 Account Security:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">You are responsible for maintaining the confidentiality of your account credentials and for all activities conducted under your account. Notify us immediately of any unauthorized access or use of your account.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">3. Permitted Use</h3>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>3.1 Community Standards:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">MarketGrowth.io is a professional community. By using the platform, you agree to:</p>
+                  <ul className="text-[#f5f5f5] mt-4 list-disc pl-4"><li>Treat others with respect and professionalism.</li>
 
-                        <strong>2. License Fee and Royalties</strong><br /><br />
+                  <li>Avoid posting harmful, harassing, or offensive content.</li>
 
-                        Licensee agrees to pay an upfront licensing fee of $10,000 upon execution of this Agreement.
+                  <li>Comply with applicable laws and regulations.</li>
 
-                        Licensee shall also pay monthly royalties of either 8% of gross revenue or $1,000 flat, due on the first of each month.<br /><br />
+                  <li>Adhere to the <a href="/community-guidelines">Community Guidelines</a></li></ul>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>3.2 Prohibited Activities:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">You agree not to:</p>
+                  <ul className="text-[#f5f5f5] mt-4 list-disc pl-4"><li>Misrepresent your identity or qualifications.</li>
 
-                        <strong>3. Term and Termination</strong><br /><br />
+                  <li>Use the platform for illegal, deceptive, or harmful purposes.</li>
 
-                        The term of this Agreement shall be two (2) years, renewable upon mutual agreement.
-
-                        Either party may terminate this Agreement with thirty (30) days&apos; written notice for material breach, provided such breach is not cured within the notice period.
-
-                        Upon termination, Licensee shall immediately cease use of all Licensor IP and return or destroy all proprietary materials.<br /><br />
-
-                        <strong>4. Obligations of the Licensee</strong><br /><br />
-
-                        Licensee understands and agrees that they are only licensing the MarketGrowth CX brand and related intellectual property, and must operate their agency as an independent entity. Licensee is responsible for forming and maintaining their own legal business entity in accordance with applicable laws and regulations. Licensee shall not represent themselves as a subsidiary, employee, or partner of MarketGrowth CX LLC.<br /><br />
-                        Licensee agrees to:<br /><br />
-
-                        1. Operate within the assigned territory or niche as approved<br />
-
-                        2. Maintain brand consistency and follow brand guidelines<br />
-
-                        3. Use only approved platforms and tools unless otherwise agreed<br />
-
-                        4. Submit monthly reports and revenue statements to Licensor<br />
-
-                        5. Avoid actions that may damage the reputation of MarketGrowth<br /><br />
-
-                        <strong>5. Obligations of the Licensor</strong><br /><br />
-
-                        Licensor agrees to:<br /><br />
-
-                        1. Provide onboarding and training to Licensee<br />
-
-                        2. Deliver brand assets, automation playbooks, templates, and microsite setup<br />
-
-                        3. Offer ongoing support, coaching, and inclusion in the licensee network<br /><br />
-
-                        <strong>6. Intellectual Property</strong><br /><br />
-
-                        All brand assets, trademarks, documents, workflows, and other proprietary content remain the exclusive property of the Licensor. The Licensee is granted limited usage rights during the term of this Agreement only.<br /><br />
-
-                        <strong>7. Confidentiality</strong><br /><br />
-
-                        Licensee agrees to maintain the confidentiality of all proprietary information and not disclose or reproduce such content except as required for license operations.<br /><br />
-
-                        <strong>8. Indemnification</strong><br /><br />
-
-                        Each party agrees to indemnify and hold harmless the other party from any claims, losses, or liabilities arising out of their respective performance or conduct under this Agreement.<br /><br />
-
-                        Furthermore, Licensee agrees that Licensor shall not be liable for any obligations, liabilities, or representations made by Licensee in the course of its business operations. Licensee shall be solely responsible for its own contracts, clients, taxes, employee or contractor relationships, and all other aspects of its operations. Licensor shall not be held responsible for any damages, losses, disputes, or legal actions arising out of Licensee’s activities, omissions, or failures to comply with applicable laws or third-party agreements.<br /><br />
-
-                        <strong>9. Governing Law & Dispute Resolution</strong><br /><br />
-
-                        This Agreement shall be governed by the laws of the State of California. Any disputes arising under this Agreement shall be resolved first through good faith negotiation, and if unresolved, through binding arbitration in California.<br /><br />
-
-                        <strong>10. Entire Agreement</strong><br /><br />
-
-                        This Agreement constitutes the entire understanding between the parties and supersedes all prior agreements. Any amendments must be made in writing and signed by both parties.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-10 flex">
-                  <a href="https://meetings.hubspot.com/victor-ramayrat" className="text-base/7 font-semibold text-[#f5f5f5]">
-                    Learn more about licensing <span aria-hidden="true">&rarr;</span>
-                  </a>
+                  <li>Disrupt or harm the platform&apos;s functionality or other users&apos; experiences.</li></ul>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">4. Content Ownership and Use</h3>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>4.1 User Content:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">You retain ownership of any content you submit, post, or share on MarketGrowth.io. By submitting content, you grant us a non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and display your content to provide and improve our services.</p>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>4.2 Platform Content:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">All content provided by MarketGrowth.io, including text, graphics, and software, is the property of MarketGrowth.io and is protected by intellectual property laws. You may not reproduce, distribute, or modify any platform content without prior written consent.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">5. Privacy</h3>
+                  <p className="text-[#F5F5F5] mt-4">Your use of MarketGrowth.io is subject to our Privacy Policy, which outlines how we collect, use, and protect your personal information. By using the platform, you consent to the terms of the Privacy Policy.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">6. Termination of Use</h3>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>6.1 By You:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">You may terminate your account at any time by contacting us at support@marketgrowth.io.</p><h4 class="text-[#f5f5f5] mt-6"><strong>6.2 By MarketGrowth.io:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">We reserve the right to suspend or terminate your account if you violate these Terms or engage in behavior detrimental to the platform or its users.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">7. Disclaimers and Limitation of Liability</h3>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>7.1 Disclaimers:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">MarketGrowth.io is provided “as is” without warranties of any kind, either express or implied. We do not guarantee the accuracy or reliability of platform content or user interactions.</p>
+                  <h4 class="text-[#f5f5f5] mt-6"><strong>7.2 Limitation of Liability:</strong></h4>
+                  <p className="text-[#F5F5F5] mt-4">To the fullest extent permitted by law, MarketGrowth.io and its affiliates will not be liable for any indirect, incidental, or consequential damages arising from your use of the platform.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">8. Indemnification</h3>
+                  <p className="text-[#F5F5F5] mt-4">You agree to indemnify and hold MarketGrowth.io harmless from any claims, liabilities, damages, or expenses (including reasonable attorney&apos;s fees) arising from your use of the platform or violation of these Terms.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">9. Changes to These Terms</h3>
+                  <p className="text-[#F5F5F5] mt-4">We may update these Terms periodically to reflect changes in our practices or for legal, regulatory, or operational reasons. Continued use of the platform after changes are posted constitutes acceptance of the updated Terms.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">10. Governing Law and Dispute Resolution</h3>
+                  <p className="text-[#F5F5F5] mt-4">These Terms are governed by the laws of the State of California, without regard to conflict of law principles. Any disputes will be resolved exclusively in the state or federal courts located in California.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">11. Affiliate and Advertising disclosure</h3>
+                  <p className="text-[#F5F5F5] mt-4">We always aim to provide unbiased editorial created by our writers and contributors. We also need to pay our teams and website costs so we make money in a number of ways. We sometimes use affiliate links to products and services on retailer sites for which we can receive compensation if you click on those links or make purchases through them.</p>
+                  <h3 className="text-[#F5F5F5] mt-6 text-xl font-semibold">12. Contact Us</h3>
+                  <p className="text-[#F5F5F5] mt-4">If you have questions about these Terms, please contact us at:</p>
+                  <p className="text-[#F5F5F5] mt-4"><strong>MarketGrowth CX LLC</strong><br />1401 21st Street<br />Sacramento, CA 95811<br /><strong>Email:</strong> <a href="mailto:support@marketgrowth.io">support@marketgrowth.io</a></p>
                 </div>
               </div>
             </div>

@@ -6,7 +6,10 @@ const footerNavigation = {
     { name: 'AI Automation Agency', href: '/ai-automation' },
     { name: 'Digital Engagement Platform', href: '/digital-garden' },
     { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
-    // { name: 'Pricing', href: '/pricing' }
+  ],
+  usecase: [
+    { name: 'For Founders', href: '/for-founders' },
+    { name: 'For GTM Teams', href: '/for-growing-teams' },
   ],
   support: [
     { name: 'Submit ticket', href: 'https://meetings.hubspot.com/victor-ramayrat' },
@@ -118,9 +121,18 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-3 md:gap-8">
               <div>
-                <h3 className="text-sm/6 font-semibold text-white">Solutions</h3>
+                <h3 className="text-sm/6 font-semibold text-white">Solutions & Pricing</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {footerNavigation.solutions.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <ul role="list" className="mt-6 flow-root border-t border-green-200 mr-2 sm:mr-12 pt-6 space-y-4">
+                  {footerNavigation.usecase.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
                         {item.name}
