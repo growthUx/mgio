@@ -155,10 +155,10 @@ export default function ForGTMPage() {
             <div className="mx-auto max-w-2xl lg:mx-0">
               <p className="text-base/7 font-semibold text-[#40C1AC]">For GTM Teams</p>
               <h1 className="mt-2 text-4xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-5xl">
-                With agentic-led GTM in the near horizon, having your own business community builds a brand moat like no other.
+                With agentic-led GTM in the near horizon, having your own business community builds a brand moat like no other
               </h1>
               <p className="mt-6 text-xl/8 text-[#f5f5f5] pr-12">
-              Your personal brand is the seedbed for business growth. Start planting it early. Nurture it wisely. Let it scale alongside your business.
+              Modern GTM teams are under pressure to drive pipeline, shorten sales cycles, and build brand trust &mdash; all while navigating an increasingly noisy market. At MarketGrowth, we help GTM teams stand out by turning your best insights and expertise into communities that attract, engage, and convert your ideal customers.
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -182,7 +182,7 @@ export default function ForGTMPage() {
                 <figure className="border-l border-[#40C1AC] pl-8">
                   <blockquote className="text-xl/8 font-semibold tracking-tight text-[#f5f5f5]">
                     <p>
-                      Founder-led content significantly influences purchase decisions (e.g. 54% of decision-makers say they purchase from companies whose leaders produce thought leadership)
+                    85% of consumers trust online reviews as much as personal recommendations
                     </p>
                   </blockquote>
                   <figcaption className="mt-8 flex gap-x-4">
@@ -192,51 +192,52 @@ export default function ForGTMPage() {
                       className="mt-1 size-10 flex-none rounded-full bg-gray-50"
                     /> */}
                     <div className="text-sm/6">
-                      <div className="font-semibold text-[#f5f5f5]">B2B Thought Leadership Impact Study</div>
-                      <div className="text-[#f5f5f5]">LinkedIn 2023</div>
+                      <div className="font-semibold text-[#f5f5f5]">2025 Online Reputation Management Statistics</div>
+                      <div className="text-[#f5f5f5]">ReputationX</div>
                     </div>
                   </figcaption>
                 </figure>
               </div>
               <div className="max-w-xl text-base/7 text-[#f5f5f5] lg:col-span-7">
-                <p>
-                As a founder, you are your company&apos;s earliest and strongest signal to the market. Long before your product reaches maturity, your personal brand is already shaping how customers, investors, and future employees perceive your business. Yet too many founders treat personal branding as an afterthought, waiting until &quot;the company is bigger.&quot; <br /><br /><strong>But the reality is clear:</strong>
-                </p>
+                <p>We believe your GTM motion shouldn&apos;t rely solely on paid ads or one-off campaigns. Instead, it should be rooted in a community-led strategy that compounds over time — fueled by the content and conversations only your team can deliver.</p>
+                <h3 className="text-xl font-semibold my-6 ">Why community‑led growth works</h3>
+                <p>Research shows community‑led growth isn&apos;t just trendy, it&apos;s transformative:</p>
                 <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
                   <li className="flex gap-x-3">
                     <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                    <span>People buy from people, not logos.</span>
+                    <span>A study on community‑led growth as a GTM catalyst found communities can serve as durable, high-impact growth levers across GTM functions, affirming that they&apos;re far more than nice-to-have features &mdash; they&apos;re strategic essentials.</span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                    <span>Founders who show up publicly accelerate trust and credibility.</span>
+                    <span>Industry reports consistently highlight community&apos;s effect on brand equity, trust, retention, and advocacy, with users developing emotional trust and motivation to stay engaged and spread the word.</span>
                   </li>
                   <li className="flex gap-x-3">
                     <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                    <span>A founder&apos;s voice is the fastest way to cut through noise in crowded markets.</span>
+                    <span>The shift away from aggressive ads toward quality time‑based metrics reflects community&apos;s value: companies are starting to value &quot;minutes of authentic engagement&quot; over vanity KPIs.<sup><a href="https://www.voguebusiness.com/story/fashion/from-sauna-socials-to-run-clubs-are-community-event-leaders-the-new-influencers" target="_blank">1</a></sup></span>
                   </li>
                 </ul>
               </div>
             </div>
-            <h3 className="mt-12 mb-6 text-2xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-3xl">The Digital Garden: The foundation for your founder brand</h3>
-            <p className="max-w-4xl text-[#f5f5f5]">A personal brand can&apos;t thrive in rented spaces alone. Social platforms are valuable, but they&apos;re algorithms you can&apos;t control. That&apos;s why we believe in helping founders build their own <strong>Digital Garden</strong> — an online engagement platform designed to house your ideas, your expertise, and your unique story.<br /><br />Think of it as your home base for:
+            <h3 className="mt-12 mb-6 text-2xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5]">Build pillar‑content powered communities</h3>
+            <p className="max-w-3xl text-[#f5f5f5]">Your content becomes the foundation of a digital community that fortifies GTM impact over time. <br /><br /><strong>Examples of pillar content that you can build to establish value includes:</strong>
             </p>
             <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
               <li className="flex gap-x-3">
-                <BookOpenIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                <span>Publishing thought leadership that positions you as an expert.</span>
+                <SparklesIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                <span><strong>Host events</strong>: Virtual summits and webinars build initial momentum and become repeatable touchpoints through post‑event discussions and follow‑ups.
+                </span>
               </li>
               <li className="flex gap-x-3">
-                <ServerIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                <span>Hosting resources and insights your audience can revisit. They can be in the form of courses, gated digital downloads, or blog posts.</span>
+                <BookOpenIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                <span><strong>Offer articles, reports and research</strong>: Deep-dive content positions your brand as a thought leader and drives high-quality lead capture.</span>
+              </li>
+              <li className="flex gap-x-3">
+                <AcademicCapIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                <span><strong>Launch courses and certifications</strong>: Educate your prospects, empower customers, and cultivate an advocate base.</span>
               </li>
               <li className="flex gap-x-3">
                 <ChatBubbleLeftIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                <span>Nurturing conversations with your ecosystem of ambassadors, prospects, investors, customers, and partners.</span>
-              </li>
-              <li className="flex gap-x-3">
-                <SparklesIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                <span>Creating content for SEO and GEO discoverability that grows over time.</span>
+                <span><strong>Run forums and groups</strong>: Peer-powered spaces where your community team interacts directly, answering questions and gathering insights.</span>
               </li>
             </ul>
             
@@ -261,7 +262,7 @@ export default function ForGTMPage() {
                 <figure className="border-l border-[#40C1AC] pl-8">
                   <blockquote className="text-xl/8 font-semibold tracking-tight text-[#f5f5f5]">
                     <p>
-                     Founder-led marketing can improve brand credibility and shorten sales cycles in high-trust industries.
+                    A study on community‑led growth as a GTM catalyst found communities can serve as durable, high-impact growth levers across GTM functions.
                     </p>
                   </blockquote>
                   <figcaption className="mt-8 flex gap-x-4">
@@ -271,54 +272,42 @@ export default function ForGTMPage() {
                       className="mt-1 size-10 flex-none rounded-full bg-gray-50"
                     /> */}
                     <div className="text-sm/6">
-                      <div className="font-semibold text-[#f5f5f5]">The Role of the CEO in B2B Marketing</div>
-                      <div className="text-[#f5f5f5]">Gartner (2021)</div>
+                      <div className="font-semibold text-[#f5f5f5]">Community-led Alliance</div>
+                      <div className="text-[#f5f5f5]">Website Article 2025</div>
                     </div>
                   </figcaption>
                 </figure>
               </div>
               <div className="max-w-xl text-base/7 text-[#f5f5f5] lg:col-span-7">
-                <p>This is how you ensure your personal brand lives beyond fleeting social media trends, and becomes a long-term moat for your business.
+                <p>Those are just examples of how to ensure your community thrives and becomes a long-term moat for your business.
                 </p>
-                <h3 className="mt-12 text-2xl font-bold tracking-tight text-[#f5f5f5]">Personal brand as a strategic asset, not just a marketing tactic</h3>
+                <h3 className="mt-12 mb-6 text-2xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5]">Power agent‑led growth</h3>
+                <p className="max-w-3xl text-[#f5f5f5]">MarketGrowth empowers your GTM team with AI-powered agents that:
+                </p>
+                <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
+                  <li className="flex gap-x-3">
+                    <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                    <span>Engage and answer community questions in real time.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                    <span>Identify &quot;warm&quot; community members signaling intent</span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                    <span>Surface relevant content or events to members</span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
+                    <span>Feed critical insights back into Salesforce, HubSpot, or your CRM</span>
+                  </li>
+                </ul>
+                <p className="mt-6">This blend of automation and human exclusivity builds trust at scale &mdash; retaining personalization without sacrificing efficiency.</p>
+                  <h3 className="mt-12 text-2xl font-bold tracking-tight text-[#f5f5f5]">How MarketGrowth helps fast growing teams implement agent- and community-led tactics</h3>
                   <p className="mt-6">
-                    Research shows founder visibility isn&apos;t just nice to have. It&apos;s a measurable driver of business growth:
-                  </p>
-                  <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
-                    <li className="flex gap-x-3">
-                      <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                      <span>68% of people trust founders more than corporate brands (Edelman Trust Barometer, 2023)</span>
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                      <span>54% of B2B decision-makers say thought leadership from company leaders influences purchase decisions (LinkedIn, 2023)</span>
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon aria-hidden="true" className="mt-1 size-5 flex-none text-[#40C1AC]" />
-                      <span>70% feel more connected to brands whose leaders are active online (Sprout Social, 2022)</span>
-                    </li>
-                  </ul>
-                  <h4 className="font-semibold mt-8">A strong personal brand helps you:</h4>
-                  <ul role="list" className="list-disc mt-6 max-w-xl pl-4 space-y-4 text-[#f5f5f5]">
-                    <li>Shorten sales cycles by building pre-existing trust.</li>
-                    <li>Attract top talent eager to work with visionary leaders.</li>
-                    <li>Gain media visibility and speaking opportunities.</li>
-                    <li>Create resilience against market volatility.</li>
-                  </ul>
-                  <h3 className="text-xl font-semibold mt-8">The Cost of Waiting</h3>
-                  <p className="mt-6">
-                  The biggest mistake founders make? Waiting for the &quot;right time&quot; to start building their personal brand. But personal brands grow like gardens &mdash; they require time, consistent care, and space to flourish.<br /><br /> If you wait until your company is &quot;big enough,&quot; you miss the compound effects that early investment brings:
-                  </p>
-                  <ul role="list" className="list-disc mt-6 max-w-xl pl-4 space-y-4 text-[#f5f5f5]">
-                    <li>Organic search traffic takes months to build authority.</li>
-                    <li>Audiences need time to discover, follow, and trust your voice.</li>
-                    <li>Relationships and reputation don&apos;t materialize overnight.</li>
-                    <li>Starting now is an investment in future business scalability.</li>
-                  </ul>
-                  <h3 className="mt-12 text-2xl font-bold tracking-tight text-[#f5f5f5]">How MarketGrowth helps founders design and build engaging personal brands</h3>
-                  <p className="mt-6">
-                  At MarketGrowth, we help founders turn personal branding from an overwhelming concept into a clear, actionable system.
-                  <br /><br /> Our Digital Engagement Platform empowers you to:
+                  At MarketGrowth, we help GTM Teams turn community building from an overwhelming concept into a clear, actionable system.
+                  <br /><br /> Our work in digital experience and AI empowers you to:
                   </p>
                   <ul role="list" className="mt-8 max-w-xl space-y-8 text-[#f5f5f5]">
                     <li className="flex gap-x-3">
