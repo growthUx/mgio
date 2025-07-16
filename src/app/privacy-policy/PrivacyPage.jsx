@@ -34,7 +34,7 @@ export default function PrivacyPage() {
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-              <div className="lg:pr-4">
+              <div className="lg:pr-4 hidden sm:block">
                 <div className="relative overflow-hidden rounded-3xl bg-green-900 px-6 pt-64 pb-9 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                   <img
                     alt=""
@@ -90,7 +90,7 @@ export default function PrivacyPage() {
                     Privacy Policy
                   </h1>
                   <div className="max-w-xl">
-                    <p className="text-[#f5f5f5] mt-4"><strong>Effective Date:</strong> January 1, 2025<br /><strong>Last Updated:</strong> January 1, 2025</p><p className="text-[#f5f5f5] mt-4">__</p>
+                    <p className="text-[#f5f5f5] mt-4"><strong>Effective Date:</strong> January 1, 2025<br /><strong>Last Updated:</strong> April 30, 2025</p><p className="text-[#f5f5f5] mt-4">__</p>
                     <h3 className="text-[#f5f5f5] mt-6"><strong>Introduction</strong></h3>
                     <p className="text-[#f5f5f5] mt-4">Welcome to MarketGrowth.io, a digital experience and AI Studio for founders, GTM and sales professionals. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our platform. By accessing or using MarketGrowth.io, you agree to the terms of this Privacy Policy.</p>
                     <h3 className="text-[#f5f5f5] mt-6"><strong>Information We Collect</strong></h3>

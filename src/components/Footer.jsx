@@ -16,6 +16,7 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
+    { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
     { name: 'eBook: GTM for Founders Simplified', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing', target: '_blank' },
     { name: 'Hub: Agentic GTM Resources', href: 'https://marketgrowth.cx/resources',target: '_blank' },
     { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
@@ -131,7 +132,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-                <ul role="list" className="mt-6 flow-root border-t border-green-200 mr-2 sm:mr-12 pt-6 space-y-4">
+                <ul role="list" className="mt-6 flow-root border-t border-green-200 mr-2 mr-12 pt-6 space-y-4">
                   {footerNavigation.usecase.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm/6 text-gray-400 hover:text-white">
