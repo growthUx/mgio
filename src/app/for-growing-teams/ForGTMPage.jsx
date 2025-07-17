@@ -154,11 +154,11 @@ export default function ForGTMPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <p className="text-base/7 font-semibold text-[#40C1AC]">For GTM Teams</p>
-              <h1 className="mt-2 text-4xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-5xl">
-                With agentic-led GTM in the near horizon, having your own business community builds a brand moat like no other
+              <h1 className="mt-2 text-4xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-4xl">
+                Turn your best insights and expertise into communities that attract, engage, and convert your ideal customers
               </h1>
               <p className="mt-6 text-xl/8 text-[#f5f5f5] pr-12">
-              Modern GTM teams are under pressure to drive pipeline, shorten sales cycles, and build brand trust &mdash; all while navigating an increasingly noisy market. At MarketGrowth, we help GTM teams stand out by turning your best insights and expertise into communities that attract, engage, and convert your ideal customers.
+              Modern GTM teams are under pressure to drive pipeline, shorten sales cycles, and build brand trust &mdash; all while navigating an increasingly noisy market. Combine AI-powered automation and real-time human touch to build deeper connections and accelerate GTM impact.
               </p>
             </div>
             <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
