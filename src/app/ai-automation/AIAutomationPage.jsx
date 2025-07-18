@@ -268,7 +268,7 @@ export default function AIAutomationPage() {
                   <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
                       Why choose us?
                     </h2>
-                    <p className="mt-6 text-lg/8 text-pretty">
+                    <p className="mt-6 text-lg/8 text-pretty text-[#f5f5f5]">
                         You should choose us if you&apos;re looking for a partner, not just a provider.
                         Most agencies do the job. We focus on outcomes, like more brand engagement, efficient AI automation, or better customer experience, whatever moves the needle for your business.
                         <br /><br />

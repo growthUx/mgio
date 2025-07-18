@@ -104,20 +104,22 @@ export default function HomePage() {
           <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-32">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-16">
               <div className="my-4">
-                <a href="https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing" className="inline-flex space-x-6" target="_blank">
+                <a href="https://marketgrowth.cx/product-roadmap/welcome" className="inline-flex space-x-6" target="_blank">
                   <span className="rounded-full bg-[#40C1AC]/10 px-3 py-1 text-sm/6 font-semibold text-[#40C1AC] ring-1 ring-[#40C1AC]/20 ring-inset">
-                    What&apos;s new
+                    Who we are →
                   </span>
                   <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
-                    <span>eBook: GTM Simplified</span>
+                    <span>What is a DX<span className="text-[#40C1AC]"> + </span>AI Studio</span>
                     <ChevronRightIcon aria-hidden="true" className="size-5 text-gray-500" />
                   </span>
                 </a>
               </div>
-              <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
-              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2>
+              <h1 className="mt-12 text-2xl font-semibold tracking-tight leading-[1.1] text-[#F5F5F5] sm:text-5xl">Serve and captivate your audience in your own AI&#8209;powered community and win them as customers</h1> 
+              {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
+              {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
+              <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              As a technical partner, we build digital gardens and AI agents that are designed to scale and grow with you. </p>
+               We work with founders and fast growing teams as a technical partner building digital gardens and AI agents that are designed for growth and scale.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
@@ -139,7 +141,7 @@ export default function HomePage() {
                   height={1442}
                   className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-60 hover:opacity-100"
                 />
-                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth.cx: Founder- and Agent-led GTM community</div>
+                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth.cx: Founder- and Agent-led GTM community | <a href="https://marketgrowth.cx" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
               </div>
             </div>
           </div>

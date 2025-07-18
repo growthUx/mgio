@@ -154,7 +154,7 @@ export default function PlatformPage() {
             <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
              Serve and engage your ambassadors, learners&nbsp;and partners
             </h1>
-            <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8">
+            <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-[#f5f5f5]">
             Captivate your trusted audience to give yourself a head start on customer acquisition. Benefit from the compounding power of network effects by using your content effectively, posted to various social networks AND in your own platform. </p>
             <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with PILLAR content. They can be in the form of thought leadership articles, product or interview videos, courses, or forums within affinity groups. Your portal can be paid or free, it&apos;s up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
@@ -205,7 +205,7 @@ export default function PlatformPage() {
               </p>
             </div>
             <div className="relative mt-6">
-              <p className="mt-6 max-w-4xl mx-auto text-md sm:text-lg/8">
+              <p className="mt-6 max-w-4xl mx-auto text-md sm:text-lg/8 text-[#f5f5f5]">
               Choose how you want to build an audience, either with open-source or third-pary SaaS. For open-source solutions, choose the Starter or Growth plan below that&apos;s packed with the best features including managed hosting, courses, group discussions, event calendar, gated downloads, blog posts, and more. All plans include all features, so you can start small and scale as you grow.
                 
               </p>
@@ -478,7 +478,7 @@ export default function PlatformPage() {
                     <h2 className="text-3xl font-semibold tracking-tight text-pretty text-white sm:text-4xl">
                       Why choose us?
                     </h2>
-                    <p className="mt-6 text-lg/8 text-pretty">
+                    <p className="mt-6 text-lg/8 text-pretty text-[#f5f5f5]">
                         You should choose us if you&apos;re looking for a partner, not just a provider.
                         Most agencies do the job. We focus on outcomes, like more brand engagement, efficient AI automation, or better customer experience, whatever moves the needle for your business.
                         <br /><br />
