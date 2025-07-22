@@ -119,7 +119,7 @@ export default function HomePage() {
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              Unleash your expertise at scale through thought leadership, courses and community-building. As your technical partner, let us help you with the digital experience design/build and AI orchestration so you can focus on honing your messaging and delivery.</p>
+              Unleash your expertise at scale through thought leadership content, courses, and community-building. As your technical partner, let us help you with digital experience design/build and AI orchestration, so you can focus on value creation and serving your customers.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
