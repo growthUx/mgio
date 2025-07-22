@@ -101,7 +101,7 @@ export default function HomePage() {
               className="aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-32">
+          <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-24">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-16">
               <div className="my-4">
                 <a href="https://marketgrowth.cx/product-roadmap/welcome" className="inline-flex space-x-6" target="_blank">
@@ -114,16 +114,16 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="mt-12 text-2xl font-semibold tracking-tight leading-[1.1] text-[#F5F5F5] sm:text-5xl">Serve and captivate your audience in your own AI&#8209;powered community and win them as customers</h1> 
+              <h1 className="mt-12 text-4xl font-funnel-display font-semibold tracking-tight leading-[1.1] sm:leading-[1.025] text-[#F5F5F5] sm:text-7xl">The world is waiting to hear your voice. <span className="text-green-500">We got your back.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-               We work with founders and fast growing teams as a technical partner building digital gardens and AI agents that are designed for growth and scale.</p>
+              Unleash your expertise at scale through thought leadership, courses and community-building. As your technical partner, let us help you with the digital experience design/build and AI orchestration so you can focus on honing your messaging and delivery.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
-                  target="_blank" className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                  target="_blank" className="rounded-md bg-green-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
                   Get a free consult
                 </a>
@@ -146,6 +146,57 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        
+        <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl sm:text-center">
+            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Turn experience into engagement</h2>
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
+              Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
+            </p>
+            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
+              Launch a digital engagement platform with features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, and groups. <br />
+                <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
+                  Learn more <span aria-hidden="true">→</span>
+                </a>
+            </p>
+          </div>
+        </div>
+        {/* Community screenshot section */}
+        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
+          <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
+            <img
+              alt="Hustle/Side Hustle Community"
+              src="/images/hush-ss.png"
+              width={2432}
+              height={1442}
+              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
+            />
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network to promote entrepreneurship and self-reliance.</div>
+          </div>
+        </div>
+        {/* Content section */}
+        <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
+          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+              <div>
+                  <div className="mb-8">
+                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
+                    <p>
+                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
+                    </p>
+                </div>
+              </div>
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Build trust with delightful web experience </h3>
+                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-6 bg-gray-200 border-0 dark:bg-gray-400"/>
         {/* AI Automation section */}
         <div className="relative py-12 sm:pt-24 sm:pb-12 overflow-hidden">
           {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl z-10">
@@ -166,9 +217,9 @@ export default function HomePage() {
               className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             />
           </div> */}
-          <div id="ai-automation" className="mx-auto max-w-7xl py-12 px-6 lg:px-8">
+          <div id="ai-automation" className="mx-auto max-w-7xl py-6 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Agent-led GTM</h2>
+              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale with AI workflow automation</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Power your GTM- and rev-ops with 24/7 AI workflow automation to efficiently scale
               </p>
@@ -216,56 +267,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <hr  className="h-px max-w-[90%] sm:max-w-[80%]  md:max-w-7xl mx-auto my-8 sm:my-12 bg-gray-200 border-0 dark:bg-gray-400"/>
-        <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Founder- and community-led GTM Platform</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
-              Enable and encourage visitor engagement within your brand&apos;s digital garden
-            </p>
-            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Launch a digital engagement platform with features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, and groups. <br />
-                <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
-            </p>
-          </div>
-        </div>
-        {/* Community screenshot section */}
-        <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
-          <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
-            <img
-              alt="Hustle/Side Hustle Community"
-              src="/images/hush-ss.png"
-              width={2432}
-              height={1442}
-              className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
-            />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network to promote entrepreneurship and self-reliance.</div>
-          </div>
-        </div>
-        {/* Content section */}
-        <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
-          <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
-              <div>
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
-                    <p>
-                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
-                    </p>
-                </div>
-              </div>
-              <div>
-                <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Build trust with delightful web experience </h3>
-                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         {/* Analytics */}
         <div id="analytics-reporting" className="relative isolate overflow-hidden bg-[#1D3c34] py-24 sm:py-32">
           <img
