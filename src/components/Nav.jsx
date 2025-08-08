@@ -18,7 +18,7 @@ import {
 const engagement = [
   { name: 'Engagement Platform', target: "_self", href: '/digital-garden', icon: UsersIcon },
   { name: 'AI Workflow Automation', target: "_self", href: '/ai-automation', icon: ShieldCheckIcon },
-  { name: 'Analytics & Reporting', target: "_self", href: '/#analytics-reporting', icon: ChartBarSquareIcon },
+  { name: 'Interaction Tracking & Analytics', target: "_self", href: '/interaction-tracking-analytics', icon: ChartBarSquareIcon },
 ]
 const persona = [
   { name: 'For Founders', target: "_self", href: '/for-founders', icon: UserIcon },
