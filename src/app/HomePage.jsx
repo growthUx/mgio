@@ -114,7 +114,7 @@ export default function HomePage() {
                   </span>
                 </a>
               </div>
-              <h1 className="mt-12 text-3xl font-funnel-display font-semibold tracking-tight leading-[1.1] sm:leading-[1.025] text-[#F5F5F5] sm:text-5xl">Power your brand with a community platform and AI&#8209;powered automation <span className="block mt-6 text-2xl sm:text-3xl  tracking-normal text-green-500">We&apos;ll help you get there.</span></h1> 
+              <h1 className="mt-12 text-3xl font-funnel-display font-semibold tracking-tight leading-[1.1] sm:leading-[1.025] text-[#F5F5F5] sm:text-5xl">Power your brand with community platform and AI&#8209;powered automation <span className="block mt-6 text-2xl sm:text-3xl  tracking-normal text-green-500">We&apos;ll help you get there.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
