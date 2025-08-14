@@ -155,7 +155,7 @@ export default function PlatformPage() {
              Serve and engage your ambassadors, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-[#f5f5f5]">
-            Captivate your trusted audience to give yourself a head start on customer acquisition. Benefit from the compounding power of network effects by using your content effectively, posted to various social networks AND in your own platform. </p>
+            Provide your own digital hub outside of social media platforms to captivate your trusted audience. Benefit from the compounding power of network effects through community. </p>
             <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="text-[#f5f5f5]"><span className="text-green-400">Power brand tip</span>: Ask yourself, what can my audience use now that I can immediately launch? Start with PILLAR content. They can be in the form of thought leadership articles, product or interview videos, courses, or forums within affinity groups. Your portal can be paid or free, it&apos;s up to you. <br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">Start by gradually building today.</a></p></div>
           </div>
         </div>
@@ -177,11 +177,9 @@ export default function PlatformPage() {
           <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
-                  <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Premier platform for your customers</h3>
-                    <p>
-                    Whether you&apos;re offering online courses, communities, memberships, or digital downloads, we&apos;re here to support every way you choose to share and grow your expertise.
-                    </p>
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Premier platform for your customers</h3>
+                  <p>Whether you&apos;re offering online courses, communities, memberships, or digital downloads, we&apos;re here to support every way you choose to share and grow your expertise. </p>
                 </div>
               </div>
               <div>
