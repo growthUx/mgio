@@ -25,17 +25,17 @@ const persona = [
   { name: 'For GTM Teams', target: "_self", href: '/for-growing-teams', icon: UserGroupIcon },
 ]
 const resources = [
-  { name: 'Resource Library', target: "_blank", href: 'https://marketgrowth.cx/resources', icon: BookOpenIcon }
+  { name: 'Resource Library', target: "_blank", href: 'https://agentledgtm.com/resources', icon: BookOpenIcon }
 ]
 const recentPosts = [
   {
     id: 1,
     title: 'GTM for Founders Simplified',
-    href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing',
+    href: 'https://agentledgtm.com/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing',
     target: '_blank',
     date: 'May 20, 2025',
     datetime: '2025-05-20',
-    category: { title: 'Go-to-market', href: 'https://marketgrowth.cx/category/go-to-market' },
+    category: { title: 'Go-to-market', href: 'https://agentledgtm.com/category/go-to-market' },
     imageUrl:
       '/images/ebook-nav.jpg',
     description:
@@ -44,11 +44,11 @@ const recentPosts = [
   {
     id: 2,
     title: 'Importance of Personal Branding',
-    href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever',
+    href: 'https://agentledgtm.com/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever',
     target: '_blank',
     date: 'June 20, 2025',
     datetime: '2025-06-20',
-    category: { title: 'Go-to-market', href: 'https://marketgrowth.cx/category/go-to-market' },
+    category: { title: 'Go-to-market', href: 'https://agentledgtm.com/category/go-to-market' },
     imageUrl:
       '/images/personal-brand.png',
     description: 'Why building your personal brand matters now more than ever.',
@@ -75,7 +75,7 @@ export default function Nav() {
             <ChevronDownIcon aria-hidden="true" className="size-5" />
           </PopoverButton>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://marketgrowth.cx" target="_blank" className="text-sm/6 font-semibold text-white">
+            <a href="https://agentledgtm.com" target="_blank" className="text-sm/6 font-semibold text-white">
             AI GTM Community <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
