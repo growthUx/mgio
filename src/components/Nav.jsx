@@ -75,8 +75,8 @@ export default function Nav() {
             <ChevronDownIcon aria-hidden="true" className="size-5" />
           </PopoverButton>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://agentledgtm.com" target="_blank" className="text-sm/6 font-semibold text-white">
-            AI GTM Community <span aria-hidden="true">&rarr;</span>
+            <a href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" className="text-sm/6 font-semibold text-white">
+            Agent-Led Growth <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>

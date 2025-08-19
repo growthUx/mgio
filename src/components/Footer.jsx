@@ -16,10 +16,10 @@ const footerNavigation = {
     { name: 'Changelog', href: '/updates' },
   ],
   company: [
-    { name: 'Article: Why building your personal brand matters more than ever', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever',target: '_blank' },
-    { name: 'eBook: GTM for Founders Simplified', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing', target: '_blank' },
-    { name: 'Hub: Agentic GTM Resources', href: 'https://marketgrowth.cx/resources',target: '_blank' },
-    { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://marketgrowth.cx/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
+    { name: 'Article: Why building your personal brand matters more than ever', href: 'https://agentledgtm.com/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever',target: '_blank' },
+    { name: 'eBook: GTM for Founders Simplified', href: 'https://agentledgtm.com/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing', target: '_blank' },
+    { name: 'Hub: Agentic GTM Resources', href: 'https://agentledgtm.com/resources',target: '_blank' },
+    { name: 'Article: Use 7-11-4 framework to build trust and authority', href: 'https://agentledgtm.com/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business',target: '_blank' },
   ],
   legal: [
     { name: 'Terms of service', target: '_blank', href: '/terms-of-service/' },
