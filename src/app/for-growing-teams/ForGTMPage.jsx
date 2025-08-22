@@ -64,7 +64,7 @@ const sections = [
   {
     name: 'Brand & Platform',
     features: [
-      { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$2,400 *', Scale: 'Project-based' } },
+      { name: 'One-time setup fee', tiers: { Starter: '$499', Growth: '$3,800 *', Scale: 'Project-based' } },
       { name: 'Branding', tiers: { Starter: 'Bring your own', Growth: 'Included', Scale: 'As needed' } },
       { name: 'Customization help', tiers: { Starter: 'Template - Self-serve', Growth: 'Template - DFY', Scale: 'Custom' } },
       { name: 'User authentication', tiers: { Starter: 'E-mail', Growth: 'E-mail & Social', Scale: 'As needed' } },
@@ -104,7 +104,7 @@ const faqs = [
   {
     question: "What does the Growth plan include? *",
     answer:
-      "The setup fee of $2,400 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX on Wordpress platform. (2) Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially right after the project is launched.",
+      "The startup fee of $3,800 includes the design and build of your digital platform, which covers the following: (1) Brand design and development using OpenCMX on Wordpress platform. (2) Setup of courses, micro-communities (groups), gated digital downloads, payments gateway, and analytics. This fee does not include post-launch support, ongoing maintenance and additional features that may be required after the initial launch. The Growth plan costs $180/mo and is payable annually - initially right after the project is launched.",
   },
   {
     question: "You mentioned design, is brand design included?",
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: "We already have a brand design, can you work with it?",
     answer:
-      "Yes. Choose the starter plan. If you would like the Growth plan, the initial setup fee would be reduced to $1,400. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
+      "Yes. Choose the starter plan. If you would like the Growth plan, the initial setup fee would be reduced to $2,400. The requirement is that it's not only a logo, but a complete brand design that includes a color palette, typography, and overall visual style. We will work with you to ensure that your existing brand design is seamlessly integrated into the digital platform.",
   },
   {
     question: "How should I decide whether to build on open-source or third-party solutions like Gradual?",
@@ -134,7 +134,7 @@ const faqs = [
   {
     question: "Do you have a work example of the template you will use for the Starter and Growth plan?",
     answer:
-      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also subscribe to the MarketGrowth.cx community to see how we use the same template as a resource hub for Founder and Agentic GTM.",
+      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also visit AgentLedGTM.com community to see how we use the same template as a resource hub for agent-led growth.",
   },
   // More questions...
 ]

@@ -134,7 +134,7 @@ const faqs = [
   {
     question: "Do you have a work example of the template you will use for the Starter and Growth plan?",
     answer:
-      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also subscribe to the MarketGrowth.cx community to see how we use the same template as a resource hub for Founder and Agentic GTM.",
+      "Yes, you can visit and register at VirtualPro.ph to see the template in action. This is a talent discovery platform that uses courses, social network, activity feed, forums, groups, blog posts and events. It is built on OpenCMX open source ecosystem. You can also visit the AgentLedGTM.com community to see how we use the same template as a resource hub for agent-led growth motion.",
   },
   // More questions...
 ]
