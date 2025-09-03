@@ -152,7 +152,7 @@ export default function PlatformPage() {
           <div className="mx-auto max-w-5xl sm:text-center">
             {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build a brand moat around your product or expertise</h2> */}
             <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:leading-[1.15] sm:text-5xl text-balance">
-             Launch your community to serve and engage prospects, candidates, learners&nbsp;and partners
+             Launch your campaign microsite or community to engage prospects, candidates, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-[#f5f5f5]">
             Provide your own central hub that complements your socials. Win trust, build influence, and watch your business scale as network effects compounds your impact. </p>

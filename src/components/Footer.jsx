@@ -3,8 +3,8 @@ import clsx from 'clsx'
 
 const footerNavigation = {
   solutions: [
-    { name: 'Community/Engagement Platform', href: '/digital-garden' },
-    { name: 'AI Automation Agency', href: '/ai-automation' },
+    { name: 'Microsites and Community Platform', href: '/digital-garden' },
+    { name: 'AI Marketing Automation', href: '/ai-automation' },
     { name: 'Analytics and Reporting', href: '/#analytics-reporting' },
   ],
   usecase: [
@@ -12,7 +12,7 @@ const footerNavigation = {
     { name: 'For GTM Teams', href: '/for-growing-teams' },
   ],
   support: [
-    { name: 'Submit ticket', href: 'https://meetings.hubspot.com/victor-ramayrat' },
+    { name: 'Contact us', href: 'https://meetings.hubspot.com/victor-ramayrat' },
     { name: 'Changelog', href: '/updates' },
   ],
   company: [

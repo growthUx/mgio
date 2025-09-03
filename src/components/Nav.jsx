@@ -16,8 +16,8 @@ import {
 } from '@heroicons/react/24/outline'
 
 const engagement = [
-  { name: 'Engagement Platform', target: "_self", href: '/digital-garden', icon: UsersIcon },
-  { name: 'AI Workflow Automation', target: "_self", href: '/ai-automation', icon: ShieldCheckIcon },
+  { name: 'Microsites and Community', target: "_self", href: '/digital-garden', icon: UsersIcon },
+  { name: 'AI Marketing Automation', target: "_self", href: '/ai-automation', icon: ShieldCheckIcon },
   { name: 'Interaction Tracking & Analytics', target: "_self", href: '/interaction-tracking-analytics', icon: ChartBarSquareIcon },
 ]
 const persona = [
