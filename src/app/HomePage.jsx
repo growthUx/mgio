@@ -103,7 +103,7 @@ export default function HomePage() {
           </div>
           <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-24">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-16">
-              <div className="my-4">
+              {/* <div className="my-4">
                 <a href="https://marketgrowth.cx/product-roadmap/welcome" className="inline-flex space-x-6" target="_blank">
                   <span className="rounded-full bg-[#40C1AC]/10 px-3 py-1 text-sm/6 font-semibold text-[#40C1AC] ring-1 ring-[#40C1AC]/20 ring-inset">
                     Who we are →
@@ -113,13 +113,13 @@ export default function HomePage() {
                     <ChevronRightIcon aria-hidden="true" className="size-5 text-gray-500" />
                   </span>
                 </a>
-              </div>
-              <h1 className="mt-12 text-3xl font-funnel-display font-semibold tracking-tight leading-[1.1] sm:leading-[1.025] text-[#F5F5F5] sm:text-5xl">Power your brand with community platform and AI&#8209;powered automation <span className="block mt-6 text-2xl sm:text-3xl  tracking-normal text-green-500">We&apos;ll help you get there.</span></h1> 
+              </div> */}
+              <h1 className="mt-12 text-3xl font-semibold tracking-tight leading-[1.1] sm:leading-[1.025] text-[#F5F5F5] sm:text-5xl">We develop campaign microsites &amp; communities built with AI-powered marketing automation<span className="block mt-6 text-xl sm:text-2xl  tracking-normal text-green-500">Reach out and we&apos;ll make sure you launch in time.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               <p className="mt-8 text-md max-w-2xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              Unleash your expertise at scale through thought leadership content, courses, and community-building. As your technical partner, let us help you with digital experience design/build and AI orchestration, so you can focus on value creation and serving your customers.</p>
+              You need to launch a campaign yesterday and your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
