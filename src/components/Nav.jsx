@@ -70,12 +70,12 @@ export default function Nav() {
               />
             </a>
           </div>
-          <PopoverButton className="flex items-center gap-x-1 mt-1 ml-10 text-sm/6 font-semibold text-[#f5f5f5] focus-visible:outline-none">
+          <PopoverButton className="flex items-center gap-x-1 mt-1 ml-10 text-sm/6 font-semibold text-theme-primary focus-visible:outline-none">
             Solutions
             <ChevronDownIcon aria-hidden="true" className="size-5" />
           </PopoverButton>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" className="text-sm/6 font-semibold text-white">
+            <a href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" className="text-sm/6 font-semibold text-theme-primary">
             Agent-Led Growth <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -84,12 +84,12 @@ export default function Nav() {
 
       <PopoverPanel
         transition
-        className="absolute inset-x-0 top-0 -z-10 pt-16 transition data-closed:-translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in bg-gradient-to-b from-[#19372f] to-[#1c5b4b]"
+        className="absolute inset-x-0 top-0 -z-10 pt-16 transition data-closed:-translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in bg-gradient-to-b from-[--color-nav-bg] to-[--color-bg-secondary]"
       >
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-10 px-6 py-10 lg:grid-cols-2 lg:px-8">
           <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
             <div>
-              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Services & Pricing</h3>
+              <h3 className="text-sm/6 font-medium text-[--color-nav-text]">Services & Pricing</h3>
               <div className="mt-6 flow-root">
                 <div className="-my-2">
                   {engagement.map((item) => (
@@ -97,9 +97,9 @@ export default function Nav() {
                       key={item.name}
                       href={item.href}
                       target={item.target}
-                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[#f5f5f5]"
+                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[--color-nav-text]"
                     >
-                      <item.icon aria-hidden="true" className="size-6 flex-none text-gray-400" />
+                      <item.icon aria-hidden="true" className="size-6 flex-none text-[--color-text-secondary]" />
                       {item.name}
                     </a>
                   ))}
@@ -107,7 +107,7 @@ export default function Nav() {
               </div>
             </div>
             <div>
-              <h3 className="text-sm/6 font-medium text-[#f5f5f5]">Use Case</h3>
+              <h3 className="text-sm/6 font-medium text-[--color-nav-text]">Use Case</h3>
               <div className="mt-6 flow-root">
                 <div className="-my-2">
                   {persona.map((item) => (
@@ -115,24 +115,24 @@ export default function Nav() {
                       key={item.name}
                       href={item.href}
                       target={item.target}
-                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[#f5f5f5]"
+                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[--color-nav-text]"
                     >
-                      <item.icon aria-hidden="true" className="size-6 flex-none text-gray-400" />
+                      <item.icon aria-hidden="true" className="size-6 flex-none text-[--color-text-secondary]" />
                       {item.name}
                     </a>
                   ))}
                 </div>
               </div>
-              <div className="mt-6 flow-root border-t border-green-200 mr-2 sm:mr-12 pt-6">
+              <div className="mt-6 flow-root border-t border-[--color-border] mr-2 sm:mr-12 pt-6">
                 <div className="-my-2">
                   {resources.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
                       target={item.target}
-                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[#f5f5f5]"
+                      className="flex gap-x-4 py-2 text-sm/6 font-semibold text-[--color-nav-text]"
                     >
-                      <item.icon aria-hidden="true" className="size-6 flex-none text-gray-400" />
+                      <item.icon aria-hidden="true" className="size-6 flex-none text-[--color-text-secondary]" />
                       {item.name}
                     </a>
                   ))}
@@ -157,18 +157,18 @@ export default function Nav() {
                 </div>
                 <div>
                   <div className="flex items-center gap-x-4">
-                    <time dateTime={post.datetime} className="text-sm/6 text-[#f5f5f5]">
+                    <time dateTime={post.datetime} className="text-sm/6 text-[--color-nav-text]">
                       {post.date}
                     </time>
                     <a
                       href={post.category.href}
                       target={post.target}
-                      className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-[#1D3c34]"
+                      className="relative z-10 rounded-full bg-[--color-accent-primary] px-3 py-1.5 text-xs font-medium text-white"
                     >
                       {post.category.title}
                     </a>
                   </div>
-                  <h4 className="mt-2 text-sm/6 font-semibold text-[#f5f5f5]">
+                  <h4 className="mt-2 text-sm/6 font-semibold text-[--color-nav-text]">
                     <a 
                       href={post.href}
                       target={post.target}>
@@ -176,7 +176,7 @@ export default function Nav() {
                       {post.title}
                     </a>
                   </h4>
-                  <p className="mt-2 text-sm/6 text-[#f5f5f5]">{post.description}</p>
+                  <p className="mt-2 text-sm/6 text-[--color-nav-text]">{post.description}</p>
                 </div>
               </article>
             ))}
