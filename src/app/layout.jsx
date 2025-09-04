@@ -5,6 +5,7 @@ import clsx from 'clsx'
 import { Providers } from '@/app/providers'
 import GoogleTagManager from '@/components/GoogleTagManager'
 import Nav from '@/components/Nav'
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 import '@/styles/tailwind.css'
 import TrustPilot from '@/components/TrustPilot'
@@ -104,10 +105,11 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, funnelDisplay.variable, monaSans.variable)}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-[#1D3c34]">
+      <body className="flex min-h-full flex-col bg-theme-primary text-theme-primary transition-colors duration-200">
         <GoogleTagManager />
         <Nav />
         <Providers>
+          <ThemeToggle />
           {children}
         </Providers>
       </body>

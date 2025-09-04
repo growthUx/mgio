@@ -47,7 +47,7 @@ export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#1D3c34] mt-[-60px]">
+    <div className="bg-theme-primary mt-[-60px]">
       <main className="relative isolate">
         {/* Background */}
         <div
@@ -114,11 +114,11 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] text-[#F5F5F5] sm:text-7xl">We&apos;ll help you launch campaign microsites and communities<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-green-500">Built with AI&#8209;powered marketing automation.</span></h1> 
+              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] text-theme-primary sm:text-7xl">We&apos;ll help you launch campaign microsites and communities<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-theme-accent">Built with AI&#8209;powered marketing automation.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
-              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
+              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0">
               You needed to deliver a campaign yesterday and your web team is swamped. We&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -127,7 +127,7 @@ export default function HomePage() {
                 >
                   Get a free consult
                 </a>
-                <a href="/digital-garden" className="text-sm/6 font-semibold text-white">
+                <a href="/digital-garden" className="text-sm/6 font-semibold text-theme-primary">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -149,13 +149,13 @@ export default function HomePage() {
         
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Turn experience into engagement</h2>
-            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
+            <h2 className="text-base/7 font-semibold text-theme-brand">Turn experience into engagement</h2>
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-theme-primary sm:text-4xl sm:text-balance">
               Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
-            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
+            <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-theme-secondary">
               Launch a digital engagement platform with features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, and groups. <br />
-                <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
+                <a href="/digital-garden" className="inline-block pt-4 font-semibold text-theme-brand-secondary">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
             </p>
@@ -177,7 +177,7 @@ export default function HomePage() {
         {/* Content section */}
         <div className="mx-auto my-20 max-w-7xl px-6 lg:px-8">
           <div className="md:mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
-            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
+            <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-theme-primary lg:max-w-none lg:grid-cols-2">
               <div>
                   <div className="mb-8">
                     <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
