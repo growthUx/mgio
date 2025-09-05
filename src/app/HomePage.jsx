@@ -114,12 +114,12 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] text-[#F5F5F5] sm:text-7xl">We&apos;ll help you launch campaign microsites and communities<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-green-500">Built with AI&#8209;powered marketing automation.</span></h1> 
+              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] text-theme-primary sm:text-7xl">We&apos;ll help you launch campaign microsites and content hubs<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-theme-accent">Built with AI&#8209;powered automation and analytics</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
-              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-[#F5F5F5] pr-8 sm:text-md/8 sm:mx-0">
-              You needed to deliver a campaign yesterday and your web team is swamped. We&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
+              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0">
+              Hire us to design and build your next microsite or content hub in weeks, not months. If your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
@@ -141,7 +141,7 @@ export default function HomePage() {
                   height={1442}
                   className="w-304 rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-60 hover:opacity-100"
                 />
-                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">MarketGrowth.cx: Founder- and Agent-led GTM community | <a href="https://marketgrowth.cx" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
+                <div className="mx-auto text-sm font-italic text-gray-300 mt-4">AgentLedGTM.com: Content hub for agent-led growth | <a href="https://agentledgtm.com" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function HomePage() {
               Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Launch a digital engagement platform with features like courses, gated content and paid subscriptions. You can then scale it up with social networking, forums, and groups. <br />
+              Launch a digital engagement platform with features like courses, content hubs and partner portal. You can then scale it up into user-powered social network, forums and groups. <br />
                 <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
@@ -171,7 +171,7 @@ export default function HomePage() {
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network to promote entrepreneurship and self-reliance.</div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network for hustle community.</div>
           </div>
         </div>
         {/* Content section */}
@@ -224,7 +224,7 @@ export default function HomePage() {
               Power your GTM- and rev-ops with 24/7 AI workflow automation to efficiently scale
               </p>
               <p className="mt-6 max-w-2xl mx-auto text-lg/8 text-gray-300">
-              We can help you automate lead ops, sales motion, and marketing using agentic systems that integrate seamlessly with your existing tools. <br /> <a href="/ai-automation" className="inline-block pt-4 font-semibold text-[#00a63e]">
+              We can help you automate lead ops, sales motion, and marketing using AI agents that integrate seamlessly with your existing tools. <br /> <a href="/ai-automation" className="inline-block pt-4 font-semibold text-[#00a63e]">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </p>
