@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
       className={clsx('h-full antialiased', inter.variable, funnelDisplay.variable, monaSans.variable)}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-[#05261E]">
+      <body className="flex min-h-full flex-col bg-[#082523]">
         <GoogleTagManager />
         <Nav />
         <Providers>

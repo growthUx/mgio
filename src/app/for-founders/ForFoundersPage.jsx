@@ -148,7 +148,7 @@ export default function ForFoundersPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#05261E]">
+    <div className="bg-[#082523]">
       <main className="relative isolate">
       <div className="overflow-hidden pt-16 pb-20 sm:py-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

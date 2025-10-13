@@ -47,7 +47,7 @@ export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#05261E] mt-[-60px]">
+    <div className="bg-[#082523] mt-[-60px]">
       <main className="relative isolate">
         {/* Background */}
         {/* <div

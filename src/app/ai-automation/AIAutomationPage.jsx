@@ -99,7 +99,7 @@ export default function AIAutomationPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#05261E]">
+    <div className="bg-[#082523]">
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">
