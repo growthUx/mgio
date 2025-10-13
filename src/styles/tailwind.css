@@ -5,10 +5,10 @@
 
 @theme {
   --text-2xs: 0.6875rem;
-
   --font-sans: var(--font-inter);
   --font-display: var(--font-mona-sans);
   --font-funnel-display: 'Funnel Display', sans-serif;
+  --font-source-serif-4: 'Source Serif 4', serif;
 }
 
 /* Smooth scroll behavior for anchor links */

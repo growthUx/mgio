@@ -1,4 +1,4 @@
-import { Inter } from 'next/font/google'
+import { Inter, Source_Serif_4 } from 'next/font/google'
 import localFont from 'next/font/local'
 import clsx from 'clsx'
 
@@ -13,6 +13,12 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+})
+
+const sourceSerif4 = Source_Serif_4({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-source-serif-4',
 })
 
 const monaSans = localFont({
@@ -101,7 +107,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, funnelDisplay.variable, monaSans.variable)}
+      className={clsx('h-full antialiased', sourceSerif4.variable, funnelDisplay.variable, monaSans.variable)}
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col bg-[#082523]">

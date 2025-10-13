@@ -114,12 +114,12 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] text-theme-primary sm:text-7xl">We&apos;ll help you launch campaign microsites and content hubs<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-theme-accent">Built with AI&#8209;powered automation and analytics</span></h1> 
+              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] sm:text-7xl">Launch your next microsite or content hub in weeks, not months.<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-theme-accent">Built with AI&#8209;powered automation and analytics</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0">
-              Hire us to design and build your next microsite or content hub in weeks, not months. If your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
+               If your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
