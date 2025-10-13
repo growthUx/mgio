@@ -146,7 +146,7 @@ export default function PlatformPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#1D3c34]">
+    <div className="bg-[#05261E]">
       <main className="relative isolate">
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">

@@ -29,7 +29,7 @@ export default function LicensePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#1D3c34]">
+    <div className="bg-[#05261E]">
       <main className="relative isolate">
         <div className="py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

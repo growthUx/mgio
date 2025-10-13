@@ -84,7 +84,7 @@ export default function Nav() {
 
       <PopoverPanel
         transition
-        className="absolute inset-x-0 top-0 -z-10 pt-16 transition data-closed:-translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in bg-gradient-to-b from-[#19372f] to-[#1c5b4b]"
+        className="absolute inset-x-0 top-0 -z-10 pt-16 transition data-closed:-translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in bg-gradient-to-b from-[#061d17] to-[#061d17]"
       >
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-10 px-6 py-10 lg:grid-cols-2 lg:px-8">
           <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
