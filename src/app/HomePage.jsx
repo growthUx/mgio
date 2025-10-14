@@ -114,11 +114,11 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-6xl font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum<span className="block mt-6 text-xl font-mona-sans sm:text-2xl tracking-normal text-theme-accent md:mr-[120px] text-[#FFFFFF]">Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub. Launch in weeks, not months.</span></h1> 
+              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum<span className="block mt-6 text-xl font-mona-sans sm:text-2xl tracking-normal text-theme-accent md:mr-[120px] text-[#FFFFFF]">Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub. Launch in weeks, not months.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
-              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0">
+              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0 text-[#FFFFFF]">
                If your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
