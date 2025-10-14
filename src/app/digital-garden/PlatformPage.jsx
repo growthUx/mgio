@@ -151,11 +151,11 @@ export default function PlatformPage() {
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">
             {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">Build a brand moat around your product or expertise</h2> */}
-            <h1 className="font-funnel-display mt-2 text-3xl font-semibold text-[#f5f5f5] sm:leading-[1.15] sm:text-5xl text-balance">
-             Launch your campaign microsite or community to engage prospects, candidates, learners&nbsp;and partners
+            <h1 className="font-source-serif-4 mt-2 text-3xl text-[#f5f5f5] sm:leading-[1.15] sm:text-5xl text-balance">
+             Engage prospects, candidates, learners&nbsp;and partners
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-md sm:text-lg/8 text-[#f5f5f5]">
-            Provide your own central hub that complements your socials. Win trust, build influence, and watch your business scale as network effects compounds your impact. </p>
+            Launch a microsite or a content hub that complements your main site or socials. Win trust, build influence, and watch your business scale as network effects compounds your impact. </p>
             <div className="mx-auto border-1 font-semibold border-green-200 p-8 mt-8 max-w-4xl"><p className="sm:leading-[28px] text-[#f5f5f5]"><span className="text-green-400">Power tip</span>: What can I give my audience right now that&apos;s ready to launch? Begin with pillar content — like expert articles, product or interview videos, courses, or community forums.<br /><a href="https://meetings.hubspot.com/victor-ramayrat" className="font-semibold italic text-green-400 border-b-1 pt-4 inline-block pb-[2px] border-dashed">The best time to start is today.</a></p></div>
           </div>
         </div>

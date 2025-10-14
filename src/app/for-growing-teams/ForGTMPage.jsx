@@ -154,7 +154,7 @@ export default function ForGTMPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <p className="text-base/7 font-semibold text-[#40C1AC]">For GTM Teams</p>
-              <h1 className="mt-2 text-4xl font-semibold tracking-tight leading-[1.2] text-pretty text-[#f5f5f5] sm:text-4xl">
+              <h1 className="font-source-serif-4 mt-2 text-3xl text-[#f5f5f5] sm:leading-[1.15] sm:text-5xl text-balance">
                 Turn your best insights and expertise into communities that attract, engage, and convert your ideal customers
               </h1>
               <p className="mt-6 text-xl/8 text-[#f5f5f5] pr-12">

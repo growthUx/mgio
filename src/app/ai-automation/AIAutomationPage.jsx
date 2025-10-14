@@ -104,7 +104,7 @@ export default function AIAutomationPage() {
         <div id="digital-engagement-platform" className="mx-auto mt-8 pt-12 pb-4 max-w-7xl px-6 lg:px-8 lg:pb-12">
           <div className="mx-auto max-w-5xl sm:text-center">
             {/* <h2 className="text-base/7 font-semibold text-[#40C1AC]">AI Automation for GTM Teams</h2> */}
-            <h1 className="font-funnel-display mt-2 text-4xl font-semibold text-[#f5f5f5] sm:text-5xl text-balance">
+            <h1 className="font-source-serif-4 mt-2 text-3xl text-[#f5f5f5] sm:leading-[1.15] sm:text-5xl text-balance">
             Run your business smarter with AI
             </h1>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
