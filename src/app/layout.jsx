@@ -1,7 +1,6 @@
 import { Inter, Source_Serif_4 } from 'next/font/google'
 import localFont from 'next/font/local'
 import clsx from 'clsx'
-
 import { Providers } from '@/app/providers'
 import GoogleTagManager from '@/components/GoogleTagManager'
 import Nav from '@/components/Nav'
@@ -17,9 +16,10 @@ const inter = Inter({
 
 const sourceSerif4 = Source_Serif_4({
   subsets: ['latin'],
+  weight: ['400', '700'], // Specify desired weights, e.g., regular and bold
   display: 'swap',
   variable: '--font-source-serif-4',
-})
+});
 
 const monaSans = localFont({
   src: '../fonts/Mona-Sans.var.woff2',

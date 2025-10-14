@@ -58,7 +58,6 @@
     color: var(--typography-headings);
     font-weight: 600;
     font-size: var(--text-3xl);
-    line-height: theme(lineHeight.tight);
   }
 
   h2 {

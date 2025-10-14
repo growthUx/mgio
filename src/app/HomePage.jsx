@@ -114,7 +114,7 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-4xl font-semibold tracking-tight leading-[1.2] sm:leading-[1.025] sm:text-7xl">Launch your next microsite or content hub in weeks, not months.<span className="block mt-6 text-lg sm:text-3xl  tracking-normal text-theme-accent">Built with AI&#8209;powered automation and analytics</span></h1> 
+              <h1 className="mt-12 text-6xl font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum<span className="block mt-6 text-xl font-mona-sans sm:text-2xl tracking-normal text-theme-accent md:mr-[120px]">Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub. Launch in weeks, not months.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
