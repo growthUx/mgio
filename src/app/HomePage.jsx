@@ -115,7 +115,7 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum</h1> <h2 className="block mt-6 text-lg !font-display sm:text-xl tracking-normal text-theme-accent md:mr-[20px] text-[#FFFFFF]">GenAI has changed how we discover and retrieve information. Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your engagement portal so you can turn web experience into customer engagement.</h2>
+              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum</h1> <h2 className="block mt-6 text-lg !font-display sm:text-2xl tracking-normal text-theme-accent text-[#FFFFFF]">GenAI has transformed how we search and retrieve information. Relying on search engines with just a website to get found is no longer enough.</h2><p className="block mt-6 text-md !font-display sm:text-lg tracking-normal text-theme-accent text-[#FFFFFF]">We can help you design<span className="text-[#00c951] text-2xl font-semibold">+</span>build an engagement platform that increases the discoverability of your brand for prospects and elevate customer engagement through community.</p>
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
@@ -126,14 +126,14 @@ export default function HomePage() {
                   href="https://meetings.hubspot.com/victor-ramayrat"
                   target="_blank" className="rounded-md bg-green-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
-                  Get a free consult
+                  Book a free consult
                 </a>
                 <a href="/digital-garden" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
-            <div className="flex-1 flex items-center justify-center mt-8 lg:mt-0">
+            <div className="hidden sm:block flex-1 flex items-center justify-center mt-8 lg:mt-0">
               <DotLottieReact
                 width="200%"
                 src="https://lottie.host/d06c0670-e9e0-48d0-912a-deb784a19810/Tw51TliyHN.lottie"
@@ -158,7 +158,7 @@ export default function HomePage() {
         
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-base/7 font-semibold text-[#40C1AC]">Turn experience into engagement</h2>
+            <h2 className="text-md sm:text-lg text-[#40C1AC]">Turn experience into engagement</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
@@ -228,7 +228,7 @@ export default function HomePage() {
           </div> */}
           <div id="ai-automation" className="mx-auto max-w-7xl py-6 px-6 lg:px-8">
             <div className="mx-auto max-w-4xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-[#40C1AC]">Scale with AI workflow automation</h2>
+              <h2 className="text-md sm:text-lg text-[#40C1AC]">Scale with AI workflow automation</h2>
               <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Power your GTM- and rev-ops with 24/7 AI workflow automation to efficiently scale
               </p>
