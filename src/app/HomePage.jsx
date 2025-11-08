@@ -24,6 +24,7 @@ import {
 } from '@heroicons/react/20/solid'
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 
 const cards = [
   {
@@ -64,7 +65,7 @@ export default function HomePage() {
         </div> */}
 
         {/* Header section */}
-        <div className="relative isolate overflow-hidden">
+        <div className="relative isolate sm:pb-12">
           {/* <svg
             aria-hidden="true"
             className="absolute inset-0 -z-10 size-full mask-[radial-gradient(100%_100%_at_top_right,white,transparent)] stroke-white/10"
@@ -101,8 +102,8 @@ export default function HomePage() {
               className="aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-20"
             /> */}
           </div>
-          <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-24">
-            <div className="mx-auto max-w-3xl shrink-0 lg:mx-0 lg:pt-8">
+          <div className="mx-auto max-w-7xl px-6 mt-16 lg:mt-4 pt-10 pb-24 sm:pb-32 lg:flex lg:gap-8 lg:items-center lg:px-8 lg:py-24">
+            <div className="flex-1 pt-0">
               {/* <div className="my-4">
                 <a href="https://marketgrowth.cx/product-roadmap/welcome" className="inline-flex space-x-6" target="_blank">
                   <span className="rounded-full bg-[#40C1AC]/10 px-3 py-1 text-sm/6 font-semibold text-[#40C1AC] ring-1 ring-[#40C1AC]/20 ring-inset">
@@ -114,12 +115,12 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum<span className="block mt-6 text-xl font-mona-sans sm:text-2xl tracking-normal text-theme-accent md:mr-[120px] text-[#FFFFFF]">Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub. Launch in weeks, not months.</span></h1> 
+              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum<span className="block mt-6 text-lg !font-display sm:text-xl tracking-normal text-theme-accent md:mr-[80px] text-[#FFFFFF]">Hire us as your forward-deployed GTM Engineer or as a technical partner. We will design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub on AI-powered workflow automation.</span></h1> 
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
-              <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0 text-[#FFFFFF]">
-               If your web team is swamped, we&apos;ve got you covered. You can rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, will deliver results.</p>
+              {/* <p className="mt-8 text-md max-w-3xl mx-auto text-pretty text-theme-primary pr-8 sm:text-md/8 sm:mx-0 text-[#FFFFFF]">
+              Maintain your strong go-to-market motion. Rely on us to build and ship campaign assets that are on-brand and conversion-optimized; and most importantly, deliver results.</p> */}
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="https://meetings.hubspot.com/victor-ramayrat"
@@ -132,7 +133,15 @@ export default function HomePage() {
                 </a>
               </div>
             </div>
-            <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 lg:max-w-none lg:flex-none xl:ml-32">
+            <div className="flex-1 flex items-center justify-center mt-8 lg:mt-0">
+              <DotLottieReact
+                width="200%"
+                src="https://lottie.host/d06c0670-e9e0-48d0-912a-deb784a19810/Tw51TliyHN.lottie"
+                loop
+                autoplay
+              />
+            </div>
+            {/* <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 lg:max-w-none lg:flex-none xl:ml-32">
               <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
                   alt="MarketGrowth Community"
@@ -143,7 +152,7 @@ export default function HomePage() {
                 />
                 <div className="mx-auto text-sm font-italic text-gray-300 mt-4">AgentLedGTM.com: Content hub for agent-led growth | <a href="https://agentledgtm.com" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         
