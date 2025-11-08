@@ -115,7 +115,7 @@ export default function HomePage() {
                   </span>
                 </a>
               </div> */}
-              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum</h1> <h2 className="block mt-6 text-lg !font-display sm:text-xl tracking-normal text-theme-accent md:mr-[80px] text-[#FFFFFF]">Hire us as your forward-deployed GTM Engineer or as a technical partner. We will design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your campaign microsite or subscription-powered content hub powered by AI automated workflow.</h2>
+              <h1 className="mt-12 text-6xl text-[#FFFFFF] font-source-serif-4 tracking-tight leading-[1.1] sm:leading-[1.025] sm:text-7xl md:text-8xl"><span className="text-[#00c951]">Engineer</span> momentum</h1> <h2 className="block mt-6 text-lg !font-display sm:text-xl tracking-normal text-theme-accent md:mr-[20px] text-[#FFFFFF]">GenAI has changed how we discover and retrieve information. Hire us to design<span className="text-[#00c951] text-2xl font-semibold">+</span>build your engagement portal so you can turn web experience into customer engagement.</h2>
               {/* <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
               {/* <h1 className="font-funnel-display mt-12 text-3xl font-semibold text-pretty tracking-tight text-[#F5F5F5] sm:text-6xl">We are a DX<span className="text-[#40C1AC]"> + </span>AI Studio</h1> 
               <h2 className="text-lg mt-4 text-[#F5F5F5] text-pretty sm:text-[22px] pr-4">We help founders and fast growing teams build engaging brands online to serve and captivate their audience to win them as customers.</h2> */}
@@ -163,7 +163,7 @@ export default function HomePage() {
               Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Launch a digital engagement platform with features like courses, content hubs and partner portal. You can then scale it up into user-powered social network, forums and groups. <br />
+              Launch a digital engagement platform with features like activity feed, content hub, and courses. You can then scale it up into user-powered social network, forums and groups. <br />
                 <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
