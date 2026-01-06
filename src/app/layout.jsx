@@ -18,7 +18,7 @@ const sourceSerif4 = Source_Serif_4({
   subsets: ['latin'],
   weight: ['400', '700'], // Specify desired weights, e.g., regular and bold
   display: 'swap',
-  variable: '--font-source-serif-4',
+  variable: '--font-source-serif-4'
 });
 
 const monaSans = localFont({
