@@ -163,13 +163,13 @@ export default function PlatformPage() {
         <div className="max-w-7xl mx-auto flow-root py-12 px-8 pb-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
-              alt="VirtualPro"
-              src="/brand/mgio-vip-ss.png"
+              alt="Orbytt"
+              src="/images/orbytt-ss.jpg"
               width={2432}
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">VirtualPro.ph - a talent discovery platform. Uses courses, social network, forums, groups, blog posts and events. <a href="https://virtualpro.ph" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">Orbytt - a talent discovery platform. Uses courses, social network, forums, groups, blog posts and events. <a href="https://orbytt.ai" target="_blank" className="text-green-600">Visit the website <span aria-hidden="true">→</span></a></div>
           </div>
         </div>
         {/* Content section */}

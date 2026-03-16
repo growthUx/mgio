@@ -159,12 +159,12 @@ export default function HomePage() {
         
         <div id="digital-engagement-platform" className="mx-auto py-12 max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl sm:text-center">
-            <h2 className="text-md sm:text-lg text-[#40C1AC]">Turn experience into engagement</h2>
+            <h2 className="text-md sm:text-lg text-[#40C1AC]">Turn prospect curiosity into engagement</h2>
             <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-[#f5f5f5] sm:text-4xl sm:text-balance">
               Provide a delightful digital experience to enable and encourage visitor engagement within your brand&apos;s digital garden
             </p>
             <p className="mt-6 max-w-3xl  mx-auto text-lg/8 text-gray-300">
-              Launch a digital engagement platform with features like activity feed, content hub, and courses. You can then scale it up into user-powered social network, forums and groups. <br />
+              Launch a content platform with features like blog posts, document libraries, activity feed, and discussions. You can then scale it up into user-powered social network, courses, and groups. <br />
                 <a href="/digital-garden" className="inline-block pt-4 font-semibold text-[#00a63e]">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
@@ -175,13 +175,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flow-root py-12 px-8 md:px-12">
           <div className="-m-2 rounded-xl bg-white/5 p-2 ring-1 ring-white/10 ring-inset lg:-m-4 lg:rounded-2xl lg:p-4">
             <img
-              alt="Hustle/Side Hustle Community"
-              src="/images/hush-ss.png"
+              alt="AI-Forward GTM Content Hub and Community"
+              src="/images/forwardgtm-ss.jpg"
               width={2432}
               height={1442}
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10 transition-opacity duration-300 ease-in-out opacity-50 hover:opacity-100"
             />
-            <div className="mx-auto text-sm font-italic text-gray-300 mt-4">HuSH - a social network for hustle community.</div>
+            <div className="mx-auto text-sm font-italic text-gray-300 mt-4"><a href="https://forwardgtm.com" target="_blank">ForwardGTM</a> - content hub for Pegasus Strategy.</div>
           </div>
         </div>
         {/* Content section */}
@@ -190,16 +190,16 @@ export default function HomePage() {
             <div className="grid max-w-2xl grid-cols-1 gap-14 text-base/7 text-[#f5f5f5] lg:max-w-none lg:grid-cols-2">
               <div>
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold mb-4">Start with a scalable digital engagement platform</h3>
+                    <h3 className="text-xl font-semibold mb-4">Start with an ungated and gated content hub</h3>
                     <p>
-                    Launch a paid or free subscription-based website. Offer exclusive content and programs that keep your audience engaged and invested.
+                    Keep your website visitor engaged through your own businesss content hub. Offer exclusive content and programs that keep your audience invested.
                     </p>
                 </div>
               </div>
               <div>
                 <div className="mb-8">
                   <h3 className="text-xl font-semibold mb-4">Build trust with delightful web experience </h3>
-                  <p>Transform visits into engagement that attracts and converts visitors into loyal customers and community members.
+                  <p>Transform unknown visits into known engagement through a seamless registration or subscription process to your content hub. Scale up into a digital experience ecosystem that includes forums, groups, and social features to foster a thriving community around your brand.
                   </p>
                 </div>
               </div>
