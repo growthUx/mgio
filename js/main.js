@@ -58,8 +58,8 @@
       el.textContent = new Date().getFullYear();
     });
 
-    // ------- Contact modal (header "Contact us" opens it; other CTAs
-    // and the footer still navigate to the full contact page) -------
+    // ------- Contact modal (header "Contact us" and hero CTAs open it;
+    // other CTAs and the footer still navigate to the full contact page) -------
     var overlay = document.createElement("div");
     overlay.className = "modal-overlay";
     overlay.setAttribute("aria-hidden", "true");
@@ -102,8 +102,9 @@
       if (lastFocus) lastFocus.focus();
     }
 
-    // Header "Contact us" button triggers the modal (href stays as fallback)
-    document.querySelectorAll(".nav-cta a[href='contact.html']").forEach(function (a) {
+    // Header "Contact us" button and hero-section CTAs trigger the modal
+    // (href stays as fallback for no-JS)
+    document.querySelectorAll(".nav-cta a[href='contact.html'], .hero a[href='contact.html']").forEach(function (a) {
       a.addEventListener("click", function (e) {
         e.preventDefault();
         openModal();

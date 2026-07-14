@@ -26,7 +26,14 @@
             <li><a href="for-nonprofits.html">For Nonprofits &amp; Social Enterprise</a></li>
           </ul>
         </li>
-        <li><a href="labs.html">Labs</a></li>
+        <li class="dropdown">
+          <a href="#" aria-haspopup="true">Company</a>
+          <ul class="dropdown-menu">
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="labs.html">Labs</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+          </ul>
+        </li>
         <li class="nav-mobile-only"><a href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" rel="noopener">Agent-Led Growth &#8599;</a></li>
       </ul>
       <div class="nav-cta">
@@ -56,11 +63,16 @@
             <li><a href="for-founders.html">For Founders</a></li>
             <li><a href="for-growing-teams.html">For GTM Teams</a></li>
             <li><a href="for-nonprofits.html">For Nonprofits &amp; Social Enterprise</a></li>
-            <li><a href="labs.html">MarketGrowth Labs</a></li>
           </ul>
         </div>
         <div>
-          <h4>Resources</h4>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="labs.html">MarketGrowth Labs</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+          </ul>
+          <h4 style="margin-top:22px;">Resources</h4>
           <ul>
             <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever" target="_blank" rel="noopener">Article: Why building your personal brand matters more than ever</a></li>
             <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing" target="_blank" rel="noopener">eBook: GTM for Founders Simplified</a></li>

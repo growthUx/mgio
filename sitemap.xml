@@ -9,6 +9,8 @@
   <url><loc>https://marketgrowth.io/for-growing-teams</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://marketgrowth.io/for-nonprofits</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://marketgrowth.io/labs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://marketgrowth.io/our-team</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://marketgrowth.io/jobs</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://marketgrowth.io/contact</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://marketgrowth.io/terms-of-service</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://marketgrowth.io/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>

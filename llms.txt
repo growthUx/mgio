@@ -15,8 +15,10 @@
 - [For GTM Teams](https://marketgrowth.io/for-growing-teams): Community-led and agent-led growth systems that attract, engage, and convert ideal customers.
 - [For Nonprofits & Social Enterprises](https://marketgrowth.io/for-nonprofits): Web experience, automation, and content engineering for mission-driven organizations, delivered through Mission:Told (missiontold.com), MarketGrowth's AI-native studio for social impact.
 
-## MarketGrowth Labs
+## Company
 
+- [Our Team](https://marketgrowth.io/our-team): Led by Victor Ramayrat, Principal. Marketing engineer and operator-builder; formerly Senior Manager of Digital Experience at PwC Products & Technology, Marketing Engineer at Tradeshift, and Head of Growth at Redkix (acquired by Meta). Founder of OrbyttAI.
+- [Jobs](https://marketgrowth.io/jobs): AI-native first company; hires humans for human-in-the-loop client work. Open roles: Web Producer (WordPress & Shopify) and Social Media Content Producer, hired through OrbyttAI.
 - [MarketGrowth Labs](https://marketgrowth.io/labs): In-house product ventures. OrbyttAI (orbytt.ai), a community platform connecting Filipino virtual talent with businesses worldwide; SocientAI (socient.ai, launching soon), AI-native social and community tools for builders and teams; and AEMFix (aemfix.com), an AI visibility and AEO content autopilot that tracks how brands appear in ChatGPT, Perplexity, Gemini, and Google AI, then publishes answer-engine-optimized content to close the gaps.
 
 ## Contact
