@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Modular blocks rising like a growing garden - MarketGrowth key visual">
+  <defs>
+    <linearGradient id="gTeal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1D3C34"/><stop offset="1" stop-color="#40C1AC"/>
+    </linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FA4616"/><stop offset="1" stop-color="#FFAA4D"/>
+    </linearGradient>
+    <linearGradient id="gPurple" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#753BBD"/><stop offset="1" stop-color="#99D6EA"/>
+    </linearGradient>
+    <linearGradient id="gPeach" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFAA4D"/><stop offset="1" stop-color="#FCC89B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="22" fill="#1D3C34"/>
+  <g stroke="#F5F5F5" stroke-opacity="0.08" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M133 0v500M266 0v500M400 0v500M533 0v500M666 0v500"/>
+  </g>
+  <path d="M90 420 C 250 400, 380 330, 500 240 S 680 110, 720 80" fill="none" stroke="#40C1AC" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <rect x="96"  y="330" width="90"  height="90"  rx="16" fill="url(#gTeal)"/>
+  <rect x="216" y="290" width="110" height="130" rx="16" fill="url(#gPeach)"/>
+  <rect x="356" y="230" width="120" height="190" rx="16" fill="url(#gPurple)"/>
+  <rect x="506" y="150" width="130" height="270" rx="16" fill="url(#gOrange)"/>
+  <rect x="666" y="90"  width="60"  height="60"  rx="12" fill="url(#gTeal)"/>
+  <g fill="#F5F5F5">
+    <circle cx="141" cy="330" r="5"/>
+    <circle cx="271" cy="290" r="5"/>
+    <circle cx="416" cy="230" r="5"/>
+    <circle cx="571" cy="150" r="5"/>
+    <circle cx="696" cy="90" r="5"/>
+  </g>
+</svg>
