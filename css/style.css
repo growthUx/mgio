@@ -615,6 +615,7 @@ section { padding: 88px 0; }
 
 /* ---------- Pricing ---------- */
 .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+.pricing-grid-2 { grid-template-columns: repeat(2, 1fr); }
 .price-card { position: relative; }
 .price-card.featured { border-color: var(--mg-green); box-shadow: var(--shadow); }
 .price-card .price {

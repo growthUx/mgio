@@ -1,11 +1,11 @@
 # MarketGrowth
 
-> MarketGrowth (MarketGrowth CX LLC) is a digital experience and AI automation agency that serves as the technical partner for founders and GTM (go-to-market) teams. Services include branded microsites and community platforms ("Digital Gardens"), AI workflow automation, AEO/GEO/SEO visibility services, and analytics and reporting. Based in Sacramento, California. Founded by Victor Ramayrat.
+> MarketGrowth (MarketGrowth CX LLC) is a digital experience and AI automation agency that serves as the technical partner for founders and GTM (go-to-market) teams. Services include full websites, branded campaign microsites and community/content hubs ("Digital Gardens"), AI workflow automation, AEO/GEO/SEO visibility services, and analytics and reporting. Based in Sacramento, California. Founded by Victor Ramayrat.
 
 ## Services
 
 - [AEO / GEO / SEO Services](https://marketgrowth.io/aeo-geo-seo): Answer Engine Optimization, Generative Engine Optimization, and technical SEO combined into one visibility system: audit and entity mapping, content and schema engineering, authority building, and share-of-answer measurement across Google, ChatGPT, Perplexity, and AI Overviews.
-- [Microsites and Community Platform](https://marketgrowth.io/digital-garden): Branded content hubs and community platforms with courses, forums, groups, gated downloads, blog posts, and events. Plans: Starter ($39/mo), Growth ($180/mo), Scale (custom).
+- [Websites, Microsites and Content Hub](https://marketgrowth.io/digital-garden): Full websites, campaign microsites, and community/content hubs with courses, forums, groups, gated downloads, blog posts, and events. Plans: Growth ($180/mo), Scale (custom). Nonprofits and social enterprises are served through the Mission:Told partnership (missiontold.com) on subscription pricing.
 - [AI Marketing Automation](https://marketgrowth.io/ai-automation): Tailored AI workflow automation for GTM, sales ops, and marketing using n8n, Zapier, Claude, and OpenAI, integrated with HubSpot, Salesforce, Segment, and more. Plans: Design+Build (from $3,000), Manage ($500/mo).
 - [Analytics and Reporting](https://marketgrowth.io/analytics-reporting): GA4 and Google Tag Manager implementation, Segment to BigQuery pipelines, and Looker/Tableau dashboards.
 

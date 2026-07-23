@@ -12,7 +12,7 @@
         <li class="dropdown">
           <a href="#" aria-haspopup="true">Solutions</a>
           <ul class="dropdown-menu">
-            <li><a href="digital-garden.html">Microsites &amp; Community Platform</a></li>
+            <li><a href="digital-garden.html">Websites, Microsites &amp; Content Hub</a></li>
             <li><a href="ai-automation.html">AI Marketing Automation</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics &amp; Reporting</a></li>
@@ -56,7 +56,7 @@
         <div>
           <h4>Solutions &amp; Pricing</h4>
           <ul>
-            <li><a href="digital-garden.html">Microsites and Community Platform</a></li>
+            <li><a href="digital-garden.html">Websites, Microsites and Content Hub</a></li>
             <li><a href="ai-automation.html">AI Marketing Automation</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics and Reporting</a></li>
