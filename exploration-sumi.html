@@ -214,7 +214,7 @@
   .bar input::placeholder { color: var(--body-muted); }
 
   /* 5. Footer (z-20) */
-  footer {
+  .hero > footer {
     position: absolute;
     inset-inline: 0;
     bottom: 0;
@@ -241,7 +241,7 @@
     .form-wrap { margin-top: 2.5rem; }
     .bar { height: 4rem; padding-left: 1.5rem; padding-right: 0.4rem; }
     .bar input { font-size: 1.15rem; }
-    footer { padding: 1.5rem 2.5rem; font-size: 0.8rem; }
+    .hero > footer { padding: 1.5rem 2.5rem; font-size: 0.8rem; }
   }
 
   /* ---------- ≥1024px ---------- */
@@ -249,6 +249,261 @@
     .center { max-width: 52rem; }
     h1 { max-width: 46rem; font-size: 5rem; }
     .sub { max-width: none; font-size: 1.2rem; }
+  }
+
+  /* ---------- Page sections ---------- */
+  html { scroll-behavior: smooth; }
+  .section {
+    position: relative;
+    padding: 6.5rem 1.25rem;
+    overflow: hidden;
+    background: var(--hero-base);
+  }
+  .wrap { width: 100%; max-width: 72rem; margin: 0 auto; position: relative; z-index: 1; }
+  .glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.13;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-fill);
+    padding: 0.4rem 0.875rem;
+    font-size: 0.72rem;
+    color: var(--body-muted);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+  .section h2 {
+    margin-top: 1.25rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    color: var(--heading);
+  }
+  .section .lead {
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--body-muted);
+  }
+  .section-head { text-align: center; display: flex; flex-direction: column; align-items: center; }
+  .grid3 { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 3rem; }
+  .card {
+    position: relative;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-fill);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: left;
+    transition: border-color var(--duration-fast) var(--ease-entrance),
+                transform 300ms var(--ease-entrance),
+                background var(--duration-fast) var(--ease-entrance);
+  }
+  .card:hover { border-color: rgba(255,255,255,0.3); transform: translateY(-4px); }
+  .card h3 { font-size: 1.2rem; font-weight: 500; color: var(--heading); letter-spacing: -0.01em; }
+  .card p { margin-top: 0.75rem; font-size: 0.95rem; line-height: 1.55; color: var(--body-muted); }
+  .card .glyph {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.9rem;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-fill);
+    margin-bottom: 1.25rem;
+    color: var(--heading);
+  }
+  .card .glyph svg { width: 1.35rem; height: 1.35rem; }
+  .stepnum {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.75rem;
+    font-size: 0.8rem;
+    color: var(--body-muted);
+    opacity: 0.7;
+  }
+  .kicker { display: block; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--body-muted); margin-bottom: 0.5rem; }
+
+  /* Pricing */
+  .price-card .price { margin-top: 1.25rem; font-size: 2.6rem; font-weight: 500; color: var(--heading); letter-spacing: -0.02em; }
+  .price-card .per { font-size: 0.85rem; color: var(--body-muted); font-weight: 400; letter-spacing: 0; }
+  .price-card ul { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+  .price-card li { display: flex; gap: 0.6rem; align-items: baseline; font-size: 0.92rem; color: var(--body-muted); line-height: 1.5; padding: 0.3rem 0; }
+  .price-card li::before { content: "✓"; color: var(--heading); font-size: 0.8rem; }
+  .price-card .pill, .price-card .ghost-pill { margin-top: 1.75rem; width: 100%; }
+  .ghost-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.75rem;
+    border-radius: 9999px;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-fill);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--heading);
+    transition: border-color var(--duration-fast) var(--ease-entrance);
+  }
+  .ghost-pill:hover { border-color: rgba(255,255,255,0.35); }
+  .price-card.featured { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.3); }
+  .chip {
+    position: absolute;
+    top: -0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 9999px;
+    background: var(--action-inverse);
+    color: var(--action-inverse-fg);
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    white-space: nowrap;
+  }
+
+  /* Blog */
+  .bcard { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+  .bcard .thumb { height: 9rem; width: 100%; }
+  .bcard .binner { padding: 1.75rem; display: flex; flex-direction: column; flex: 1; }
+  .bcard .meta { font-size: 0.75rem; color: var(--body-muted); opacity: 0.8; }
+  .bcard h3 { margin-top: 0.6rem; }
+  .bcard .more { margin-top: auto; padding-top: 1.25rem; font-size: 0.85rem; font-weight: 500; color: var(--heading); }
+  .bcard .more span { display: inline-block; transition: transform var(--duration-fast) var(--ease-entrance); }
+  .bcard:hover .more span { transform: translateX(4px); }
+
+  /* Closing CTA */
+  .cta-section { text-align: center; }
+  .cta-section .form-wrap { margin-top: 2.25rem; }
+
+  /* Site footer */
+  .site-footer {
+    border-top: 1px solid var(--glass-border);
+    background: var(--hero-base);
+    padding: 4rem 1.25rem 2.5rem;
+  }
+  .site-footer .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 1.5rem; text-align: left; }
+  .site-footer .fbrand { grid-column: 1 / -1; }
+  .site-footer .fbrand .brand { font-size: 1.15rem; }
+  .site-footer .fbrand p { margin-top: 0.9rem; max-width: 18rem; font-size: 0.85rem; line-height: 1.5; color: var(--body-muted); }
+  .site-footer h4 { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--body-muted); opacity: 0.75; }
+  .site-footer ul { list-style: none; padding: 0; margin: 1rem 0 0; }
+  .site-footer li { padding: 0.28rem 0; }
+  .site-footer li a { font-size: 0.9rem; color: var(--body-muted); transition: color var(--duration-fast) var(--ease-entrance); }
+  .site-footer li a:hover { color: var(--heading); }
+  .site-footer .legal {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--body-muted);
+  }
+
+  @media (min-width: 640px) {
+    .section { padding: 8.5rem 2.5rem; }
+    .section h2 { font-size: 2.75rem; margin-top: 1.5rem; }
+    .section .lead { font-size: 1.1rem; }
+    .grid3 { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3.5rem; }
+    .site-footer { padding: 5rem 2.5rem 2.5rem; }
+    .site-footer .wrap { grid-template-columns: 2fr 1fr 1fr 1fr; }
+    .site-footer .fbrand { grid-column: auto; }
+    .site-footer .legal { flex-direction: row; }
+  }
+
+  /* Waitlist modal */
+  .modal-backdrop[hidden] { display: none; }
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background: rgba(4,5,12,0.72);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms var(--ease-entrance);
+  }
+  .modal-backdrop.open { opacity: 1; pointer-events: auto; }
+  .modal {
+    position: relative;
+    width: 100%;
+    max-width: 26rem;
+    border-radius: 1.5rem;
+    border: 1px solid var(--glass-border);
+    background: rgba(13,15,26,0.92);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    padding: 2.25rem 2rem 2rem;
+    text-align: left;
+    transform: translateY(1rem) scale(0.98);
+    transition: transform 300ms var(--ease-entrance);
+  }
+  .modal-backdrop.open .modal { transform: translateY(0) scale(1); }
+  .modal h3 { font-size: 1.35rem; font-weight: 500; color: var(--heading); letter-spacing: -0.01em; }
+  .modal-sub { margin-top: 0.5rem; font-size: 0.9rem; line-height: 1.5; color: var(--body-muted); }
+  .modal form { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
+  .modal label { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.78rem; color: var(--body-muted); }
+  .modal input[type="text"], .modal input[type="email"], .modal textarea {
+    width: 100%;
+    border-radius: 0.9rem;
+    border: 1px solid var(--glass-border);
+    background: rgba(255,255,255,0.06);
+    color: var(--heading);
+    font-size: 0.95rem;
+    padding: 0.7rem 0.9rem;
+    outline: none;
+    resize: vertical;
+    transition: border-color var(--duration-fast) var(--ease-entrance);
+  }
+  .modal input:focus, .modal textarea:focus { border-color: rgba(255,255,255,0.4); }
+  .modal input::placeholder, .modal textarea::placeholder { color: var(--body-muted); opacity: 0.6; }
+  .modal .pill { width: 100%; margin-top: 0.25rem; }
+  .modal .pill[disabled] { opacity: 0.6; cursor: default; }
+  .modal-x {
+    position: absolute;
+    top: 1rem;
+    right: 1.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    color: var(--body-muted);
+    font-size: 1.25rem;
+    line-height: 1;
+    transition: color var(--duration-fast) var(--ease-entrance), background var(--duration-fast) var(--ease-entrance);
+  }
+  .modal-x:hover { color: var(--heading); background: var(--glass-fill); }
+  .modal-err { font-size: 0.82rem; color: #f6a5b8; }
+  .modal-done { text-align: center; padding: 1rem 0 0.25rem; }
+  .modal-done .ghost-pill { margin-top: 1.5rem; padding: 0 1.375rem; }
+
+  /* Scroll reveals for below-the-fold content */
+  .sr {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transition: opacity 700ms var(--ease-entrance), transform 700ms var(--ease-entrance);
+  }
+  .sr.in { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) {
+    .sr { opacity: 1; transform: none; transition: none; }
   }
 
   /* ---------- Entrance reveals ---------- */
@@ -296,7 +551,7 @@
     <h1 id="headline">Where Thoughts Take Shape</h1>
     <p class="sub" id="subline">Cut through the noise, reclaim your attention, and do work that truly matters.</p>
     <div class="form-wrap reveal" data-delay="1450">
-      <form id="waitlist" novalidate>
+      <form id="waitlist" class="wl" novalidate>
         <div class="bar">
           <input type="email" required placeholder="Enter your email" aria-label="Email address">
           <button class="pill" type="submit">Join Waitlist</button>
@@ -305,8 +560,276 @@
     </div>
   </div>
 
-  <footer class="reveal" data-delay="1650">© 2026 Sumi — ink for your ideas.</footer>
+  <footer class="reveal" data-delay="1650">Scroll to see how it works ↓</footer>
 </section>
+
+<main>
+
+  <!-- ============ How it works ============ -->
+  <section class="section" id="how-it-works">
+    <div class="glow" style="background:#22d3ee; width:34rem; height:34rem; top:-12rem; left:-14rem;"></div>
+    <div class="wrap">
+      <div class="section-head sr">
+        <p class="eyebrow">How it works</p>
+        <h2>Three moves. No friction.</h2>
+        <p class="lead">Sumi is deliberately small. Everything it does supports one act — you, writing.</p>
+      </div>
+      <div class="grid3">
+        <div class="card sr" data-srd="0">
+          <span class="stepnum">01</span>
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M8 8h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/></svg>
+          </span>
+          <h3>Open a page</h3>
+          <p>One keystroke and you're in a dark, silent room with your words. No toolbars, no sidebars, no red dots asking for attention.</p>
+        </div>
+        <div class="card sr" data-srd="120">
+          <span class="stepnum">02</span>
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20c4-1 4-4 6.5-9.5C13 5 16 3.5 18.5 5.5S20 12 15 15.5C10.7 18.5 6.5 19.7 4 20Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Write in ink</h3>
+          <p>Typography tuned like wet ink on paper. Sentences settle onto the page while Sumi stays completely out of the way.</p>
+        </div>
+        <div class="card sr" data-srd="240">
+          <span class="stepnum">03</span>
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 9c2.5 0 2.5 4 5 4s2.5-4 5-4 2.5 4 5 4 2.5-4 3-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M3 15c2.5 0 2.5 4 5 4s2.5-4 5-4 2.5 4 5 4 2.5-4 3-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/></svg>
+          </span>
+          <h3>Let it settle</h3>
+          <p>Step away and Sumi quietly files drafts, versions, and threads. Come back to find your thinking already organized.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Products ============ -->
+  <section class="section" id="products">
+    <div class="glow" style="background:#c026d3; width:34rem; height:34rem; bottom:-14rem; right:-14rem;"></div>
+    <div class="wrap">
+      <div class="section-head sr">
+        <p class="eyebrow">Products</p>
+        <h2>One canvas, three instruments.</h2>
+        <p class="lead">Every part of Sumi shares the same quiet surface — pick up whichever fits the moment.</p>
+      </div>
+      <div class="grid3">
+        <div class="card sr" data-srd="0">
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M15.5 4.5l4 4L8 20H4v-4L15.5 4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="kicker">The editor</span>
+          <h3>Sumi Write</h3>
+          <p>A distraction-free editor on an ink-dark canvas. Focus mode dims everything but the sentence you're shaping.</p>
+        </div>
+        <div class="card sr" data-srd="120">
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 4c-2-1.5-5-1.5-7 0v15c2-1.5 5-1.5 7 0 2-1.5 5-1.5 7 0V4c-2-1.5-5-1.5-7 0Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 4v15" stroke="currentColor" stroke-width="1.6" opacity="0.5"/></svg>
+          </span>
+          <span class="kicker">Daily pages</span>
+          <h3>Sumi Journal</h3>
+          <p>A fresh page waits every morning. Gentle streaks, zero guilt, private by default — a practice, not a performance.</p>
+        </div>
+        <div class="card sr" data-srd="240">
+          <span class="glyph" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 3 10.5 13.5M21 3l-6.5 18-4-7.5L3 9.5 21 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="kicker">From draft to reader</span>
+          <h3>Sumi Publish</h3>
+          <p>When a piece is finished, turn it into a clean page or newsletter with one command. Your words, unstyled by noise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Pricing ============ -->
+  <section class="section" id="pricing">
+    <div class="glow" style="background:#6366f1; width:38rem; height:38rem; top:-10rem; left:50%; transform:translateX(-50%);"></div>
+    <div class="wrap">
+      <div class="section-head sr">
+        <p class="eyebrow">Pricing</p>
+        <h2>Priced like a good pen.</h2>
+        <p class="lead">Start free. Upgrade when Sumi becomes the place your writing lives.</p>
+      </div>
+      <div class="grid3">
+        <div class="card price-card sr" data-srd="0">
+          <span class="kicker">For getting started</span>
+          <h3>Drift</h3>
+          <div class="price">$0 <span class="per">forever</span></div>
+          <ul>
+            <li>3 notebooks</li>
+            <li>The full editor, nothing held back</li>
+            <li>Sync on one device</li>
+            <li>Export to Markdown</li>
+          </ul>
+          <a class="ghost-pill" href="#get-started">Start free</a>
+        </div>
+        <div class="card price-card featured sr" data-srd="120">
+          <span class="chip">Most popular</span>
+          <span class="kicker">For daily writers</span>
+          <h3>Flow</h3>
+          <div class="price">$8 <span class="per">/ month</span></div>
+          <ul>
+            <li>Unlimited notebooks</li>
+            <li>Version history &amp; snapshots</li>
+            <li>Sync everywhere</li>
+            <li>Sumi Journal daily pages</li>
+            <li>Priority support</li>
+          </ul>
+          <a class="pill" href="#get-started">Join the waitlist</a>
+        </div>
+        <div class="card price-card sr" data-srd="240">
+          <span class="kicker">For publishing</span>
+          <h3>Studio</h3>
+          <div class="price">$20 <span class="per">/ month</span></div>
+          <ul>
+            <li>Everything in Flow</li>
+            <li>Sumi Publish — pages &amp; newsletter</li>
+            <li>Custom domain</li>
+            <li>Collaboration for two</li>
+          </ul>
+          <a class="ghost-pill" href="#get-started">Go Studio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Blog ============ -->
+  <section class="section" id="blog">
+    <div class="glow" style="background:#22d3ee; width:30rem; height:30rem; bottom:-12rem; left:-12rem;"></div>
+    <div class="wrap">
+      <div class="section-head sr">
+        <p class="eyebrow">Blog</p>
+        <h2>Notes from the quiet.</h2>
+        <p class="lead">Slow thoughts on writing, attention, and building software that stays out of the way.</p>
+      </div>
+      <div class="grid3">
+        <a class="card bcard sr" href="#blog" data-srd="0">
+          <div class="thumb" style="background: radial-gradient(120% 120% at 20% 20%, rgba(34,211,238,0.55), rgba(4,5,12,0.9) 70%);"></div>
+          <div class="binner">
+            <span class="meta">July 12, 2026 · 6 min read</span>
+            <h3>The case for slow software</h3>
+            <p>Speed is a feature. So is stillness. Why we optimize for the second — and what that costs us on purpose.</p>
+            <span class="more">Read more <span>→</span></span>
+          </div>
+        </a>
+        <a class="card bcard sr" href="#blog" data-srd="120">
+          <div class="thumb" style="background: radial-gradient(120% 120% at 80% 20%, rgba(147,51,234,0.55), rgba(4,5,12,0.9) 70%);"></div>
+          <div class="binner">
+            <span class="meta">June 28, 2026 · 4 min read</span>
+            <h3>Suminagashi, and the art of letting ink drift</h3>
+            <p>The thousand-year-old craft behind our canvas — and what floating ink taught us about writing.</p>
+            <span class="more">Read more <span>→</span></span>
+          </div>
+        </a>
+        <a class="card bcard sr" href="#blog" data-srd="240">
+          <div class="thumb" style="background: radial-gradient(120% 120% at 50% 10%, rgba(217,70,239,0.5), rgba(4,5,12,0.9) 70%);"></div>
+          <div class="binner">
+            <span class="meta">June 9, 2026 · 5 min read</span>
+            <h3>Why Sumi has no toolbar</h3>
+            <p>Every button is a question the software asks you. We removed the questions, one by one, until it was quiet.</p>
+            <span class="more">Read more <span>→</span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Get started / closing CTA ============ -->
+  <section class="section cta-section" id="get-started">
+    <div class="glow" style="background:#c026d3; width:36rem; height:36rem; top:50%; left:50%; transform:translate(-50%,-50%);"></div>
+    <div class="wrap section-head">
+      <p class="eyebrow sr">Get started</p>
+      <h2 class="sr" data-srd="80">Begin in the quiet.</h2>
+      <p class="lead sr" data-srd="160">Join the waitlist and be first on the page when Sumi opens its doors.</p>
+      <div class="form-wrap sr" data-srd="240">
+        <form class="wl" novalidate>
+          <div class="bar">
+            <input type="email" required placeholder="Enter your email" aria-label="Email address">
+            <button class="pill" type="submit">Join Waitlist</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Site footer ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="fbrand">
+      <a class="brand" href="#top">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M2.5 9c2.5 0 2.5 4.2 5 4.2S10 9 12 9s2.5 4.2 5 4.2S19.5 9 21.5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M2.5 15c2.5 0 2.5 4.2 5 4.2S10 15 12 15s2.5 4.2 5 4.2S19.5 15 21.5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+        </svg>
+        Sumi
+      </a>
+      <p>A quiet, beautiful space to write, think, and let ideas settle.</p>
+    </div>
+    <div>
+      <h4>Product</h4>
+      <ul>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#get-started">Join the waitlist</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#blog">About</a></li>
+        <li><a href="#get-started">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <ul>
+        <li><a href="#blog">X / Twitter</a></li>
+        <li><a href="#blog">Instagram</a></li>
+        <li><a href="#blog">Press kit</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <span>© 2026 Sumi — ink for your ideas.</span>
+    <span>Made slowly, on purpose.</span>
+  </div>
+</footer>
+
+<!-- ============ Waitlist modal ============ -->
+<div class="modal-backdrop" id="wlModal" role="dialog" aria-modal="true" aria-labelledby="wlTitle" hidden>
+  <div class="modal">
+    <button class="modal-x" type="button" aria-label="Close">×</button>
+    <div class="modal-body">
+      <h3 id="wlTitle">Join the Sumi waitlist</h3>
+      <p class="modal-sub">A couple of details and you're on the page.</p>
+      <form id="wlForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d55d2f53-8e38-430f-b536-c77831ddda7f">
+        <input type="hidden" name="source" value="Sumi">
+        <input type="hidden" name="subject" value="New Sumi waitlist signup">
+        <label>Name
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>What do you write?
+          <textarea name="message" rows="3" required placeholder="Essays, a journal, a newsletter…"></textarea>
+        </label>
+        <button class="pill" type="submit">Join Waitlist</button>
+        <p class="modal-err" hidden>Something went wrong — please try again.</p>
+      </form>
+    </div>
+    <div class="modal-done" hidden>
+      <h3>You're on the list.</h3>
+      <p class="modal-sub">We'll be in touch when Sumi opens. Until then — write slowly.</p>
+      <button class="ghost-pill modal-close2" type="button">Close</button>
+    </div>
+  </div>
+</div>
 
 <script type="module">
   import Lenis from "lenis";
@@ -357,9 +880,100 @@
     });
   });
 
-  /* Waitlist form: no backend */
-  document.getElementById('waitlist').addEventListener('submit', function (e) {
+  /* Scroll reveals for below-the-fold sections */
+  var srs = document.querySelectorAll('.sr');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+    srs.forEach(function (el) {
+      var d = el.getAttribute('data-srd');
+      if (d) el.style.transitionDelay = d + 'ms';
+      io.observe(el);
+    });
+  } else {
+    srs.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  /* ---------- Waitlist → modal → Web3Forms ---------- */
+  var backdrop = document.getElementById('wlModal');
+  var modalForm = document.getElementById('wlForm');
+  var modalBody = backdrop.querySelector('.modal-body');
+  var modalDone = backdrop.querySelector('.modal-done');
+  var modalErr = backdrop.querySelector('.modal-err');
+  var emailField = modalForm.querySelector('input[name="email"]');
+  var nameField = modalForm.querySelector('input[name="name"]');
+  var lastFocus = null;
+
+  function openModal(email) {
+    lastFocus = document.activeElement;
+    modalBody.hidden = false;
+    modalDone.hidden = true;
+    modalErr.hidden = true;
+    emailField.value = email || '';
+    backdrop.hidden = false;
+    requestAnimationFrame(function () {
+      backdrop.classList.add('open');
+      (email ? nameField : emailField).focus();
+    });
+  }
+
+  function closeModal() {
+    backdrop.classList.remove('open');
+    setTimeout(function () { backdrop.hidden = true; }, 300);
+    if (lastFocus) lastFocus.focus();
+  }
+
+  /* Every on-page waitlist bar opens the modal with the entered email */
+  var bars = document.querySelectorAll('form.wl');
+  for (var b = 0; b < bars.length; b++) {
+    (function (f) {
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var em = f.querySelector('input[type="email"]');
+        openModal(em ? em.value.trim() : '');
+      });
+    })(bars[b]);
+  }
+
+  backdrop.querySelector('.modal-x').addEventListener('click', closeModal);
+  backdrop.querySelector('.modal-close2').addEventListener('click', closeModal);
+  backdrop.addEventListener('click', function (e) {
+    if (e.target === backdrop) closeModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !backdrop.hidden) closeModal();
+  });
+
+  /* Submit to Web3Forms without leaving the page */
+  modalForm.addEventListener('submit', function (e) {
     e.preventDefault();
+    modalErr.hidden = true;
+    var btn = modalForm.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = 'Joining…';
+    fetch(modalForm.action, {
+      method: 'POST',
+      body: new FormData(modalForm),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (res) {
+      if (!res.ok) throw new Error('bad status');
+      return res.json();
+    }).then(function (data) {
+      if (data && data.success === false) throw new Error('api error');
+      modalBody.hidden = true;
+      modalDone.hidden = false;
+    }).catch(function () {
+      modalErr.hidden = false;
+    }).finally(function () {
+      btn.disabled = false;
+      btn.textContent = 'Join Waitlist';
+    });
   });
 })();
 
