@@ -13,7 +13,7 @@
           <a href="#" aria-haspopup="true">Solutions</a>
           <ul class="dropdown-menu">
             <li><a href="digital-garden.html">Websites, Microsites &amp; Content Hub</a></li>
-            <li><a href="ai-automation.html">AI Marketing Automation</a></li>
+            <li><a href="marketing-operations.html">Marketing Operations (HubSpot)</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics &amp; Reporting</a></li>
           </ul>
@@ -50,14 +50,14 @@
       <div class="footer-grid">
         <div>
           <img class="footer-logo" src="https://marketgrowth.io/images/logo-white.svg" alt="MarketGrowth">
-          <p>AI Automation and digital experience agency for founders and GTM teams.</p>
+          <p>Marketing operations and digital experience agency for founders and GTM teams.</p>
           <p style="margin-top:14px;"><a href="contact.html">Contact us &rarr;</a></p>
         </div>
         <div>
           <h4>Solutions &amp; Pricing</h4>
           <ul>
             <li><a href="digital-garden.html">Websites, Microsites and Content Hub</a></li>
-            <li><a href="ai-automation.html">AI Marketing Automation</a></li>
+            <li><a href="marketing-operations.html">Marketing Operations (HubSpot)</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics and Reporting</a></li>
             <li><a href="for-founders.html">For Founders</a></li>

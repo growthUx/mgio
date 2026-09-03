@@ -1,19 +1,19 @@
 # MarketGrowth
 
-> MarketGrowth (MarketGrowth CX LLC) is a digital experience and AI automation agency that serves as the technical partner for founders and GTM (go-to-market) teams. Services include full websites, branded campaign microsites and community/content hubs ("Digital Gardens"), AI workflow automation, AEO/GEO/SEO visibility services, and analytics and reporting. Based in Sacramento, California. Founded by Victor Ramayrat.
+> MarketGrowth (MarketGrowth CX LLC) is a digital experience and marketing operations agency that serves as the technical partner for founders and GTM (go-to-market) teams. Services include full websites, branded campaign microsites and community/content hubs ("Digital Gardens"), HubSpot marketing operations and AI workflow automation, AEO/GEO/SEO visibility services, and analytics and reporting. Based in Sacramento, California. Founded by Victor Ramayrat.
 
 ## Services
 
 - [AEO / GEO / SEO Services](https://marketgrowth.io/aeo-geo-seo): Answer Engine Optimization, Generative Engine Optimization, and technical SEO combined into one visibility system: audit and entity mapping, content and schema engineering, authority building, and share-of-answer measurement across Google, ChatGPT, Perplexity, and AI Overviews.
-- [Websites, Microsites and Content Hub](https://marketgrowth.io/digital-garden): Full websites, campaign microsites, and community/content hubs with courses, forums, groups, gated downloads, blog posts, and events. Plans: Growth ($180/mo), Scale (custom). Nonprofits and social enterprises are served through the Mission:Told partnership (missiontold.com) on subscription pricing.
-- [AI Marketing Automation](https://marketgrowth.io/ai-automation): Tailored AI workflow automation for GTM, sales ops, and marketing using n8n, Zapier, Claude, and OpenAI, integrated with HubSpot, Salesforce, Segment, and more. Plans: Design+Build (from $3,000), Manage ($500/mo).
+- [Websites, Microsites and Content Hub](https://marketgrowth.io/digital-garden): Full websites, campaign microsites, and community/content hubs with courses, forums, groups, gated downloads, blog posts, and events. Plans: Growth ($180/mo), Scale (custom). Nonprofits and social enterprises are served through the Socient partnership (socient.net) on subscription pricing.
+- [Marketing Operations](https://marketgrowth.io/marketing-operations): HubSpot-centered marketing operations. CRM build-out and migration, buyer journey mapping, data modeling, campaign creation, and reporting across Marketing Hub, Sales Hub, and Operations Hub. Integrations with Salesforce, Segment, Clay, Apollo, and Stripe. AI workflow automation (n8n, Zapier, Claude, OpenAI) runs as a secondary layer on top of the CRM. Plans: CRM Build+Launch (from $3,000), CRM Stack Management ($500/mo).
 - [Analytics and Reporting](https://marketgrowth.io/analytics-reporting): GA4 and Google Tag Manager implementation, Segment to BigQuery pipelines, and Looker/Tableau dashboards.
 
 ## Use cases
 
 - [For Founders](https://marketgrowth.io/for-founders): Build a founder personal brand on an owned platform: thought leadership, courses, and community that compound over time.
 - [For GTM Teams](https://marketgrowth.io/for-growing-teams): Community-led and agent-led growth systems that attract, engage, and convert ideal customers.
-- [For Nonprofits & Social Enterprises](https://marketgrowth.io/for-nonprofits): Web experience, automation, and content engineering for mission-driven organizations, delivered through Mission:Told (missiontold.com), MarketGrowth's AI-native studio for social impact.
+- [For Nonprofits & Social Enterprises](https://marketgrowth.io/for-nonprofits): Web experience, automation, and content engineering for mission-driven organizations, delivered through Socient (socient.net), MarketGrowth's AI-native studio for social impact.
 
 ## Company
 
