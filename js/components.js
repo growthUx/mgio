@@ -13,7 +13,7 @@
           <a href="#" aria-haspopup="true">Solutions</a>
           <ul class="dropdown-menu">
             <li><a href="digital-garden.html">Websites, Microsites &amp; Content Hub</a></li>
-            <li><a href="marketing-operations.html">Marketing Operations (HubSpot)</a></li>
+            <li><a href="marketing-operations-ai-workflow-automation.html">Marketing Operations &amp; AI Automation</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics &amp; Reporting</a></li>
           </ul>
@@ -57,7 +57,7 @@
           <h4>Solutions &amp; Pricing</h4>
           <ul>
             <li><a href="digital-garden.html">Websites, Microsites and Content Hub</a></li>
-            <li><a href="marketing-operations.html">Marketing Operations (HubSpot)</a></li>
+            <li><a href="marketing-operations-ai-workflow-automation.html">Marketing Operations &amp; AI Automation</a></li>
             <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
             <li><a href="analytics-reporting.html">Analytics and Reporting</a></li>
             <li><a href="for-founders.html">For Founders</a></li>
