@@ -1,27 +1,15 @@
 /* MarketGrowth.io, global scripts: theme switcher + mobile nav */
 (function () {
   var root = document.documentElement;
-  var media = window.matchMedia("(prefers-color-scheme: dark)");
-
-  function systemTheme() {
-    return media.matches ? "dark" : "light";
-  }
 
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
   }
 
-  // Initial: saved preference wins, otherwise follow the system
+  // Initial: the site opens in light. A saved choice wins.
   var saved = null;
   try { saved = localStorage.getItem("mg-theme"); } catch (e) {}
-  applyTheme(saved || systemTheme());
-
-  // Follow system changes while the user hasn't chosen manually
-  media.addEventListener("change", function () {
-    var stored = null;
-    try { stored = localStorage.getItem("mg-theme"); } catch (e) {}
-    if (!stored) applyTheme(systemTheme());
-  });
+  applyTheme(saved === "dark" ? "dark" : "light");
 
   document.addEventListener("DOMContentLoaded", function () {
     // Theme toggle

@@ -1,25 +1,26 @@
 # MarketGrowth
 
-> MarketGrowth (MarketGrowth CX LLC) is a digital experience and marketing operations agency that serves as the technical partner for founders and GTM (go-to-market) teams. Services include full websites, branded campaign microsites and community/content hubs ("Digital Gardens"), HubSpot marketing operations and AI workflow automation, AEO/GEO/SEO visibility services, and analytics and reporting. Based in Sacramento, California. Founded by Victor Ramayrat.
+> MarketGrowth (MarketGrowth CX LLC) is a venture studio. It starts, builds and operates its own software, service and media companies. The studio does not sell agency retainers. It owns the companies it builds. Based in Sacramento, California. Founded by Victor Ramayrat.
 
-## Services
+## Ventures
 
-- [AEO / GEO / SEO Services](https://marketgrowth.io/aeo-geo-seo): Answer Engine Optimization, Generative Engine Optimization, and technical SEO combined into one visibility system: audit and entity mapping, content and schema engineering, authority building, and share-of-answer measurement across Google, ChatGPT, Perplexity, and AI Overviews.
-- [Websites, Microsites and Content Hub](https://marketgrowth.io/digital-garden): Full websites, campaign microsites, and community/content hubs with courses, forums, groups, gated downloads, blog posts, and events. Plans: Growth ($180/mo), Scale (custom). Nonprofits and social enterprises are served through the Socient partnership (socient.net) on subscription pricing.
-- [Marketing Operations and AI Workflow Automation](https://marketgrowth.io/marketing-operations-ai-workflow-automation): HubSpot-centered marketing operations. CRM build-out and migration, buyer journey mapping, data modeling, campaign creation, and reporting across Marketing Hub, Sales Hub, and Operations Hub. Integrations with Salesforce, Segment, Clay, Apollo, and Stripe. AI workflow automation (n8n, Zapier, Claude, OpenAI) runs as a secondary layer on top of the CRM. Plans: CRM Build+Launch (from $3,000), CRM Stack Management ($500/mo).
-- [Analytics and Reporting](https://marketgrowth.io/analytics-reporting): GA4 and Google Tag Manager implementation, Segment to BigQuery pipelines, and Looker/Tableau dashboards.
-
-## Use cases
-
-- [For Founders](https://marketgrowth.io/for-founders): Build a founder personal brand on an owned platform: thought leadership, courses, and community that compound over time.
-- [For GTM Teams](https://marketgrowth.io/for-growing-teams): Community-led and agent-led growth systems that attract, engage, and convert ideal customers.
-- [For Nonprofits & Social Enterprises](https://marketgrowth.io/for-nonprofits): Web experience, automation, and content engineering for mission-driven organizations, delivered through Socient (socient.net), MarketGrowth's AI-native studio for social impact.
+- [Orbytt](https://orbytt.ai): A talent network for AI-ready Filipino virtual assistants. Employers read real profiles and hire directly. Orbytt Academy trains the talent on AI tools. Category: talent marketplace.
+- [AEMfix](https://aemfix.com): Answer engine visibility software. AEMfix tracks how often AI assistants name a brand, finds the content gaps behind a weak answer, and publishes the pages that close them. It also sells a done-for-you AEO and GEO Starter Package. Category: SaaS.
+- [Socient](https://socient.net): An AI-native digital studio for nonprofits and social enterprises. It builds websites, content systems and AI visibility programs, and publishes research breakdowns for mission-driven teams. Category: nonprofit sector services.
+- [DirectCare](https://directcarehq.com): Consulting and compliance products for owners of small ICF/DD-H and ICF/DD-N homes in California. Licensing support, individual program plans, staff training plans and survey readiness. Contract QIDP services are sold through QIDP Consultant (qidpconsultant.com). Category: health and disability services.
+- [AgentLedGTM](https://agentledgtm.com): A publication and tool library for agent-led growth. Playbooks, interactive tools and research for go-to-market engineers. Category: media.
+- Mission:Told: A digital publication for nonprofit organizations. It will report on the tools, funding and operating practices that nonprofit teams use, on the web and through digital downloads. Category: media. Status: work in progress, not yet launched.
 
 ## Company
 
-- [Our Team](https://marketgrowth.io/our-team): Led by Victor Ramayrat, Principal. Marketing engineer and operator-builder; formerly Senior Manager of Digital Experience at PwC Products & Technology, Marketing Engineer at Tradeshift, and Head of Growth at Redkix (acquired by Meta). Founder of OrbyttAI.
-- [Jobs](https://marketgrowth.io/jobs): AI-native first company; hires humans for human-in-the-loop client work. Open roles: Web Producer (WordPress & Shopify) and Social Media Content Producer, hired through OrbyttAI.
-- [MarketGrowth Labs](https://marketgrowth.io/labs): In-house product ventures. OrbyttAI (orbytt.ai), a community platform connecting Filipino virtual talent with businesses worldwide; SocientAI (socient.ai, launching soon), AI-native social and community tools for builders and teams; and AEMFix (aemfix.com), an AI visibility and AEO content autopilot that tracks how brands appear in ChatGPT, Perplexity, Gemini, and Google AI, then publishes answer-engine-optimized content to close the gaps.
+- [About us](https://marketgrowth.io/about-us): The studio model, how MarketGrowth operates, and the founder. Victor Ramayrat is a marketing engineer and operator-builder. He was Senior Manager of Digital Experience at PwC Products and Technology, Marketing Engineer at Tradeshift, and Head of Growth at Redkix, which Meta acquired. MarketGrowth CX LLC is the publisher of record for the studio's media properties.
+- [Ventures](https://marketgrowth.io/ventures): The full list of companies the studio builds and operates.
+
+## How the studio works
+
+- Start: pick a market where the studio already knows the buyer and the workflow, then test the offer with real customers.
+- Build: a small team ships the product with an agent stack, on a shared design system and publishing pipeline.
+- Run: the studio operates the company after launch and owns the outcome.
 
 ## Contact
 

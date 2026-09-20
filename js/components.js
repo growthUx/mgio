@@ -9,37 +9,12 @@
         <img src="https://marketgrowth.io/images/logo-white.svg" alt="MarketGrowth">
       </a>
       <ul class="nav-links">
-        <li class="dropdown">
-          <a href="#" aria-haspopup="true">Solutions</a>
-          <ul class="dropdown-menu">
-            <li><a href="digital-garden.html">Websites, Microsites &amp; Content Hub</a></li>
-            <li><a href="marketing-operations-ai-workflow-automation.html">Marketing Operations &amp; AI Automation</a></li>
-            <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
-            <li><a href="analytics-reporting.html">Analytics &amp; Reporting</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" aria-haspopup="true">We Work With</a>
-          <ul class="dropdown-menu">
-            <li><a href="for-founders.html">For Founders</a></li>
-            <li><a href="for-growing-teams.html">For GTM Teams</a></li>
-            <li><a href="for-nonprofits.html">For Nonprofits &amp; Social Enterprise</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" aria-haspopup="true">Company</a>
-          <ul class="dropdown-menu">
-            <li><a href="our-team.html">Our Team</a></li>
-            <li><a href="labs.html">Labs</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
-          </ul>
-        </li>
-        <li class="nav-mobile-only"><a href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" rel="noopener">Agent-Led Growth &#8599;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ventures.html">Ventures</a></li>
+        <li><a href="about-us.html">About us</a></li>
       </ul>
       <div class="nav-cta">
-        <a class="nav-external" href="https://agentledgtm.com?utm_source=mgio-nav" target="_blank" rel="noopener">Agent-Led Growth &#8599;</a>
         <button class="theme-toggle" aria-label="Toggle color theme"><span class="icon-sun">&#9728;</span><span class="icon-moon">&#9790;</span></button>
-        <a class="btn btn-primary" href="contact.html">Contact us</a>
         <button class="nav-burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </nav>
@@ -50,34 +25,30 @@
       <div class="footer-grid">
         <div>
           <img class="footer-logo" src="https://marketgrowth.io/images/logo-white.svg" alt="MarketGrowth">
-          <p>Marketing operations and digital experience agency for founders and GTM teams.</p>
+          <p>A venture studio. We build and operate our own software, service and media companies.</p>
           <p style="margin-top:14px;"><a href="contact.html">Contact us &rarr;</a></p>
         </div>
         <div>
-          <h4>Solutions &amp; Pricing</h4>
+          <h4>Studio</h4>
           <ul>
-            <li><a href="digital-garden.html">Websites, Microsites and Content Hub</a></li>
-            <li><a href="marketing-operations-ai-workflow-automation.html">Marketing Operations &amp; AI Automation</a></li>
-            <li><a href="aeo-geo-seo.html">AEO / GEO / SEO Services</a></li>
-            <li><a href="analytics-reporting.html">Analytics and Reporting</a></li>
-            <li><a href="for-founders.html">For Founders</a></li>
-            <li><a href="for-growing-teams.html">For GTM Teams</a></li>
-            <li><a href="for-nonprofits.html">For Nonprofits &amp; Social Enterprise</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ventures.html">Ventures</a></li>
+            <li><a href="about-us.html">About us</a></li>
           </ul>
         </div>
         <div>
-          <h4>Company</h4>
+          <h4>Resources</h4>
           <ul>
-            <li><a href="our-team.html">Our Team</a></li>
-            <li><a href="labs.html">MarketGrowth Labs</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
-          </ul>
-          <h4 style="margin-top:22px;">Resources</h4>
-          <ul>
-            <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/community-led-growth/why-building-your-personal-brand-matters-now-more-than-ever" target="_blank" rel="noopener">Article: Why building your personal brand matters more than ever</a></li>
-            <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/content-marketing/simplifying-your-go-to-market-strategy-a-guide-to-smarter-marketing" target="_blank" rel="noopener">eBook: GTM for Founders Simplified</a></li>
-            <li><a href="https://agentledgtm.com/resources" target="_blank" rel="noopener">Hub: Agentic GTM Resources</a></li>
-            <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/how-to-use-7-11-4-framework-to-build-trust-and-drive-growth-for-your-business" target="_blank" rel="noopener">Article: Use 7-11-4 framework to build trust and authority</a></li>
+            <li><a href="https://agentledgtm.com/go-to-market/agent-led-growth-gtm?utm_source=mgio-footer" target="_blank" rel="noopener">AgentLedGTM: What is agent-led growth</a></li>
+            <li><a href="https://agentledgtm.com/go-to-market/gtm-motion-approach/agent-led-growth/ai-search-visibility-audit-50-checks-in-four-phases?utm_source=mgio-footer" target="_blank" rel="noopener">AgentLedGTM: Get us cited by ChatGPT. What to do next</a></li>
+            <li><a href="https://socient.net/insights/nonprofit-ai-visibility-seo-geo?utm_source=mgio-footer" target="_blank" rel="noopener">Socient: When someone asks AI where to get help, does your name come up?</a></li>
+            <li><a href="https://socient.net/insights/salesforce-nonprofit-trends-report-2025?utm_source=mgio-footer" target="_blank" rel="noopener">Socient: Nonprofit Trends 2025, an interactive breakdown</a></li>
+            <li><a href="https://directcarehq.com/insights/how-to-open-an-icf-dd-n-in-california?utm_source=mgio-footer" target="_blank" rel="noopener">DirectCare: Opening an ICF/DD-N starts with a phone call</a></li>
+            <li><a href="https://directcarehq.com/insights/icf-dd-n-individual-program-plans?utm_source=mgio-footer" target="_blank" rel="noopener">DirectCare: A surveyor does not read your IPP. They test it</a></li>
+            <li><a href="https://orbytt.ai/seven-delegation-mistakes-stealing-your-time-with-vas/?utm_source=mgio-footer" target="_blank" rel="noopener">Orbytt: Seven delegation mistakes stealing your time with VAs</a></li>
+            <li><a href="https://orbytt.ai/academy/ai-prompt-engineering/?utm_source=mgio-footer" target="_blank" rel="noopener">Orbytt Academy: Learn how to prompt AI</a></li>
+            <li><a href="https://aemfix.com/what-is-aeo.html?utm_source=mgio-footer" target="_blank" rel="noopener">AEMfix: What is answer engine optimization</a></li>
+            <li><a href="https://aemfix.com/aeo-vs-seo.html?utm_source=mgio-footer" target="_blank" rel="noopener">AEMfix: AEO compared to SEO</a></li>
           </ul>
         </div>
         <div>
@@ -85,7 +56,7 @@
           <ul>
             <li><a href="terms-of-service.html">Terms of service</a></li>
             <li><a href="privacy-policy.html">Privacy policy</a></li>
-            <li><a href="https://marketgrowth.io/brand/MarketGrowthStyleGuide.pdf" target="_blank" rel="noopener">Brand Guidelines</a></li>
+            <li><a href="https://marketgrowth.io/brand/MarketGrowthStyleGuide.pdf" target="_blank" rel="noopener">Brand guidelines</a></li>
             <li><a href="license.html">License terms</a></li>
           </ul>
         </div>

@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundamental Growth Loops Setup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;600&family=Inter+Tight:wght@800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  @font-face{font-family:"ALGTM Hand";
+    src:url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAADNkAAwAAAAAWBwAADMQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgUQRCAqBmSj5bwuDLgABNgIkA4ZYBCAFhBwHg1MMBxviRbMi2DgAoECPjaJUbs4RRZlclMl/lRDHGMccUmlplUZIabx6MTkTQyidg713z36tVEgX7On6nIP1TIyReC7PPz+O/9be9320GSeYCWxUApimOSkUOXRFV3fpDA9z69+ikq0ZMSpGrFgxVgwYGaNSlLQCsfJjcndWnhcm6rWKWf/O6kPvPCf7pa/0y9L09mDB9JMFmz+sIQAw/dJToB2HXQCQZnqSelw0BnY5YcfrgMOo91SGw7ENTubd/1Cvsc1d4lIPcPLm/9NZWgl76wByB1g0kaW78xFVeT3PpPy/HY3ItLuyLNtLYC8A/pkJ0OvTZ0pn1sq+24kcoIrwoA31gG26Ll6d4tvVEUkK2Bu0LmQ7KIcMYWqBSgRByAqvg3p2HpCL6luk7r8oKuKq+aLqft6q6cbvf6o6ldgGKe6NixWUtpRmo2gqOgj12iJBSPAS06GZszM6kjyvFyIUWS6/KBnd6zGabfuIvAoLULAuwSo7wxBAP+9qwDP9dvKzqADT6glgf3XOdco7HmxtA1qivaiwN/+XAy2bdaLtoFU+7iYVe7hrYRe0IwRI0wBut3gAUXPj0PqM2O5LIpLZ073em3vQRVyRUCQRKUSJIqNou1gioX75EtM/YoOdYuBpSxOxRfwuErTnuymf43NsFk7Tf+Y9xJM/ts9uu2z3tRWGKO/s3UkAUbjRFjJfkJxfuvIG8y2786vsrk+z65Z1+gEIrSQYROLRMTfUdkAxTOHxpEEBLAYDaA9CeElkXA/ijwDTjXowvJc/KDQmQgGbBQ2tEqh/OSAU6Ys0nrx4YsQRf4Ug2fMk3RVMgwIJpRc2tgU3P/RMbxiDMNkOjODCGDkZxHDu0bqUTs2B2RBr7kJ+FxOoQHZcXu+PI56v+bkluO+V9VQv00W4q7I8Vv2AYa5TPa2cinc6pkOwxrE69oxKZSj6vWySrKflZGmv8zE9r9TTIhuBYMwgjhyzk5zzBe5T1nbNCXO3n6kFIEESEIQOTSSZybmxAs5zoQCAFqlkiCR2zesvbLRMlcBkSsiyE/0k+GVLXrA/4Gi0TSx7AbSmiwg8t+EDoO+Ftp9jvIwt+WDOkcL1m8lNDEUFYwkABjHFHEGAgDIYcJLMWsGkFSCrLGfzhUI+lpeO3prO/S0ri9YEACo5DfnhAuCpBDkF9GLWiZyYNVwLyZ0plOLuMhP3mwYgBGf4+euPHs0zieCeVTCHPlKqgh2RlfOxOcD/VhfRYYzxbiu7joC1EIQYD9fjk+1c/DOc+LLriz0ALbHfGJxTXJvn7Xv0DYZgaXoVJSOEElImprqlcIs60gcNW8WqLwSclOn8c/z0ZsMdXoW1dL6TiPoqw9g0w7vMqfbS/llmYFSU5fXQCB9FwElgvc98xuSNIGjTwhgzYLAq2aQ1931/9MErkVBFe/dksk5CMguHDbEiuF2ZWcyXSmcHCnfySryL0XVjzPRxoEwTs9Pz92JbgLcqXoyl04WSSE5fn78MHI9VVaYwRfcBwJwkMbIEnwr3citB4EQnI7oNUnQPCrbZhG4up2zPZjxfPV1NW1mbIhcgrzw0w2jXAU/HPihD3uMrGws8bQkM0Jr5Stv1DngIITaTlGOVBlWAE0LSY242AwXkgU8iIEKUrN24mGhUUSX7fHDvG8jn782mZx+lNI3rUcNGOtEQPDOJ0UzPKZtW9uTzdxmZW+4p7X0xxkgWU+97fPLWCJFElsvQmFWL4ioC8vHfoNgIWiORnB426iA4bt5DUpQiZrACvMVlecsudRDYV3316lYIldlUZKeYm6uoTCEPdgEnRBLF2aMaN1cZNur+IAjTm+myLPk5nFPmrbiRmJL3YoRuBjAhvEx5Cg40IcD9BezffPv2+nAThl1NCyS3am/sG1zqkTlSH+fSPrtIQM7GTTusJzkks5Dn3Pr0ODOQUYmH/1/Qu7fPTIHd1ZbBUg3FpZvnxLjTsi1fmmGD1RFGu8osMzB4lFZnYyp4DmQt7Ar2VPOpSe5G+TiWdWiMWSzlvRTJuSfdEeTMsIayFS3z41ovp31djCwW05GhjUAyxhuqxqtSlj0JecOt1wCPCcmQ6xYif3hyQmLXDhGwtllllmHY45btPV6idoi0FaBWECS01fhy2DCiBtwCnSLveRl5K8eMURnAY+5M5HJc8zZ69Zvnvqm/JNPVB0Fgf3xlH0Dubo0ID7RVKI7BaotDBeyRAih+Z5iyuyWihk1jzKlSoWCXMULt6TZeDXy6xmYG2AcWIhQuHfD02iHIVUxLt33eOSe9CMEI9Qpue6qZNN8hrkue2ijLaTv0W1VfNi+dc5db9HKRSKHNjjsz4ca465vk+rzLXk3rELJGUo8a5W9Q73tzFBXt2jlGV/o8LZjToC+0tFBs1ZIUkQzZyMyqtqjPPUhM/cB48NHUZvQYGza7DEtgABYBv2SxqzlKw+kgyPRflLjbl710UHsaxfTvUMyw4a/gYK6o16+lE3bZkgkGB+h7WzyUJejPqUt17D6A4mYPDwLRUJlMwQ6xoo6t4mEB8KH/APcL2AptcCvAHbKmUxSyBfpQoitQjxCSnzsBEryqxi+pFvJZqcWK7Q7E0JI6JrOOXOYbk/Qqdr3FHgGUg6LcX+LU3jcH+c2JCVUYNtxG+Axuu3MCo015Re8qugjaQdrTMrbGGILuSJjFUq8CY55TjHEfzHUHbe94Rrbi0Tbu7VNYJXeHec48m7WbaIw5Zjpk7r2Av9KQnoGSc2HlwF6UlwGZe7m0lcj9Dv381zKc3Cy/NazA81XpAOS/M2bCxCaKqtvxYgPj7RnaPsGrsj59MgiCkw6fzlZ7iQSJ9INzA3tKoeA7v7w3s9seePQOJ5ksixmz2Aiv3ajdXqNocaKCEbSwMUGJ7tKxDzEInv5L6IcIxXcJRPLj22jPXS8TCd9fyRVj8G3mpVLrZyFh1ZhL5Oe8640XvHalxi0xmy07rcQcIU8fxOTmgCOhJSrq8cJC3LAYViJj3pREsHvOOwWNnmLlP2dkLR3birFM7fEWRS2Zp4s7hZZWiDu2IxF0hTe8wjvoyNWC2+UuTzWNGTZQmEbFVdsIG/CFczVNtEgl2emkV7LrIUZIXw+xy483KBoCvttmtYMbY45MlTqIh+0iS+OioegwvMkwr9UDgVYuO66dGTgaCtbf7mO+VS/gHdSQFc1BnDIR618cY+zqBXv4Yf3bfrGdbcp/X63xmWsGFjGCLxblN8x+bPUyxzX2KTvdcjwSBUG/TiyRkg59fTErci7VlxTOIPn+U/Yfxo0x0tE+dTjT+pWsC9c9Ce6czTo82YgXijv2LPj+a5CPCZm4AokZN/7QrS6+KXfU6nLXPjWmUQnel0boJ4R+Bbl7a0reW0/rYbzNHIazqnddGcO+b3ptNS9YiU5RZ2D9FwMYLxS4dfnKb/cNQW7zCj4OUFI2/5Vf9op7WqcISbiJ42pVW9xBLw6VpJkKlxuTfKkUpt+5yZ7rWdy2H2+u8bglEjPZevder7B6ImBNAkuAd/47yjHahdeDiMweDpjqOWcGRsKYVaHAdhxpr++35senIxWPI4mAdHqXAKeGLQ6MjzqMUGqdBX5xX3OJJtIjRGQRwZCGlKuHTSnr82N6A4DzvxkFeP7R4fNBC4l5DCcqKZXkQ8iIsKJxxJLWNtvSVeZ/WnPKqgigZSt47cIgHPCgFwiYmXFjfLu9RS5uMwOWQFLOPurcey9gyDADtPa0F3n1lHYXALdq6xPkyJGsRf1rTuoYAR+rZQ3Iv4PcvlzwhGdLJ4JujIKVCQi3VnYC0ajE/feRmaMPylTEhyFCFQGLwlF4FcBqKeyCsJvVt2KdH0upX/Wug0OFo8fqcCAhb9MJLV9pkj9lMCzsVTlj26x1TQaqLzzRqvYrGjh70J2ewBjXmiTL1P0tHiR0P3dj2PWxGqjSg7Foj5INXOO+T9WPWTMRSIe7PivwESGdIic17lF2L1W0sYz7GavwEeno5crfoCizRCz/xNO/C6Y9v4FxrwIcPSiCgHVk1uHGiDaO0Z+yh9m0erwALmk4hJzlsTWIfIG2COeL3J4+WARkRPPDfJGPQI9Qyx1oGnLjtiFaMgmUY9ULCG8VSJadSgCZcL4wNahoyC1GAdWMLakrTm+vfwFN6BHaz9Kmod5OhJ044YdVAdiCDfRdrlQ6OCNTtDoDHADDDqE4+jzad32oAU/q06yoxmohzH5DLwrrUwDfgEoXVN+5imAzkQBw7oNiUWYj8qTILm7jK3Fqyi5xXN4OAXwMvZM11LOOYYdCko2VM+Luy2WNrhunwBMkt+91MOwa5opI3sMfy7m+ytgK8HDjjBpd29lbRMD4yUBEDS7VeIgAD9ucaAaqgZFtvqr5Bu4MAU/EkHe8B2/2SzFRKdlnfdFfv8aB5flQJt+s1WOkW0YQJFYCP03Fngx74Xd8Ovyha5INqmwMdIFYFTiY1OI7jGLJytadbt1zaqJOdLbuPPjR8u1wc0W8zqzCGji/Ozsd2qdNG7RWeuPOm+5sNXUmS+XeAQTjUWPaF8aidT/x6WDX8KWZqGE+RtvjVgEgt6mSdRC3uQeorqlcpTls2CTg5Eh3TmJX3VdimJVKvZ7+fx7CJvNVkObhwS115bTUC5eVbWtvLGiTV7sP2qrnrl2LVtr6xMqtwBzNS+u7nk9z6uRUE0DKIlTJ3XDi41ev1s9ogztX5xxL0WXay0PhwpUz4drubN5ava3Oo1EgUHaqZthXtYUFVWmc68FShk92HsnC0PrBvLSchH6ELDOFWJg0Md6qKgm5/o7K0yRNmT9LEclxD5PniAT+iEtzVJVmst9cupkMyHfwbS5XtoZ25L1nLXZBhb18zLabDx+q+CT1MpaYLSc2ZLFoTSBAhl1bSUPiOqhzHQpzF8RHDnvdB4Wk/JsNFxdAOvR62loG3GKr51eYZtsXh9iSJjJOx8ywRWTaSZ23cuypY3xVhb2aSWnXPDWr/ErNLuleIg9Xmkm/VMhb9uMPN2GBW0TstJUlZMRnhKJvk2Sxh+RjyT7Dcixsu3ww6YysPwecwkug3/XTTTXkbOqOugp8APhJFmKlqpRy0OMOGnZrxowC5NvyPvh5MwCeEikfYquc1Equ8SoPsNuP3pmnpuymenrtmsrwfHV+PjYh5xILmQX8ff3bvHB4Ln2nBkTRm0c6KXQPsIza5Bq1OMwE4alfLNVDOV5EMA1dsSjua6NkcL3ZgVgsE1d+xl7dQuhh6BTcDpOFMbtPReJSUlwc9sq8P6oKffeF4eKSqjBtzFRIdDLSl2hPEoNx6MKM/AyM52c1EbwQVmHD+kzNpRhjIZ+2su2vMo6xqxSq8anWQdpVN6NVyAPhxskmQPq1jYR0pJE1h2DrTkQAyn/8du6L6TY99qD8NQjJopNG43bj6q1asF1FzwxJWBQsbqhSzWZFmXXSYY6xZrEp3FDxScBHOggSIHI5x1MPr7ntjVLGAMqsbXtUs1nTc3iX+wNMlaITdi9Qm7IQhkHBbZ0iTayy49jp4yHqFXNZ84zzoRkY7mn3pK/u4xTmWAdc0UYEk5tJiUkp596ZjvMZEFeXwZvvRln732kOA1PInWGYQqSUUSfUnUXjLry5AT9ZOGM3u/xz0eEBrIHTt6qheRrarGrJs90rjFWYSi9KgZNWcL7PFRRGOy7DGNvgzflZEB+F0IV8DUaBUPQ0BATzulDne+qt9Y4xb6FYKiiQQ8HeBmLpYjrcr4X9fRLMIwLmYnr2/LwwQTw3U+QQE4N4zL6fAtl6IR8ES/UiKaKLRt33N2jP9ljg8Ya7He+ucD87wuk+fjjQFhEt2eM87AFelc7FhrJDarBaw8eDwrEp/mUos+iZAf6JieZHMkwHO+HpokMHrFskkcHKpPV01C3hfzX3+5RicdTNYnKkgSVGv9WwaaXiakXIrU60qO4NuK2w2mYiO+GWaMD977x/u3TKPa/VLQVCmLtqbAhBbAtI3wX/Ud7bySbGKBfs4SykzUUrc3HfjW4aY5JXM9XuZvpSg8VVIY3rLycDr8z8Vd5fvRbfTF2VZac1wK+5Ol9Kss9Q/8XJl6p4yTI2YPNwgbOCtS/KVlOpZoLppCWi73MPDPhc2WEaEEitO6ZNuPEJbue4dHNTUSeMJDHlYzOcZshaIwdcvpdkeqr1DUoNxw2V3BA/XGzHi3PRtHrdNie68AlUI40XUD4pIuX6jHmOZpzb0yMzRR8Uhhk1u4hm61eIfaW5Wc8M1ajVhBA/WOTGoTPDSWdeS+YjZPnZeMxAqy9nEtXzXwOQ5REEUS2wXOI1eOkVypUSBBWBaScuRaOnExvKMTMiRdN3x1oFeiyqKqmZlEQPGMEtanUHhDY+iy93q1Szfqgdv4dGkeGl7TkU6vK91BPnZajaZGZRlARkn6ZsxpGqDSLCWLljd4TALB/MQlJcM9hrCoksjmJSrE5lxz2KEJ0+G3SADX58gA5Mm5QIb+0Z+Z+Ms2AMkT1TkVI/QmQDOHkp5D573PkwMAhozYKYfeGB3LpHyZHDgQG68mxeQAGctldIiWpGUAb0DVyFsH9ZVDr6j9j7N4mHEX+FqVjvqILrUQxhWnheYrW+/pWlETSk80ME1zEixktDv6H0NQQDO5JZRaAdEAen73ylR1Vq9PfDZJKxwI6GC8q89P3j6IWrEn68vBzbSv9sjdFV2WbqBTQqBXbXhMVOdai3bOn6Qqb0xF3jFNBMFgwVE+w94hoG1bVsqUqsX7Lgbdyu/eC0mJ58RKxnuqqIVjOpSNAU1Lo+0Z+Eg9kLpycN8tu7AgpkOQE5gPcpgNVDz9QWZLRyD5fE4fVsmyS9McIYD/8FjomyhFnEjkFZV2qpNwu4fzANZDJjH004VNhg7bWQOiZ2kftKe7icXrsqICCX+YQrunAxyW+KFu5l6cJ+8yVMrJ9IED5T9XLhv8AHwfl7NCllbWGWNQ11U1mIGG7Wgo0CXoJjfTAulU0Lo8cmY2wXeDYb4xiXVw7fNwULwrIK3lJbxgugqFZiePLCqi4G0g2cVyK5BP+sbNI7+uUEImIhA5wrpTKnLseJGHf5P0x9CJRUEfbplIQQqZ7JSkuZ5lsbZmvcBtqCY1VGF6tBVhidQ7FZigcMhSnevmVFngLn6tzsw7OOzZ27YBoc3tbSXY6joGKizOE6SVVAIThKg7qglbAmaCXECWNoONJkEoSSAjhbxZEH/a9O/HouoVlgkFSU2XSu6kmrcyiOnVdD2nBSOVifWsTjBg6X9+sWTNuWohwJczPzRbkCcO9TUrGrlTgZ0mXnv/iSmpIdrFFxeD7RRm1JQzSmZAntU5ND1POSubM0y5VuSnBY9aqnqxTfgvlERjBszNoFLIQVlGhDhHH9VY3+kRByE8o9oz1MvCyCO2Mz/ip8dPhjESo8F5sFuCKk0Y9248qTYMLbiHyCaa5gjnSOwISFZ2hSXzrJvdz98sm8gTcz0/EuHd/CQ2enGrMTSsOn8qfQ6W/p1M5q0c++uFX9Valz9GwpWQIYHEQoJ0vtSbHanUkuIocB72K4Kl0VUwIVWWj6v3NEu2HWYBtEkhwiJU4q07vi/LrKpuAQv45GlGjtYc6/dSZqsBWTq0zVglgVElGQMrA5onhmrP44Nj9isx+D8W8WmboIs+mzKEbyF9LacUx5oNNUDBQGEyQHufz9V0KjqaJONxBQlI13+ZQuzqv0D4KNNcz4v20GocpAScmaeshg4N6bXs7L9yZVs1z9vmyFR+7VDGVv1M5LMeZECIuEWsbEay17x9HVlH/A38dV1OJ4T3ZwVuyw5KzciVefOLP6AslWYXYnukhR0nftUlHF/uhkcU18sSzdfap33FheERjODd97pG1JlDcM2HtJ2yQMjoxMeBzw+ziOND7wAIliLItgAEM7X4u07OO5THwPl38sk+vmROAJtACQ+XAiy7CnzvuYkBVIjXmy969JZJfyDCiMmw690KQwcH8ziEHhXLYU9ivcjtcie4gmgkSGQiZkkybVsGOnkoWUKIkDvYmsxeEfYTlY0BF2TA+HBZhUNUmvslFlZKiHZyenM4fWO1KydV4DYEBkJlkphS6iU+D0dZHohBnWOYPumLAadvAg04CV4Hak9Aa2ZZbXy62GJvd3pcGtIlYrcGbV5mXIoqsSbgr0JeIvevhuzvyPTQ13Je5EtDM33hVVjPSuSmqvT1uWG1DUGqJlN+IzkSupRvrSkOr6MtI3ARDXkuSOiK9ZOfjCfXOrZFmCIlFoqWv7zMGdtuLZJQnC1JL2GzcWpzZFCSXh+gBZHiUuh0n7nCEFsgY+5f+0atfdwVfwtUzzuNT3Af4LDMwPJOtX8VuTcpX/oKGqpqBWda+qRZx31WFbHjiqtotyAnI3L4h4eqUnrl9s+sFYppxboz4LtCuspOlVmOQG4dJaUog9UlwkeYT3xN5UxqYneJIHAjvlVY7OAKgBtfwPZBOOTmH3ZI2gf0vMM4qCDms5Vxbw2zUczzDmbN5AUCa/LEJx9o+aRa0AE6RNdaYb47PNopbDscJyffTdshnYyfmcHOIZWlmWQd5rqEIhmxzGTEuDJ3FZVet8gztNvxzUVFo5k++4Gz7q0JiK9qrakrWJ1UojP66ZyPpx/A+0LzdIH1BJLoIYebdMNZEHcg2d3aBkcgU+YlMh0C6B5pOdHFJsjHEnqxgbFdcXhthU/ju1Fp1E39MfsotKZ7yF9a4wgcItXVSCW5wkXUpyG3WBR1IhSj1XD2bQddhpjLr70HwMBY6lanSUglnIhHZaO7ODlgAhoZWw0WYishK3tYzwAXvyG6IegQAvww8VaY1Zap1j0lw73Ml3a3bMdRkD86DQEXWUEzZPV9WYuGS105AaW6z+7dI9+lLh9VCo/jJSeHvLa4kO41l08dgrikcc8jVkKZ1yOx6s5oh7qT6HUkqS0YiICTXCCc+FO8lZS+fPRCT+HZDkisSV0KB2aCmsngytDEB2qazHY0NboId1kPAL46CGRGFTB478CpvOQnSjjikoYLsJ+n0o3Ig3kBH5kAI9pGaIPrzhbCm+jGALzonEG1l3dzHRF9My13CnYsBOuBOugxZAG6FtsMZkdPn9TjUgKshvkVrRJHuNNiuIIeUx3hTHNscVR3+mcD2yKnVj9PXqRCUBXorChmeGFqV2Gb3Ms7R3VdHAuR8y4YSirUTiO/azn+SYRWw4uwBM3gqzIEk14gGxgB3swZWi9an93feDzdL00ZiuVNyZfAdOxGF6yOX4+kxCz0seWzRRUYexYTyY9MlCOuXKzyvjsv2/XW3YGXpoZj+NIEJaQHFJ+DQLIrZocFukoWKGSkfz4apgaeJQNsOO9AehVt2BmDNbLrzYsfjcgoPU15uKqFItHISOdixWN8/O9k6b40spN8/cunLdxnuYkGcvOixpFmOzPzvWGtaSZ9QatMADOf4YbkO0kTLjw7UBO9Or+fPnVcS78hJb5PMqaUWwO3hoQWQw8pwNnkn0sih2lY6orab8P0IPz+F8F4JL3Qu4b7XBw1lNvQbPbvxUa4be1N5qKIEzxjaMU+CjvhNFKzdHZjo4Z1J6/S5jhDFpep7+4BYARVAPq0jXf+uNzAD5OKnh+54S6mMvOiVhiO9h6xNqOnygw10xnNctPcOO648JHIn99nQSovPcj/Z1WVtLO5ZyPnrxdHpfVkHq52aLjvF/ugTHWHonG3p2Kb5pUnB3NlUL7tPWBQdYKCLSLCM9Q5DaHCmiAqL/GVYCz+ssnJKQo7y2liJbX0DD/5+aVhpXl7RfODPcPfXEn3rJIG2U7REb0Igbr0KniPdFLaPFnEuLnSKvEiZH5UvPg8dPfBDpZWYh/cY0biFS+PwiDj2HycFboFbkbFzJeQvETHiTgkHqqIBAogaQZksw/fmOJTpRGuHcItI2h/LIT6kiLMBr4aJw8THlSIqOnvMQidwUuVaQDx8M5u6g0UpU8ZheFYCTuOZF/L7oehpBKtEmDVw1zT31ZdPl3q6bF6Ris4N4jdgY8GlLxAbdjlQFDjOZ6GfMI6SL90onx4fPvj3tWNqioKzoUM/zuPxP/3BsMy981NGx/mkIybNpOQiRVe6WuyBS2+w2QUxt3QgyuPLo3r7EFqC6uzTErDZEJDfzUD/cTTXlXhvYSaOPVqGP/vWCs/4lX5CtTY9XKRWsCHoKYFDIHFnTfjU39/o4llRDbBuT151ZOLg6cVtU2bNBmkaoi98q8DmegnAR+QP1D5EcvWLXvZaoV7TFuFZSKfk2S4AhrqDwMjbvOv7bo9qlK9CbCFY4gLzFwR2U2VXMMEL6FroBH59DGyQV4BbRdlF2Ff4nQaTF07XOaPAt5DVpG+F7KGQ97QxpZeWSqlWNw7oYOgtsXBSrHBlYakfmIMrsCD4sjqoOb1g4eRZyK9KL385YNaL4JbCEHQ5rTxbNhf4jNaGXnD+ng+lA4Ge/wiBdc1NEOByXz4jZNWT7pfv5T5l1hUAMofukx7HXcXk04iwSA+lFA3U6n4T5Ta/F6kL2xTnBpi22jh7eWNjdnAmjIiKUZo3OynSk5zO2hFITaY7j8L3wkhWaxASKFfttYkIJyupKKx6dFKoxYHMhbqek5gMQGaADZLdoWI3clZJZG+8LM2je95bLLBp9RkJnerCV795Dj52PKTqRdQOnOupV7Cw3RRaf1WmswTUpIQUyBRYPrnRn8MxMhBFv4mQyujxkk4skdqk8SJlAr9FPydTkUz4E776wZa2CzZxRYfoS7WB7I4rjU1EoLdbQkcUFb09gD6J3jhEaWDB6mEO8wF+mdMkTzJFUU2L62vzkOvU6KjxXjBhMKal7JN8ww5mA2aA61BIyMEOaUML6+O2Js1XTwZ9pvt1O3G2s0nAvvZTdyGcVU7WiGmdhXUxyollJ7eegkPyFM8ULEZYi1yA7D2r8LDLTvzcGSJ3IwKaybhIV+DIQsZxsFeWWC5ZHaxuMIAx9ZKyIoW27Iu0yBjpcYmtUlDaAbe2aZ4hKSqC65qxC9aWm2LFLmECz7ZyQpkhi8tj/x/qhTXCaCK6jYDcsX044ZtAIIhodVWx7isUb4yM9P4vop/sFDVlgCXVfsEF6daMuK4o8q5zRaeRbQ2+kpSbLwSvCQDqvMx1dctpMyN8q7EO2ZrDLYDOhTnh+f/tiGmsYD99cuCBXUxIgsynqtmYCRAtov4Q/gn5fFISrUR4VzJKqeLggRne36D+w/cyoDzNi+krL4MBs02Do9OBgAeatrJSwmvaon6WcF8haYAF27BKklTwCexv4ic2mQwjPRM+9oPcAPNvlamU+BB1u6ka3SIJGkZ/Dc7An0Hp0R6Y58r0tnEaeKmy0/+5L0uopXYr+AXkBnGdesAd9rIJ+OhAEfQvzoknOeQiylKrAfLNNrW2ORmyAdoEG0gBvWZ4YXg5raS8WBWOxZjN7vZ0731JSLx/OU3hk+mKImd6GON5GhNHhIy0MnQ5uErks6vyVXjHzRznVrwmjei8PR7R64L5UMHK960yfSFInJrsU08mG4+vmY6cFDpM5GpYNvaEzt5Kw0VcJHCHsZUhR1KsVEI8URP3QWWl2xbfgkCF2N09g+k6J6i0y5+imF5fkGB0piIWduRS5Lawy6X1gQpWDpEgPB5OHZ6nL+1Q6tSwyxZ84qWw7CwdwwECE2uUozgQXgYDAZPPPC5TRIN2USerkKODwHb+FZrmFkTHgYekIi7i/wsE2MxPUP/0OwSbGNVTn9IRqiIKPH3dC3Ngd5f1h9EpXYpa2NNxNikjD79bJ0gGifp0+xVSukuk+S5BxtIJw7QrqH52IHLQTW5SBLS9iSxmtN9PZ0zpOMZtd1Hk76JGgGdIYH3Qmz7MqAoUborTKrTE0dWcLL8JDTI3+obVU7Q8YY3eHf2Mr2D/O4assqEIa2FMM+Z+idg3EuBwaOPsWbXwKSTdDHPZWBKJpr6HmRTC4j0WIBIzpZAvMYCrAa1WHlNI5omwTS0XSF0XszhReW5CWhtQixzhfU82IElBdGnkEF0h1/vxSJ83FQYJedgPpVDphWVhJw2jcFIk2xB3uM4Z5MQw1GRbXXfTbsz2OwBR4QjFYTmNY+FOu5vFJoecyR92bVFTfOOeif+UCVU1gtjtGmKVsfr2w51i0+w8Mu4vqGRdlBhM34mF7ONn8PL5vXJSRhSpC5DsjnWAdKO/dnJn/6nx3TfW6018dy185HqXxJbKOElcQGFdn/eytUkxB7UCNBQ5dQW3wD9hyB6Xy6eD5JIeAeNbFKPA8vyqx1ay6woCALIelb+c/odaeh7+LPZr+aVjO9mgCA8yBVYTwc3J18ddN2tMYmRGeWYXVEil1lEHPdIkRuRj3XiBPM92a3/tDmWATUnG5bIKD1UyNzUFc9CIAuW2kHFewGNPMeJL9F41O2bA8wI6B5GWgfaL0+89Ui2HmUWxQTxFmRUZ+vnbBHOOELX45IzW/BOuTqzJrY6eCKgOXGgGiuRomFPCuwcyLg/8dNIaPqPMgWLvj6yEynYaq/ITIw7cJ8xatztkU25ji/kxum16NXt68/rWCcrf1cLYdkUfwcq3b5oMlsaIYF3I05KXGim+ln4pxBy+wzqhGNhKZ76hirXpHxEGQa+DRKMC6L9KzWyNQNle6y94snqsBPVJ6bur59/L87JM8xaPDvxg4TiZnpCGdU0ByQcsHOVQgWhinTNsoQGqxBsB/H8Uhdu+7CFUj89WMaw6OxlIU+otCKpmzoyVJLbxBnOIBqoPx+xiNgHu084g8bMnyLK67QNG/5U9Zg3V/9eZdViyOqIcfBCcavUkDoeyukyufYA2nHjdm26Yc+eJ0mPVx542yXDQqNGTtQkuVAEqqm5g+xXRcg0JmDD3tx/yW+2cNsbUnBT7ckUtFuUPDVL6wmPZIMOnbAsLD4EYC4m6zRBBFmUPEY8kmbM+BIcI/A9Nu1kArutwvJ/4d7El/rUy3RtdyzOyyduo7jGTGjApCyPKbrENUlhtiIaM2KEYXFxxg9EGm2IgathT+KziKouhRX9SK5dB4aDusoqDzoKEeg54PLXEh2gT1v/9HsgSp2k+NybOwGGksZZBREGKWKLvqqBEeotRQmkA0cKN0keXpw7hzoRiebH5CBpJImUNuPmfx0Qy5/DBFXoDMETaDG4jbXSAwhljVINfLluDpjHv876fub2NLCFKZJGB4pCL1qVtPRCKDlD6DxSIXooaPxZon0daQtdTQ0jgk4uFPEUbkzdPCrSTp4Rlvqv5T3kp5WHHQv5I44TWeqHHhj1d4GkTZasj5oSKIaxqsvp5z+10R2LwmlliKtp5jDsKDoNWHkVDtq+T9fVg3omszHzvr04pcKCymNKZQ87IRHQ6j1IggzWGZZ8t+soVad3CExcJayWnYlnm+4B79clpxycbvJ/rxRqWJjpLMJmOVK08KKG3AyYjkEP2zsonvgrbCMEMMEBQsiN2nVUY/Pq+IGggS6sqrudVZ2n3CCMqKx2LQDY/iEvwXrbhD9KiEuacLjZPuxv9KOqrcWpb8n6AjdFYMz46x4ENZagvOQHQR0jCqrVLMQgYoLLhAxi6m9M+FJj4Fons3g0mZiJTGeGTnLC33ge9dXS8/nFjLQ8m3VOFzJ1djweLlIuKEmCan7E1NmqP4hMXCclJ7Mun74CyBADEPxI9uQMJqAkjI8KnZfA4RUowtoDgzwhvThIihLC7xTCtUhKgUAeJLczOR2hnATuG+a8eBv+h4PDeSx6G6o77ulwe+nB/DewzDEvCUEVH8myMruvYEvZHUo0tC5ieROWJtJKYoZmBLD7pBRgbZxlz/fADX1XOhadeoOREkcZDlTBdJGxsth29qMyEGsNkRxJpAZCPuBqEEBXtHYb/exUk5NZ9h2pCT9JhLs0urQlorY/q+zuj8haX2/10NiV/0v0jPml9gffH9PQdZFSEH0u+GAs1x093NkmMtMwjsnWwrZ/JdT8NjHSpElKF35psqNTHd0Tk8xf7MUiFCErQ1fi+jCDu9HPLPIwib61PpA86BiXPFrWWMFtk3Wk+fHOWDrEM9Xov8eW37+PMRigIX+K/dfS7Bcs6HnR1x+TxsC/Cz2QLYUht2IYxeGjCshk+keArDdZKYlLup5XJ7Str8zMQc2gHlcZSTJJDkKmw5KRFFtw1h+JJ4Rc79MCK4XeUZJv5pxKadRH6PHlNF8d/xsom2ImSLfFQQ0unrDPwT7425GRhrjfUk96kuPkZmtJKG437iyj8YRJ0aKxpW8yrCEOZlDOnAXFnYulfEGuXRVPyRyooUgt1kjhCPS4V95XKRv65MmTJHiWy4YkMf7byi7p9PaG3pMmn/JbyTfeeV12UmfmILLlRnciJbGtm/oCxhRkdIoM4gDjLY+dRTJ+6E1GRZooaX871GVXPxkpWYqPBK5VeghU8UpKCQ3EfCEs54DavxGmxwmrKkb02QOFSTJ2/3fkWGULL58df+4ZN+Cc02flAGL/LlAGJaG7OSIveVg8OQ5+QMHik2OvkAsxgbGdsbBt/UUYTeScmhL1It7yV0Cn1n7dQz1S2K5TmepWnh3d685hhdu6UelI16Hm9W5Pn5xcc15j/DCm80gJPc9mzJU29mMGB9JS6/y0VF6kKvakrrBWgF4+90sv2+kI3ykn3IxQXIWyeC+ey86oRNZo5dgn2BSy6VpfPt5mJ1m6ZpS3FJTjVpTM7TpX73QljlIMnTI5jTU+ADbUb0t+byGMWRGdKUcSXCTyi+W7SLtBRpA4J8j8+cyvYA8mOK+scYH3Tw3unoZqQdaUGUBSLf+Ynm6bPpx3g/pov74uyH+3AoTxRgpfPGKS/HYdyRA65XsksCItBuw4m7VPIrgbNGlwI3OvzyhzBrRS6UuIf7K7YUPW+NTCx5OJql2zDu452bIDsd3bo7ozwekYlhy1wJ/rQuR4/P0QkSd75xPsFMKlGYbHgCkfx+mKy/zF3pHUzzzDQaFTMa4hxlz7x29LtHDV/du1gCPp/uWVLG3CaRoFmuHEZHO1Pbnmyfg7PoSKYQ4mma07QvqpI0ksmOs4ZzXBfA30+KIKoPb/+0X9i7/xihdzzviqk51C4vFPsEltdn8jtoGv6huTg//cefeJzX+/4SOh3rMaINyQIG+cqRFdGu+otXe48KdrbuRXykXE4VxrFgJjSlRjxMsWGc2HxcGS4f41gMb5LN8xPAQXPtdN/5h2QTMK6eXUIkuwN9BuC1/T+JN7kmE9L2/QyyMZMOYejI/eKM33gAL+6qFj8iVwO6YMsOzRdSyQpA/XOCbAKsh1iKO7K0cB1hwZFMYeqhYAfmIZgDLpLfJ1e/gho+lKC8nawEVAfmmaTPCg6wDwpU8flTSWb00ieaHz9TFUD2zz9kFDD43T+NDxTtDvhSnDTf1mJMrb/m/rC7IjlluwkokkluQSFwbhBv9lPR7juHBif12vrYDPw32t1ViPIy1yyibjNo/+Umik5+mPifaWfEIUqJfxHZGTy1nor2YMCy4qQjaosxiy0a+G0U8dgMqJffIcZHbfero6LdHUPpScP6Rwfm3xPHJKk8sJFGtJsAjtrtnm2Gda3bGNs19F84zvV19VzZlh+WbJxXWJqkwaTHadkV9mkLjimLdacb+K+BW8b2SqQnBn7UHvyiPNYjaIydEPtvAmQRXI09X9qlfToTUK+8Hi+JmgD64mOj9mGX8vFanqbOAiFOoUDu59J/A0CfsRUKZOcHagc4WUqOb/o8ff/Ou8f/2xYAdp6PetYMiPmv3ywWPrTGxs6TyVOSasw51p2dDwNeJLQTZyZa0l/xMHugk6nnXbd1FiKw3u8H/HlRaleh5r+EdBc6ZDGQcdz5vJj5BXU+507uYo1Tb+7Mh3mR9z2968cgrH530wZjVypzG843Cc8LnLyxsM24FsvPASxLAiBPIcxE2f0aC+ju3QMzz/pL1819hPT2OobveN2rHHdet2812SALdICwsxswR9hjXUUI9NzFL4AyPUu3D6Hni+Z+hC9aT+31OdP63qLN+QGHeyhXx1lzMRE7tJAACMBJD2D7k2vudD6MPv+V2fH0/8qXmvP+yDG7qBNA5n1rCDSDXWAIrGQkZ5gPa1tOYw6rDTk6NeXQGoBmsKv+SuKLsKKLSeZTHvSs6PnScE0OQDPYBYamXClRU8yZAsf1+khAGJbHrQFoBrs6X4n5v6+iNheuXDo0EECMbbPjhMxiUtJvaBwcmNafHD3va5DUF0di+mb6/+6Nn9cbwFZQQJUHvhVetPGVgJ0e6I00Tb/sftBm8xI2TY/XN2K7QHwTYUoT0J0QtuIlAik1uEUDZTmwDs6TpBAaxsoFjM6kMA2/NuRiALbfsvYSXqdithM2RZ2aCW0ToF+f+C/eTNDmgcgiAXYjRN7+MG6vEvaSfyVFi1w0ZqMx9tdjWCMRhTCMgv16ccuJ36k43UlogVS8jrfRV3cxUvuAno5Ogbh1ErFVYZ8Uf1FA9gkolBIfBOQk1B4lsltYMa5eKmFnY5YAMBDpLdG/EMlY+QfLGmwHZ6gdhDZgLgFuAdirWtFNlFIikDUGr1DAzHrkogGhNJKVRJ37qI3EzD9o8Yu2THSeYOcMrrlYnY3RwHlS7XypdD7kMxQKsOmhz6/RF9j+ztsqVh+X/8fCPZxyUDMAExec3Tj5QJzpqIaRQhGsDTdMrK4X2SkIXYm12mDyah50GGPTTW75mjoNcApmJjcQGgzeNWfGnO8RWEQFyX12G05DBEGoigTiXmXNeUxi115IcAoiyA3EByN2zfdjrtcjClFBUiLRhtMQQRCkNGzOZo3YjSSyRrGXAnFPwJTA/JJsIVz6/AZLbxoQhgmQZYw4ezCXMVzC8CagWmqCjSuAnruxhX+pAEI9xE3SmRBnAJbTcKuqaTYwALgn+iYDQhF+BhQxxAwYm1MZcLGGMhBkajOQosUiIgKBPdRoX7duligssE25Vn4faucGam2o3kZNAVQtCXQysdN5ULna4Zcrlcv9RqU6ZEKN398qlMdG1RDrlfpwdsfF1GvSSCSCWvgaRbmtI4WLiBl7/qKmG6KZo73da2RJl8NBc5iRPDsOKNigSbPuzPEsigQq5lalhkJclN7KDcp0Yr1uRmYW23RZsl+jcn51snmra79auaZ6E1SgTMGXfxbU/3eDnnDQMLBw8AiISMgoqGjoGJhY2Di4ePgEhAKIiElIycgpKAVSCRIsRCi1sNT+aEWKEi1GrDjxEiTSSJIsRSotHT0DozQmZhZWNunsMjg4ubh5ZPLKki2HT648+QoUKlKsRKlNppvhB8s9MtOQedb52mZzXTfNEm+8tcAKs51022vrfeO9dz7YaIefnLFTmXLDKvyi0lk/+8OvfvO7x6qMO+e8Xaq9sshlF11S46nn5qjlV6dBvUYjmrRoXsCPyw7tOnV5YpLJuk3Rq8dhG/TrM2DQMy8cccVue1x1yzV77XPQIafsd8CYWbb50VHfBwrme7nx72XBh+GXGe/AFwAAAA==) format("woff2");
+    font-weight:400;font-style:normal;font-display:swap;}
+  /* ---- light tokens (default) ---- */
+  :root{
+    color-scheme: light dark;
+    --paper:#f4f0e8;      /* page */
+    --board:#fbfbf8;      /* diagram panel */
+    --ink:#14130f;        /* page text */
+    --line:rgba(20,19,15,.14);
+    --dgm:#1c3fa8;        /* diagram stroke and label colour */
+    --dot:#1c3fa8; --halo:#fbfbf8;
+    --lime:#c4ff4d;
+  }
+  /* ---- dark tokens ---- */
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#14130f; --board:#1c1b16; --ink:#f4f0e8;
+      --line:rgba(244,240,232,.16); --dgm:#9ab3ff;
+      --dot:#c4ff4d; --halo:#1c1b16;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14130f; --board:#1c1b16; --ink:#f4f0e8;
+    --line:rgba(244,240,232,.16); --dgm:#9ab3ff;
+    --dot:#c4ff4d; --halo:#1c1b16;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:"Inter","Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:1280px;margin:0 auto;padding:28px 20px 56px;}
+  .top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;}
+  .kicker{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;
+          letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin:0 0 8px;}
+  h1{font-family:"Inter Tight","Inter",sans-serif;font-size:clamp(24px,3.4vw,38px);
+     line-height:1.15;margin:0 0 10px;font-weight:800;letter-spacing:-.01em;}
+  .sub{margin:0 0 24px;max-width:62ch;font-size:16px;line-height:1.6;opacity:.8;}
+  .toggle{flex:0 0 auto;font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11px;
+          letter-spacing:.1em;text-transform:uppercase;background:transparent;color:inherit;
+          border:1px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;}
+  .toggle:hover{border-color:var(--dgm);}
+  .board{background:var(--board);border:1px solid var(--line);border-radius:14px;
+         padding:10px;overflow-x:auto;color:var(--dgm);}
+  .board svg{display:block;min-width:860px;width:100%;height:auto;}
+  .board svg text{font-family:"ALGTM Hand","Bradley Hand","Comic Sans MS",cursive;}
+  .dot{fill:var(--dot);stroke:var(--halo);stroke-width:2.5;}
+  @media (prefers-reduced-motion:reduce){ .dot{display:none;} #playBtn{display:none;} }
+  .legend{display:flex;flex-wrap:wrap;gap:10px 22px;margin:18px 0 0;padding:0;list-style:none;
+          font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.04em;}
+  .legend li{display:flex;align-items:center;gap:8px;}
+  .swatch{width:26px;height:0;border-top:2px solid var(--dgm);}
+  .swatch.dash{border-top-style:dashed;}
+  .note{margin-top:22px;font-size:14px;line-height:1.6;opacity:.75;max-width:70ch;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <p class="kicker">AgentLedGTM</p>
+      <h1>Fundamental growth loops setup</h1>
+    </div>
+    <div style="display:flex;gap:8px;flex:0 0 auto;">
+      <button class="toggle" id="playBtn" type="button">Pause</button>
+      <button class="toggle" id="themeBtn" type="button">Theme: system</button>
+    </div>
+  </div>
+  <p class="sub">The lead flow architecture setup, with a nurture loop, a content loop, and an
+     advocacy loop. Solid lines show the forward path. Dashed lines show data that returns to an
+     earlier step. Each moving point is one lead.</p>
+  <div class="board">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1700 1150" width="100%" role="img" aria-label="Fundamental growth loops setup: lead flow with a nurture loop, a content loop and an advocacy loop">
+<path d="M 40 44 L 1660 44" stroke="currentColor" stroke-width="2.4" stroke-dasharray="26 20" stroke-linecap="round" opacity="0.75" fill="none"/>
+<text x="120.0" y="108.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="30" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">LEAD FLOW ARCHITECTURE SETUP</text>
+<path d="M 118.2 121.4 Q 338.7 123.3 560.6 121.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<text x="120.0" y="148.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="19" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="2" opacity="0.85">NURTURE / CONTENT / ADVOCACY</text>
+<path d="M 144.8 278.5 L 257.5 280.3 Q 269.5 279.9 270.2 295.6 L 268.9 356.2 Q 270.6 370.7 256.7 370.8 L 142.5 370.8 Q 129.6 369.7 129.7 357.4 L 129.8 295.2 Q 129.8 280.2 144.0 279.4" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 184 305 L 198 295 L 198 321 L 184 311 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 184 305 L 178 305 L 178 311 L 184 311 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<path d="M 204 304 Q 211 308 204 312" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M 204 300 Q 217 308 204 316" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="200.0" y="349.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Ads</text>
+<path d="M 144.9 390.4 L 257.3 388.4 Q 269.3 390.7 268.7 403.6 L 268.7 465.9 Q 269.3 480.1 255.9 480.3 L 144.1 478.5 Q 129.3 480.0 128.6 466.9 L 130.7 403.4 Q 129.9 389.7 144.6 390.1" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 168.5 408.2 L 177.7 408.3 Q 185.6 406.6 184.1 413.3 L 185.3 420.5 Q 185.2 428.4 177.4 428.2 L 168.6 429.1 Q 163.7 429.6 162.3 423.3 L 162.8 413.1 Q 162.5 406.9 169.7 406.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 195.9 407.7 L 205.2 405.5 Q 211.6 407.4 210.0 413.5 L 210.5 422.8 Q 210.7 428.6 204.0 429.6 L 195.1 428.2 Q 189.7 429.7 188.0 421.3 L 189.8 412.4 Q 189.3 407.5 196.3 406.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 222.9 407.3 L 230.6 407.8 Q 236.5 406.3 236.5 413.5 L 236.6 420.8 Q 236.5 429.1 229.4 429.8 L 222.2 430.2 Q 214.6 429.2 214.0 422.0 L 214.9 413.6 Q 215.7 407.5 223.5 408.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="174.0" y="424.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="15" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">f</text>
+<path d="M 198.4 411.2 L 201.9 411.0 Q 205.8 412.4 206.7 416.1 L 207.1 419.3 Q 206.4 424.8 202.2 422.4 L 197.5 425.5 Q 193.3 424.3 193.8 420.7 L 192.4 416.4 Q 193.9 412.5 199.5 410.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="226.0" y="424.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="13" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">in</text>
+<text x="200.0" y="459.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Social</text>
+<path d="M 144.0 501.0 L 257.1 500.7 Q 270.2 500.5 270.3 514.7 L 270.9 575.4 Q 270.7 590.6 255.8 590.9 L 144.3 588.4 Q 129.5 589.5 130.2 576.9 L 129.9 512.5 Q 130.8 499.4 143.5 500.2" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 185.5 528.3 C 186.0 520.3 192.3 514.0 200.0 514.0 C 207.7 514.0 214.0 520.3 214.0 528.0 C 214.0 535.7 207.7 542.0 200.0 542.0 C 192.3 542.0 186.0 535.7 185.7 528.4 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 186 528 L 214 528" stroke="currentColor" stroke-width="1.8" fill="none"/>
+<path d="M 200 514 Q 192 528 200 542 Q 208 528 200 514" stroke="currentColor" stroke-width="1.8" fill="none"/>
+<text x="200.0" y="569.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Web</text>
+<path d="M 144.3 610.3 L 257.5 611.5 Q 270.5 610.1 271.5 624.8 L 268.5 695.4 Q 270.6 710.6 255.9 708.7 L 142.8 709.9 Q 129.9 709.5 130.5 694.9 L 129.1 623.8 Q 130.7 610.3 143.5 611.2" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 184.6 634.7 C 185.0 628.9 189.9 624.0 196.0 624.0 C 202.1 624.0 207.0 628.9 207.0 635.0 C 207.0 641.1 202.1 646.0 196.0 646.0 C 189.9 646.0 185.0 641.1 184.6 634.4 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 204 643 L 214 653" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+<text x="200.0" y="679.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Organic Search</text>
+<text x="200.0" y="699.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">+ AI Answers</text>
+<path d="M 142.6 731.3 L 257.5 728.6 Q 269.6 730.1 270.4 744.6 L 270.6 816.4 Q 270.4 830.1 254.5 829.9 L 143.9 830.6 Q 130.1 830.6 128.5 815.3 L 130.7 743.2 Q 130.3 730.3 145.4 728.6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 181.6 752.2 C 181.0 748.1 184.1 745.0 188.0 745.0 C 191.9 745.0 195.0 748.1 195.0 752.0 C 195.0 755.9 191.9 759.0 188.0 759.0 C 184.1 759.0 181.0 755.9 181.1 752.4 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 178 770 Q 188 759 198 770" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M 203.4 752.3 C 204.0 748.1 207.1 745.0 211.0 745.0 C 214.9 745.0 218.0 748.1 218.0 752.0 C 218.0 755.9 214.9 759.0 211.0 759.0 C 207.1 759.0 204.0 755.9 203.9 751.5 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 201 770 Q 211 759 221 770" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="200.0" y="799.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Referrals</text>
+<text x="200.0" y="819.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">+ Reviews</text>
+<path d="M 269.6 325.4 Q 295.3 326.4 320.1 325.3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 270.4 435.1 Q 295.4 434.6 320.5 434.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 270.6 545.1 Q 295.5 545.0 320.6 544.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 270.6 659.6 Q 295.3 660.5 320.1 660.0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 270.6 780.2 Q 294.6 779.8 319.6 779.3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 320.1 324.7 Q 322.5 552.1 320.6 779.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 320.6 529.9 Q 344.5 529.4 370.1 529.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 360.3 535.2 L 370.0 530.0 L 360.3 524.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 384.0 446.3 L 506.9 444.9 Q 519.5 444.8 521.0 458.2 L 518.5 602.6 Q 519.5 614.8 507.0 615.7 L 384.7 614.7 Q 369.8 615.1 371.3 601.6 L 369.1 457.6 Q 370.6 445.4 385.2 444.2" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="445.0" y="482.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Entry Point /</text>
+<text x="445.0" y="503.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Form</text>
+<path d="M 427.6 536.0 L 464.2 536.8 Q 469.8 535.7 469.4 540.4 L 469.1 581.8 Q 469.7 587.7 462.2 589.0 L 426.3 588.7 Q 420.3 587.6 422.1 582.2 L 419.5 541.4 Q 420.4 536.8 427.5 537.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 429 548 L 459 548" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M 429 560 L 449 560" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M 429 572 L 459 572" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M 519.4 530.6 Q 544.6 531.2 570.3 530.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 560.3 535.2 L 570.0 530.0 L 560.3 524.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 582.8 445.4 L 705.4 446.5 Q 720.7 444.7 721.5 459.5 L 720.5 602.6 Q 720.2 614.8 704.5 614.2 L 584.6 614.1 Q 570.3 615.0 568.9 600.4 L 569.4 458.9 Q 570.4 445.5 582.8 445.8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 645 536 Q 627 534 629 550 Q 623 562 639 567 Q 645 571 645 566 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 645 536 Q 663 534 661 550 Q 667 562 651 567 Q 645 571 645 566 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 645 538 L 645 566" stroke="currentColor" stroke-width="1.6" opacity="0.7"/>
+<text x="645.0" y="471.9" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Lead</text>
+<text x="645.0" y="492.9" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Qualification</text>
+<text x="645.0" y="514.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">(AI)</text>
+<path d="M 805.2 455.7 L 925.4 454.2 Q 940.5 455.7 940.8 468.0 L 940.5 589.8 Q 940.6 605.6 927.0 604.9 L 804.0 605.8 Q 790.1 605.6 789.2 591.6 L 788.5 469.4 Q 790.8 454.9 805.4 455.9" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<ellipse cx="865" cy="540" rx="22" ry="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<path d="M 843 540 L 843 570 Q 865 584 887 570 L 887 540" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<path d="M 843 556 Q 865 566 887 556" fill="none" stroke="currentColor" stroke-width="1.8" opacity="0.75"/>
+<text x="865.0" y="500.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="19" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">CRM Core</text>
+<path d="M 719.5 529.5 Q 755.2 530.6 789.9 530.2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 780.3 535.2 L 790.0 530.0 L 780.3 524.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="750.0" y="508.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="1" opacity="1.0">QUALIFIED</text>
+<path d="M 683.0 170.9 L 855.4 170.9 Q 869.9 170.2 869.1 183.1 L 869.9 276.2 Q 870.7 289.6 857.2 288.8 L 685.0 288.5 Q 669.2 290.4 670.8 274.4 L 670.8 183.4 Q 669.4 170.3 684.7 170.1" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 730.8 249.4 L 747.9 248.4 Q 753.6 248.7 754.5 252.8 L 754.1 261.1 Q 752.6 266.6 749.6 265.9 L 729.6 266.8 Q 726.8 266.0 727.9 261.0 L 725.6 252.0 Q 726.8 249.0 732.0 249.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 729 251 L 740 260 L 751 251" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 793.3 244.1 L 806.4 243.8 Q 813.2 244.2 813.4 251.8 L 814.6 259.3 Q 812.3 264.6 807.8 265.3 L 794.2 266.2 Q 787.5 264.8 786.8 259.0 L 786.3 250.0 Q 787.0 245.3 794.4 245.1" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 794 265 L 791 272 L 801 265" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="770.0" y="200.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Long-term Nurture</text>
+<text x="770.0" y="221.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">(Email / SMS)</text>
+<path d="M 645.3 445.2 Q 643.6 345.6 645.1 245.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 645.0 246.0 Q 645.0 230.0 656.2 230.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<path d="M 656.9 229.6 Q 663.2 230.7 669.5 230.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 660.3 235.2 L 670.0 230.0 L 660.3 224.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="500.0" y="218.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">UNQUALIFIED</text>
+<path d="M 882 200 Q 926 210 912 240" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="8 7" stroke-linecap="round"/>
+<path d="M 892.7 197.5 L 882.0 200.0 L 890.1 207.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 912 250 Q 926 280 882 268" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="8 7" stroke-linecap="round"/>
+<path d="M 890.9 261.5 L 882.0 268.0 L 892.3 271.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="922.0" y="216.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="13" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="0.5" opacity="1.0">NURTURE</text>
+<text x="922.0" y="235.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="13" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="0.5" opacity="1.0">LOOP</text>
+<path d="M 939.4 530.2 Q 957.9 529.4 975.6 529.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1025.1 190.3 L 1215.3 189.6 Q 1230.1 189.5 1231.0 204.7 L 1229.4 267.1 Q 1230.1 279.4 1216.7 278.7 L 1022.8 281.4 Q 1010.2 279.4 1011.3 266.4 L 1010.5 203.0 Q 1010.4 189.3 1023.4 191.4" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1102.0" y="230.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Instant AI</text>
+<text x="1102.0" y="251.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Personalization</text>
+<path d="M 1198 221 L 1202 231 L 1212 235 L 1202 239 L 1198 249 L 1194 239 L 1184 235 L 1194 231 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 1214 227 L 1216 233 L 1222 235 L 1216 237 L 1214 243 L 1212 237 L 1206 235 L 1212 233 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 975.2 234.9 Q 991.7 234.3 1010.7 234.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1000.3 240.2 L 1010.0 235.0 L 1000.3 229.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1022.5 308.9 L 1216.8 310.2 Q 1229.2 310.1 1230.4 324.7 L 1229.8 387.2 Q 1230.6 399.8 1216.8 399.0 L 1024.0 398.6 Q 1009.6 399.9 1009.5 386.2 L 1010.0 323.5 Q 1010.7 309.4 1025.5 310.2" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1102.0" y="350.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Appointment</text>
+<text x="1102.0" y="371.4" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Scheduler</text>
+<path d="M 1188.5 343.1 L 1208.7 343.4 Q 1212.5 341.9 1211.9 345.7 L 1213.0 365.3 Q 1213.0 368.3 1209.9 368.1 L 1186.0 370.0 Q 1183.4 369.3 1181.9 365.7 L 1182.0 345.5 Q 1183.6 341.4 1188.5 341.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 1183 350 L 1213 350" stroke="currentColor" stroke-width="2"/>
+<rect x="1187" y="355" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<rect x="1196" y="355" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<rect x="1205" y="355" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<rect x="1187" y="362" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<rect x="1196" y="362" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<rect x="1205" y="362" width="5" height="5" fill="currentColor" opacity="0.8"/>
+<path d="M 975.5 355.6 Q 992.2 355.0 1009.7 355.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1000.3 360.2 L 1010.0 355.0 L 1000.3 349.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1022.8 429.0 L 1215.0 431.1 Q 1230.0 429.4 1228.8 445.3 L 1231.1 525.6 Q 1230.8 540.8 1217.3 540.9 L 1023.7 539.8 Q 1010.1 540.4 1011.4 525.1 L 1011.2 443.1 Q 1010.4 429.3 1025.5 430.8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1120.0" y="464.8" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="18" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Automated</text>
+<text x="1120.0" y="485.8" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="18" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Nurture Sequence</text>
+<path d="M 1073.3 508.1 L 1087.8 507.3 Q 1092.4 507.5 1090.7 510.8 L 1091.5 518.1 Q 1091.9 522.9 1089.2 523.2 L 1073.2 523.3 Q 1068.2 523.1 1068.0 519.3 L 1067.6 510.2 Q 1068.2 507.4 1072.0 508.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 1070 509 L 1080 517 L 1090 509" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 1112.7 507.6 L 1131.3 506.4 Q 1133.8 507.7 1133.8 510.6 L 1132.7 520.1 Q 1134.2 522.4 1131.5 523.5 L 1112.6 522.0 Q 1110.3 522.8 1111.0 517.6 L 1110.3 511.9 Q 1109.3 506.8 1112.5 505.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 1112 509 L 1122 517 L 1132 509" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 1096 515 L 1106 515" stroke="currentColor" stroke-width="2"/>
+<text x="1162.0" y="521.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="20" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">...</text>
+<path d="M 974.6 485.6 Q 992.1 485.0 1010.4 485.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1000.3 490.2 L 1010.0 485.0 L 1000.3 479.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1023.7 568.8 L 1215.5 568.6 Q 1229.4 570.0 1230.5 583.6 L 1228.7 647.0 Q 1229.2 659.6 1214.8 659.0 L 1025.0 660.6 Q 1009.4 660.6 1010.4 646.7 L 1010.4 582.9 Q 1010.3 570.4 1024.5 570.6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1102.0" y="610.2" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="15" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Internal Notification</text>
+<text x="1102.0" y="630.2" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="15" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">(Slack / Team)</text>
+<rect x="1188" y="603" width="8" height="8" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<rect x="1204" y="603" width="8" height="8" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<rect x="1188" y="619" width="8" height="8" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<rect x="1204" y="619" width="8" height="8" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<path d="M 1196 615 L 1204 615" stroke="currentColor" stroke-width="2"/>
+<path d="M 1200 611 L 1200 619" stroke="currentColor" stroke-width="2"/>
+<path d="M 975.6 614.4 Q 992.9 614.4 1010.2 615.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1000.3 620.2 L 1010.0 615.0 L 1000.3 609.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 974.5 234.9 Q 975.7 425.7 975.3 614.7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1314.9 248.7 L 1486.0 249.0 Q 1499.9 250.7 1499.9 262.6 L 1498.9 315.9 Q 1499.9 330.0 1485.3 328.9 L 1313.1 329.2 Q 1299.2 329.5 1299.3 315.5 L 1300.4 264.7 Q 1300.4 249.9 1314.9 250.8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1380.0" y="285.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Pre-call</text>
+<text x="1380.0" y="305.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Reminders</text>
+<path d="M 1457 297 Q 1458 280 1468 279 Q 1478 280 1479 297 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 1465 301 Q 1468 305 1471 301" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 1313.7 360.2 L 1485.6 358.6 Q 1500.1 359.9 1501.2 374.3 L 1500.9 426.0 Q 1499.6 439.4 1487.0 441.3 L 1314.5 440.3 Q 1300.2 439.7 1300.8 424.5 L 1299.0 374.7 Q 1300.5 360.0 1313.0 360.0" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1380.0" y="395.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Post-call</text>
+<text x="1380.0" y="415.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Onboarding</text>
+<path d="M 1458.3 384.8 L 1475.9 383.8 Q 1481.8 385.6 1481.0 388.7 L 1480.5 411.7 Q 1480.6 416.2 1476.6 416.9 L 1460.3 415.0 Q 1455.4 415.9 1456.3 411.4 L 1453.9 388.4 Q 1455.2 385.8 1459.5 384.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<rect x="1462" y="381" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+<path d="M 1461 396 l 4 4 l 7 -8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1461 404 l 4 4 l 7 -8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1230.4 354.9 Q 1248.3 354.3 1265.1 354.6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1264.8 290.1 Q 1264.6 345.2 1264.9 399.9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1265.4 290.2 Q 1281.7 290.3 1299.8 290.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1290.3 295.2 L 1300.0 290.0 L 1290.3 284.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1265.0 400.1 Q 1282.4 400.1 1299.4 399.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1290.3 405.2 L 1300.0 400.0 L 1290.3 394.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1313.1 490.8 L 1486.8 489.5 Q 1499.5 490.2 1499.9 503.9 L 1500.0 556.0 Q 1499.8 570.0 1486.0 569.7 L 1313.0 569.0 Q 1300.2 569.6 1300.5 557.6 L 1300.0 505.5 Q 1299.9 490.7 1315.4 489.8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1382.0" y="536.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Won Customer</text>
+<path d="M 1468 517 L 1472 526 L 1481 527 L 1474 534 L 1476 543 L 1468 538 L 1460 543 L 1462 534 L 1455 527 L 1464 526 Z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/>
+<path d="M 1399.9 440.7 Q 1400.3 465.0 1399.9 489.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1394.8 480.3 L 1400.0 490.0 L 1405.2 480.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1313.2 629.6 L 1485.0 631.3 Q 1500.7 630.6 1500.9 642.5 L 1501.5 715.6 Q 1499.5 730.3 1486.9 731.3 L 1312.9 731.6 Q 1300.7 730.3 1300.6 716.1 L 1298.7 643.9 Q 1300.0 629.7 1312.5 630.1" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1400.0" y="657.5" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Referral + Review</text>
+<text x="1400.0" y="678.5" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="17" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Ask</text>
+<path d="M 1380.8 706.3 C 1381.0 702.1 1384.1 699.0 1388.0 699.0 C 1391.9 699.0 1395.0 702.1 1395.0 706.0 C 1395.0 709.9 1391.9 713.0 1388.0 713.0 C 1384.1 713.0 1381.0 709.9 1381.2 706.2 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 1378 724 Q 1388 713 1398 724" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M 1404.4 706.5 C 1404.0 702.1 1407.1 699.0 1411.0 699.0 C 1414.9 699.0 1418.0 702.1 1418.0 706.0 C 1418.0 709.9 1414.9 713.0 1411.0 713.0 C 1407.1 713.0 1404.0 709.9 1404.0 706.0 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 1401 724 Q 1411 713 1421 724" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M 1400.6 569.3 Q 1400.2 600.1 1399.7 630.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1394.8 620.3 L 1400.0 630.0 L 1405.2 620.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1022.6 788.8 L 1224.6 788.9 Q 1240.5 790.7 1241.3 804.4 L 1239.8 885.7 Q 1240.7 900.2 1227.4 900.1 L 1024.8 899.0 Q 1010.3 899.3 1010.9 885.8 L 1009.6 804.1 Q 1009.4 790.6 1024.9 790.1" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<text x="1125.0" y="817.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">Content Engine</text>
+<text x="1125.0" y="837.6" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="middle" font-weight="400" letter-spacing="0" opacity="1.0">(Answers, Posts, FAQ)</text>
+<path d="M 1114.7 858.5 L 1132.7 855.6 Q 1136.8 856.5 1137.7 859.3 L 1135.6 885.0 Q 1137.0 886.3 1133.9 887.9 L 1115.6 885.4 Q 1112.9 886.8 1113.0 884.2 L 1112.9 859.1 Q 1113.7 857.4 1117.2 856.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<path d="M 1119 865 L 1131 865" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M 1119 871 L 1131 871" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M 1119 877 L 1131 877" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M 815.7 605.2 Q 815.5 717.1 814.8 828.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 815.0 829.0 Q 815.0 845.0 831.0 845.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<path d="M 830.5 844.5 Q 920.8 843.7 1010.0 845.1" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 1000.3 850.2 L 1010.0 845.0 L 1000.3 839.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="838.0" y="812.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">CALL NOTES</text>
+<text x="838.0" y="832.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">+ QUESTIONS</text>
+<path d="M 1120.6 660.1 Q 1120.0 677.6 1119.8 696.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 1120.0 696.0 Q 1120.0 712.0 1104.0 712.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<path d="M 1104.4 711.5 Q 882.0 714.2 661.5 711.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 661.0 712.0 Q 645.0 712.0 645.0 696.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<path d="M 644.8 696.3 Q 645.4 655.4 645.0 614.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 650.2 624.7 L 645.0 615.0 L 639.8 624.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700.0" y="745.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">FEEDBACK FOR SCORING</text>
+<path d="M 890.1 711.3 Q 888.3 659.2 890.0 604.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="9 8"/>
+<path d="M 895.2 614.7 L 890.0 605.0 L 884.8 614.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="905.0" y="690.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="14" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="1" opacity="1.0">BOOKING DATA</text>
+<path d="M 1125.7 900.0 Q 1125.1 936.8 1124.7 974.7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 1125.0 974.0 Q 1125.0 990.0 1109.0 990.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 1108.7 990.1 Q 610.7 992.7 110.4 989.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 111.0 990.0 Q 95.0 990.0 95.0 974.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 94.6 973.9 Q 94.4 825.7 95.2 675.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 95.0 676.0 Q 95.0 660.0 110.8 660.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 110.5 660.7 Q 120.6 660.4 129.3 660.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 120.3 665.2 L 130.0 660.0 L 120.3 654.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="560.0" y="1018.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="2" opacity="1.0">CONTENT LOOP</text>
+<path d="M 1400.6 730.6 Q 1402.0 901.8 1400.0 1073.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 1400.0 1074.0 Q 1400.0 1090.0 1384.0 1090.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 1384.0 1090.6 Q 727.1 1087.8 70.3 1089.4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 71.0 1090.0 Q 55.0 1090.0 55.0 1074.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 54.5 1073.4 Q 54.3 934.3 55.3 795.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 55.0 796.0 Q 55.0 780.0 71.0 780.0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="10 9"/>
+<path d="M 71.1 780.6 Q 101.2 780.0 130.2 779.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity="1.0" stroke-dasharray="10 9"/>
+<path d="M 120.3 785.2 L 130.0 780.0 L 120.3 774.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="560.0" y="1118.0" font-family="'Architects Daughter', 'Comic Sans MS', 'Segoe Print', cursive" font-size="16" fill="currentColor" text-anchor="start" font-weight="400" letter-spacing="2" opacity="1.0">ADVOCACY LOOP</text>
+<g class="routes" fill="none" stroke="none">
+<path id="r_in0" d="M 270.0 325.0 L 304.0 325.0 Q 320.0 325.0 320.0 341.0 L 320.0 514.0 Q 320.0 530.0 336.0 530.0 L 370.0 530.0"/>
+<path id="r_in1" d="M 270.0 435.0 L 304.0 435.0 Q 320.0 435.0 320.0 451.0 L 320.0 514.0 Q 320.0 530.0 336.0 530.0 L 370.0 530.0"/>
+<path id="r_in2" d="M 270.0 545.0 L 304.0 545.0 Q 320.0 545.0 320.0 538.2 L 320.0 536.8 Q 320.0 530.0 336.0 530.0 L 370.0 530.0"/>
+<path id="r_in3" d="M 270.0 660.0 L 304.0 660.0 Q 320.0 660.0 320.0 644.0 L 320.0 546.0 Q 320.0 530.0 336.0 530.0 L 370.0 530.0"/>
+<path id="r_in4" d="M 270.0 780.0 L 304.0 780.0 Q 320.0 780.0 320.0 764.0 L 320.0 546.0 Q 320.0 530.0 336.0 530.0 L 370.0 530.0"/>
+<path id="r_entry" d="M 520.0 530.0 L 570.0 530.0"/>
+<path id="r_qual" d="M 720.0 530.0 L 790.0 530.0"/>
+<path id="r_unq" d="M 645.0 445.0 L 645.0 246.0 Q 645.0 230.0 656.2 230.0 L 670.0 230.0"/>
+<path id="r_out0" d="M 940.0 530.0 L 959.2 530.0 Q 975.0 530.0 975.0 514.0 L 975.0 251.0 Q 975.0 235.0 990.8 235.0 L 1010.0 235.0"/>
+<path id="r_out1" d="M 940.0 530.0 L 959.2 530.0 Q 975.0 530.0 975.0 514.0 L 975.0 371.0 Q 975.0 355.0 990.8 355.0 L 1010.0 355.0"/>
+<path id="r_out2" d="M 940.0 530.0 L 959.2 530.0 Q 975.0 530.0 975.0 514.0 L 975.0 501.0 Q 975.0 485.0 990.8 485.0 L 1010.0 485.0"/>
+<path id="r_out3" d="M 940.0 530.0 L 959.2 530.0 Q 975.0 530.0 975.0 546.0 L 975.0 599.0 Q 975.0 615.0 990.8 615.0 L 1010.0 615.0"/>
+<path id="r_pre" d="M 1230.0 355.0 L 1249.2 355.0 Q 1265.0 355.0 1265.0 339.0 L 1265.0 306.0 Q 1265.0 290.0 1280.8 290.0 L 1300.0 290.0"/>
+<path id="r_post" d="M 1230.0 355.0 L 1249.2 355.0 Q 1265.0 355.0 1265.0 371.0 L 1265.0 384.0 Q 1265.0 400.0 1280.8 400.0 L 1300.0 400.0"/>
+<path id="r_won" d="M 1400.0 440.0 L 1400.0 490.0"/>
+<path id="r_ask" d="M 1400.0 570.0 L 1400.0 630.0"/>
+<path id="r_adv" d="M 1400.0 730.0 L 1400.0 1074.0 Q 1400.0 1090.0 1384.0 1090.0 L 71.0 1090.0 Q 55.0 1090.0 55.0 1074.0 L 55.0 796.0 Q 55.0 780.0 71.0 780.0 L 130.0 780.0"/>
+<path id="r_notes" d="M 815.0 605.0 L 815.0 829.0 Q 815.0 845.0 831.0 845.0 L 1010.0 845.0"/>
+<path id="r_con" d="M 1125.0 900.0 L 1125.0 974.0 Q 1125.0 990.0 1109.0 990.0 L 111.0 990.0 Q 95.0 990.0 95.0 974.0 L 95.0 676.0 Q 95.0 660.0 110.8 660.0 L 130.0 660.0"/>
+<path id="r_fb" d="M 1120.0 660.0 L 1120.0 696.0 Q 1120.0 712.0 1104.0 712.0 L 661.0 712.0 Q 645.0 712.0 645.0 696.0 L 645.0 615.0"/>
+<path id="r_book" d="M 890.0 712.0 L 890.0 605.0"/>
+</g>
+<g class="flow">
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0000;0.1700;1" rotate="0"><mpath xlink:href="#r_in0" href="#r_in0"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0120;0.1700;0.1880;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0120;0.1820;1" rotate="0"><mpath xlink:href="#r_in1" href="#r_in1"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0120;0.0240;0.1820;0.2000;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0240;0.1940;1" rotate="0"><mpath xlink:href="#r_in2" href="#r_in2"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0240;0.0360;0.1940;0.2120;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0360;0.2060;1" rotate="0"><mpath xlink:href="#r_in3" href="#r_in3"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0360;0.0480;0.2060;0.2240;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0480;0.2180;1" rotate="0"><mpath xlink:href="#r_in4" href="#r_in4"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.0480;0.0600;0.2180;0.2360;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2000;0.2500;1" rotate="0"><mpath xlink:href="#r_entry" href="#r_entry"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2000;0.2120;0.2500;0.2680;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2600;0.3100;1" rotate="0"><mpath xlink:href="#r_qual" href="#r_qual"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2600;0.2720;0.3100;0.3280;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2600;0.3400;1" rotate="0"><mpath xlink:href="#r_unq" href="#r_unq"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2600;0.2720;0.3400;0.3580;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3300;0.4200;1" rotate="0"><mpath xlink:href="#r_out0" href="#r_out0"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3300;0.3420;0.4200;0.4380;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3300;0.4250;1" rotate="0"><mpath xlink:href="#r_out1" href="#r_out1"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3300;0.3420;0.4250;0.4430;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3300;0.4300;1" rotate="0"><mpath xlink:href="#r_out2" href="#r_out2"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3300;0.3420;0.4300;0.4480;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3300;0.4350;1" rotate="0"><mpath xlink:href="#r_out3" href="#r_out3"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3300;0.3420;0.4350;0.4530;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4300;0.5000;1" rotate="0"><mpath xlink:href="#r_pre" href="#r_pre"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4300;0.4420;0.5000;0.5180;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4300;0.5000;1" rotate="0"><mpath xlink:href="#r_post" href="#r_post"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4300;0.4420;0.5000;0.5180;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5100;0.5500;1" rotate="0"><mpath xlink:href="#r_won" href="#r_won"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5100;0.5220;0.5500;0.5680;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5600;0.6000;1" rotate="0"><mpath xlink:href="#r_ask" href="#r_ask"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5600;0.5720;0.6000;0.6180;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6100;0.8800;1" rotate="0"><mpath xlink:href="#r_adv" href="#r_adv"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6100;0.6220;0.8800;0.8980;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3600;0.4600;1" rotate="0"><mpath xlink:href="#r_notes" href="#r_notes"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3600;0.3720;0.4600;0.4780;1"/></circle>
+<circle class="dot" r="6.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4800;0.7400;1" rotate="0"><mpath xlink:href="#r_con" href="#r_con"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4800;0.4920;0.7400;0.7580;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4600;0.5900;1" rotate="0"><mpath xlink:href="#r_fb" href="#r_fb"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4600;0.4720;0.5900;0.6080;1"/></circle>
+<circle class="dot" r="5.0" cx="0" cy="0" opacity="0"><animateMotion dur="10.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6000;0.6400;1" rotate="0"><mpath xlink:href="#r_book" href="#r_book"/></animateMotion><animate attributeName="opacity" dur="10.0s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6000;0.6120;0.6400;0.6580;1"/></circle>
+</g>
+</svg>
+
+  </div>
+  <ul class="legend">
+    <li><span class="swatch"></span> Forward flow</li>
+    <li><span class="swatch dash"></span> Feedback and loop return</li>
+  </ul>
+  <p class="note">The diagram draws every line in <code>currentColor</code>, and the panel sets that
+     colour from a token. A theme switcher that sets <code>data-theme</code> on the root element,
+     or a reader with a dark system setting, changes the diagram with the rest of the page.</p>
+</div>
+<script>
+  (function(){
+    var modes = ["system","light","dark"], i = 0;
+    var btn = document.getElementById("themeBtn");
+    btn.addEventListener("click", function(){
+      i = (i + 1) % modes.length;
+      var m = modes[i];
+      if (m === "system") { document.documentElement.removeAttribute("data-theme"); }
+      else { document.documentElement.setAttribute("data-theme", m); }
+      btn.textContent = "Theme: " + m;
+    });
+  })();
+  (function(){
+    var svg = document.querySelector(".board svg");
+    var btn = document.getElementById("playBtn");
+    if(!svg || !btn || !svg.pauseAnimations){ if(btn) btn.style.display="none"; return; }
+    var running = true;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+      svg.pauseAnimations(); running=false; btn.textContent="Play";
+    }
+    btn.addEventListener("click", function(){
+      if(running){ svg.pauseAnimations(); btn.textContent="Play"; }
+      else { svg.unpauseAnimations(); btn.textContent="Pause"; }
+      running = !running;
+    });
+  })();
+</script>
+</body>
+</html>
