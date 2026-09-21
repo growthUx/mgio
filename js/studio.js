@@ -23,7 +23,7 @@
     '  <div class="header-row">' +
     '    <a class="brand" href="index.html" aria-label="MarketGrowth home"><img src="' + LOGO + '" alt="MarketGrowth"></a>' +
     '    <div class="header-actions">' +
-    '      <button class="theme-toggle" type="button" aria-label="Switch color theme"><span class="icon-sun">&#9728;</span><span class="icon-moon">&#9790;</span></button>' +
+    '      <button class="theme-toggle" type="button" role="switch" aria-checked="true" aria-label="Dark mode"><span class="tt-track"><span class="tt-icon icon-sun" aria-hidden="true">&#9728;</span><span class="tt-icon icon-moon" aria-hidden="true">&#9790;</span><span class="tt-knob" aria-hidden="true"></span></span></button>' +
     '      <a class="pill" href="contact.html" data-contact>Contact us</a>' +
     '    </div>' +
     '  </div>' +
@@ -37,19 +37,19 @@
     '      <a class="brand" href="index.html" aria-label="MarketGrowth home"><img src="' + LOGO + '" alt="MarketGrowth"></a>' +
     "      <p>A digital innovation studio. We build and operate our own software, service and media companies.</p>" +
     "    </div>" +
-    '    <div><h4>Studio</h4><ul>' +
+    '    <div class="fcol fcol-studio"><h4>Studio</h4><ul>' +
     '      <li><a href="index.html">Home</a></li>' +
     '      <li><a href="ventures.html">Ventures</a></li>' +
     '      <li><a href="how-we-build.html">How we build</a></li>' +
     "    </ul></div>" +
-    '    <div><h4>Resources</h4><ul>' +
+    '    <div class="fcol fcol-resources"><h4>Resources</h4><ul>' +
     '      <li><a href="https://agentledgtm.com/go-to-market/agent-led-growth-gtm?utm_source=mgio-footer" target="_blank" rel="noopener">What is agent-led growth</a></li>' +
     '      <li><a href="https://socient.net/insights/nonprofit-ai-visibility-seo-geo?utm_source=mgio-footer" target="_blank" rel="noopener">Nonprofits in AI answers</a></li>' +
     '      <li><a href="https://directcarehq.com/insights/icf-dd-n-individual-program-plans?utm_source=mgio-footer" target="_blank" rel="noopener">How surveyors test an IPP</a></li>' +
     '      <li><a href="https://orbytt.ai/seven-delegation-mistakes-stealing-your-time-with-vas/?utm_source=mgio-footer" target="_blank" rel="noopener">Seven delegation mistakes</a></li>' +
     '      <li><a href="https://aemfix.com/what-is-aeo.html?utm_source=mgio-footer" target="_blank" rel="noopener">What is answer engine optimization</a></li>' +
     "    </ul></div>" +
-    '    <div><h4>Legal</h4><ul>' +
+    '    <div class="fcol fcol-legal"><h4>Legal</h4><ul>' +
     '      <li><a href="terms-of-service.html">Terms of service</a></li>' +
     '      <li><a href="privacy-policy.html">Privacy policy</a></li>' +
     '      <li><a href="license.html">License terms</a></li>' +
@@ -98,7 +98,12 @@
 
   /* ---------- Theme: dark by default, a saved choice wins ---------- */
   var root = document.documentElement;
-  function applyTheme(t) { root.setAttribute("data-theme", t); }
+  function applyTheme(t) {
+    root.setAttribute("data-theme", t);
+    document.querySelectorAll(".theme-toggle").forEach(function (b) {
+      b.setAttribute("aria-checked", t === "dark" ? "true" : "false");
+    });
+  }
   var saved = null;
   try { saved = localStorage.getItem("mg-theme"); } catch (e) {}
   applyTheme(saved === "light" ? "light" : "dark");
