@@ -82,8 +82,10 @@ body {
 
 h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
 
-/* ---------- Site box ---------- */
-.hero, main, .site-footer { max-width: var(--site); margin-inline: auto; }
+/* ---------- Site width ----------
+   Backgrounds (hero canvas, glows, section fills, footer) run edge to edge.
+   Only the content is capped: the header row at --site, the columns at --wrap. */
+.site-header { max-width: var(--site); margin-inline: auto; }
 
 /* ---------- Hero ---------- */
 .hero {
