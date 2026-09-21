@@ -6,10 +6,10 @@
     root.setAttribute("data-theme", theme);
   }
 
-  // Initial: the site opens in light. A saved choice wins.
+  // Initial: the site opens in dark. A saved choice wins.
   var saved = null;
   try { saved = localStorage.getItem("mg-theme"); } catch (e) {}
-  applyTheme(saved === "dark" ? "dark" : "light");
+  applyTheme(saved === "light" ? "light" : "dark");
 
   document.addEventListener("DOMContentLoaded", function () {
     // Theme toggle

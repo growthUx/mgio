@@ -15,6 +15,7 @@
       </ul>
       <div class="nav-cta">
         <button class="theme-toggle" aria-label="Toggle color theme"><span class="icon-sun">&#9728;</span><span class="icon-moon">&#9790;</span></button>
+        <a class="btn btn-primary" href="contact.html">Contact us</a>
         <button class="nav-burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </nav>
@@ -25,7 +26,7 @@
       <div class="footer-grid">
         <div>
           <img class="footer-logo" src="https://marketgrowth.io/images/logo-white.svg" alt="MarketGrowth">
-          <p>A venture studio. We build and operate our own software, service and media companies.</p>
+          <p>A digital innovation studio. We build and operate our own software, service and media companies.</p>
           <p style="margin-top:14px;"><a href="contact.html">Contact us &rarr;</a></p>
         </div>
         <div>
@@ -34,6 +35,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="ventures.html">Ventures</a></li>
             <li><a href="about-us.html">About us</a></li>
+            <li><a href="how-we-build.html">How we build</a></li>
           </ul>
         </div>
         <div>

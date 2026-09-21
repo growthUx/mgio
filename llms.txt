@@ -1,6 +1,6 @@
 # MarketGrowth
 
-> MarketGrowth (MarketGrowth CX LLC) is a venture studio. It starts, builds and operates its own software, service and media companies. The studio does not sell agency retainers. It owns the companies it builds. Based in Sacramento, California. Founded by Victor Ramayrat.
+> MarketGrowth (MarketGrowth CX LLC) is a digital innovation studio. It starts, builds and operates its own business ventures, each built with an AI-powered workflow from the very start. The portfolio below is the current set, and more are on the way. The studio does not sell agency retainers. It owns the companies it builds. Based in Sacramento, California. Founded by Victor Ramayrat.
 
 ## Ventures
 
@@ -13,14 +13,19 @@
 
 ## Company
 
-- [About us](https://marketgrowth.io/about-us): The studio model, how MarketGrowth operates, and the founder. Victor Ramayrat is a marketing engineer and operator-builder. He was Senior Manager of Digital Experience at PwC Products and Technology, Marketing Engineer at Tradeshift, and Head of Growth at Redkix, which Meta acquired. MarketGrowth CX LLC is the publisher of record for the studio's media properties.
 - [Ventures](https://marketgrowth.io/ventures): The full list of companies the studio builds and operates.
+- [How we build](https://marketgrowth.io/how-we-build): The four-stage operating model, the six principles the studio works by, and an FAQ about the studio. MarketGrowth CX LLC is the publisher of record for the studio's media properties. Victor Ramayrat is the founder.
 
 ## How the studio works
 
-- Start: pick a market where the studio already knows the buyer and the workflow, then test the offer with real customers.
+The operating model is written up at [How we build](https://marketgrowth.io/how-we-build). Four stages run as a loop.
+
+- Find: start only in markets the studio already operates in. The signal comes from its own media properties and daily work.
+- Prove: sell the offer before building the product. A page, a free tool and a manual service test whether anyone pays.
 - Build: a small team ships the product with an agent stack, on a shared design system and publishing pipeline.
-- Run: the studio operates the company after launch and owns the outcome.
+- Operate: the studio runs the company after launch and owns the outcome. What it learns returns to the first stage.
+
+Six principles guide the work, drawn from the best customer service, first principles, and the belief that a business exists to leave people better off: start with the customer and work backward; whoever hears the problem owns it; reason from what is true, not from what is usual; break a challenge down to its most basic, undeniable truths; profit is the means and benefit is the purpose; report the impact, not only the revenue.
 
 ## Contact
 
