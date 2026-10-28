@@ -49,8 +49,6 @@
             <li><a href="https://directcarehq.com/insights/icf-dd-n-individual-program-plans?utm_source=mgio-footer" target="_blank" rel="noopener">DirectCare: A surveyor does not read your IPP. They test it</a></li>
             <li><a href="https://orbytt.ai/seven-delegation-mistakes-stealing-your-time-with-vas/?utm_source=mgio-footer" target="_blank" rel="noopener">Orbytt: Seven delegation mistakes stealing your time with VAs</a></li>
             <li><a href="https://orbytt.ai/academy/ai-prompt-engineering/?utm_source=mgio-footer" target="_blank" rel="noopener">Orbytt Academy: Learn how to prompt AI</a></li>
-            <li><a href="https://aemfix.com/what-is-aeo.html?utm_source=mgio-footer" target="_blank" rel="noopener">AEMfix: What is answer engine optimization</a></li>
-            <li><a href="https://aemfix.com/aeo-vs-seo.html?utm_source=mgio-footer" target="_blank" rel="noopener">AEMfix: AEO compared to SEO</a></li>
           </ul>
         </div>
         <div>

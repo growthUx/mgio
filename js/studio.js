@@ -47,7 +47,6 @@
     '      <li><a href="https://socient.net/insights/nonprofit-ai-visibility-seo-geo?utm_source=mgio-footer" target="_blank" rel="noopener">Nonprofits in AI answers</a></li>' +
     '      <li><a href="https://directcarehq.com/insights/icf-dd-n-individual-program-plans?utm_source=mgio-footer" target="_blank" rel="noopener">How surveyors test an IPP</a></li>' +
     '      <li><a href="https://orbytt.ai/seven-delegation-mistakes-stealing-your-time-with-vas/?utm_source=mgio-footer" target="_blank" rel="noopener">Seven delegation mistakes</a></li>' +
-    '      <li><a href="https://aemfix.com/what-is-aeo.html?utm_source=mgio-footer" target="_blank" rel="noopener">What is answer engine optimization</a></li>' +
     "    </ul></div>" +
     '    <div class="fcol fcol-legal"><h4>Legal</h4><ul>' +
     '      <li><a href="terms-of-service.html">Terms of service</a></li>' +
